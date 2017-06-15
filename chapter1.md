@@ -1,12 +1,13 @@
-# 국내 기술 블로그 
+# 기술 블로그
 
 기업  /
 
-1. 구글 한국 개발자
+1. 구글 한국 개발자  
    [https://developers-kr.googleblog.com](https://developers-kr.googleblog.com/)
 
-2. 카카오 
+2. 카카오   
    [http://tech.kakao.com](http://tech.kakao.com/)
+
 3. 네이버 
    [http://d2.naver.com](http://d2.naver.com/)
 4. SK 플래닛 
