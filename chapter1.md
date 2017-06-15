@@ -5,11 +5,12 @@
 1. 구글 한국 개발자  
    [https://developers-kr.googleblog.com](https://developers-kr.googleblog.com/)
 
-2. 카카오   
+2. 카카오  
    [http://tech.kakao.com](http://tech.kakao.com/)
 
-3. 네이버 
+3. 네이버   
    [http://d2.naver.com](http://d2.naver.com/)
+
 4. SK 플래닛 
    [https://readme.skplanet.com](https://readme.skplanet.com/)
 5. 우아한 형제들 
