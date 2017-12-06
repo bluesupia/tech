@@ -25,3 +25,7 @@
 
 
 
+개인 / 
+1. 기억보단 기록을
+http://jojoldu.tistory.com/
+
