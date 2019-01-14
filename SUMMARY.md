@@ -9,6 +9,6 @@
 * [TIP](tip.md)
    * [terminal](terminal.md)
 * [BOOK](book.md)
-    * [effective java](efftectivejava.md)
+    * [effective java](effectivejava.md)
 * [기술 블로그](techblog.md)
 
