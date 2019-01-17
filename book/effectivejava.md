@@ -42,7 +42,8 @@
 ## 아이템3. private 생성자나 열거 타입으로 싱글턴임을 보증하라
 * 싱글턴(singleton)
 인스턴스를 오직 하나만 생성할 수 있는 클래스
-이를 사용하는 클라이언트를 테스트하기가 어려워 질 수 있다*
+**사용하는 클라이언트를 테스트하기가 어려워 질 수 있다**
+인터페이스를 구현해서 만든 경우가 아니라면 mock 구현으로 대체할 수 없기 때문
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NzU4MjQ5XX0=
+eyJoaXN0b3J5IjpbLTMwNzY0Mjg5MF19
 -->
