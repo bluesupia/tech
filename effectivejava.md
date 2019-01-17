@@ -36,10 +36,10 @@
 2. 자바빈스 패턴
 3. 빌더 패턴 : 1+2의 장점만 취함
 
-핵심정리.
+### 핵심정리.
 생성자나 정적 팩터리가 처리해야 할 매개변수가 많다면 (4개이상?) 빌더 패턴을 선택하는게 낫다.
 매개변수 중 다수가 필수가 아니거나 같은 타입이면 더욱더!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzYxOTUwNDYsMTI4NTgyOTkxMV19
+eyJoaXN0b3J5IjpbLTUxMjI3MTk3NywxMjg1ODI5OTExXX0=
 -->
