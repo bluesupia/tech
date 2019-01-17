@@ -3,7 +3,6 @@
  ## 아이템1. 생성자 대신 정적 팩터리 메서드를 고려하라
 
 ### 장점
-
  1. 이름을 가질 수 있다.
  2. 호출될 때마다 인스턴스를 새로 생성하지 않아도 된다
  3. 반환 타입의 하위 타입 객체를 반환할 수 있는 능력이 있다.
@@ -41,5 +40,5 @@
 매개변수 중 다수가 필수가 아니거나 같은 타입이면 더욱더!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMjI3MTk3NywxMjg1ODI5OTExXX0=
+eyJoaXN0b3J5IjpbLTE5OTM3NDUwMTksMTI4NTgyOTkxMV19
 -->
