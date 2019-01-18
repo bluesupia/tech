@@ -54,6 +54,8 @@ public class Elvis {
 	public void leaveTheBuilding() { ... }
 }
 ```
+* 해당클래스가 싱글턴임이 API에 명백히 드러난다
+* 
    2. 정적 팩터리 방식의 싱글턴
 ```java
 public class Elvis {
@@ -73,6 +75,6 @@ public enum Elvis {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU4NTk2MjM3LDc0MjE2NzY2MSwtMzA3Nj
-QyODkwXX0=
+eyJoaXN0b3J5IjpbLTE3Mzg3NjE1MDcsNzQyMTY3NjYxLC0zMD
+c2NDI4OTBdfQ==
 -->
