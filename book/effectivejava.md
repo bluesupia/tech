@@ -57,10 +57,14 @@ public class Elvis {
    2. 정적 팩터리 방식의 싱글턴
 ```java
 public class Elvis {
-	private static final Elvis INS
+	private static final Elvis INSTANCE = new Elvis();
+	private Elvis() { ... }
+	public static Elvis getInstance() { return INSTANCE; }
+	
+	public void leaveTheBuilding() { ... }	
 }
 ```
    3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NzQ0ODMzMywtMzA3NjQyODkwXX0=
+eyJoaXN0b3J5IjpbNzQyMTY3NjYxLC0zMDc2NDI4OTBdfQ==
 -->
