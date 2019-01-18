@@ -64,7 +64,15 @@ public class Elvis {
 	public void leaveTheBuilding() { ... }	
 }
 ```
-   3. 
+   3. 열거타입 방식의 싱글턴 (가장 좋은 방법)
+```java
+public enum Elvis {
+	INSTANCE;
+	public void leaveTheBuilding() { ... }
+}
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyMTY3NjYxLC0zMDc2NDI4OTBdfQ==
+eyJoaXN0b3J5IjpbMzU4NTk2MjM3LDc0MjE2NzY2MSwtMzA3Nj
+QyODkwXX0=
 -->
