@@ -46,16 +46,21 @@
 인터페이스를 구현해서 만든 경우가 아니라면 mock 구현으로 대체할 수 없기 때문
 
 * 싱글턴을 만드는 방법
-	1. public static filan 필드 방식의 싱글턴
-    ```java
-    public class Elvis {
-	    public static final Elvis INSTANCE = new Elvis();
-		private Elvis() { ... }
-		public void leaveTheBuilding() { ... }
-    }
+1. public static filan 필드 방식의 싱글턴
+ ```java
+public class Elvis {
+    public static final Elvis INSTANCE = new Elvis();
+	private Elvis() { ... }
+	public void leaveTheBuilding() { ... }
+}
 ```
-
-2. 정적
+   2. 정적 팩터리 방식의 싱글턴
+```java
+public class Elvis {
+	private static final Elvis INS
+}
+```
+   3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2Nzc5MTExMiwtMzA3NjQyODkwXX0=
+eyJoaXN0b3J5IjpbMjA3NzQ0ODMzMywtMzA3NjQyODkwXX0=
 -->
