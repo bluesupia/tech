@@ -80,9 +80,17 @@ public enum Elvis {
 }
 ```
 
-## 아이템4
+## 아이템4. 인스턴스화를 막으려거든 private 생성자를 사용하라
+
+```java
+public class UtilityClass {
+	private UtilityClas() {
+		throw new AssertionError();
+	}
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjg2NzgzNSw3NDIxNjc2NjEsLTMwNz
-Y0Mjg5MF19
+eyJoaXN0b3J5IjpbLTE3Mjk4NDg0NDYsNzQyMTY3NjYxLC0zMD
+c2NDI4OTBdfQ==
 -->
