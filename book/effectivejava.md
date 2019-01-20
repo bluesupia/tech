@@ -181,7 +181,9 @@ public class RomanNumerals {
 	* 어댑터는 뒷단 객체만 관리하면 된다
 		* Map 인터페이스의 keySet 메서드
 
+* *오토박싱* ? 프로그래머가 기본 타입과 박싱된 기본 타입을 섞어 쓸 때 자동으로 상호 변환해주는 기술
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MDg0ODUyNiwxOTM4MjM2OTk4LC0xNz
-I5ODQ4NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
+eyJoaXN0b3J5IjpbMzUwNDI0MjMxLDE5MzgyMzY5OTgsLTE3Mj
+k4NDg0NDYsNzQyMTY3NjYxLC0zMDc2NDI4OTBdfQ==
 -->
