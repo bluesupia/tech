@@ -163,11 +163,19 @@ Boolean bb = Boolean.valueOf("TRUE");
 	* **String.matches** 
 ```java
 static boolean isRomanNumeral(String s) {
-	return s.matches("^(?=,)M*(C[MD]|D?C{0,3})" + "(X[CL]|"
+	return s.matches("^(?=,)M*(C[MD]|D?C{0,3})" + "(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})$");
+}
+```
+```java
+public class RomanNumerals {
+	private static final Pattern ROMAN = Pattern.comile("^(?=,)M*(C[MD]|D?C{0,3})" + "(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})$");
+
+	static boolean isRomanNumeral(String s) {
+	return s.matches;
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODUxMDE0NSwxOTM4MjM2OTk4LC0xNz
-I5ODQ4NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
+eyJoaXN0b3J5IjpbLTExMzU2OTA1MjYsMTkzODIzNjk5OCwtMT
+cyOTg0ODQ0Niw3NDIxNjc2NjEsLTMwNzY0Mjg5MF19
 -->
