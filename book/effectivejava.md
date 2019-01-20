@@ -57,7 +57,6 @@ public class Elvis {
 -- 해당클래스가 싱글턴임이 API에 명백히 드러난다
 -- 간결함
 
-
 2. 정적 팩터리 방식의 싱글턴
  ```java
 public class Elvis {
@@ -68,11 +67,11 @@ public class Elvis {
 	public void leaveTheBuilding() { ... }	
 }
 ```
-- (마음이 바뀌면) API를 바꾸지 않고도 싱글턴이 아니게 변경할 수 있다
-- 원한다면 정적 팩터리를 제너릭 싱글턴 팩터리로 만들 수 있다
-- 정적 팩터리의 메서드 참조를 공급자로 사용할 수 있다
+-- (마음이 바뀌면) API를 바꾸지 않고도 싱글턴이 아니게 변경할 수 있다
+-- 원한다면 정적 팩터리를 제너릭 싱글턴 팩터리로 만들 수 있다
+-- 정적 팩터리의 메서드 참조를 공급자로 사용할 수 있다
 
-   3. 열거타입 방식의 싱글턴 (가장 좋은 방법)
+3. 열거타입 방식의 싱글턴 (가장 좋은 방법)
 ```java
 public enum Elvis {
 	INSTANCE;
@@ -84,13 +83,13 @@ public enum Elvis {
 
 ```java
 public class UtilityClass {
-	private UtilityClas() {
+	private UtilityClass() {
 		throw new AssertionError();
 	}
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjk4NDg0NDYsNzQyMTY3NjYxLC0zMD
-c2NDI4OTBdfQ==
+eyJoaXN0b3J5IjpbMTY2MTU5Mjk4MCwtMTcyOTg0ODQ0Niw3ND
+IxNjc2NjEsLTMwNzY0Mjg5MF19
 -->
