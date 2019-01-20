@@ -110,10 +110,13 @@ public class SpellChecker {
 	private final Lexicon dictionary = ... ;
 	
 	private SpellChecker( ... ) {}
-	public static SpellChecker INSTANCE = new SpellChecker
+	public static SpellChecker INSTANCE = new SpellChecker( ... );
+
+	public static static boolean isValid(String word) { ... }
+	public static List<String> suggestions(String typo) { ... }
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc1NTQ3NTU2LC0xNzI5ODQ4NDQ2LDc0Mj
-E2NzY2MSwtMzA3NjQyODkwXX0=
+eyJoaXN0b3J5IjpbMTkzODIzNjk5OCwtMTcyOTg0ODQ0Niw3ND
+IxNjc2NjEsLTMwNzY0Mjg5MF19
 -->
