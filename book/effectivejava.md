@@ -90,8 +90,16 @@ public class UtilityClass {
 ```
 
 ## 아이템5. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라
+많은 클래스가 하나 이상의 자원을 의존한다
 
+- 정적 유틸리티를 잘못 사용한 예 - 유연하지 않고 테스트가 어렵다
+```java
+public class SpellChecker {
+	private static final Lexicon dictionary = ...;
+	
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDEyMjMwNywtMTcyOTg0ODQ0Niw3ND
+eyJoaXN0b3J5IjpbLTgwNzYwMTM1NiwtMTcyOTg0ODQ0Niw3ND
 IxNjc2NjEsLTMwNzY0Mjg5MF19
 -->
