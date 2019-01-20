@@ -124,8 +124,9 @@ public class SpellChecker {
 public class SpellChecker {
 	private final Lexicon dictionary = ... ;
 	
-	public SpellChecker(Lexicon dictionary) {}
-	public static SpellChecker INSTANCE = new SpellChecker( ... );
+	public SpellChecker(Lexicon dictionary) {
+		this.dictionary = Objects.requireNonNull(dictionary);
+	}
 
 	public static static boolean isValid(String word) { ... }
 	public static List<String> suggestions(String typo) { ... }
@@ -133,6 +134,6 @@ public class SpellChecker {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTg5NjE1MCwxOTM4MjM2OTk4LC0xNz
-I5ODQ4NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
+eyJoaXN0b3J5IjpbMzY2Mzg4NzE1LDE5MzgyMzY5OTgsLTE3Mj
+k4NDg0NDYsNzQyMTY3NjYxLC0zMDc2NDI4OTBdfQ==
 -->
