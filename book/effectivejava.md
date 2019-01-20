@@ -145,8 +145,9 @@ public class SpellChecker {
 - 필요한 자원을 (혹은 그 자원을 만들어주는 팩터리를) 생성자에 (혹은 정적 팩터리나 빌더에) 넘겨주자
 
 
+## 아이템6. 불필요한 객체 생성을 피하라
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwNjU3NDU0LDE5MzgyMzY5OTgsLTE3Mj
-k4NDg0NDYsNzQyMTY3NjYxLC0zMDc2NDI4OTBdfQ==
+eyJoaXN0b3J5IjpbLTM2NDgwMTA5OSwxOTM4MjM2OTk4LC0xNz
+I5ODQ4NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
 -->
