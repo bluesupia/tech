@@ -160,10 +160,14 @@ Boolean bb = Boolean.valueOf("TRUE");
 ```
 
 * 생성비용이 아주 비싼 객체도 있다. 이럴 땐 캐싱하여 재사용하길 권장
-	* 
+	* **String.matches** 
 ```java
+static boolean isRomanNumeral(String s) {
+	return s.matches("^(?=,)M*(C[MD]|D?C{0,3})" + "(X[CL]|"
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NDg0OTg3OSwxOTM4MjM2OTk4LC0xNz
+eyJoaXN0b3J5IjpbLTc5ODUxMDE0NSwxOTM4MjM2OTk4LC0xNz
 I5ODQ4NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
 -->
