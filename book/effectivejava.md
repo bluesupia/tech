@@ -147,7 +147,13 @@ public class SpellChecker {
 
 ## 아이템6. 불필요한 객체 생성을 피하라
 
+```java
+String s = new String("supersupa")
+String ss = "supersupa"
+```
+
+* ㅐㅅ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDgwMTA5OSwxOTM4MjM2OTk4LC0xNz
+eyJoaXN0b3J5IjpbMTYzODUxMTg5MywxOTM4MjM2OTk4LC0xNz
 I5ODQ4NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
 -->
