@@ -182,8 +182,14 @@ public class RomanNumerals {
 		* Map 인터페이스의 keySet 메서드
 
 * *오토박싱* ? 프로그래머가 기본 타입과 박싱된 기본 타입을 섞어 쓸 때 자동으로 상호 변환해주는 기술
+```java
+private static long sum() {
+	Long sum = 0L;
+	for (long i=0; i < Integer.MAX_VALUE; i
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUwNDI0MjMxLDE5MzgyMzY5OTgsLTE3Mj
-k4NDg0NDYsNzQyMTY3NjYxLC0zMDc2NDI4OTBdfQ==
+eyJoaXN0b3J5IjpbLTE2NzEzNjkxNDAsMTkzODIzNjk5OCwtMT
+cyOTg0ODQ0Niw3NDIxNjc2NjEsLTMwNzY0Mjg5MF19
 -->
