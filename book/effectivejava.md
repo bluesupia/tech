@@ -147,7 +147,7 @@ public class SpellChecker {
 
 ## 아이템6. 불필요한 객체 생성을 피하라
 
-
+* 똑같은 기능의 객체를 매번 생성하기보다 객체 하나를 재사용하는 편이 더 좋다.
 ```java
 String s = new String("supersupa")
 String ss = "supersupa"
@@ -159,7 +159,11 @@ Boolean b = new Boolean("TRUE");
 Boolean bb = Boolean.valueOf("TRUE");
 ```
 
+* 생성비용이 아주 비싼 객체도 있다. 이럴 땐 캐싱하여 재사용하길 권장
+	* 
+```java
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjMwODc0OSwxOTM4MjM2OTk4LC0xNz
+eyJoaXN0b3J5IjpbMTA5NDg0OTg3OSwxOTM4MjM2OTk4LC0xNz
 I5ODQ4NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
 -->
