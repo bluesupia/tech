@@ -185,11 +185,14 @@ public class RomanNumerals {
 ```java
 private static long sum() {
 	Long sum = 0L;
-	for (long i=0; i < Integer.MAX_VALUE; i
+	for (long i=0; i < Integer.MAX_VALUE; i++) {
+		sum += i;
+	}
+	return sum;
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzEzNjkxNDAsMTkzODIzNjk5OCwtMT
-cyOTg0ODQ0Niw3NDIxNjc2NjEsLTMwNzY0Mjg5MF19
+eyJoaXN0b3J5IjpbMTIzMjc0NDgzNiwxOTM4MjM2OTk4LC0xNz
+I5ODQ4NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
 -->
