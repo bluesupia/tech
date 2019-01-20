@@ -97,9 +97,15 @@ public class UtilityClass {
 public class SpellChecker {
 	private static final Lexicon dictionary = ...;
 	
+	private SpellChecker() {}
+	
+	public static static boolean isValid(String word) { ... }
+	public static List<String> suggestions(String typo) { ... }
 }
 ```
+
+- 싱글턴을 잘못 사용한 예 - 유연하지 않고 텟
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNzYwMTM1NiwtMTcyOTg0ODQ0Niw3ND
+eyJoaXN0b3J5IjpbLTUzNDY1NjY2OSwtMTcyOTg0ODQ0Niw3ND
 IxNjc2NjEsLTMwNzY0Mjg5MF19
 -->
