@@ -141,11 +141,12 @@ public class SpellChecker {
 	* 자바8에서 소개한 **Supplier`<T>`** 인터페이스가 팩터리를 완벽하게 표현한 예
 
 ### 핵심정리
-- 클래스가 내부적으로 하나 이상의 자원에 의존하고, 그 자원이 클래스 동작에 영향을 준다면 싱글턴과 정적 유틸리티 클래스는 사용하지 않는 것이 좋다
-- 이 자원들을 클래스가 직접 만들게 해서도 안된다
-- 
+- 클래스가 내부적으로 하나 이상의 자원에 의존하고, 그 자원이 클래스 동작에 영향을 준다면 싱글턴과 정적 유틸리티 클래스는 사용하지 않는 것이 좋다. 이 자원들을 클래스가 직접 만들게 해서도 안된다
+- 필요한 자원을 (혹은 그 자원을 만들어주는 팩터리를) 생성자에 (혹은 정적 팩터리나 빌더에) 넘겨주자
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjgxNjEyMzcsMTkzODIzNjk5OCwtMT
-cyOTg0ODQ0Niw3NDIxNjc2NjEsLTMwNzY0Mjg5MF19
+eyJoaXN0b3J5IjpbOTIwNjU3NDU0LDE5MzgyMzY5OTgsLTE3Mj
+k4NDg0NDYsNzQyMTY3NjYxLC0zMDc2NDI4OTBdfQ==
 -->
