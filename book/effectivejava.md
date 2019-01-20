@@ -120,6 +120,7 @@ public class SpellChecker {
 * 두 예제의 문제점
 	* 사전을 단 하나만 사용한다고 가정한다는 점에서 유연성이 떨어진다
 
+* 인스턴스를 생성할 때 생성자에게 필요한 자원을 넘겨주자!
 ```java
 public class SpellChecker {
 	private final Lexicon dictionary = ... ;
@@ -133,7 +134,11 @@ public class SpellChecker {
 }
 ```
 
+* 변형
+	* 생성자에게 자원 팩터리를 넘겨주는 방식
+	* *팩터리란* ? 호출할 때마다 특정 타입의 인스턴스를 반복해서 만들어주는 객체
+	* 즉, 패
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY2Mzg4NzE1LDE5MzgyMzY5OTgsLTE3Mj
-k4NDg0NDYsNzQyMTY3NjYxLC0zMDc2NDI4OTBdfQ==
+eyJoaXN0b3J5IjpbLTY4MjU0NjMzNiwxOTM4MjM2OTk4LC0xNz
+I5ODQ4NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
 -->
