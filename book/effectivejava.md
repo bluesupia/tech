@@ -104,8 +104,16 @@ public class SpellChecker {
 }
 ```
 
-- 싱글턴을 잘못 사용한 예 - 유연하지 않고 텟
+- 싱글턴을 잘못 사용한 예 - 유연하지 않고 테스트가 어렵다
+```java
+public class SpellChecker {
+	private final Lexicon dictionary = ... ;
+	
+	private SpellChecker( ... ) {}
+	public static SpellChecker INSTANCE = new SpellChecker
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNDY1NjY2OSwtMTcyOTg0ODQ0Niw3ND
-IxNjc2NjEsLTMwNzY0Mjg5MF19
+eyJoaXN0b3J5IjpbMjc1NTQ3NTU2LC0xNzI5ODQ4NDQ2LDc0Mj
+E2NzY2MSwtMzA3NjQyODkwXX0=
 -->
