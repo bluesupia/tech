@@ -176,10 +176,12 @@ public class RomanNumerals {
 }
 ```
 
-* 
-* Map 인터페이스의 keySet 메서드
+* 객체가 불변이라면 재사용해도 안전함이 명백하나 훨씬 덜 명확하거나 반대되는 상황도 있따
+	* *어댑터* ? 실제 작업은 뒷단 객체에 위임하고 자신은 제 2의 인터페이스 역활을 해주는 객체
+	* 어댑터는 뒷단 객체만 관리하면 된다
+		* Map 인터페이스의 keySet 메서드
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MjQxOTI1LDE5MzgyMzY5OTgsLTE3Mj
-k4NDg0NDYsNzQyMTY3NjYxLC0zMDc2NDI4OTBdfQ==
+eyJoaXN0b3J5IjpbMjA4MDg0ODUyNiwxOTM4MjM2OTk4LC0xNz
+I5ODQ4NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
 -->
