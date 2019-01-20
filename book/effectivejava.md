@@ -147,13 +147,19 @@ public class SpellChecker {
 
 ## 아이템6. 불필요한 객체 생성을 피하라
 
+
 ```java
 String s = new String("supersupa")
 String ss = "supersupa"
 ```
 
-* ㅐㅅ
+* 생성자 대신 정적 팩터리 메스드를 제공하는 불변 클래스에서는 정적 팩터리 메서드를 사용해 불필요한 객체 생성을 피할 수 있다
+```java
+Boolean b = new Boolean("TRUE");
+Boolean bb = Boolean.valueOf("TRUE");
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzODUxMTg5MywxOTM4MjM2OTk4LC0xNz
+eyJoaXN0b3J5IjpbLTUyNjMwODc0OSwxOTM4MjM2OTk4LC0xNz
 I5ODQ4NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
 -->
