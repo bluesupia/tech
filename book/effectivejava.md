@@ -120,7 +120,7 @@ public class SpellChecker {
 * 두 예제의 문제점
 	* 사전을 단 하나만 사용한다고 가정한다는 점에서 유연성이 떨어진다
 
-* 인스턴스를 생성할 때 생성자에게 필요한 자원을 넘겨주자!
+### 인스턴스를 생성할 때 생성자에게 필요한 자원을 넘겨주자!
 ```java
 public class SpellChecker {
 	private final Lexicon dictionary = ... ;
@@ -139,7 +139,10 @@ public class SpellChecker {
 	* *팩터리란* ? 호출할 때마다 특정 타입의 인스턴스를 반복해서 만들어주는 객체
 	* 즉, 팩터리 메스드 패턴을 구현한 것
 	* 자바8에서 소개한 **Supplier`<T>`** 인터페이스가 팩터리를 완벽하게 표현한 예
+
+### 핵심정리
+클래스가 내부적으로 하나
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzU3NTA3NjgsMTkzODIzNjk5OCwtMT
+eyJoaXN0b3J5IjpbLTE3MjkyMzMxODMsMTkzODIzNjk5OCwtMT
 cyOTg0ODQ0Niw3NDIxNjc2NjEsLTMwNzY0Mjg5MF19
 -->
