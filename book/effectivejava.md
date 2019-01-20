@@ -116,7 +116,23 @@ public class SpellChecker {
 	public static List<String> suggestions(String typo) { ... }
 }
 ```
+
+* 두 예제의 문제점
+	* 사전을 단 하나만 사용한다고 가정한다는 점에서 유연성이 떨어진다
+
+```java
+public class SpellChecker {
+	private final Lexicon dictionary = ... ;
+	
+	public SpellChecker(Lexicon dictionary) {}
+	public static SpellChecker INSTANCE = new SpellChecker( ... );
+
+	public static static boolean isValid(String word) { ... }
+	public static List<String> suggestions(String typo) { ... }
+}
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODIzNjk5OCwtMTcyOTg0ODQ0Niw3ND
-IxNjc2NjEsLTMwNzY0Mjg5MF19
+eyJoaXN0b3J5IjpbLTYxMTg5NjE1MCwxOTM4MjM2OTk4LC0xNz
+I5ODQ4NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
 -->
