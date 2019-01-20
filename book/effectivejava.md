@@ -171,11 +171,12 @@ public class RomanNumerals {
 	private static final Pattern ROMAN = Pattern.comile("^(?=,)M*(C[MD]|D?C{0,3})" + "(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})$");
 
 	static boolean isRomanNumeral(String s) {
-	return s.matches;
+		return ROMAN.matcher(s).matches();
+	}
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzU2OTA1MjYsMTkzODIzNjk5OCwtMT
+eyJoaXN0b3J5IjpbLTE1MDE2NjIzOTgsMTkzODIzNjk5OCwtMT
 cyOTg0ODQ0Niw3NDIxNjc2NjEsLTMwNzY0Mjg5MF19
 -->
