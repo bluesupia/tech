@@ -137,8 +137,9 @@ public class SpellChecker {
 * 변형
 	* 생성자에게 자원 팩터리를 넘겨주는 방식
 	* *팩터리란* ? 호출할 때마다 특정 타입의 인스턴스를 반복해서 만들어주는 객체
-	* 즉, 패
+	* 즉, 팩터리 메스드 패턴을 구현한 것
+	* 자바8에서 소개한 **Supplier`<T>`** 인터페이스가 팩터리를 완벽하게 표현한 예
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MjU0NjMzNiwxOTM4MjM2OTk4LC0xNz
-I5ODQ4NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
+eyJoaXN0b3J5IjpbLTEzNzU3NTA3NjgsMTkzODIzNjk5OCwtMT
+cyOTg0ODQ0Niw3NDIxNjc2NjEsLTMwNzY0Mjg5MF19
 -->
