@@ -89,7 +89,9 @@ public class UtilityClass {
 }
 ```
 
+## 아이템5. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MTU5Mjk4MCwtMTcyOTg0ODQ0Niw3ND
+eyJoaXN0b3J5IjpbLTkwMDEyMjMwNywtMTcyOTg0ODQ0Niw3ND
 IxNjc2NjEsLTMwNzY0Mjg5MF19
 -->
