@@ -193,9 +193,10 @@ private static long sum() {
 }
 ```
 
-* vs 아이템50 : 새로운 객체를 만들어야 한다면 기존 객체를 재ㅅ
+* vs 아이템50 : 새로운 객체를 만들어야 한다면 기존 객체를 재사용하지 마라
+* 기존 객체를 재사용해야 한다면 새로운 객체를 만들지 마라
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE3OTExNjQ1LDE5MzgyMzY5OTgsLTE3Mj
+eyJoaXN0b3J5IjpbOTcyNDAzMzY0LDE5MzgyMzY5OTgsLTE3Mj
 k4NDg0NDYsNzQyMTY3NjYxLC0zMDc2NDI4OTBdfQ==
 -->
