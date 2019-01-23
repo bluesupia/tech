@@ -54,8 +54,8 @@ public class Elvis {
 	public void leaveTheBuilding() { ... }
 }
 ```
--- 해당클래스가 싱글턴임이 API에 명백히 드러난다
--- 간결함
+- 해당클래스가 싱글턴임이 API에 명백히 드러난다
+- 간결함
 
 2. 정적 팩터리 방식의 싱글턴
  ```java
@@ -67,9 +67,9 @@ public class Elvis {
 	public void leaveTheBuilding() { ... }	
 }
 ```
--- (마음이 바뀌면) API를 바꾸지 않고도 싱글턴이 아니게 변경할 수 있다
--- 원한다면 정적 팩터리를 제너릭 싱글턴 팩터리로 만들 수 있다
--- 정적 팩터리의 메서드 참조를 공급자로 사용할 수 있다
+- (마음이 바뀌면) API를 바꾸지 않고도 싱글턴이 아니게 변경할 수 있다
+- 원한다면 정적 팩터리를 제너릭 싱글턴 팩터리로 만들 수 있다
+- 정적 팩터리의 메서드 참조를 공급자로 사용할 수 있다
 
 3. 열거타입 방식의 싱글턴 (가장 좋은 방법)
 ```java
@@ -196,7 +196,10 @@ private static long sum() {
 * vs 아이템50 : 새로운 객체를 만들어야 한다면 기존 객체를 재사용하지 마라
 * 기존 객체를 재사용해야 한다면 새로운 객체를 만들지 마라
 
+## 아이템7. 다 쓴 객체 참조를 해제하라
+
+* 자바에서 메모리 관리를 더이상 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyNDAzMzY0LDE5MzgyMzY5OTgsLTE3Mj
-k4NDg0NDYsNzQyMTY3NjYxLC0zMDc2NDI4OTBdfQ==
+eyJoaXN0b3J5IjpbMTUxMjk3OTA1NCwxOTM4MjM2OTk4LC0xNz
+I5ODQ4NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
 -->
