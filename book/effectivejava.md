@@ -198,8 +198,9 @@ private static long sum() {
 
 ## 아이템7. 다 쓴 객체 참조를 해제하라
 
-* 자바에서 메모리 관리를 더이상 
+* 자바에서 메모리 관리를 더이상 신경 쓰지 않아도 되는 것은 아니다
+* 쓰자마자 모두 null 처리 할 필요는 없다. **예외적인 경우에만**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMjk3OTA1NCwxOTM4MjM2OTk4LC0xNz
+eyJoaXN0b3J5IjpbMTY0MDIzMjU4NywxOTM4MjM2OTk4LC0xNz
 I5ODQ4NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
 -->
