@@ -200,7 +200,16 @@ private static long sum() {
 
 * 자바에서 메모리 관리를 더이상 신경 쓰지 않아도 되는 것은 아니다
 * 쓰자마자 모두 null 처리 할 필요는 없다. **예외적인 경우에만**
+
+## 아이템8. finalizer와 cleaner 사용을 피하라
+
+
+### in my case.
+나는 사용해 본 적이 없다 ... finalizer와 cleaner를..
+자원회수에 대해 고려해서 프로그래밍 하지 않았다..
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MDIzMjU4NywxOTM4MjM2OTk4LC0xNz
-I5ODQ4NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
+eyJoaXN0b3J5IjpbLTc0MTQ4NDEwMSwxNjQwMjMyNTg3LDE5Mz
+gyMzY5OTgsLTE3Mjk4NDg0NDYsNzQyMTY3NjYxLC0zMDc2NDI4
+OTBdfQ==
 -->
