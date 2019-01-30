@@ -202,14 +202,19 @@ private static long sum() {
 * 쓰자마자 모두 null 처리 할 필요는 없다. **예외적인 경우에만**
 
 ## 아이템8. finalizer와 cleaner 사용을 피하라
-
+자바가 제공하는 두가지 객체 소멸자
+1. finalizer
+* 예측할 수 없고, 상황에 따라 위험할 수 있어 일반적으로 불필요
+2. cleaner
+* finalizer보다 덜 위험하나 예측할 수 없고, 느리고, 일반적으로 불필요
+자ㅂ
 
 ### in my case.
 나는 사용해 본 적이 없다 ... finalizer와 cleaner를..
 자원회수에 대해 고려해서 프로그래밍 하지 않았다..
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTQ4NDEwMSwxNjQwMjMyNTg3LDE5Mz
-gyMzY5OTgsLTE3Mjk4NDg0NDYsNzQyMTY3NjYxLC0zMDc2NDI4
-OTBdfQ==
+eyJoaXN0b3J5IjpbLTEzNTU2NzM2NzgsLTc0MTQ4NDEwMSwxNj
+QwMjMyNTg3LDE5MzgyMzY5OTgsLTE3Mjk4NDg0NDYsNzQyMTY3
+NjYxLC0zMDc2NDI4OTBdfQ==
 -->
