@@ -203,18 +203,24 @@ private static long sum() {
 
 ## 아이템8. finalizer와 cleaner 사용을 피하라
 자바가 제공하는 두가지 객체 소멸자
-1. finalizer
+finalizer
 * 예측할 수 없고, 상황에 따라 위험할 수 있어 일반적으로 불필요
 2. cleaner
 * finalizer보다 덜 위험하나 예측할 수 없고, 느리고, 일반적으로 불필요
-자ㅂ
+
+
+자바에서 접근할 수 없게 된 객체를 회수하는 역할은 가비지 컬렉터가 담당
+프로그래머는 아무런 작업도 요구하지 않음
+
+비메모리 자원 회수 하는 용도로 try-with-resources / try-finally 사용해 해결
+
 
 ### in my case.
 나는 사용해 본 적이 없다 ... finalizer와 cleaner를..
 자원회수에 대해 고려해서 프로그래밍 하지 않았다..
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTU2NzM2NzgsLTc0MTQ4NDEwMSwxNj
-QwMjMyNTg3LDE5MzgyMzY5OTgsLTE3Mjk4NDg0NDYsNzQyMTY3
-NjYxLC0zMDc2NDI4OTBdfQ==
+eyJoaXN0b3J5IjpbLTczNjc5OTUxMiwtNzQxNDg0MTAxLDE2ND
+AyMzI1ODcsMTkzODIzNjk5OCwtMTcyOTg0ODQ0Niw3NDIxNjc2
+NjEsLTMwNzY0Mjg5MF19
 -->
