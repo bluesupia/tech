@@ -218,14 +218,14 @@ private static long sum() {
 
 
 파일이나 스레드 등 종료해야 할 자원을 담고 있는 객체의 클래스에서 대안은 ?
-
+- AutoCloseable 을 구현해주고 사용이 끝나면 close 메서드를 호출
 
 ### in my case.
 나는 사용해 본 적이 없다 ... finalizer와 cleaner를..
 자원회수에 대해 고려해서 프로그래밍 하지 않았다..
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDYyMzIxNzAsLTkwMjc3MzUxOSwtNz
+eyJoaXN0b3J5IjpbLTIwNDgyNTQ5NjQsLTkwMjc3MzUxOSwtNz
 QxNDg0MTAxLDE2NDAyMzI1ODcsMTkzODIzNjk5OCwtMTcyOTg0
 ODQ0Niw3NDIxNjc2NjEsLTMwNzY0Mjg5MF19
 -->
