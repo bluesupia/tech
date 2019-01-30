@@ -206,8 +206,10 @@ private static long sum() {
 - finalizer / cleaner
 - finalizer :예측할 수 없고, 상황에 따라 위험할 수 있어 일반적으로 불필요
 - cleaner :  finalizer보다 덜 위험하나 예측할 수 없고, 느리고, 일반적으로 불필요
-- 즉시 수행된다는 보장이 없으므로 제떄 실행되어야 하는 작업은 절대 할 수 없음
-- 수행 시점 뿐만 아니라 수행 여부조차 보장하지 않으므로 
+- 즉시 수행된다는 보장이 없으므로 **제때 실행되어야 하는 작업은 절대 할 수 없음**
+- 수행 시점 뿐만 아니라 수행 여부조차 보장하지 않으므로 **상태를 영구적으로 수정하는 작업에서는 의존해선 안됨** ex. 데이터베이스 같은 공유 자원의 영구락 해제
+- **심각한 성능문제 동반**
+- **finalizer 공격에 노출되어 심각한 보안문제 야기** 방어위해서는 아무일도 하지 않는 finalize 메소드를 만들고  fianl로 선언
 
 자바에서 접근할 수 없게 된 객체를 회수하는 역할은 가비지 컬렉터가 담당
 프로그래머는 아무런 작업도 요구하지 않음
@@ -215,12 +217,15 @@ private static long sum() {
 비메모리 자원 회수 하는 용도로 try-with-resources / try-finally 사용해 해결
 
 
+파일이나 스레드 등 종료해야 할 자원을 담고 있는 객체의 클래스에서 대안은 ?
+
+
 ### in my case.
 나는 사용해 본 적이 없다 ... finalizer와 cleaner를..
 자원회수에 대해 고려해서 프로그래밍 하지 않았다..
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMjc3MzUxOSwtNzQxNDg0MTAxLDE2ND
-AyMzI1ODcsMTkzODIzNjk5OCwtMTcyOTg0ODQ0Niw3NDIxNjc2
-NjEsLTMwNzY0Mjg5MF19
+eyJoaXN0b3J5IjpbLTE5MDYyMzIxNzAsLTkwMjc3MzUxOSwtNz
+QxNDg0MTAxLDE2NDAyMzI1ODcsMTkzODIzNjk5OCwtMTcyOTg0
+ODQ0Niw3NDIxNjc2NjEsLTMwNzY0Mjg5MF19
 -->
