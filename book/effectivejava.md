@@ -266,10 +266,11 @@ static void copy(String src, String dst) throws IOException {
 ```
 
 ### in my case.
+* 위 주옥같은 코드리뷰 이후 소스코드가 바뀌었다
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2OTIxMzIwNiwtOTAyNzczNTE5LC03ND
+eyJoaXN0b3J5IjpbMTk0NjkxMDI5OCwtOTAyNzczNTE5LC03ND
 E0ODQxMDEsMTY0MDIzMjU4NywxOTM4MjM2OTk4LC0xNzI5ODQ4
 NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
 -->
