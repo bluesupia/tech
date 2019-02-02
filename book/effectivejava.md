@@ -233,12 +233,23 @@ private static long sum() {
 * ex) InputStream, OutputStream, java.sql.Connection
 * 전통적으로 try-finally가 쓰임
 ```java
-static void copy(String src, String dst) throws IOE
+static void copy(String src, String dst) throws IOException {
+	InputStream in = new FileInputStream(src);
+	try {
+		OutputStream out = new FileOutputStream(dst);
+		try {
+			byte[] buf = new byte[BUFFER_SIZE];
+			int n;
+			while((n = in.read(buf)) >= 0) 
+				out.write(b
+		}
+	} 
+}
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg2MTg0NTA4LC05MDI3NzM1MTksLTc0MT
+eyJoaXN0b3J5IjpbOTcxMjczNjQ2LC05MDI3NzM1MTksLTc0MT
 Q4NDEwMSwxNjQwMjMyNTg3LDE5MzgyMzY5OTgsLTE3Mjk4NDg0
 NDYsNzQyMTY3NjYxLC0zMDc2NDI4OTBdfQ==
 -->
