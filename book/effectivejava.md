@@ -227,8 +227,14 @@ private static long sum() {
 스레드 종료 후 에 대해 생각해보는 계기가 되었다
 주옥같은 PR
 
+## 아이템9.  try-finally 보다는 try-with-resources를 사용하라.
+
+* close 메서드를 호출해 직접 닫아줘야 하는 자원들이 많다
+* ex) InputStream, OutputStream, java.sq
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzY4OTkzNSwtOTAyNzczNTE5LC03ND
+eyJoaXN0b3J5IjpbMTc3NTkxMzUwOCwtOTAyNzczNTE5LC03ND
 E0ODQxMDEsMTY0MDIzMjU4NywxOTM4MjM2OTk4LC0xNzI5ODQ4
 NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
 -->
