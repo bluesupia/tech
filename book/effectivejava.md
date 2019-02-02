@@ -268,10 +268,11 @@ static void copy(String src, String dst) throws IOException {
 ### in my case.
 * 위 주옥같은 코드리뷰 이후 소스코드가 바뀌었다
 comsumer의 close 메소드를
-상위클래스에서 close 
+상위클래스에서 close 메소드에서 호출하고 있었다
+그런데 상위 클래스가 AutoClosable을 implement 하도록 수정되고, close 메소드를 override 하도록 함
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NjI0MzMwLC05MDI3NzM1MTksLTc0MT
-Q4NDEwMSwxNjQwMjMyNTg3LDE5MzgyMzY5OTgsLTE3Mjk4NDg0
-NDYsNzQyMTY3NjYxLC0zMDc2NDI4OTBdfQ==
+eyJoaXN0b3J5IjpbMTc4OTI4NTU4OSwtOTAyNzczNTE5LC03ND
+E0ODQxMDEsMTY0MDIzMjU4NywxOTM4MjM2OTk4LC0xNzI5ODQ4
+NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
 -->
