@@ -230,11 +230,15 @@ private static long sum() {
 ## 아이템9.  try-finally 보다는 try-with-resources를 사용하라.
 
 * close 메서드를 호출해 직접 닫아줘야 하는 자원들이 많다
-* ex) InputStream, OutputStream, java.sq
+* ex) InputStream, OutputStream, java.sql.Connection
+* 전통적으로 try-finally가 쓰임
+```java
+static void copy(String src, String dst) throws IOE
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTkxMzUwOCwtOTAyNzczNTE5LC03ND
-E0ODQxMDEsMTY0MDIzMjU4NywxOTM4MjM2OTk4LC0xNzI5ODQ4
-NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
+eyJoaXN0b3J5IjpbNjg2MTg0NTA4LC05MDI3NzM1MTksLTc0MT
+Q4NDEwMSwxNjQwMjMyNTg3LDE5MzgyMzY5OTgsLTE3Mjk4NDg0
+NDYsNzQyMTY3NjYxLC0zMDc2NDI4OTBdfQ==
 -->
