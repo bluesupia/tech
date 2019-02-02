@@ -1,4 +1,4 @@
-# 객채 생성과 파괴
+# 객체 생성과 파괴
 
  ## 아이템1. 생성자 대신 정적 팩터리 메서드를 고려하라
 
@@ -269,10 +269,14 @@ static void copy(String src, String dst) throws IOException {
 * 위 주옥같은 코드리뷰 이후 소스코드가 바뀌었다
 comsumer의 close 메소드를
 상위클래스에서 close 메소드에서 호출하고 있었다
-그런데 상위 클래스가 AutoClosable을 implement 하도록 수정되고, close 메소드를 override 하도록 함
+왜 위처럼 하였는가!!
+이후 상위 클래스가 AutoClosable을 implement 하도록 수정되고, close 메소드를 override 하도록 함!
 
+
+#모든 객체의 공통 메서드
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4OTI4NTU4OSwtOTAyNzczNTE5LC03ND
-E0ODQxMDEsMTY0MDIzMjU4NywxOTM4MjM2OTk4LC0xNzI5ODQ4
-NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
+eyJoaXN0b3J5IjpbLTg4NTYxNjA4OCwxNzg5Mjg1NTg5LC05MD
+I3NzM1MTksLTc0MTQ4NDEwMSwxNjQwMjMyNTg3LDE5MzgyMzY5
+OTgsLTE3Mjk4NDg0NDYsNzQyMTY3NjYxLC0zMDc2NDI4OTBdfQ
+==
 -->
