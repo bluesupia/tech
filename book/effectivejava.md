@@ -241,15 +241,20 @@ static void copy(String src, String dst) throws IOException {
 			byte[] buf = new byte[BUFFER_SIZE];
 			int n;
 			while((n = in.read(buf)) >= 0) 
-				out.write(b
+				out.write(buf, 0, n);
+		} finally {
+			out.close();
 		}
-	} 
+	} finally {
+		in.close();
+	}
 }
 ```
-
+* try-with-resoucese 사용하면 코드가 더 짧고 분명해지고, 만들어지는 예외 정보도 훨씬 유용
+₩
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxMjczNjQ2LC05MDI3NzM1MTksLTc0MT
-Q4NDEwMSwxNjQwMjMyNTg3LDE5MzgyMzY5OTgsLTE3Mjk4NDg0
-NDYsNzQyMTY3NjYxLC0zMDc2NDI4OTBdfQ==
+eyJoaXN0b3J5IjpbLTM4MTQ2MjQ3MywtOTAyNzczNTE5LC03ND
+E0ODQxMDEsMTY0MDIzMjU4NywxOTM4MjM2OTk4LC0xNzI5ODQ4
+NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
 -->
