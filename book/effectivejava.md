@@ -251,10 +251,18 @@ static void copy(String src, String dst) throws IOException {
 }
 ```
 * try-with-resoucese 사용하면 코드가 더 짧고 분명해지고, 만들어지는 예외 정보도 훨씬 유용
-₩
+```java
+static void copy(String src, String dst) throws IOException {
+	try (InputStream in = new FileInputStream(src);
+		 OutputStream out = new FileOutputStream(dst)) {
+		 byte[] buf = new byte[BUFFER_SIZE];
+	}
+}
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MTQ2MjQ3MywtOTAyNzczNTE5LC03ND
-E0ODQxMDEsMTY0MDIzMjU4NywxOTM4MjM2OTk4LC0xNzI5ODQ4
-NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
+eyJoaXN0b3J5IjpbOTQzOTcwMjc5LC05MDI3NzM1MTksLTc0MT
+Q4NDEwMSwxNjQwMjMyNTg3LDE5MzgyMzY5OTgsLTE3Mjk4NDg0
+NDYsNzQyMTY3NjYxLC0zMDc2NDI4OTBdfQ==
 -->
