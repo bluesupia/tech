@@ -223,9 +223,12 @@ private static long sum() {
 ### in my case.
 나는 사용해 본 적이 없다 ... finalizer와 cleaner를..
 자원회수에 대해 고려해서 프로그래밍 하지 않았다..
+처음 만들어본 Consumer Thread
+스레드 종료 후 에 대해 생각해보는 계기가 되었다
+주옥같은 PR
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDgyNTQ5NjQsLTkwMjc3MzUxOSwtNz
-QxNDg0MTAxLDE2NDAyMzI1ODcsMTkzODIzNjk5OCwtMTcyOTg0
-ODQ0Niw3NDIxNjc2NjEsLTMwNzY0Mjg5MF19
+eyJoaXN0b3J5IjpbLTE5NzY4OTkzNSwtOTAyNzczNTE5LC03ND
+E0ODQxMDEsMTY0MDIzMjU4NywxOTM4MjM2OTk4LC0xNzI5ODQ4
+NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
 -->
