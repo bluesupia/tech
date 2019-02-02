@@ -251,18 +251,25 @@ static void copy(String src, String dst) throws IOException {
 }
 ```
 * try-with-resoucese 사용하면 코드가 더 짧고 분명해지고, 만들어지는 예외 정보도 훨씬 유용
+	* 이 구조를 사용하려면 해당 자원이 AutoCloseable 인터페이스를 구현해야함
+		* void를 반환하는 close 메서드 하나만 정의된 인터페이스 
 ```java
 static void copy(String src, String dst) throws IOException {
 	try (InputStream in = new FileInputStream(src);
 		 OutputStream out = new FileOutputStream(dst)) {
 		 byte[] buf = new byte[BUFFER_SIZE];
+		 int n; 
+		 while((n = in.read(buf)) >= 0)
+			 out.write(buf, 0, n)
 	}
 }
 ```
 
+### in my case.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQzOTcwMjc5LC05MDI3NzM1MTksLTc0MT
-Q4NDEwMSwxNjQwMjMyNTg3LDE5MzgyMzY5OTgsLTE3Mjk4NDg0
-NDYsNzQyMTY3NjYxLC0zMDc2NDI4OTBdfQ==
+eyJoaXN0b3J5IjpbMTk2OTIxMzIwNiwtOTAyNzczNTE5LC03ND
+E0ODQxMDEsMTY0MDIzMjU4NywxOTM4MjM2OTk4LC0xNzI5ODQ4
+NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX0=
 -->
