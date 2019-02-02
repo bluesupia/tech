@@ -272,11 +272,10 @@ comsumer의 close 메소드를
 왜 위처럼 하였는가!!
 이후 상위 클래스가 AutoClosable을 implement 하도록 수정되고, close 메소드를 override 하도록 함!
 
-
 #모든 객체의 공통 메서드
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTYxNjA4OCwxNzg5Mjg1NTg5LC05MD
-I3NzM1MTksLTc0MTQ4NDEwMSwxNjQwMjMyNTg3LDE5MzgyMzY5
-OTgsLTE3Mjk4NDg0NDYsNzQyMTY3NjYxLC0zMDc2NDI4OTBdfQ
-==
+eyJoaXN0b3J5IjpbLTE2NzIzMDY0MzgsMTc4OTI4NTU4OSwtOT
+AyNzczNTE5LC03NDE0ODQxMDEsMTY0MDIzMjU4NywxOTM4MjM2
+OTk4LC0xNzI5ODQ4NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX
+0=
 -->
