@@ -273,9 +273,13 @@ comsumer의 close 메소드를
 이후 상위 클래스가 AutoClosable을 implement 하도록 수정되고, close 메소드를 override 하도록 함!
 
 #모든 객체의 공통 메서드
+
+## 아이템10. equals는 일반 규약을 지켜 재정의하라
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzIzMDY0MzgsMTc4OTI4NTU4OSwtOT
-AyNzczNTE5LC03NDE0ODQxMDEsMTY0MDIzMjU4NywxOTM4MjM2
-OTk4LC0xNzI5ODQ4NDQ2LDc0MjE2NzY2MSwtMzA3NjQyODkwXX
-0=
+eyJoaXN0b3J5IjpbNDg3Mjc5OTIyLC0xNjcyMzA2NDM4LDE3OD
+kyODU1ODksLTkwMjc3MzUxOSwtNzQxNDg0MTAxLDE2NDAyMzI1
+ODcsMTkzODIzNjk5OCwtMTcyOTg0ODQ0Niw3NDIxNjc2NjEsLT
+MwNzY0Mjg5MF19
 -->
