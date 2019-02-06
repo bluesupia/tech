@@ -280,10 +280,14 @@ comsumer의 close 메소드를
 * 각 인스턴스가 본질적으로 고유하다
 * 인스턴스의 '논리적 동치성(logical equality)'을 검사할 일이 없다
 * 상위 클래스에서 재정의한 equals가 하위 클래스에도 딱 들어맞는다
-* 클래스가 private이거나 package-privae
+* 클래스가 private이거나 package-private이고 equals 메서드를 호출할 일이 없다
+
+재정의해야할 경우
+* 객체 식별성이 아닌 논리적 동치성을 확인해야하는데, 상위클래스의 equals가 논리적 동치성을 비교하도록 재정의되지 않았을 때
+	* 주로 값 클래스 (Integer, String
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI3ODU0NzU2LC0xNjcyMzA2NDM4LDE3OD
-kyODU1ODksLTkwMjc3MzUxOSwtNzQxNDg0MTAxLDE2NDAyMzI1
-ODcsMTkzODIzNjk5OCwtMTcyOTg0ODQ0Niw3NDIxNjc2NjEsLT
-MwNzY0Mjg5MF19
+eyJoaXN0b3J5IjpbLTQ5MDY4NTgyMiwtMTY3MjMwNjQzOCwxNz
+g5Mjg1NTg5LC05MDI3NzM1MTksLTc0MTQ4NDEwMSwxNjQwMjMy
+NTg3LDE5MzgyMzY5OTgsLTE3Mjk4NDg0NDYsNzQyMTY3NjYxLC
+0zMDc2NDI4OTBdfQ==
 -->
