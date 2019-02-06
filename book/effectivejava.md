@@ -284,10 +284,18 @@ comsumer의 close 메소드를
 
 재정의해야할 경우
 * 객체 식별성이 아닌 논리적 동치성을 확인해야하는데, 상위클래스의 equals가 논리적 동치성을 비교하도록 재정의되지 않았을 때
-	* 주로 값 클래스 (Integer, String
+	* 주로 값 클래스 (Integer, String처럼 값을 표현하는 클래스)
+
+equals 메서드를 재정의 할 때 따르는 일반 규약
+* 반사성
+* 대칭성
+* 추이성
+* 일관성
+* null-아님
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDY4NTgyMiwtMTY3MjMwNjQzOCwxNz
-g5Mjg1NTg5LC05MDI3NzM1MTksLTc0MTQ4NDEwMSwxNjQwMjMy
-NTg3LDE5MzgyMzY5OTgsLTE3Mjk4NDg0NDYsNzQyMTY3NjYxLC
-0zMDc2NDI4OTBdfQ==
+eyJoaXN0b3J5IjpbOTI2MjkzNDY5LC0xNjcyMzA2NDM4LDE3OD
+kyODU1ODksLTkwMjc3MzUxOSwtNzQxNDg0MTAxLDE2NDAyMzI1
+ODcsMTkzODIzNjk5OCwtMTcyOTg0ODQ0Niw3NDIxNjc2NjEsLT
+MwNzY0Mjg5MF19
 -->
