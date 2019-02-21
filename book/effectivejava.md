@@ -292,10 +292,14 @@ equals 메서드를 재정의 할 때 따르는 일반 규약
 * 추이성
 * 일관성
 * null-아님
-* 
+
+## 아이템11. equals를 재정의하려거든 hashCode도 재정의하라
+
+Object 멩서에서 발췌한 규약 중
+* equals
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI2MjkzNDY5LC0xNjcyMzA2NDM4LDE3OD
-kyODU1ODksLTkwMjc3MzUxOSwtNzQxNDg0MTAxLDE2NDAyMzI1
-ODcsMTkzODIzNjk5OCwtMTcyOTg0ODQ0Niw3NDIxNjc2NjEsLT
-MwNzY0Mjg5MF19
+eyJoaXN0b3J5IjpbLTExOTg1MTU1MjQsOTI2MjkzNDY5LC0xNj
+cyMzA2NDM4LDE3ODkyODU1ODksLTkwMjc3MzUxOSwtNzQxNDg0
+MTAxLDE2NDAyMzI1ODcsMTkzODIzNjk5OCwtMTcyOTg0ODQ0Ni
+w3NDIxNjc2NjEsLTMwNzY0Mjg5MF19
 -->
