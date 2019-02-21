@@ -295,11 +295,12 @@ equals 메서드를 재정의 할 때 따르는 일반 규약
 
 ## 아이템11. equals를 재정의하려거든 hashCode도 재정의하라
 
-Object 멩서에서 발췌한 규약 중
-* equals
+* 서로 다른 인스턴스라면 되도록 해쉬코드도 서로 달라야 한다
+* AutoValue or IDE의 도움을 받자!
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTg1MTU1MjQsOTI2MjkzNDY5LC0xNj
-cyMzA2NDM4LDE3ODkyODU1ODksLTkwMjc3MzUxOSwtNzQxNDg0
-MTAxLDE2NDAyMzI1ODcsMTkzODIzNjk5OCwtMTcyOTg0ODQ0Ni
-w3NDIxNjc2NjEsLTMwNzY0Mjg5MF19
+eyJoaXN0b3J5IjpbOTI3OTI2ODU1LDkyNjI5MzQ2OSwtMTY3Mj
+MwNjQzOCwxNzg5Mjg1NTg5LC05MDI3NzM1MTksLTc0MTQ4NDEw
+MSwxNjQwMjMyNTg3LDE5MzgyMzY5OTgsLTE3Mjk4NDg0NDYsNz
+QyMTY3NjYxLC0zMDc2NDI4OTBdfQ==
 -->
