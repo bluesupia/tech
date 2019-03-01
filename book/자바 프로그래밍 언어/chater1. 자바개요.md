@@ -23,12 +23,14 @@
 			* 시그니처, 제한자 (public, static), 반환타입, 예외선언 리스트로 구성
 ## 2. 변수
 * 기본(primitive) 데이터 타입
-	* integer, floating-point, boolean, character
+	* 정수integer, 실수floating-point, 논리boolean, 문자character 값을 표현
+	* 직접 알아볼 수 있는 숫자값을 가진다
+	* boolean / char / byte / short / int / long / float / double
 
 ## 3. 주석
 ## 4. 명명된 상수
 ## 5. 유니코드 무자
 ## 6. 흐름제어
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI5MTcwNjc5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTgzNTY2MTU5Niw3MzA5OTgxMTZdfQ==
 -->
