@@ -40,8 +40,10 @@
 ## 5. 유니코드 문자
 * 유니코드 : 국제 문자 집한 표준으로 16비트이며 전세계 주요 언어를 표한할수 있도록 21비트를 사용하기도 함
 * 문자집합은 항상 유니코드
-## 6. 흐름제어
+
+## 6. 흐름제어 (Flow of Control)
+* while, for, if-else, switch, do-while문
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTI4MzAxOTYsLTcwNDU3NDcyMiwtNz
-Y5MTcxNTcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTM1MTEzMzA3NywtNzA0NTc0NzIyLC03Nj
+kxNzE1Nyw3MzA5OTgxMTZdfQ==
 -->
