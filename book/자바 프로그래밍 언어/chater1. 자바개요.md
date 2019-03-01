@@ -13,12 +13,15 @@
 		* 컴파일러로 컴파일해서 바이트 코드를 생성
 			* 바이트코드 : JVM이 인식하는 기계어
 		* 컴파일한 프로그램 실행
-	* main : 특수한 메소드
+	* main : 특수한 메소드로 프로그램 실행시 가장 먼저 호출
+		* public : 어디서든 호출 할 수 있도록 한다
+		* static : 클래스의 특정 인스턴스가 아닌 클래스 자체에 소속되기 함
+		* 
 ## 2. 변수
 ## 3. 주석
 ## 4. 명명된 상수
 ## 5. 유니코드 무자
 ## 6. 흐름제어
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NDg1NTY0MSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE3NDA1MTU3NTIsNzMwOTk4MTE2XX0=
 -->
