@@ -32,8 +32,12 @@
 
 ## 3. 주석
 ## 4. 명명된 상수
+* Constans = Literal
+	* 프로그램 실행되는 동안 변하지 않고 유지되는 값
+* 열거타입 (Enumeration type = enum)
 ## 5. 유니코드 무자
 ## 6. 흐름제어
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2OTE3MTU3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMjA5NTg1NTQ0MSwtNzY5MTcxNTcsNzMwOT
+k4MTE2XX0=
 -->
