@@ -22,10 +22,13 @@
 		* 메소드 선언부(header) 
 			* 시그니처, 제한자 (public, static), 반환타입, 예외선언 리스트로 구성
 ## 2. 변수
+* 기본(primitive) 데이터 타입
+	* integer, floating-point, boolean, character
+
 ## 3. 주석
 ## 4. 명명된 상수
 ## 5. 유니코드 무자
 ## 6. 흐름제어
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDg3NzU4NCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNjI5MTcwNjc5LDczMDk5ODExNl19
 -->
