@@ -37,10 +37,11 @@
 * 열거타입 (Enumeration type = enum)
 	* 명명된 상수를 표현하기 위해 인스턴스를 미리 정의하는 특별한 클래스
 	* 
-## 5. 유니코드 무자
-문자집합은 항상 유니코드
+## 5. 유니코드 문자
+* 유니코드 : 국제 문자 집한 표준으로 16비트이며 전세계 주요 언어를 표한할수 있도록 21비트를 사용하기도 함
+* 문자집합은 항상 유니코드
 ## 6. 흐름제어
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzI2OTEwOCwtNzA0NTc0NzIyLC03Nj
-kxNzE1Nyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE2NTI4MzAxOTYsLTcwNDU3NDcyMiwtNz
+Y5MTcxNTcsNzMwOTk4MTE2XX0=
 -->
