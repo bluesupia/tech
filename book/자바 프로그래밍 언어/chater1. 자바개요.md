@@ -6,14 +6,17 @@
 	* 객체 : 공장에서 만들어지는 부품
 	* 클래스 멤버
 		* 필드 : 클래스나 클래스객체에 속하는 데이터 변수
-		* 메소드 : 
+		* 메소드 : 클래스 행위를 정의
+* Hello, World
+	* 소스를 선호하는 편집기로 작성하고 파일로 저장
+	* 컴파일러로 컴파일해서 바이트 코드를 생성
+		* 바이트코드 : JVM이 인식하는 기계어
 
-	* 
 ## 2. 변수
 ## 3. 주석
 ## 4. 명명된 상수
 ## 5. 유니코드 무자
 ## 6. 흐름제어
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNTQ1MzcyNSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE3MjE1OTE1LDczMDk5ODExNl19
 -->
