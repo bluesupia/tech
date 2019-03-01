@@ -35,9 +35,11 @@
 * Constans = Literal
 	* 프로그램 실행되는 동안 변하지 않고 유지되는 값
 * 열거타입 (Enumeration type = enum)
+	* 명명된 상수를 표현하기 위해 인스턴스를 미리 정의하는 특별한 클래스
+	* 
 ## 5. 유니코드 무자
 ## 6. 흐름제어
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTg1NTQ0MSwtNzY5MTcxNTcsNzMwOT
+eyJoaXN0b3J5IjpbLTcwNDU3NDcyMiwtNzY5MTcxNTcsNzMwOT
 k4MTE2XX0=
 -->
