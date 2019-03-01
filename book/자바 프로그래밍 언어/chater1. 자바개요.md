@@ -26,11 +26,14 @@
 	* 정수integer, 실수floating-point, 논리boolean, 문자character 값을 표현
 	* 직접 알아볼 수 있는 숫자값을 가진다
 	* boolean / char / byte / short / int / long / float / double
+* 래퍼(Wrapper) 클래스
+	* 	모든 기본 타입은 대응하는 객체타입
+	* ex. int의 warraper class => Integer
 
 ## 3. 주석
 ## 4. 명명된 상수
 ## 5. 유니코드 무자
 ## 6. 흐름제어
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNTY2MTU5Niw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTc2OTE3MTU3LDczMDk5ODExNl19
 -->
