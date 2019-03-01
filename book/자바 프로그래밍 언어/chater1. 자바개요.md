@@ -33,13 +33,14 @@
 ## 3. 주석
 ## 4. 명명된 상수
 * Constans = Literal
-	* 프로그램 실행되는 동안 변하지 않고 유지되는 값
+	* 프로그램 실행되는 동안 변하지 않고 유지되는 
 * 열거타입 (Enumeration type = enum)
 	* 명명된 상수를 표현하기 위해 인스턴스를 미리 정의하는 특별한 클래스
 	* 
 ## 5. 유니코드 무자
+문자집합은 항상 유니코드
 ## 6. 흐름제어
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNDU3NDcyMiwtNzY5MTcxNTcsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbMTIzNzI2OTEwOCwtNzA0NTc0NzIyLC03Nj
+kxNzE1Nyw3MzA5OTgxMTZdfQ==
 -->
