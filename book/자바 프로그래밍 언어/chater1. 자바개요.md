@@ -18,12 +18,14 @@
 		* static : 클래스의 특정 인스턴스가 아닌 클래스 자체에 소속되기 함
 	* 반환타입 + 매소드 이름 + (메소드의 매개변수 리스트)
 		* 매개변수리스트 : 한쌍 이상의 타입과 이름을 콤마로 분리해 선언
-		* 매소드 이름 
+		* 메소드의 시그니처 : 매소드 이름 + 매개변수 리스트
+		* 메소드 선언부(header) 
+			* 시그니처, 제한자 (public, static), 반환타입, 예외선언 리스트로 구성
 ## 2. 변수
 ## 3. 주석
 ## 4. 명명된 상수
 ## 5. 유니코드 무자
 ## 6. 흐름제어
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTMzMDA3ODcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTczNDg3NzU4NCw3MzA5OTgxMTZdfQ==
 -->
