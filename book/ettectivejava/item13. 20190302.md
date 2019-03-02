@@ -166,8 +166,12 @@ public static Yum newInstance(Yum yum) {..};
 * 가장 먼저 super.clone 호출 후 필요한 필드를 적절히 수정
 	* 객체 내부 '깊은 구조' 숨어있는 가변 객체를 복사하고 복제본이 가진 객체 참조 모두가 복제본을 가리키게 함
 	* 내부복사는 clone을 재귀적으로 호출해서 구현하나 최선은 아님
-* 새로운 인터페이스를 만들 때 절대 Cloneable을 화
+* 새로운 인터페이스를 만들 때 절대 Cloneable을 확장하지 말고, 새로운 클래스도 이를 구현하지 않음
+* final 클래스라면 위험이 크지 않으나, 성능 최적화 관점에서 검토후 드물게 허용
+* 복제 기능은 생성자와 팩터리를 이용하는게 최고
+* 배열은 clone메서드 방식이 가장 깔끔한, 규칙의 합당한 예외
+* 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIzNzU0NzExXX0=
+eyJoaXN0b3J5IjpbMTY2NjQ5OTU1Nl19
 -->
