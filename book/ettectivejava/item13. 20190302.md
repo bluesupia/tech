@@ -164,8 +164,10 @@ public static Yum newInstance(Yum yum) {..};
 * Cloneable을 구현하는 모든 클래스는 clone을 재정의 해야한다
 * 접근 제한자는 public으로 반환 타입은 클래스자신으로 변경
 * 가장 먼저 super.clone 호출 후 필요한 필드를 적절히 수정
-	* 객체 내부 '깊은 
+	* 객체 내부 '깊은 구조' 숨어있는 가변 객체를 복사하고 복제본이 가진 객체 참조 모두가 복제본을 가리키게 함
+	* 내부복사는 clone을 재귀적으로 호출해서 구현하나 최선은 아님
+* 새로운 인터페이스를 만들 때 절대 Cloneable을 화
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzk0NTg4MV19
+eyJoaXN0b3J5IjpbNDIzNzU0NzExXX0=
 -->
