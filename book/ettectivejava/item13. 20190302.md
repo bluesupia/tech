@@ -100,8 +100,10 @@ public class HashTable implements Cloneable {
 			this.value = value;
 			this.next = next;
 		}
-//
-		Entry
+		// 재귀적 복사
+		Entry deepCopy() {
+			return new Entry(key, value, next == null ? null : next.deepCopy());
+		}
 	}
 	...
 	// ERROR!!
@@ -109,7 +111,10 @@ public class HashTable implements Cloneable {
 	public HashTable clone() {
 		try {
 			HashTable result = (HashTable) super.clone();
-			result.buckets = buckets.clone();
+			result.buckets = new Entry[buckets.length];
+			for (int i = 0; i < buckets.length; i++) {
+				if (buck
+			}
 			return result;
 		} catch (CloneNotSupportedException e) {
 			throw new AssertionError();
@@ -119,5 +124,5 @@ public class HashTable implements Cloneable {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MzMyNzU3MV19
+eyJoaXN0b3J5IjpbLTExMzI2Mzg2MTBdfQ==
 -->
