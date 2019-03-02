@@ -8,7 +8,8 @@
 		* Cloneable 구현 클래스의 인스턴스에서 clone을 호출하면 그 객체의 필드들을 하나하나 복사한 객체를 반환
 		* 그렇지 않은 클래스의 인스턴스에서 호출하면 CloneNotSupportedException
 	* 상위클래스에 정의된 protected 메서드의 동작방식을 변경
-	* 명세는 아니나, **Cloneabled
+	* 명세는 아니나, **Cloneable을 구현한 클래스는 clone메서드를 public으로 제공하며, 사용자는 복제가 제대로 이뤄지리라 기대**
+* Cloneable rn제대로 동작하는 clone 메서드를 가진 상위클래스를 상속ㅎ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3MTgzMDYxXX0=
+eyJoaXN0b3J5IjpbLTEyNDQyMjA4NTFdfQ==
 -->
