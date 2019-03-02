@@ -6,7 +6,9 @@
 	* Cloneable 인터페이스가 하는일
 		* Object의 protected 메서드인 clone 의 동작 방식을 결정
 		* Cloneable 구현 클래스의 인스턴스에서 clone을 호출하면 그 객체의 필드들을 하나하나 복사한 객체를 반환
-		* 그렇지 않으
+		* 그렇지 않은 클래스의 인스턴스에서 호출하면 CloneNotSupportedException
+	* 상위클래스에 정의된 protected 메서드의 동작방식을 변경
+	* 명세는 아니나, **Cloneabled
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDk1ODI5MjldfQ==
+eyJoaXN0b3J5IjpbMzk3MTgzMDYxXX0=
 -->
