@@ -3,21 +3,17 @@
 # 25. 표준패키지
 
 # java.awt
+* 플랫폼에 독립적인 그래픽 사용자 인터페
 # java.math
 # java.net
-# java.rmi
 # java.security와 관련 패키지
 # java.sql
 # 유틸리티 하위패키지
-## 병렬 유틸리티-java.unit.concurrent
-## 아카이브 파일 - java.util.jar
-## zip 파일 - java.util.zip
+## 병렬 유틸리티-java.unil.concurrent
 # javax.* - 표준확장
 # javax.accessibility - GUI 접근성
 # javax.naming - 디렉토리와 네이밍 서비스
-# javax.sound - 사운드 조작
-# javax.swing - 스윙 GUI 컴포넌트
-# org.omg.CORBA - 코바 API
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MTkzODE4NV19
+eyJoaXN0b3J5IjpbLTg0MTA3OTM3OV19
 -->
