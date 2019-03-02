@@ -5,7 +5,8 @@
 	* 의도한 목적을 제대로 이루지 못함
 	* 가장 큰 문제는, clone 메서드가 선언된 곳이 Cloneable이 아닌 Object 이고 그마저도 projected 
 * Cloneable 인터페이스가 하는일
+	* Object의 protected 메서드인 clone 의 동장 방식을 결정
 	* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NTE3MjQzMF19
+eyJoaXN0b3J5IjpbNzUyNDcwMDAzXX0=
 -->
