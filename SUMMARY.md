@@ -15,9 +15,8 @@
 		*  [item13](book/effectivejava/item13.md)
 	* 자바 프로그래밍 언어
 		* [chapter1. 자바 개요](jpl/chapter1.md)
-    * [effective java](book/effectivejava.md)
 * [기술 블로그](techblog.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzUyMDA4MCwyMTM0NDgzNjI0XX0=
+eyJoaXN0b3J5IjpbLTQ1NzU3ODk5NiwyMTM0NDgzNjI0XX0=
 -->
