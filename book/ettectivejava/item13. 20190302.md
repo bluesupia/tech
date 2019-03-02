@@ -25,10 +25,18 @@ public PhoneNumber clone() {
 }
 ```
 * Cloneable 구현2
-	* 가변 객체를 참조하는 경우
+	* 가변 ㅏㅅㅇ태를 
 	* Stack의 elements
 
+```java
+public class Stack {
+	private Object[] elements;
+	private int size = 0;
+	private static final int DEFAULT_INITIAL_CAPACITY = 16;
+...
 
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0Nzc0OTUyXX0=
+eyJoaXN0b3J5IjpbMzQzMTE1ODI3XX0=
 -->
