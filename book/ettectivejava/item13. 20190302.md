@@ -148,6 +148,9 @@ Entry deepCopy() {
 	* 재정의될 수 있는 메서드를 호출하지 않아야함 (생성자도 동일함)
 	* CloneNotSupportedException을 던진다고 선언했으나 재정의한 메서드를 그렇지 않음
 		* **public인 clone메서드에서는 throw절을 없애야함**
+* 주의!
+	* 상속용 클래스는 Cloneable을 구현해서는 안됨
+	* Cloneable을 구현한 스레드 안전클래스를 작성시, clone 메서드 역시 적절히 동기화 필요
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MjI5NDE1NF19
+eyJoaXN0b3J5IjpbLTY5OTEyMTkxOF19
 -->
