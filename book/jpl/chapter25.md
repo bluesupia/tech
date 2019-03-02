@@ -15,6 +15,8 @@
 
 # java.net
 * 소켓, URL 등과 관련된 네트워크 클래스
+* in my proj
+	* HttpURLConnection, InetAddress, URI, URLEncoder 등등
 
 # java.security와 관련 패키지
 # java.sql
@@ -23,5 +25,5 @@
 # javax.* - 표준확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTQyMjMzMDZdfQ==
+eyJoaXN0b3J5IjpbMTQyNTg5MTI3NF19
 -->
