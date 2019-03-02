@@ -142,8 +142,12 @@ Entry deepCopy() {
 	* 원본 객체의 상태를 다시 생성하는 고수준 메서드들을 호출
 	* HashTable
 		* buckets필드를 새로운 버킷배열로 초기
-		* 원본데이터의 담긴 모든 키-값 쌍 각각에 대해 복제본 테이블의 put(key,value)
+		* 원본데이터의 담긴 모든 키-값 쌍 각각에 대해 복제본 테이블의 put(key, value) 메서드를 호출
+	* 간단하고 우아하나, 느리다
+* clone!
+	* 생성자에서는 재정의될 수 있는 메서드를 호출하지 않아야 함
+	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU3OTk0OTEwXX0=
+eyJoaXN0b3J5IjpbMTkyMjYyNTY3MV19
 -->
