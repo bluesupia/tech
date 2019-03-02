@@ -59,6 +59,7 @@ public class Stack {
 * Cloneable 구현3
 	* clone을 재귀적으로 호출하는 것만으로 불충분 할때
 	* 해시테이블용 clone
+	* 복제본은 자신만의 버킷배열을 갖지만, 이 배열은 원본과 같은 연결리스트를 참조하여 오류 발생 
 ```java
 public class HashTable implements Cloneable {
 	private Entry[] buckets = ...;
@@ -86,5 +87,5 @@ public class HashTable implements Cloneable {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzg2MjkwMDZdfQ==
+eyJoaXN0b3J5IjpbOTU2OTQxMzQ2XX0=
 -->
