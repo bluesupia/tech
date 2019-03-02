@@ -57,7 +57,15 @@ public class Stack {
 }
 ```
 * Cloneable 구현3
-	* clon
+	* clone을 재귀적으로 호출하는 것만으로 불충분 할때
+	* 해시테이블용 clone
+```java
+public class HashTable implements Cloneable {
+	private Entry[] buckets = ...;
+private static class Entry {
+
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjg1MzcxOTVdfQ==
+eyJoaXN0b3J5IjpbLTExODY3NzkwNDddfQ==
 -->
