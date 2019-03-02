@@ -3,8 +3,6 @@
 # 25. 표준패키지
 
 # java.awt
-# java.applet
-# java.beans
 # java.math
 # java.net
 # java.rmi
@@ -18,7 +16,8 @@
 # javax.accessibility - GUI 접근성
 # javax.naming - 디렉토리와 네이밍 서비스
 # javax.sound - 사운드 조작
-# ㅓㅁㅍㅁ
+# javax.swing - 스윙 GUI 컴포넌트
+# org.omg.CORBA - 코바 API
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTg2MDI1MDFdfQ==
+eyJoaXN0b3J5IjpbMTc5MTkzODE4NV19
 -->
