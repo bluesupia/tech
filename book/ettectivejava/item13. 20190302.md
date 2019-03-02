@@ -62,10 +62,22 @@ public class Stack {
 ```java
 public class HashTable implements Cloneable {
 	private Entry[] buckets = ...;
-private static class Entry {
-
+	private static class Entry {
+		final Object key;
+		Object value;
+		Entry next;
+		Entry(Object key, Object value, Entry next) {
+			this.key = key;
+			this.value = value;
+			this.next = next;
+		}
+	}
+	...
+	@Override
+	public HashTable clone() {
+	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODY3NzkwNDddfQ==
+eyJoaXN0b3J5IjpbLTk2NTM1NzM3N119
 -->
