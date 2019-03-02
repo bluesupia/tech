@@ -138,8 +138,12 @@ Entry deepCopy() {
 }
 ```
 * Cloneable 구현3-4
-	* 
+	* super.clone을 호출하여 얻은 객체의 모든 필드를 초기 상태로 설정
+	* 원본 객체의 상태를 다시 생성하는 고수준 메서드들을 호출
+	* HashTable
+		* buckets필드를 새로운 버킷배열로 초기
+		* 원본데이터의 담긴 모든 키-값 쌍 각각에 대해 복제본 테이블의 put(key,value)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMzAzMTE2N119
+eyJoaXN0b3J5IjpbNTU3OTk0OTEwXX0=
 -->
