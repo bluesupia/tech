@@ -9,18 +9,19 @@
 
 # java.math
 * 수학 연산, 현재 이 패키지는 임의 정밀도 연산을 다루는 ~~세개~~ 클래스만 포함
-	* 현재 7개 클래스 존재
+	* 현재 6개 클래스 존재
 * in my proj
-	* Big
+	* BigInteger
+
 # java.net
+* 소켓, URL 등과 관련된 네트워크 클래스
+
 # java.security와 관련 패키지
 # java.sql
 # 유틸리티 하위패키지
 ## 병렬 유틸리티-java.unil.concurrent
 # javax.* - 표준확장
-# javax.accessibility - GUI 접근성
-# javax.naming - 디렉토리와 네이밍 서비스
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDU0NDAzNzFdfQ==
+eyJoaXN0b3J5IjpbLTE5MTQyMjMzMDZdfQ==
 -->
