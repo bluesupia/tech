@@ -30,7 +30,10 @@ public PhoneNumber clone() {
 		* size 필드는 올바른 값을 갖지만, elements 필드는 원본 Stack인스턴스와 똑같은 배열을 참조
 	* **clone 메서드는 생성자와 같은 효과를 낸다**
 		* **clone은 원본 객체에 아무런 해를 끼치지 않는 동시에 복제된 객체의 불변식을 보장** 해야함
-	* elemnet
+	* elements.clone의 결과를 Object[]로 형변환 하지 않음
+		* 배열의 clone은 런타임타입과 컴파일 타입 모두가 원본 배열과 똑같은 배열을 반환
+		* 따라서 배열 복제시, clone 메서드 사용을 권장
+		* **배열은 clone 기능을 제대로 사용하는 유일한 예**
 ```java
 public class Stack {
 	private Object[] elements;
@@ -50,5 +53,5 @@ public class Stack {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NDY1ODQ0OF19
+eyJoaXN0b3J5IjpbNjY1Nzc2ODkwXX0=
 -->
