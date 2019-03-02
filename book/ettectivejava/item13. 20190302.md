@@ -33,7 +33,10 @@ public PhoneNumber clone() {
 	* elements.clone의 결과를 Object[]로 형변환 하지 않음
 		* 배열의 clone은 런타임타입과 컴파일 타입 모두가 원본 배열과 똑같은 배열을 반환
 		* 따라서 배열 복제시, clone 메서드 사용을 권장
-		* **배열은 clone 기능을 제대로 사용하는 유일한 예**
+		* *배열은 clone 기능을 제대로 사용하는 유일한 예*
+	* elements 필드가 final이 였다면 ?
+		* 아래 방식은 작동하지 않음
+		* fi 
 ```java
 public class Stack {
 	private Object[] elements;
@@ -53,5 +56,5 @@ public class Stack {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY1Nzc2ODkwXX0=
+eyJoaXN0b3J5IjpbODk1ODU1MDEzXX0=
 -->
