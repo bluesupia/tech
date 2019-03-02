@@ -145,9 +145,9 @@ Entry deepCopy() {
 		* 원본데이터의 담긴 모든 키-값 쌍 각각에 대해 복제본 테이블의 put(key, value) 메서드를 호출
 	* 간단하고 우아하나, 느리다
 * clone!
-	* 생성자에서는 재정의될 수 있는 메서드를 호출하지 않아야 함
-	
-
+	* 재정의될 수 있는 메서드를 호출하지 않아야함 (생성자도 동일함)
+	* CloneNotSupportedException을 던진다고 선언했으나 재정의한 메서드를 그렇지 않음
+		* **public인 clone메서드에서는 throw절을 없애야함**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMjYyNTY3MV19
+eyJoaXN0b3J5IjpbMTk0MjI5NDE1NF19
 -->
