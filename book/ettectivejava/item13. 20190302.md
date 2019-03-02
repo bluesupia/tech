@@ -151,6 +151,14 @@ Entry deepCopy() {
 * 주의!
 	* 상속용 클래스는 Cloneable을 구현해서는 안됨
 	* Cloneable을 구현한 스레드 안전클래스를 작성시, clone 메서드 역시 적절히 동기화 필요
+
+* 이런데도 써야하나 ?
+	* **복사 생성자와 복사 팩터리**
+```java
+public Yum(Yum yum) {...};
+
+public static Yum newInstance(Yum yum) {..};
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5OTEyMTkxOF19
+eyJoaXN0b3J5IjpbLTE4ODU0NjQzNzNdfQ==
 -->
