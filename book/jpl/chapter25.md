@@ -8,7 +8,10 @@
 	* BMT시 그래프
 
 # java.math
-* 
+* 수학 연산, 현재 이 패키지는 임의 정밀도 연산을 다루는 ~~세개~~ 클래스만 포함
+	* 현재 7개 클래스 존재
+* in my proj
+	* Big
 # java.net
 # java.security와 관련 패키지
 # java.sql
@@ -19,5 +22,5 @@
 # javax.naming - 디렉토리와 네이밍 서비스
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NDk2MDY0MF19
+eyJoaXN0b3J5IjpbLTIxMDU0NDAzNzFdfQ==
 -->
