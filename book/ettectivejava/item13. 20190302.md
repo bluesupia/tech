@@ -11,7 +11,9 @@
 	* 상위클래스에 정의된 protected 메서드의 동작방식을 변경
 	* 명세는 아니나, **Cloneable을 구현한 클래스는 clone메서드를 public으로 제공하며, 사용자는 복제가 제대로 이뤄지리라 기대**
 * Cloneable 구현1
-	* 제대로 동작하는 clone 메서드를 가진 상위클래스를 상속
+	*  제대로 동작하는 clone 메서드를 가진 상위클래스를 상속
+	* 	공변 반환 타이핑(Covariant return typing)
+	*  비검사 예외 (unchecked exception) 
 ```java
 @Override
 public PhoneNumber clone() {
@@ -24,5 +26,5 @@ public PhoneNumber clone() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MDgxMjUxN119
+eyJoaXN0b3J5IjpbLTExNzEwNzgyMF19
 -->
