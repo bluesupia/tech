@@ -24,7 +24,11 @@ public PhoneNumber clone() {
 	}
 }
 ```
+* Cloneable 구현2
+	* 가변 객체를 참조하는 경우
+	* Stack의 elements
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzEwNzgyMF19
+eyJoaXN0b3J5IjpbMTU0Nzc0OTUyXX0=
 -->
