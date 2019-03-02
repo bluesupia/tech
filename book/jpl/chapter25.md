@@ -28,12 +28,15 @@
 	* 키와 알고리즘 매개변수 명세(java.security.spec)에 대한 추상 개념 정의
 * 관련패키지
 	* javax.crypto 암호문을 위해 많은 매커니즘 제공
-	* 
+* 보안 아키텍처는 보안 상요 작용의 추상화 제공
+	* 암호화와 인증 같은 것들은 접근하는 방법은 많으며 앞으로 더 많이질 것으기 때문
+	* providers는 이 추상화의 구현을 제공
+	* 각각으
 # java.sql
 # 유틸리티 하위패키지
 ## 병렬 유틸리티-java.unil.concurrent
 # javax.* - 표준확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTczMzYwMDRdfQ==
+eyJoaXN0b3J5IjpbLTcyNjQ4NzY5M119
 -->
