@@ -33,13 +33,16 @@
 	* providers는 이 추상화의 구현을 제공
 	* 각각의 플랫폼은 한 개 이상의 제공자(provider)를 가짐
 * in my proj
-	* 
+	* KeyFactory, PrivateKey, .spec.PKCS8EncodedKeySpec
 
 # java.sql
+* 관계형 데이터베으스를 사용할 수 있게 해주는 JDBC 패키지 제공
+* in my proj
+	*  timestamp
 # 유틸리티 하위패키지
 ## 병렬 유틸리티-java.unil.concurrent
 # javax.* - 표준확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYzNzAwMjI4XX0=
+eyJoaXN0b3J5IjpbLTI3ODQ3MDYyM119
 -->
