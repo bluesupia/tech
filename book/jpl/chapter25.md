@@ -25,12 +25,15 @@
 	* 인증 (java.security.cert)
 	* RSA
 	* DSA
-	* 키와 알고리즘 매개변수 명세(java.에 대한 추상 개념 정의
+	* 키와 알고리즘 매개변수 명세(java.security.spec)에 대한 추상 개념 정의
+* 관련패키지
+	* javax.crypto 암호문을 위해 많은 매커니즘 제공
+	* 
 # java.sql
 # 유틸리티 하위패키지
 ## 병렬 유틸리티-java.unil.concurrent
 # javax.* - 표준확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI3NjA3NjMwXX0=
+eyJoaXN0b3J5IjpbLTEzMTczMzYwMDRdfQ==
 -->
