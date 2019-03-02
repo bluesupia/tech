@@ -89,7 +89,7 @@ public class HashTable implements Cloneable {
 ```
 * Cloneable 구현3-2
 	* 깊은복사(deep copy)를 지원하도록 보강
-	* 리스트가 길면 스택 오버플로그
+	* 리스트가 길면 스택 오버플로를 일으킬 위험이 있다
 ```java
 public class HashTable implements Cloneable {
 	private Entry[] buckets = ...;
@@ -125,7 +125,16 @@ public class HashTable implements Cloneable {
 	}
 }
 ```
+* Cloneable 구현3-3
+	* 깊은복사(deep copy)를 지원하도록 보강
+	* 재귀 호출 대신 반복자를 써서 순회하도록 수정
+```java
+Entry deepCopy() {
+	Entry result = new Entry(key, value, next);
+	for
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE4NjkxODAyXX0=
+eyJoaXN0b3J5IjpbMTMzMjk2MzkzNl19
 -->
