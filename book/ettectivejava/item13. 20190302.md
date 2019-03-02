@@ -75,9 +75,16 @@ public class HashTable implements Cloneable {
 	...
 	@Override
 	public HashTable clone() {
+		try {
+			HashTable result = (HashTable) super.clone();
+			result.buckets = buckets.clone();
+			return result;
+		} catch (CloneNotSupportedException e) {
+			throw new AssertionError();
+		}
 	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NTM1NzM3N119
+eyJoaXN0b3J5IjpbLTE1Mzg2MjkwMDZdfQ==
 -->
