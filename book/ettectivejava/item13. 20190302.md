@@ -56,10 +56,10 @@ public class Stack {
 	}
 }
 ```
-* Cloneable 구현3
+* Cloneable 구현3-1
 	* clone을 재귀적으로 호출하는 것만으로 불충분 할때
 	* 해시테이블용 clone
-	* 복제본은 자신만의 버킷배열을 갖지만, 이 배열은 원본과 같은 연결리스트를 참조하여 오류 발생 
+	* 복제본은 자신만의 버킷배열을 갖지만, 이 배열은 원본과 같은 연결리스트를 참조하여 오류 발생 가능
 ```java
 public class HashTable implements Cloneable {
 	private Entry[] buckets = ...;
@@ -74,6 +74,7 @@ public class HashTable implements Cloneable {
 		}
 	}
 	...
+	// ERROR!!
 	@Override
 	public HashTable clone() {
 		try {
@@ -86,6 +87,37 @@ public class HashTable implements Cloneable {
 	}
 }
 ```
+* Cloneable 구현3-2
+```java
+public class HashTable implements Cloneable {
+	private Entry[] buckets = ...;
+	private static class Entry {
+		final Object key;
+		Object value;
+		Entry next;
+		Entry(Object key, Object value, Entry next) {
+			this.key = key;
+			this.value = value;
+			this.next = next;
+		}
+//
+		Entry
+	}
+	...
+	// ERROR!!
+	@Override
+	public HashTable clone() {
+		try {
+			HashTable result = (HashTable) super.clone();
+			result.buckets = buckets.clone();
+			return result;
+		} catch (CloneNotSupportedException e) {
+			throw new AssertionError();
+		}
+	}
+}
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2OTQxMzQ2XX0=
+eyJoaXN0b3J5IjpbMTM4MzMyNzU3MV19
 -->
