@@ -36,7 +36,8 @@ public PhoneNumber clone() {
 		* *배열은 clone 기능을 제대로 사용하는 유일한 예*
 	* elements 필드가 final이 였다면 ?
 		* 아래 방식은 작동하지 않음
-		* fi 
+		* final 필드에는 새로운 값을 할당할 수 없기 때문에
+		* **Cloneable 아키텍처는 '가변 객체를 참조하는 필드는 final로 선언하라'는 일반 용법과 충돌**
 ```java
 public class Stack {
 	private Object[] elements;
@@ -55,6 +56,8 @@ public class Stack {
 	}
 }
 ```
+* Cloneable 구현3
+	* clon
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk1ODU1MDEzXX0=
+eyJoaXN0b3J5IjpbLTEwMjg1MzcxOTVdfQ==
 -->
