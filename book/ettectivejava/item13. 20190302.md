@@ -159,6 +159,9 @@ public Yum(Yum yum) {...};
 
 public static Yum newInstance(Yum yum) {..};
 ```
+
+** 핵심정리
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODU0NjQzNzNdfQ==
+eyJoaXN0b3J5IjpbLTEzMDM4MTM0OTFdfQ==
 -->
