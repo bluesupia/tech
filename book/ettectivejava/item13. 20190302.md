@@ -160,8 +160,12 @@ public Yum(Yum yum) {...};
 public static Yum newInstance(Yum yum) {..};
 ```
 
-** 핵심정리
+## 핵심정리
+* Cloneable을 구현하는 모든 클래스는 clone을 재정의 해야한다
+* 접근 제한자는 public으로 반환 타입은 클래스자신으로 변경
+* 가장 먼저 super.clone 호출 후 필요한 필드를 적절히 수정
+	* 객체 내부 '깊은 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDM4MTM0OTFdfQ==
+eyJoaXN0b3J5IjpbMTEyMzk0NTg4MV19
 -->
