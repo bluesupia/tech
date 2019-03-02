@@ -131,10 +131,15 @@ public class HashTable implements Cloneable {
 ```java
 Entry deepCopy() {
 	Entry result = new Entry(key, value, next);
-	for
+	for(Entry p = result; p.next!=null; p = p.next) {
+		p.next = new Entry(p.next.key, p.next.value, p.next.next);
+	}
+	result result'
 }
 ```
+* Cloneable 구현3-4
+	* 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjk2MzkzNl19
+eyJoaXN0b3J5IjpbMTUxMzAzMTE2N119
 -->
