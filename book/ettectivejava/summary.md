@@ -30,7 +30,7 @@
 
 ## 아이템12.  toString을 항상 재정의하라
 
-
+## 아이템13. clone 재정의는 주의해서 작성하라
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NTA3OTQ5OF19
+eyJoaXN0b3J5IjpbLTk0MDczNzY5NF19
 -->
