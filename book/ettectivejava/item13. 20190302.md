@@ -16,10 +16,13 @@
 @Override
 public PhoneNumber clone() {
 	try {
-	} catch (CloneNot {
+		return (PhoneNumber) super.clone();
+	} catch (CloneNotSupportedException e) {
+		throw new AssertionError();
 	}
 }
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NDA0MTU2XX0=
+eyJoaXN0b3J5IjpbLTY2MDgxMjUxN119
 -->
