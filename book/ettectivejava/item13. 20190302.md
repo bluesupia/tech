@@ -28,6 +28,9 @@ public PhoneNumber clone() {
 	* 가변 객체를 참조
 	* super.clone 만 할 경우
 		* size 필드는 올바른 값을 갖지만, elements 필드는 원본 Stack인스턴스와 똑같은 배열을 참조
+	* **clone 메서드는 생성자와 같은 효과를 낸다**
+		* **clone은 원본 객체에 아무런 해를 끼치지 않는 동시에 복제된 객체의 불변식을 보장** 해야함
+	* elemnet
 ```java
 public class Stack {
 	private Object[] elements;
@@ -47,5 +50,5 @@ public class Stack {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTk0NTE1M119
+eyJoaXN0b3J5IjpbMTQ1NDY1ODQ0OF19
 -->
