@@ -4,8 +4,9 @@
 	* 복제해도 되는 클래스임을 명시하는 용도의 믹스인 인터페이스이나 의도한 목적을 제대로 이루지 못함
 	* 가장 큰 문제는, clone 메서드가 선언된 곳이 Cloneable이 아닌 Object 이고 그마저도 projected 
 	* Cloneable 인터페이스가 하는일
-		* Object의 protected 메서드인 clone 의 동장 방식을 결정
-	* 
+		* Object의 protected 메서드인 clone 의 동작 방식을 결정
+		* Cloneable 구현 클래스의 인스턴스에서 clone을 호출하면 그 객체의 필드들을 하나하나 복사한 객체를 반환
+		* 그렇지 않으
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTY2MDQwM119
+eyJoaXN0b3J5IjpbLTE1MDk1ODI5MjldfQ==
 -->
