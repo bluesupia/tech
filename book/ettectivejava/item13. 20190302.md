@@ -88,6 +88,8 @@ public class HashTable implements Cloneable {
 }
 ```
 * Cloneable 구현3-2
+	* 깊은복사(deep copy)를 지원하도록 보강
+	* 리스트가 길면 스택 오버플로그
 ```java
 public class HashTable implements Cloneable {
 	private Entry[] buckets = ...;
@@ -106,14 +108,15 @@ public class HashTable implements Cloneable {
 		}
 	}
 	...
-	// ERROR!!
 	@Override
 	public HashTable clone() {
 		try {
 			HashTable result = (HashTable) super.clone();
 			result.buckets = new Entry[buckets.length];
 			for (int i = 0; i < buckets.length; i++) {
-				if (buck
+				if (buckets[i] != null) {
+					result.buckets[i] = buckets[i].deepCopy();
+				}
 			}
 			return result;
 		} catch (CloneNotSupportedException e) {
@@ -124,5 +127,5 @@ public class HashTable implements Cloneable {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzI2Mzg2MTBdfQ==
+eyJoaXN0b3J5IjpbNjE4NjkxODAyXX0=
 -->
