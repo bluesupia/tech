@@ -25,9 +25,9 @@ public PhoneNumber clone() {
 }
 ```
 * Cloneable 구현2
-	* 가변 객체를 참조하는 경우
-	* Stack의 elements
-
+	* 가변 객체를 참조
+	* super.clone 만 할 경우
+		* size 필드는 올바른 값을 갖지만, elements 필드는 원본 Stack인스턴스와 똑같은 배열을 참조
 ```java
 public class Stack {
 	private Object[] elements;
@@ -47,5 +47,5 @@ public class Stack {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTExMDA3OTUwXX0=
+eyJoaXN0b3J5IjpbLTY1OTk0NTE1M119
 -->
