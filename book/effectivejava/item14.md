@@ -26,9 +26,10 @@
 		* 입력 인수의 타입을 확인하거나 형변환할 필요가 없다
 			* Comparable은 타입을 인수로 받는 제너릭 인터페이스이므로 compareTo 메서드의 인수 타입은 컴파일 타임에 정해짐
 		* null을 인수로 넣어 호출하면 NullPointerException을 던져야함
-* 주의
-	* 
-> Written with [StackEdit](https://stackedit.io/).
+* 객체 참조 필드 비교
+	* compareTo 메서드는 각 필드의 순서를 비교 (동치 비교가 아님)
+	* 비교를 위해서는 compareTo 메서드를 재귀적으로 호출
+	* Comparable을 구현하지 않은 필드나 표준이 아닌 순서로 비교해야 한다면 비교자(Compar
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MjA0MDMwNl19
+eyJoaXN0b3J5IjpbLTE0MDE0NTk2NzFdfQ==
 -->
