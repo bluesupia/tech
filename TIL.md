@@ -1,4 +1,4 @@
-20190303
+### 20190303
 Locale 찾다가... 
 SIMPLIFIED_CHINESE / TRADITIONAL_CHINESE
 ```java
@@ -15,5 +15,5 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA1MjczNDEyXX0=
+eyJoaXN0b3J5IjpbLTg1ODA5NTYxNV19
 -->
