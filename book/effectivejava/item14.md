@@ -16,8 +16,10 @@
 	* 대칭성 : 첫번째가 두번째보다 크고, 두번째가 세번째 보다 크면, 첫번째는 세번째 보다 커야한다
 	* 추이성 : 크기가 같은 객체들끼리는 어떤 객체와 비교하더라도 항상 같아야 한다
 	* compareTo 메서드로 수행한 동치성 테스트의 결과가 equals와 같아야 한다
-		* 
+		* 정렬된 컬렉션들은 동치성 비교시, equals 대신 compareTo를 사용하기 때문
+			* new BigDecimal("1.0") 과 new BigDecimal("1.00") 
+				* 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg2MjI2MzcwXX0=
+eyJoaXN0b3J5IjpbMTIzMDczOTE1MF19
 -->
