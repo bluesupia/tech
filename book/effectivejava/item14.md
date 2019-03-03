@@ -18,8 +18,12 @@
 	* compareTo 메서드로 수행한 동치성 테스트의 결과가 equals와 같아야 한다
 		* 정렬된 컬렉션들은 동치성 비교시, equals 대신 compareTo를 사용하기 때문
 			* new BigDecimal("1.0") 과 new BigDecimal("1.00") 
-				* 
+				* HashSet은 원소 두개를 가짐
+				* TreeSet은 한개의 원소를 가짐
+* compareTo 작성요령
+	* equals 와 비슷
+	* Comparable은 타입을 인수로 받는 제너릭 인터페이스이므로 채
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMDczOTE1MF19
+eyJoaXN0b3J5IjpbLTEwMjE5ODg1OF19
 -->
