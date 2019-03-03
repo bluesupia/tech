@@ -42,7 +42,9 @@
 		* comparing : 정적 메서드 2개가 다중정의
 			* 첫번째 : 키 추출자를 받아서 그 키의 자연적 순서를 사용
 			* 두번째 : 키 추출자 하나와 추출된 키를 비교할 비교자까지 총 2개의 인수를 받음
-			* 세번째 : 키 추출자 하나와 추출된 키를 비굫
+		* thenComparing : 정적 메서드 3개 다중정의
+			* 첫번째 : 비교자 하나만 인수도 받아 그 비교
+			* 세번째 : 키 추출자 하나와 추출된 키를 비교할 비교자까지 총 2개의 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMzM0OTUzM119
+eyJoaXN0b3J5IjpbMTk2OTEyMTE3NV19
 -->
