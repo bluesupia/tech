@@ -29,7 +29,8 @@
 * 객체 참조 필드 비교
 	* compareTo 메서드는 각 필드의 순서를 비교 (동치 비교가 아님)
 	* 비교를 위해서는 compareTo 메서드를 재귀적으로 호출
-	* Comparable을 구현하지 않은 필드나 표준이 아닌 순서로 비교해야 한다면 비교자(Compar
+	* Comparable을 구현하지 않은 필드나 표준이 아닌 순서로 비교해야 한다면 비교자(Comparator)를 대신 사용
+	* 정
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDE0NTk2NzFdfQ==
+eyJoaXN0b3J5IjpbMTgxOTUzMDE0MF19
 -->
