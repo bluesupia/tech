@@ -1,9 +1,10 @@
 
 # 24. 국제화와 지역화
-## Locale
 **Write once, run anywhere**
 * 국제화(Internationalization) : 프로그램을 유연하게 작성하는 것
-* 지역화
+* 지역화(Localization) : 국제화 도구를 사용하여 프로그램을 특정 로케일(Locale)에 적합하게 만드는 것 (ex. 메시지를 로케일 언어로 번역)
+## Locale
+
 
 ## 리소스 번들
 ### ListResourceBundle
@@ -23,5 +24,5 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDU5NjY3OF19
+eyJoaXN0b3J5IjpbMTI2MzY2MjU0N119
 -->
