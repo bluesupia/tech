@@ -7,11 +7,12 @@
 		* compareTo는 단순 동치성 비교에 더해 *순서*까지 비교
 		* 제너릭
 * Comparable
-	* 구현했다는 것은 그 클래스의 인스턴스들에는 자연적인 순서가 있음을 의미
+	* Comparable 구현했다는 것은 그 클래스의 인스턴스들에는 자연적인 순서가 있음을 의미
 	* 검색, 극단값 계산, 자동 정렬되는 컬렉션 관리도 쉽게 가능
-	* 자바 플랫폼
-
+	* 자바 플랫폼 라이브러리의 모든 값 클래스와 열거타입이 Comparable을 구현
+	* 알파벳, 숫자, 연대 같이 순서가 명확한 값 클래스라면 Comparable 인터페이스를 구현하라!
+* compareTo 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc4MjQ1NzMwXX0=
+eyJoaXN0b3J5IjpbLTE0NTE2NzIwODNdfQ==
 -->
