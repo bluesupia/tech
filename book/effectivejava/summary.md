@@ -31,6 +31,9 @@
 ## 아이템12.  toString을 항상 재정의하라
 
 ## 아이템13. clone 재정의는 주의해서 작성하라
+
+## 아이템14. Comparable을 구현할 지 고려하라
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MDczNzY5NF19
+eyJoaXN0b3J5IjpbLTI0MzM3NzcwN119
 -->
