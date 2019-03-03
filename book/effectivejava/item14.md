@@ -49,7 +49,15 @@
 * 주의!! '값의 차'를 기준으로 하는 비교자 
 	* 추이성을 위해!
 	* 정수 오버플로를 일으키거나 IEEE 754 부동소수점 계산 방식에 따른 오류를 낼 수 있다
-	* 대신 정적 compare 메서드를 활용한 비교자나 비교자 생성 메서드를 활용한 비교자를 사용하자
+	 ```java
+	 static Comparator<Object> hashCodeOrder = new Comparator<>() {
+		 public int compare(Object o1, Object o2) {
+			 return 
+		 }
+	 }
+	```
+	* 대신 정적 compare 메서드를 활용한 비교자나 비교자 생성 메서드를 활용한 비교자를 사용하자!
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTgyNjM1MDhdfQ==
+eyJoaXN0b3J5IjpbLTU5ODI4MTg4Ml19
 -->
