@@ -37,7 +37,12 @@
 		* 비교자 생성 메서드 (Comparator construction method)와 메서드 연쇄 방식으로 비교자를 생성하면 간결하나 성능저하
 * Comparator
 	* 수많은 보조 생성 메서드들 존재
-	* comparingInt, thenComparingIn
+	* comparingInt, thenComparingInt ...
+	* 객체 참조용 비교자 생성메서드도 준비
+		* comparing : 정적 메서드 2개가 다중정의
+			* 첫번째 : 키 추출자를 받아서 그 키의 자연적 순서를 사용
+			* 두번째 : 키 추출자 하나와 추출된 키를 비교할 비교자까지 총 2개의 인수를 받음
+			* 세번째 : 키 추출자 하나와 추출된 키를 비굫
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MTYyODU3Nl19
+eyJoaXN0b3J5IjpbMTMxMzM0OTUzM119
 -->
