@@ -66,13 +66,9 @@
 	 }
 	```
 	```java
-	// 정적 compare 메서드 활용
-	 static Comparator<Object> hashCodeOrder = new Comparator<>() {
-		 public int compare(Object o1, Object o2) {
-			 return Integer.compare(o1.hashCode() - o2.hashCode());
-		 }
-	 }
+	// 비교자 생성 메서드를 활용한 비교자
+	 static Comparator<Object> hashCodeOrder = Comparator.comparingInt(o -> o.hashCode());
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1NjY3MDU1XX0=
+eyJoaXN0b3J5IjpbNzQyOTY5NDc3XX0=
 -->
