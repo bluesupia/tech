@@ -52,12 +52,12 @@
 	 ```java
 	 static Comparator<Object> hashCodeOrder = new Comparator<>() {
 		 public int compare(Object o1, Object o2) {
-			 return 
+			 return o1.hashCode() - o2.hashCode();
 		 }
 	 }
 	```
 	* 대신 정적 compare 메서드를 활용한 비교자나 비교자 생성 메서드를 활용한 비교자를 사용하자!
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODI4MTg4Ml19
+eyJoaXN0b3J5IjpbLTYwNDQ4OTUzMV19
 -->
