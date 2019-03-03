@@ -12,11 +12,12 @@
 	* effective java
 		* [item1-11](book/effectivejava/item1~11.md)
 		* [item12](book/effectivejava/item12.md)
-		*  [item13](book/effectivejava/item13.md)
+		* [item13](book/effectivejava/item13.md)
+		* [item14](book/effectivejava/item14.md)
 	* 자바 프로그래밍 언어
 		* [chapter1. 자바 개요](jpl/chapter1.md)
 * [기술 블로그](techblog.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NzU3ODk5NiwyMTM0NDgzNjI0XX0=
+eyJoaXN0b3J5IjpbNDIxMTE3MzI2LDIxMzQ0ODM2MjRdfQ==
 -->
