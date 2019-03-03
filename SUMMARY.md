@@ -14,10 +14,13 @@
 		* [item12](book/effectivejava/item12.md)
 		* [item13](book/effectivejava/item13.md)
 		* [item14](book/effectivejava/item14.md)
-	* 자바 프로그래밍 언어
+	* 자바 프로그래밍 언어 (거꾸로보기)
+		* [chapter25. 표준패키지](jpl/chapter25.md)
+		* [chapter24. 표준패키지](jpl/chapter25.md)
 		* [chapter1. 자바 개요](jpl/chapter1.md)
 * [기술 블로그](techblog.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxMTE3MzI2LDIxMzQ0ODM2MjRdfQ==
+eyJoaXN0b3J5IjpbLTEwODAwMTI3NTYsNDIxMTE3MzI2LDIxMz
+Q0ODM2MjRdfQ==
 -->
