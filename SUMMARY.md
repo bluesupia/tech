@@ -8,7 +8,7 @@
    * [Docker](docker.md)
 * [TIP](tip.md)
 	* [TIL](TIL.md)
-   * [terminal](terminal.md)
+	* [terminal](terminal.md)
 * BOOK
 	* effective java
 		* [item1-11](book/effectivejava/item1~11.md)
@@ -22,6 +22,6 @@
 * [기술 블로그](techblog.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyODYyNDkzMSw0MjExMTczMjYsMjEzND
+eyJoaXN0b3J5IjpbLTI3MDExMjk2Nyw0MjExMTczMjYsMjEzND
 Q4MzYyNF19
 -->
