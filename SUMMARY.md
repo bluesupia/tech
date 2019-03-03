@@ -7,6 +7,7 @@
    * [Linux](linux.md)
    * [Docker](docker.md)
 * [TIP](tip.md)
+	* [TIL](TIL.md)
    * [terminal](terminal.md)
 * BOOK
 	* effective java
@@ -21,6 +22,6 @@
 * [기술 블로그](techblog.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NzY5OTcyMSw0MjExMTczMjYsMjEzND
+eyJoaXN0b3J5IjpbMTcyODYyNDkzMSw0MjExMTczMjYsMjEzND
 Q4MzYyNF19
 -->
