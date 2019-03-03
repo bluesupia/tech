@@ -4,8 +4,7 @@
 * 국제화(Internationalization) : 프로그램을 유연하게 작성하는 것
 * 지역화(Localization) : 국제화 도구를 사용하여 프로그램을 특정 로케일(Locale)에 적합하게 만드는 것 (ex. 메시지를 로케일 언어로 번역)
 ## Locale
-
-
+* java.util.Locale : 장소, 즉 문화적, 정치적, 지리적인 것을 기술
 ## 리소스 번들
 ### ListResourceBundle
 ### PropertyResourceBundle
@@ -24,5 +23,5 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MzY2MjU0N119
+eyJoaXN0b3J5IjpbMTcxMTA0OTA3Nl19
 -->
