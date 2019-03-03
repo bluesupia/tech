@@ -69,6 +69,11 @@
 	// 비교자 생성 메서드를 활용한 비교자
 	 static Comparator<Object> hashCodeOrder = Comparator.comparingInt(o -> o.hashCode());
 	```
+
+### in my case
+* Comparator와 Comparable이 항상 헷갈렸다. 
+* 값의 차로 비교자 (Comparator)을 생성해서 사용한 적이 있었던 것 같다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyOTY5NDc3XX0=
+eyJoaXN0b3J5IjpbMzk5NDk0OTgzXX0=
 -->
