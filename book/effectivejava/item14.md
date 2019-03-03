@@ -22,8 +22,13 @@
 				* TreeSet은 한개의 원소를 가짐
 * compareTo 작성요령
 	* equals 와 비슷
-	* Comparable은 타입을 인수로 받는 제너릭 인터페이스이므로 채
+	* 차이점
+		* 입력 인수의 타입을 확인하거나 형변환할 필요가 없다
+			* Comparable은 타입을 인수로 받는 제너릭 인터페이스이므로 compareTo 메서드의 인수 타입은 컴파일 타임에 정해짐
+		* null을 인수로 넣어 호출하면 NullPointerException을 던져야함
+* 주의
+	* 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjE5ODg1OF19
+eyJoaXN0b3J5IjpbMTA2MjA0MDMwNl19
 -->
