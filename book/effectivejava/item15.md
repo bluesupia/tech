@@ -24,9 +24,11 @@
 		* public
 * 고려사항
 	* 공개API 설계후 모든 멤버는 private로 만들고 오직 같은 패키지의 다른 클래스가 접근해야하는 메버에 한하여 private 제거 (package-private)
+		* 이 작업이 자주 하게 된다면 컴포넌트 분리를 고려해보자
 	* 테스트만을 위해 클래스, 인터페이스, 멤버를 공개 API로 만들어서는 안됨
 		* package-private 까지 풀어주는 것은 허용!
 	* **public클래스의 인스턴스 필드는 되도록 public이 아니어야 한다**
+		* ** thread-safe 하지 않음**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NjA1Mzk4MywxMDkyMTE5NTU5XX0=
+eyJoaXN0b3J5IjpbMTA4OTYwMjY2NSwxMDkyMTE5NTU5XX0=
 -->
