@@ -37,7 +37,9 @@
 			* 해당 클래스가 표현하는 추상 개념을 완성하는데 꼭 필요한 구성요소로써의 상수라면 public static final로 공개
 	* 길이가 0이 아닌 배열은 모두 변경 가능
 		* **클래스에서 public static final 배열 필드를 두거나 이 필드를 반환하는 접근자 메서드를 제공해서는 안됨**
-
+* 자바 9에서 모듈시스템 도입으로 추가된 두가지 암묵적 접근 수준
+	* public 수준
+	* protected 수준
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTY0NzExOSwxMDkyMTE5NTU5XX0=
+eyJoaXN0b3J5IjpbMjkzNTE2ODMzLDEwOTIxMTk1NTldfQ==
 -->
