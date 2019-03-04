@@ -21,6 +21,15 @@
 	* 이값은 부호가 있으며 음수값은 신기원 전
 ### Calendar
 * 시간의 추이를 표시
+* 대부분의 나라에서는 교황 그레고리 13세 이후부터 그레고리안 달력을 사용
+* 달력 추상 개념
+	* Calendar
+	* TimeZone
+	* java.text.DateFormat
+* 달력의 구체적인 구현 클래스
+	* GregorianCalendar
+	* SimpleTimeZone - GregorianCalendar 와 함께 사용
+	* ㅓㅁㅍㅁ.ㅅㄷㅌㅅ.
 ### 시간대
 ### GregorianCalendar와 SimpleTimeZone
 ## 날짜와 시간을 포맷팅하고 파싱하기
@@ -32,5 +41,5 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTY5OTU0NjQsMTcxMTA0OTA3Nl19
+eyJoaXN0b3J5IjpbNTEyNzY3ODIwLDE3MTEwNDkwNzZdfQ==
 -->
