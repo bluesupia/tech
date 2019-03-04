@@ -45,7 +45,12 @@
 ## 핵심정리
 * 프로그램 요소의 접근성은 가능한 한 최소한으로 하라
 * 꼭 필요한 것만 골라 최소한의 public API를 설계
-* 그 욍
+* 그 외에는 클래스, 인터페이스, 멤버가 의도치 않게 API로 공개되는 일이 없도록 한다
+* public클래스는 상수용 public static final 필드 외에는 어떠한 public 필드도 가져서는 안된다
+* public static final 필드가 참조하는 객체가 불변인지 확인
+
+###  in my case.
+* 그동안 public클래스안에서 public 필드를.. ID
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTEwOTEzMjcsMTA5MjExOTU1OV19
+eyJoaXN0b3J5IjpbLTU1MTgzMzI1OCwxMDkyMTE5NTU5XX0=
 -->
