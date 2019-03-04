@@ -6,6 +6,7 @@
 ## Locale
 * java.util.Locale : 장소, 즉 문화적, 정치적, 지리적인 것을 기술
 ## 리소스 번들
+* 추상 클래스 ResourceBundle은 번들 내의 자원을 문자열 키로 찾을 수 있ㄴ는 메소드와 키가 없을 경우 검색 대상으로 부모 번들을 제공하는 메소드를 제공
 ### ListResourceBundle
 ### PropertyResourceBundle
 ### ResourceBundle의 서브 클래스 만들기
@@ -23,5 +24,5 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMTA0OTA3Nl19
+eyJoaXN0b3J5IjpbLTE5NjUzNTEzMCwxNzExMDQ5MDc2XX0=
 -->
