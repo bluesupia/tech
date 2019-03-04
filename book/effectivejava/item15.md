@@ -30,6 +30,11 @@
 	* **public클래스의 인스턴스 필드는 되도록 public이 아니어야 한다**
 		* 필드가 가변객체를 참조하거나, final이 아닌 인스턴스 필드를 public으로 선언하면, 그 필드와 관련된 모든 것은 불변식을 보장할 수 없게 됨
 		* 필드가 수정될 때 다른 작업을 할 수 없게되므로, ** thread-safe 하지 않음**
+		* 내부구현 수정시, public 필드를 없애는 방식으로는 리팩터링 할 수 없음
+	* public클래스의 정적필드
+		* 인스턴스 필드와 마찬가지
+		* 예외
+			* 해당 클래스가 표현하는 추상 개념을 완성하는데 꼭 필요한 구성요소로써의 상수라면 public static final로 공개
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NjcxMjEzNSwxMDkyMTE5NTU5XX0=
+eyJoaXN0b3J5IjpbNjI1NzM2NzA2LDEwOTIxMTk1NTldfQ==
 -->
