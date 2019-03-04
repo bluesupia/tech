@@ -8,14 +8,15 @@
 ## 리소스 번들
 * 추상 클래스 ResourceBundle은 번들 내의 자원을 문자열 키로 찾을 수 있는 메소드와 키가 없을 경우 검색 대상으로 부모 번들을 제공하는 메소드를 제공
 * **in my proj.**
-* Spring > ResourceBundleMessageSource
+	* Spring 의 ResourceBundleMessageSource 사용
 
 ### ListResourceBundle
 ### PropertyResourceBundle
 ### ResourceBundle의 서브 클래스 만들기
 ## Currency
-
+* 통화(Currency) 인코딩은 로케일과 매우 많은 관련이 있고, 통화값을 적적하게 표현하기 위해서는 java.util.Currency 클래스 사용
 ## Time, Date, Calendar
+* 시간은
 ### Calendar
 ### 시간대
 ### GregorianCalendar와 SimpleTimeZone
@@ -28,5 +29,5 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM2MTQ1NzcxLDE3MTEwNDkwNzZdfQ==
+eyJoaXN0b3J5IjpbODA5Njc2ODE5LDE3MTEwNDkwNzZdfQ==
 -->
