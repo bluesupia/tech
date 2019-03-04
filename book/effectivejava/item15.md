@@ -50,7 +50,10 @@
 * public static final 필드가 참조하는 객체가 불변인지 확인
 
 ###  in my case.
-* 그동안 public클래스안에서 public 필드를.. ID
+* 그동안 public클래스안에서 public 필드를 마구 만들어 냈던듯 하다. 크게 고려하지 않았다. 또다시 부끄러움은 내몫인가
+* 최소화 하고 필요한 부분을 오픈하자!
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTgzMzI1OCwxMDkyMTE5NTU5XX0=
+eyJoaXN0b3J5IjpbLTEwNDU0OTAzODgsMTA5MjExOTU1OV19
 -->
