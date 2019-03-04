@@ -22,7 +22,10 @@
 		* package-private
 		* protected
 		* public
+* 주의사항
 	* 테스트만을 위해 클래스, 인터페이스, 멤버를 공개 API로 만들어서는 안됨
+		* package-private 까지 풀어주는 것은 허용!
+	* **public클래스의 인스턴스 필드는 되도록 public이 아니어야 한다**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjMzMzEyOSwxMDkyMTE5NTU5XX0=
+eyJoaXN0b3J5IjpbMTEwNTIwMDI0OCwxMDkyMTE5NTU5XX0=
 -->
