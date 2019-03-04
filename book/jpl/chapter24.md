@@ -34,6 +34,7 @@
 ### 시간대
 * TimeZone은 추상클래스로서 GMT 오프셋과 섬머타임같은 다른 오프셋도 포함
 ### GregorianCalendar와 SimpleTimeZone
+* GregorianCalendar 클래스는 Calendar를 구체화한 서브 클래스로써 UTC 를 반영
 ## 날짜와 시간을 포맷팅하고 파싱하기
 ### Fomatter를 사용하여 날짜와 시간 출력하기
 ## 텍스트의 국제화와 지역화
@@ -45,6 +46,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTIxMTIsLTE4OTk5MTA1NTQsMTcxMT
-A0OTA3Nl19
+eyJoaXN0b3J5IjpbNTI2ODIyMjIxLC0xODk5OTEwNTU0LDE3MT
+EwNDkwNzZdfQ==
 -->
