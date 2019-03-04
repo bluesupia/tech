@@ -37,11 +37,14 @@
 ## 날짜와 시간을 포맷팅하고 파싱하기
 ### Fomatter를 사용하여 날짜와 시간 출력하기
 ## 텍스트의 국제화와 지역화
-### 컬레이션
+### 컬레이션 (Collation)
+* 문자열을 로케일 관련 형식으로 비교하는 것
+* 비교의 중심 클래스는 Collator
 ### 포맷팅과 파싱
 ### 텍스트 경계
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTk5MTA1NTQsMTcxMTA0OTA3Nl19
+eyJoaXN0b3J5IjpbMjAyNTIxMTIsLTE4OTk5MTA1NTQsMTcxMT
+A0OTA3Nl19
 -->
