@@ -29,8 +29,10 @@
 * 달력의 구체적인 구현 클래스
 	* GregorianCalendar
 	* SimpleTimeZone - GregorianCalendar 와 함께 사용
-	* ㅓㅁㅍㅁ.ㅅㄷㅌㅅ.
+	* java.text.SimpleDateFormat 클래스 - 그레고리안 날짜와 시간을 원하는 형식으로 표현하고 파싱함
+
 ### 시간대
+* TimeZone은 추상클래스로서 GMT 오프셋과 섬머타임같은 다른 오프셋도 포함
 ### GregorianCalendar와 SimpleTimeZone
 ## 날짜와 시간을 포맷팅하고 파싱하기
 ### Fomatter를 사용하여 날짜와 시간 출력하기
@@ -41,5 +43,5 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEyNzY3ODIwLDE3MTEwNDkwNzZdfQ==
+eyJoaXN0b3J5IjpbLTE4OTk5MTA1NTQsMTcxMTA0OTA3Nl19
 -->
