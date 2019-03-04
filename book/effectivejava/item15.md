@@ -17,6 +17,11 @@
 	* 톱레벨 클래스와 인터페이서에 부여할 수 있는 접근 수준
 		* package-private : 해당 패키지 안에서만 이용
 		* public : 공개 API
+	* 멤버(필드, 메서드, 중첩 클래스, 중첩 인터페이스) 에 부여할 수 있는 접근 수준
+		* private
+		* package-private
+		* protected
+		* public
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MzQxOTk5NiwxMDkyMTE5NTU5XX0=
+eyJoaXN0b3J5IjpbMTYwODcyNzE3NCwxMDkyMTE5NTU5XX0=
 -->
