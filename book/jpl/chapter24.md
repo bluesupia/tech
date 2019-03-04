@@ -16,8 +16,11 @@
 ## Currency
 * 통화(Currency) 인코딩은 로케일과 매우 많은 관련이 있고, 통화값을 적적하게 표현하기 위해서는 java.util.Currency 클래스 사용
 ## Time, Date, Calendar
-* 시간은
+* 시간(Time)은 그라니치 표준시(GMT) 1970년 1월 1일 밤 12시 이후부터 밀리세컨드로 측정한 long형 정수로 표현
+* 시간 측정의 시작 시점은 신기원(the epoch)
+	* 이값은 부호가 있으며 음수값은 신기원 전
 ### Calendar
+* 시간의 추이를 표시
 ### 시간대
 ### GregorianCalendar와 SimpleTimeZone
 ## 날짜와 시간을 포맷팅하고 파싱하기
@@ -29,5 +32,5 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5Njc2ODE5LDE3MTEwNDkwNzZdfQ==
+eyJoaXN0b3J5IjpbLTEzNTY5OTU0NjQsMTcxMTA0OTA3Nl19
 -->
