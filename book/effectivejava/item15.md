@@ -29,7 +29,7 @@
 		* package-private 까지 풀어주는 것은 허용!
 	* **public클래스의 인스턴스 필드는 되도록 public이 아니어야 한다**
 		* 필드가 가변객체를 참조하거나, final이 아닌 인스턴스 필드를 public으로 선언하면, 그 필드와 관련된 모든 것은 불변식을 보장할 수 없게 됨
-		* 필드가 수정될 때 다른 작업을 할 수 없게되므로,** thread-safe 하지 않음**
+		* 필드가 수정될 때 다른 작업을 할 수 없게되므로, ** thread-safe 하지 않음**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzI1NTgwMSwxMDkyMTE5NTU5XX0=
+eyJoaXN0b3J5IjpbMTU0NjcxMjEzNSwxMDkyMTE5NTU5XX0=
 -->
