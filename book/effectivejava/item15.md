@@ -12,6 +12,8 @@
 * 자바가 제공하는 정보은닉의 장치
 	* 접근 제어 매커니즘
 		* 클래스, 인터페이스, 멤버의 접근성을 명시
+		* 각 요소의 접근성은 그 요소가 선언된 위치와 접근 제한자로 정해짐
+		* **모든 클래스와 멤버의 접근성을 가능한 한 좁혀**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MjExOTU1OV19
+eyJoaXN0b3J5IjpbLTExMDEyMzYzMTAsMTA5MjExOTU1OV19
 -->
