@@ -1,6 +1,6 @@
 ### 20190304
 **java.lang.InstantiationError**
-* 어플리케이션이 Java `new` 구문을 사용해 abstract 클래스나 인터페이스의 인스턴스를 생성하려고 했을 때
+* 어플리케이션이 Java `new` 구문을 사용해 abstract 클래스나 인터페이스의 인스턴스를 생성하려고 했을 때 발생하는 Error
 http://cris.joongbu.ac.kr/course/java/api/java/lang/InstantiationError.html
 ### 20190303
 Locale 찾다가... 
@@ -19,5 +19,5 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk1MjMzNzE2LC04NTgwOTU2MTVdfQ==
+eyJoaXN0b3J5IjpbLTE0OTE1ODExNjEsLTg1ODA5NTYxNV19
 -->
