@@ -23,7 +23,7 @@
 
 ## 아이템9.  try-finally 보다는 try-with-resources를 사용하라.
 
-# 모든 객체의 메서드
+# 모든 객체의 공통 메서드
 ## 아이템10.  equals는 일반 규약을 지켜 재정의하라
 
 ## 아이템11. equals를 재정의하려거든 hashCode도 재정의하라
@@ -34,8 +34,8 @@
 
 ## 아이템14. Comparable을 구현할 지 고려하라
 
-#클래스와 인터페이스
+# 클래스와 인터페이스
 ## 아이템15. 클래스와 멤버의 접근 권한을 최소화하라
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NzkyNzQ3MV19
+eyJoaXN0b3J5IjpbLTEzNDAzNDc3OV19
 -->
