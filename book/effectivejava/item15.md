@@ -9,6 +9,9 @@
 	* 그 자체가 성능을 높여주지는 않지만, 성능 최적화에 도움을 줌
 	* 소프트웨어 재사용성을 높임
 	* 큰 시스템을 제작하는 난이도를 낮춤
+* 자바가 제공하는 정보은닉의 장치
+	* 접근 제어 매커니즘
+		* 클래스, 인터페이스, 멤버의 접근성을 명시
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjg5MzMzXX0=
+eyJoaXN0b3J5IjpbMTA5MjExOTU1OV19
 -->
