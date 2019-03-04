@@ -40,6 +40,12 @@
 * 자바 9에서 모듈시스템 도입으로 추가된 두가지 암묵적 접근 수준
 	* public 수준
 	* protected 수준
+	* 모듈에 적용되는 수준은 상당히 주의해서 사용해야함
+
+## 핵심정리
+* 프로그램 요소의 접근성은 가능한 한 최소한으로 하라
+* 꼭 필요한 것만 골라 최소한의 public API를 설계
+* 그 욍
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkzNTE2ODMzLDEwOTIxMTk1NTldfQ==
+eyJoaXN0b3J5IjpbLTIwOTEwOTEzMjcsMTA5MjExOTU1OV19
 -->
