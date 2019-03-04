@@ -14,7 +14,7 @@
 		* 클래스, 인터페이스, 멤버의 접근성을 명시
 		* 각 요소의 접근성은 그 요소가 선언된 위치와 접근 제한자로 정해짐
 		* **모든 클래스와 멤버의 접근성을 가능한 한 좁혀야함**
-	* 톱레벨 클래스와 인터페이서에 부여할 수 있는 접근 수준
+	* 톱레벨 클래스와 인터페이스에 부여할 수 있는 접근 수준
 		* package-private : 해당 패키지 안에서만 이용
 		* public : 공개 API
 	* 멤버(필드, 메서드, 중첩 클래스, 중첩 인터페이스) 에 부여할 수 있는 접근 수준
@@ -22,6 +22,7 @@
 		* package-private
 		* protected
 		* public
+	* 테스트만을 위해 클래스, 인터페이스, 멤버를 공개 API로 만들어서는 안됨
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwODcyNzE3NCwxMDkyMTE5NTU5XX0=
+eyJoaXN0b3J5IjpbMTkwNjMzMzEyOSwxMDkyMTE5NTU5XX0=
 -->
