@@ -1,3 +1,8 @@
+### 20190305
+필드 주입을 피하자
+
+https://ohjongsung.io/2017/06/02/%ED%95%84%EB%93%9C-%EC%A3%BC%EC%9E%85-field-injection-%EC%9D%84-%ED%94%BC%ED%95%98%EC%9E%90
+
 ### 20190304
 **java.lang.InstantiationError**
 * 어플리케이션이 Java `new` 구문을 사용해 abstract 클래스나 인터페이스의 인스턴스를 생성하려고 했을 때 발생하는 Error
@@ -19,5 +24,6 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTE1ODExNjEsLTg1ODA5NTYxNV19
+eyJoaXN0b3J5IjpbNDQ0NDYxMjAzLC0xNDkxNTgxMTYxLC04NT
+gwOTU2MTVdfQ==
 -->
