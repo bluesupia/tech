@@ -7,7 +7,7 @@
 	* #### **둘째, 의존 관계가 보이지 않는다.**
 * 필드 주입대신 ?
 	* 생성자 주입 : 필수적이며 불변 프로퍼티의 경우
-	* 수정자 주입 : 
+	* 수정자 주입 : 선택적이며 가변 프로퍼티의 경우
 
 * https://ohjongsung.io/2017/06/02/%ED%95%84%EB%93%9C-%EC%A3%BC%EC%9E%85-field-injection-%EC%9D%84-%ED%94%BC%ED%95%98%EC%9E%90
 
@@ -32,6 +32,6 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NDgyMDEyMSwtMTQ5MTU4MTE2MSwtOD
-U4MDk1NjE1XX0=
+eyJoaXN0b3J5IjpbLTE3Njk5OTA2NjAsLTE0OTE1ODExNjEsLT
+g1ODA5NTYxNV19
 -->
