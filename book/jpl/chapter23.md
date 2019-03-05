@@ -17,11 +17,14 @@
 
 # 프로세스 생성
 * 실행 중인 시스템은 여러 스레드를 실행할 수 있으며 자바 가상 머신을 탑재한 대부분의 시스템들도 여러 프로그램을 실행할 수 있다
-* Runtime.exec
+* Runtime.exec으로 새로운 프로그램을 실행
+* exec 호출 성공시, 현재 process 상에서 실행 중인 프로그램을 나타내는 새로운 Process 생성
+* Process 객체 
+	* 진행을 제어하기 위해 프로세스 상태를 질의하고 메소드를 호출하는 ㅇ
 # 셧다운
 # Runtime의 나머지 기능
 # 보안
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTI1NzE0OCwxMTcxNTA0MzU1XX0=
+eyJoaXN0b3J5IjpbMTMxMzE2MDA2MiwxMTcxNTA0MzU1XX0=
 -->
