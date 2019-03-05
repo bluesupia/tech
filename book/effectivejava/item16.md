@@ -5,7 +5,9 @@
 	* 클래스 선언 면에서나 이를 사용하는 클라이언트 면에서나 접근자 방식보다 깔끔
 * 자바 플랫폼 라이브러리에서 위 규칙을 어기는 사례 존재
 	* java.awt.package의 Point와 Dimension
-* public 클래스의 필드가 불변이라면 직접 노출할 때의 단점이 줄어들지만 
+* public 클래스의 필드가 불변일때
+	* 표현방식 바꿀 땐, API가 변경됨
+	* 필ㄷ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA5MjYwMDAwXX0=
+eyJoaXN0b3J5IjpbLTEzMjQ0NTk1MTZdfQ==
 -->
