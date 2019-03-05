@@ -16,6 +16,7 @@
 		* [item13](book/effectivejava/item13.md)
 		* [item14](book/effectivejava/item14.md)
 		* [item15](book/effectivejava/item15.md)
+		* [item16](book/effectivejava/item16.md)
 	* 자바 프로그래밍 언어 (거꾸로보기)
 		* [chapter25. 표준패키지](book/jpl/chapter25.md)
 		* [chapter24. 국제화와 지역화](book/jpl/chapter24.md)
@@ -23,6 +24,6 @@
 * [기술 블로그](techblog.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODQzMzE5MTMsNDIxMTE3MzI2LDIxMz
+eyJoaXN0b3J5IjpbLTExOTAzNzgwMjcsNDIxMTE3MzI2LDIxMz
 Q0ODM2MjRdfQ==
 -->
