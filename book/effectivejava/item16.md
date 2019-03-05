@@ -7,7 +7,8 @@
 	* java.awt.package의 Point와 Dimension
 * public 클래스의 필드가 불변일때
 	* 표현방식 바꿀 땐, API가 변경됨
-	* 필ㄷ
+	* 필드를 읽을 때 부수작업을 수행할 수 없다
+	* 불변식은 보장할 수 있음
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjQ0NTk1MTZdfQ==
+eyJoaXN0b3J5IjpbLTE3NDgxMjQ0NzVdfQ==
 -->
