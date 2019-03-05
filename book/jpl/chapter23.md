@@ -7,8 +7,12 @@
 	* 보안
 ## 표준 I/O 스트림
 * 표준 입력, 출력, 오류 스트림은 System 클래스의 정적 필드로 사용
-	* public static final InputStre
+	* public static final InputStream in
+	* public static final OutputStream out
+	* public static final PrintStream err
 ## 시스템 속성
+* 시스템 환경을 정의
+* Properties 객체에 저장
 ## 유틸리티 메소드
 
 # 프로세스 생성
@@ -17,5 +21,5 @@
 # 보안
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcwNzQyNTM0LDExNzE1MDQzNTVdfQ==
+eyJoaXN0b3J5IjpbLTkyNTE5Njk3OSwxMTcxNTA0MzU1XX0=
 -->
