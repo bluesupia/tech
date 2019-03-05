@@ -3,12 +3,13 @@
 * 제공하는 기능
 	* 표준 I/O 스트림
 	* 시스템 속성 조작
-	* 유틸리티와 현재으
+	* 유틸리티와 현재의 Runtime 접근을 위한 편의 메소드
+	* 보안
 # 프로세스 생성
 # 셧다운
 # Runtime의 나머지 기능
 # 보안
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjAwMjUyOTBdfQ==
+eyJoaXN0b3J5IjpbMTE3MTUwNDM1NV19
 -->
