@@ -1,7 +1,11 @@
 ### 20190305
 필드 주입을 피하자
+* 필드 주입의 장점은 코드량 뿐 ?
+	* **코드량이 줄어드는 장점( boilerplate 제거)**
+* 단점
+	* #### **첫째, DI 컨테이너와 결합이 매우 강하게 되어 외부에서 사용하기 어려워 진다.**
 
-https://ohjongsung.io/2017/06/02/%ED%95%84%EB%93%9C-%EC%A3%BC%EC%9E%85-field-injection-%EC%9D%84-%ED%94%BC%ED%95%98%EC%9E%90
+* https://ohjongsung.io/2017/06/02/%ED%95%84%EB%93%9C-%EC%A3%BC%EC%9E%85-field-injection-%EC%9D%84-%ED%94%BC%ED%95%98%EC%9E%90
 
 ### 20190304
 **java.lang.InstantiationError**
@@ -24,6 +28,6 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0NDYxMjAzLC0xNDkxNTgxMTYxLC04NT
-gwOTU2MTVdfQ==
+eyJoaXN0b3J5IjpbLTQ4OTQxNjg1NiwtMTQ5MTU4MTE2MSwtOD
+U4MDk1NjE1XX0=
 -->
