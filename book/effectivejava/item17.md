@@ -9,7 +9,11 @@
 	* 장점
 		* 가변 클래스보다 설계/구현/사용하기 쉬움
 		* 오류가 생길 여지가 적고 훨씬 안전함
+* 불변클래스로 만드는 규칙
+	* 객체의 상태를 변겨아는 메서드를 제공하지 않는다
+	* 클래스를 확장할 수 없도록 한다
+	* 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU2NDMzMzRdfQ==
+eyJoaXN0b3J5IjpbLTcwOTU2MDUwNV19
 -->
