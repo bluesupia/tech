@@ -73,6 +73,20 @@ public final class Complex {
 	* 그 자체로 실패 원자성(failure atomicity)을 제공
 	* 단점
 		* **값이 다르면 반드시 독립된 객체로 만들어야 함**
+
+* 불변클래스 설계방법
+	* 생성자 대신 정적 팩터리를 사용한 불변클래스
+```java
+public final class Complex {
+	private final double re;
+	private final double im;
+
+	private Complex(double re, double im) {
+		this.re = re;
+		this.im = im;
+	}
+	
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxOTM2MjY2MV19
+eyJoaXN0b3J5IjpbLTE1MjMzMTAzODNdfQ==
 -->
