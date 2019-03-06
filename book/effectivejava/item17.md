@@ -24,12 +24,23 @@ public final class Complex {
 
 	public Complex(double re, double im) {
 		this.re = re;
-		this.im = im
+		this.im = im;
+	}
+	
+	public double realPart() { return re; }
+	public double imaginaryPart() { return im; }
+	
+	public Complex plus(Complex c) {
+		return new Complex(re + c.re, im + c.im);
+	}
+	
+	public Complex minus(Complex c) {
+		return new Complex(re - c.re 
 	}
 }
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY0ODQ1NTddfQ==
+eyJoaXN0b3J5IjpbLTE3MjQ1NjU4OTZdfQ==
 -->
