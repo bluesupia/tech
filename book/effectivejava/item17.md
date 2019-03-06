@@ -92,6 +92,10 @@ public final class Complex {
 		return new Complex(re, im);
 	}
 ```
+
+* 게터가 있다고해서 무조건 세터를 만들지 말자
+	* **클래스는 꼭 필요한 경우가 아니라면 불변!**
+* **불변으로 만들 수 없는 클래스라도 변경할 수 있는 부분은 최소한으로 줄이자**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMDI2MzQ4MF19
+eyJoaXN0b3J5IjpbLTczODExNDAxNF19
 -->
