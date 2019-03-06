@@ -12,8 +12,15 @@
 * 불변클래스로 만드는 규칙
 	* 객체의 상태를 변겨아는 메서드를 제공하지 않는다
 	* 클래스를 확장할 수 없도록 한다
-	* 
+		* 상속을 막는 대표적인 방법은 클래스를 final로 선언
+	* 모든 필드를 final로 선언
+	* 모든 필드를 private로 선언
+	* 자신 외에는 내부의 가변 컴포넌트에 접근할 수 없도록 한다
+* 불변 복소스 클래스
+
+    enter code herㅁe
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwOTU2MDUwNV19
+eyJoaXN0b3J5IjpbMTczMDUzMzEwN119
 -->
