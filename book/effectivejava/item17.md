@@ -22,7 +22,10 @@
 		* 실수부와 허수부값을 반환하는 접근자 메서드 ( realPart, imaginaryPart)
 		* 사칙연산 메서드(plus, minus, times, dividedBy)
 			* 인스턴스 자신을 수정하지 않고 새로운 Complex 인스턴스를 만들어 반환
-			* 
+			* 함수형프로그래밍
+				* 피연산자 자체는 그대로인 프로그래밍 패턴
+			* 메서드 이름으로 동사(ex. add) 대신 전치사 (ex. plus) 사용
+
 ```java
 public final class Complex {
 	private final double re;
@@ -57,5 +60,5 @@ public final class Complex {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4OTA4NDQ3NF19
+eyJoaXN0b3J5IjpbLTk4OTMwNjc1MF19
 -->
