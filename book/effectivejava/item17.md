@@ -18,7 +18,11 @@
 	* 자신 외에는 내부의 가변 컴포넌트에 접근할 수 없도록 한다
 * 불변 복소수 클래스
 	* 복소수(실수부와 허수부로 구성된 수)를 표현
-	* 실수부와 허수부값을 반환하는 젭ㄱ
+	* 메서드
+		* 실수부와 허수부값을 반환하는 접근자 메서드 ( realPart, imaginaryPart)
+		* 사칙연산 메서드(plus, minus, times, dividedBy)
+			* 인스턴스 자신을 수정하지 않고 새로운 Complex 인스턴스를 만들어 반환
+			* 
 ```java
 public final class Complex {
 	private final double re;
@@ -53,5 +57,5 @@ public final class Complex {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTYwOTMxNzJdfQ==
+eyJoaXN0b3J5IjpbMTc4OTA4NDQ3NF19
 -->
