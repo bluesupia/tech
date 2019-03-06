@@ -35,12 +35,20 @@ public final class Complex {
 	}
 	
 	public Complex minus(Complex c) {
-		return new Complex(re - c.re 
+		return new Complex(re - c.re. im - c.im);
+	}
+	
+	public Complex times(Complex c) {
+		return new Complex(re * c.re - im * c.im, re * c.im + im * c.re);
+	}
+
+	public Complex dividedBy(Complex c) {
+	
 	}
 }
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjQ1NjU4OTZdfQ==
+eyJoaXN0b3J5IjpbLTE3ODE5ODEzMF19
 -->
