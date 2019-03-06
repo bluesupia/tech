@@ -16,7 +16,9 @@
 	* 모든 필드를 final로 선언
 	* 모든 필드를 private로 선언
 	* 자신 외에는 내부의 가변 컴포넌트에 접근할 수 없도록 한다
-* 불변 복소스 클래스
+* 불변 복소수 클래스
+	* 복소수(실수부와 허수부로 구성된 수)를 표현
+	* 실수부와 허수부값을 반환하는 젭ㄱ
 ```java
 public final class Complex {
 	private final double re;
@@ -43,12 +45,13 @@ public final class Complex {
 	}
 
 	public Complex dividedBy(Complex c) {
-	
+		double tmp = c.re * c.re + c.im * c.im;
+		return new Complex(re * c.re + im * c.im) / tmp, (im * c.re - re * c.im) / tmp);
 	}
 }
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODE5ODEzMF19
+eyJoaXN0b3J5IjpbLTEwOTYwOTMxNzJdfQ==
 -->
