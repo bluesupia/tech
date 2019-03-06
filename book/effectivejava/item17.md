@@ -85,8 +85,11 @@ public final class Complex {
 		this.re = re;
 		this.im = im;
 	}
-	
+
+	public static Complex valueOf(double re, double im) {
+		return new Complex(re, im);
+	}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjMzMTAzODNdfQ==
+eyJoaXN0b3J5IjpbLTIwNDYxNDY3MTldfQ==
 -->
