@@ -25,6 +25,10 @@
 			* 함수형프로그래밍
 				* 피연산자 자체는 그대로인 프로그래밍 패턴
 			* 메서드 이름으로 동사(ex. add) 대신 전치사 (ex. plus) 사용
+* 함수형 프로그래밍의 장점
+	* 불변이 되는 영역의 비율이 높아짐
+	* **불변 객체는 단순**
+	* **불변 객체는 근본적으로 스레드 안전하여 따로 동기화 불필요**
 
 ```java
 public final class Complex {
@@ -60,5 +64,5 @@ public final class Complex {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4OTMwNjc1MF19
+eyJoaXN0b3J5IjpbLTcyMzM1ODE0NV19
 -->
