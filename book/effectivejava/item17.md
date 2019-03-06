@@ -76,6 +76,8 @@ public final class Complex {
 
 * 불변클래스 설계방법
 	* 생성자 대신 정적 팩터리를 사용한 불변클래스
+		*  이방법이 대개 최선
+		* 정적 팩터리 방식은 다수의 구현 클래스를 활용한 유연성을 제공하고 다음 릴리스에서 객체 캐싱 기능을 추가해 성능을 끌어올릴 수 있다
 ```java
 public final class Complex {
 	private final double re;
@@ -91,5 +93,5 @@ public final class Complex {
 	}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDYxNDY3MTldfQ==
+eyJoaXN0b3J5IjpbMTQzMDI2MzQ4MF19
 -->
