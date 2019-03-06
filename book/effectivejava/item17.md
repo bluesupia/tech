@@ -69,7 +69,10 @@ public final class Complex {
 		* 여러 클라이언트가 인스턴스를 공유하여 메모리 사용량과 가비지 컬렉션 비용이 줄어즘
 		* 클라이언트를 수정하지 않고도 필요에 따라 캐시기능을 나중에 추가가능
 	* 자유롭게 공유 가능 = 방어적 복사도 필요 없다
-	* 불변 객체
+	* 불변 객체끼리는 내부 데이터를 공유할 수 있음
+	* 그 자체로 실패 원자성(failure atomicity)을 제공
+	* 단점
+		* **값이 다르면 반드시 독립된 객체로 만들어야 함**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NzcxNDExM119
+eyJoaXN0b3J5IjpbMjAxOTM2MjY2MV19
 -->
