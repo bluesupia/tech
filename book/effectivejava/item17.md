@@ -96,8 +96,8 @@ public final class Complex {
 * 게터가 있다고해서 무조건 세터를 만들지 말자
 	* **클래스는 꼭 필요한 경우가 아니라면 불변!**
 * **불변으로 만들 수 없는 클래스라도 변경할 수 있는 부분은 최소한으로 줄이자**
-
+* **생성자는 불변식 설정이 모두 완료된, 초기화가 완벽히 끝난 상태의 객체를 생성해야함**
 ### 아이템15+17 = 다른 합당한 이유가 없다면 모든 필드는 private final이어야 한다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NzQzNzQyOF19
+eyJoaXN0b3J5IjpbLTM5ODI3OTI5Ml19
 -->
