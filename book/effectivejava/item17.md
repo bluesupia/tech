@@ -27,8 +27,12 @@
 			* 메서드 이름으로 동사(ex. add) 대신 전치사 (ex. plus) 사용
 * 함수형 프로그래밍의 장점
 	* 불변이 되는 영역의 비율이 높아짐
+* 불변 객체
 	* **불변 객체는 단순**
 	* **불변 객체는 근본적으로 스레드 안전하여 따로 동기화 불필요**
+		* **안심하고 공유할 수 있음**
+	* 불변 클래스라면 한번 만든 인스턴스를 최대한 재활용
+		* 자주 쓰이는 값들을 상수 (public static final)Fh 
 
 ```java
 public final class Complex {
@@ -64,5 +68,5 @@ public final class Complex {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMzM1ODE0NV19
+eyJoaXN0b3J5IjpbMjA0NzYwNDEyMV19
 -->
