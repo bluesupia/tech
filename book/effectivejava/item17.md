@@ -65,8 +65,11 @@ public final class Complex {
 		* **안심하고 공유할 수 있음**
 	* 불변 클래스라면 한번 만든 인스턴스를 최대한 재활용
 		* 자주 쓰이는 값들을 상수 (public static final)로 제공
-* 정적 팩터리 사용
-	* 여러 클라이언트가 인스턴스를 공유하여 메모리 사
+	* 정적 팩터리 사용
+		* 여러 클라이언트가 인스턴스를 공유하여 메모리 사용량과 가비지 컬렉션 비용이 줄어즘
+		* 클라이언트를 수정하지 않고도 필요에 따라 캐시기능을 나중에 추가가능
+	* 자유롭게 공유 가능 = 방어적 복사도 필요 없다
+	* 불변 객체
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg4ODk1MDYzXX0=
+eyJoaXN0b3J5IjpbMTk5NzcxNDExM119
 -->
