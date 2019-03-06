@@ -17,10 +17,19 @@
 	* 모든 필드를 private로 선언
 	* 자신 외에는 내부의 가변 컴포넌트에 접근할 수 없도록 한다
 * 불변 복소스 클래스
+```java
+public final class Complex {
+	private final double re;
+	private final double im;
 
-    enter code herㅁe
+	public Complex(double re, double im) {
+		this.re = re;
+		this.im = im
+	}
+}
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMDUzMzEwN119
+eyJoaXN0b3J5IjpbNDY0ODQ1NTddfQ==
 -->
