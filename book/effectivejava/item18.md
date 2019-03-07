@@ -75,6 +75,18 @@ public class InstrumentedSet<E> extends ForwardingSet<E> {
 	}
 }
 ```
+* 재사용할 수 있는 전달클래스
+```java
+public class ForwardingSet<E> implements Set<E> {
+	private final Set<E> s;
+	public ForwardingSet(Set<E> s) {
+		this.s = s;
+	}
+
+	public void clear() { s.clear(); }
+	...
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MjkyODU0OV19
+eyJoaXN0b3J5IjpbLTEyOTQ1MDk0OF19
 -->
