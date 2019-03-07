@@ -70,9 +70,11 @@ public class InstrumentedSet<E> extends ForwardingSet<E> {
 		return super.addAll(c);
 	}
 
-	public int getAdd
+	public int getAddCount() {
+		return addCount;
+	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzgyNDU3MTRdfQ==
+eyJoaXN0b3J5IjpbMTY4MjkyODU0OV19
 -->
