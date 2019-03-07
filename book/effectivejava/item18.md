@@ -90,7 +90,12 @@ public class ForwardingSet<E> implements Set<E> {
 * 래퍼클래스
 	* 다른 인스턴스를 감싸고 있다는 뜻에서 래퍼 클래스
 	* 위 InstrumentedSet
-	* 다른 Set에 계측 기능을 덧씌운
+	* 다른 Set에 계측 기능을 덧씌운다는 뜻에서 데코레이터 패던이라고도 함
+	* 컴포지션과 전달의 조합은 넒은 의미로 위임(delegation)
+* 래퍼클래스의 단점
+	* 콜백 프레임워크와 어울리지 않음
+* 주의
+	* 상속은 반드시 하위 클래스가 상위 클래스
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4ODMwODQxMl19
+eyJoaXN0b3J5IjpbMTc3MTE1OTg3MV19
 -->
