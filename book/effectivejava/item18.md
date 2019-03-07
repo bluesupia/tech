@@ -8,8 +8,18 @@
 		* 상위 클래스가 어떻게 구현되느냐에 따라 하위 클래스의 동작에 이상이 생길 수 있음
 		* 구체적 예.
 ```java
-public class Instrumented
+public class InstrumentedHashSet<E> extends HashSet<E> {
+	// 추가된 원소의 수
+	private int addCount = 0;
+	public InstrumentedHashSet(int initCap, float loadFactor) {
+		super(initCap, loadFactor);
+	}
+	
+	@Override
+	public boolean add(E e) {
+	{\}
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzA2MDg3MDJdfQ==
+eyJoaXN0b3J5IjpbLTgzMTQ5MDIxNV19
 -->
