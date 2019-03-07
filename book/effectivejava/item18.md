@@ -57,8 +57,22 @@ public class InstrumentedSet<E> extends ForwardingSet<E> {
 	public InstrumentedSet(Set<E> s) {
 		super(s);
 	}
+
+	@Override
+	public boolean add(E e) {
+		addCount++;
+		return super.add(e)
+	}
+	
+	@Override
+	public boolean addAll(Collector<? extends E> c) {
+		addCount += c.size();
+		return super.addAll(c);
+	}
+
+	public int getAdd
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcwMjkyODQ0XX0=
+eyJoaXN0b3J5IjpbLTE1NzgyNDU3MTRdfQ==
 -->
