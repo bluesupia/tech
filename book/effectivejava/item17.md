@@ -1,6 +1,4 @@
-
-
-# 아이템17. 변경 가능성을 최소화하라
+## 아이템17. 변경 가능성을 최소화하라
 * 불변 클래스
 	* 그 인스턴스의 내부 값을 수정할 수 없는 클래스
 	* 불변 인스턴스에 간직된 정보는 고정되어 객체가 파괴되는 순간까지 절대 달라지지 않는다
@@ -99,5 +97,5 @@ public final class Complex {
 * **생성자는 불변식 설정이 모두 완료된, 초기화가 완벽히 끝난 상태의 객체를 생성해야함**
 ### 아이템15+17 = 다른 합당한 이유가 없다면 모든 필드는 private final이어야 한다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5ODI3OTI5Ml19
+eyJoaXN0b3J5IjpbMTEyMDAwOTI4NywtMzk4Mjc5MjkyXX0=
 -->
