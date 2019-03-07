@@ -6,7 +6,7 @@
 	* 일반적인 구체 클래스는 패키지 경계를 넘어 상속하는 경우는 위험
 	* **캡슐화를 깨뜨린다**
 		* 상위 클래스가 어떻게 구현되느냐에 따라 하위 클래스의 동작에 이상이 생길 수 있음
-		* 구체적 예.
+		* 구체적 예. HashSet 처음 생성되
 ```java
 public class InstrumentedHashSet<E> extends HashSet<E> {
 	// 추가된 원소의 수
@@ -17,9 +17,21 @@ public class InstrumentedHashSet<E> extends HashSet<E> {
 	
 	@Override
 	public boolean add(E e) {
-	{\}
+		addCount++;
+		return super.add(e);
+	}
+
+	@Override
+	public boolean addAll(Collection<? extends E> c) {
+		addCount += c.size();
+		return super.addAll(c);
+	}
+	 
+	public int getAddCount() {
+		return addCount;
+	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMTQ5MDIxNV19
+eyJoaXN0b3J5IjpbLTE3NDg5NjgxOF19
 -->
