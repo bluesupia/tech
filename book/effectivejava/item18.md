@@ -94,8 +94,11 @@ public class ForwardingSet<E> implements Set<E> {
 	* 컴포지션과 전달의 조합은 넒은 의미로 위임(delegation)
 * 래퍼클래스의 단점
 	* 콜백 프레임워크와 어울리지 않음
-* 주의
-	* 상속은 반드시 하위 클래스가 상위 클래스
+
+## 핵심정리
+* 상속은 강력하나 캡슐화를 해치는 문제가 있다
+* 상속은 순수 is-a 관계 일 때만 써야함
+	* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTE1OTg3MV19
+eyJoaXN0b3J5IjpbOTM3Njg2ODU5XX0=
 -->
