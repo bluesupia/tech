@@ -98,7 +98,11 @@ public class ForwardingSet<E> implements Set<E> {
 ## 핵심정리
 * 상속은 강력하나 캡슐화를 해치는 문제가 있다
 * 상속은 순수 is-a 관계 일 때만 써야함
-	* 
+* is-a 관계더라도 주의
+	* 하위 클래스의 패키지와 상위 클래스가 다르고, 상위 클래스의 확장을 고려하여 설계되지 않았다면 문제
+* 상속의 추약점을 피하려면 대신 컴포지션과 전달을 사용
+	* 래퍼 클래스로 구현할 적당한 인터페이스가 있다면 더욱더 사용!
+	* 하위 클래스보다 견고하고 강력
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM3Njg2ODU5XX0=
+eyJoaXN0b3J5IjpbLTQwMTk1MTU1MF19
 -->
