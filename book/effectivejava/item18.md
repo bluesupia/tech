@@ -42,8 +42,12 @@ InstrumentedHashSet<String> s = new InstrumentedHashSet<>();
 s.addAll(List.of("틱", "택", "토"));
 ```
 		
-* 컴포지션
+* 컴포지션 (Composition, 구성)
 	* 기존클래스를 확장하는 대신, 새로운 클래스를 만들고 private 필드로 기존 클래스의 인스턴스를 참조
+
+* 전달 (forwarding)
+	* 새 클래스의 인스턴스 메서드들을 기존 클래스의 대응하는 메서드를 호출해서 그 결과를 반환
+	* 전달 메서드 : 새 클래스의 메서드들
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTk5MTA3N119
+eyJoaXN0b3J5IjpbMTYwMzY5NTAzNF19
 -->
