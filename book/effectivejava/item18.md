@@ -87,6 +87,10 @@ public class ForwardingSet<E> implements Set<E> {
 	...
 }
 ```
+* 래퍼클래스
+	* 다른 인스턴스를 감싸고 있다는 뜻에서 래퍼 클래스
+	* 위 InstrumentedSet
+	* 다른 Set에 계측 기능을 덧씌운
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTQ1MDk0OF19
+eyJoaXN0b3J5IjpbMTM4ODMwODQxMl19
 -->
