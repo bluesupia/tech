@@ -9,6 +9,9 @@
 		* 구체적 예. HashSet 처음 생성된 이후 원소가 몇개 더해 졌는지 ?
 			* 결과는 6을 반환
 			* addAll은 각 원소를 add 메서드를 호출해 추가하므로..
+			* 해결방법 ?
+				* addAll 메서드를 재정의지 않거나 다른 식으로 재정의
+				* 다른 오류들이 발생가능
 ```java
 public class InstrumentedHashSet<E> extends HashSet<E> {
 	// 추가된 원소의 수
@@ -39,6 +42,8 @@ InstrumentedHashSet<String> s = new InstrumentedHashSet<>();
 s.addAll(List.of("틱", "택", "토"));
 ```
 		
+* 컴포지션
+	* 기존클래스를 확장하는 대신, 새로운 클래스를 만들고 private 필드로 기존 클래스의 인스턴스를 참조
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDEyMjA3MF19
+eyJoaXN0b3J5IjpbLTk5MTk5MTA3N119
 -->
