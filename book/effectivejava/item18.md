@@ -48,6 +48,17 @@ s.addAll(List.of("틱", "택", "토"));
 * 전달 (forwarding)
 	* 새 클래스의 인스턴스 메서드들을 기존 클래스의 대응하는 메서드를 호출해서 그 결과를 반환
 	* 전달 메서드 : 새 클래스의 메서드들
+	*
+* 상속대신 컴퍼지션을 사용한 InstrumentedSet
+```java
+public class InstrumentedSet<E> extends ForwardingSet<E> {
+	private int addCount = 0;
+	
+	public InstrumentedSet(Set<E> s) {
+		super(s);
+	}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMzY5NTAzNF19
+eyJoaXN0b3J5IjpbMzcwMjkyODQ0XX0=
 -->
