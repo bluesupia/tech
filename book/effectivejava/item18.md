@@ -94,6 +94,10 @@ public class ForwardingSet<E> implements Set<E> {
 	* 컴포지션과 전달의 조합은 넒은 의미로 위임(delegation)
 * 래퍼클래스의 단점
 	* 콜백 프레임워크와 어울리지 않음
+* 컴포지션 대신 상속을 쓰려면 자문하라!
+	* 확장하려는 클래스의 API에 아무런 결함이 없는가?
+	* 결함이 있다면, 하위 클래스의 API까지 전파되어도 괜찮은가?
+	* 컴포지션으로는 이런 결함을 숨기는 새로운 API를 설계할 수 있으나 상속은 결함까지도 승계!
 
 ## 핵심정리
 * 상속은 강력하나 캡슐화를 해치는 문제가 있다
@@ -104,5 +108,5 @@ public class ForwardingSet<E> implements Set<E> {
 	* 래퍼 클래스로 구현할 적당한 인터페이스가 있다면 더욱더 사용!
 	* 하위 클래스보다 견고하고 강력
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTk1MTU1MF19
+eyJoaXN0b3J5IjpbLTU1OTE1NTE3XX0=
 -->
