@@ -7,7 +7,8 @@
 	* **캡슐화를 깨뜨린다**
 		* 상위 클래스가 어떻게 구현되느냐에 따라 하위 클래스의 동작에 이상이 생길 수 있음
 		* 구체적 예. HashSet 처음 생성된 이후 원소가 몇개 더해 졌는지 ?
-		* 
+			* 결과는 6을 반환
+			* addAll은 각 원소를 add 메서드를 호출해 추가하므로..
 ```java
 public class InstrumentedHashSet<E> extends HashSet<E> {
 	// 추가된 원소의 수
@@ -39,5 +40,5 @@ s.addAll(List.of("틱", "택", "토"));
 ```
 		
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY3NDA4NjkyXX0=
+eyJoaXN0b3J5IjpbMjEwMDEyMjA3MF19
 -->
