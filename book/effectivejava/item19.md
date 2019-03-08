@@ -48,7 +48,7 @@ public final class Sub extends Super {
 * 그외 일반적인 구체 클래스의 상속용 설계
 	* **상속용으로 설계하지 않은 클래스의 상속을 금지**
 		* 클래스를 final로 선언
-		* 모든 생성자를 private이나 
+		* 모든 생성자를 private이나 package-private으로 선언하고 public 정적 팩터리를 만들어주는 방법
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNjc1OTc5Myw2NjE3NzI5NTBdfQ==
+eyJoaXN0b3J5IjpbLTEzMjMxNTA2NSw2NjE3NzI5NTBdfQ==
 -->
