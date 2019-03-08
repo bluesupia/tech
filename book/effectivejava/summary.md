@@ -43,6 +43,8 @@
 
 ## 아이템18. 상속보다는 컴포지션을 사용하라
 
+## 아이템19. 상속을 고려해 설계하고 문서화하라. 그러지 않았다면 상속을 금지하라.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NTU4MjU5OSwtMzU2MjI2OTEwXX0=
+eyJoaXN0b3J5IjpbLTgwNTcyNTE4OSwtMzU2MjI2OTEwXX0=
 -->
