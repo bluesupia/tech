@@ -43,7 +43,8 @@ public final class Sub extends Super {
 	* 그 클래스를 확장하려는 프로그래머에게 엄청난 부담
 	* **clone과 readObject 모두 직간접적으로 재정의 가능 메서드를 호출해서는 안됨**
 		* readObject의 경우, 하위 클래스의 상태가 미처 다 역직렬화되기 전에 재정의한 메서드부터 호출
-		* clone의 경우, 하위클래스의 clone 메서드가 복제본의 상태를 수정하기 전ㅇ
+		* clone의 경우, 하위클래스의 clone 메서드가 복제본의 상태를 수정하기 전에 재정의한 메서드를 호출
+	* Serializable을 구현한 상속용 클래스가 readResole나 writeReplace 메서드를 갖는다면 메서드들은 private가 아닌 protected로 선언해야함
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMzU0NTM2NSw2NjE3NzI5NTBdfQ==
+eyJoaXN0b3J5IjpbLTE2MDk1OTIyMSw2NjE3NzI5NTBdfQ==
 -->
