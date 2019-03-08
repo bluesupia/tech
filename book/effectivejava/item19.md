@@ -41,7 +41,9 @@ public final class Sub extends Super {
 * Clonable 과 Serializable 인터페이스의 상속용 설계
 	* 둘 중 하나라도 구현한 클래스를 상속할 수 있게 설계하는 것은 일반적으로 좋지 않은 생각
 	* 그 클래스를 확장하려는 프로그래머에게 엄청난 부담
-	* 
+	* **clone과 readObject 모두 직간접적으로 재정의 가능 메서드를 호출해서는 안됨**
+		* readObject의 경우, 하위 클래스의 상태가 미처 다 역직렬화되기 전에 재정의한 메서드부터 호출
+		* clone의 경우, 하위클래스의 clone 메서드가 복제본의 상태를 수정하기 전ㅇ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMzcyMDc5OSw2NjE3NzI5NTBdfQ==
+eyJoaXN0b3J5IjpbMTUwMzU0NTM2NSw2NjE3NzI5NTBdfQ==
 -->
