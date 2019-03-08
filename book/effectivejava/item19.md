@@ -26,9 +26,18 @@ public final class Sub extends Super {
 		instant = Instant.now();
 	}
 
-	// 재정의 가능 메서드, 상위 클래스의 생성자가
+	// 재정의 가능 메서드, 상위 클래스의 생성자가 호출
+	@Override
+	public void overrideMe() {
+		System.out.println(instant);
+	}
+
+	public static void main(String[] args) {
+		Sub sub = new Sub();
+		sub.overrideMe();
+	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIxMDEzMTgzXX0=
+eyJoaXN0b3J5IjpbNjYxNzcyOTUwXX0=
 -->
