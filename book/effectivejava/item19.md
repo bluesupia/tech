@@ -2,7 +2,7 @@
 * 상속을 고려한 설계와 문서화란 ?
 	* **상속용 클래스는 재정의할 수 있는 메서드들을 내부적으로 어떻게 이용하는지 문서로 남겨야 함**
 		* implementation Requirements : 메서드의 내부 동작 방식을 설명하는 곳
-		* 
+	* **클래스의 내부 동작 과정 중간에 끼어들 수 있는 훅(hook)을 잘 선별하여 protected 메서드 형태로 공개햐애 할 수도 있다**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMzUxNDExNF19
+eyJoaXN0b3J5IjpbMTMyNDc4MDE1OV19
 -->
