@@ -45,6 +45,10 @@ public final class Sub extends Super {
 		* readObject의 경우, 하위 클래스의 상태가 미처 다 역직렬화되기 전에 재정의한 메서드부터 호출
 		* clone의 경우, 하위클래스의 clone 메서드가 복제본의 상태를 수정하기 전에 재정의한 메서드를 호출
 	* Serializable을 구현한 상속용 클래스가 readResole나 writeReplace 메서드를 갖는다면 메서드들은 private가 아닌 protected로 선언해야함
+* 그외 일반적인 구체 클래스의 상속용 설계
+	* **상속용으로 설계하지 않은 클래스의 상속을 금지**
+		* 클래스를 final로 선언
+		* 모든 생성자를 private이나 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDk1OTIyMSw2NjE3NzI5NTBdfQ==
+eyJoaXN0b3J5IjpbLTQwNjc1OTc5Myw2NjE3NzI5NTBdfQ==
 -->
