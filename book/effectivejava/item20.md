@@ -5,7 +5,11 @@
 	* 공통점
 		* 인스턴스 메서드를 구현 형태로 제공
 	* 차이점
-		* 추상클래스가 정으
+		* 추상클래스가 정의한 타입을 구현하는 클래스는 반드시 추상클래스의 하위 클래스가 됨
+		* 인터페이스가 선언한 메서드를 모두 정의하고 그 일반 규약을 잘 지킨 클래스라며 어떤 클래스를 상속했든 같은 타입으로 취급
+* 인터페이스의 장점
+	* 기존 클래스에도 손쉽게 새로운 인터페이스를 구현해 넣을 수 있음
+		* ex. Comparable, Iterable, AutoClosable
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NTkzNjY2Nl19
+eyJoaXN0b3J5IjpbOTU1Nzk1MzE3XX0=
 -->
