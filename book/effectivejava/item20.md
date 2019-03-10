@@ -64,11 +64,11 @@ static List<Integer> intArrayAsList(int[] a) {
 	* 기반 메서드 : getKey, getValue
 	* 선택적으로 setValue도 포함할 수 있다
 	* equals, hashCode의 동작 방식 정의
-* **단순 구현(Simple implementation)
+* **단순 구현(Simple implementation)**
 	*  골격 구현의 작은 변종 
 	* AbstractMap.SimpleEntry
 	* 골격 구현과 같이 상속을 위해 인터페이스를 구현
 	* 추상 클래스가 아니다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNjI2NDE1NywxMDQ4Njg3MzY3XX0=
+eyJoaXN0b3J5IjpbLTEyMjg0MTgwODMsMTA0ODY4NzM2N119
 -->
