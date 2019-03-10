@@ -29,17 +29,30 @@
 	* 인터페이스로는 타입을 정의하고 필요에 따라 디폴트 메서드 제공
 	* 골격 구현 클래스는 나머지 메서드들 구현
 	* 관례상 이름은 Abstract*Interface*
+* 골격 구현을 사용해 완성한 구체
 ```java
 static List<Integer> intArrayAsList(int[] a) {
 	Objects.requireNonNull(a);
 	return new AbstractList<>() {
 		@Override
 		public Integer get(int i) {
-			return a[i]
+			return a[i];
+		}
+
+		@Override
+		public Integer set(int i, Integer val) {
+			int oldVal = a[i];
+			a[i] = val;
+			return oldVal;
+		}
+
+		@Override
+		public int size() {
+			return a.length
 		}
 	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzcxNDY0MSwxMDQ4Njg3MzY3XX0=
+eyJoaXN0b3J5IjpbMTM5MzM3NTc2MiwxMDQ4Njg3MzY3XX0=
 -->
