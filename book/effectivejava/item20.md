@@ -25,7 +25,11 @@
 		* 인스턴스 필드를 가질 수 없고 public이 아닌 정적 멤버도 가질 수 없다
 		* 만들지 않은 인터페이스에는 디폴트 메서드를 추가할 수 없다
 * 템플릿 메서드 패턴
-	* 인터페이스와 추상 고
+	* 인터페이스와 추상 골격 구현(skeletal implement) 클래스를 함께 제공하는 방법
+	* 인터페이스로는 타입을 정의하고 필요에 따라 디폴트 메서드 제공
+	* 골격 구현 클래스는 나머지 메서드들 구현
+	* 관례상 이름은 Abstract*Interface*
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg2NjEwMTYyLDEwNDg2ODczNjddfQ==
+eyJoaXN0b3J5IjpbLTQxNzM4MTMyMSwxMDQ4Njg3MzY3XX0=
 -->
