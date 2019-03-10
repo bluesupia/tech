@@ -61,7 +61,9 @@ static List<Integer> intArrayAsList(int[] a) {
 		* equals, hashCode 와 같은 Object의 메서드는 디폴트 메서드로 제공하면 안된다
 	* 인터페이스를 구현하는 골격 구현 클래스를 만들어 남은 메서드들을 작성
 * Map.Entry 인터페이스
-	* 기반 메서드 : getKey, get
+	* 기반 메서드 : getKey, getValue
+	* 선택적으로 setValue도 포함할 수 있다
+	* equals, hashCode
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDI4Mjc2MywxMDQ4Njg3MzY3XX0=
+eyJoaXN0b3J5IjpbLTk4NDMzMjc3LDEwNDg2ODczNjddfQ==
 -->
