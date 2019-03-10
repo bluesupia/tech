@@ -55,11 +55,11 @@ static List<Integer> intArrayAsList(int[] a) {
 }
 ```
 * 골격 구현 작성 방법
-	* 기반 메서드들을 선정
+	* 인터페이스를 살펴 기반 메서드들을 선정
 		* 골격 구현에서는 추상 메서드
 	* 기반 메서드들을 사용해 직접 구현할 수 있는 메서드들을 모두 디폴트 메서드로 제공
 		* equals, hashCode 와 같은 Object의 메서드는 디폴트 메서드로 제공하면 안된다
-	* 남아 있는 메서드들은
+	* 인터페이스를 구현하는 골격 구현 클래스를 만들어 남은 메서드들을 작성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDQ4NzQxMTEsMTA0ODY4NzM2N119
+eyJoaXN0b3J5IjpbLTQ2ODQ3NDcwLDEwNDg2ODczNjddfQ==
 -->
