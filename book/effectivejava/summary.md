@@ -45,6 +45,8 @@
 
 ## 아이템19. 상속을 고려해 설계하고 문서화하라. 그러지 않았다면 상속을 금지하라.
 
+## 아이템20. 추상 클래스보다는 인터페이스를 우선하라
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNTcyNTE4OSwtMzU2MjI2OTEwXX0=
+eyJoaXN0b3J5IjpbLTEzNjQ1MTMwNiwtMzU2MjI2OTEwXX0=
 -->
