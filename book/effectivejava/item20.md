@@ -29,7 +29,17 @@
 	* 인터페이스로는 타입을 정의하고 필요에 따라 디폴트 메서드 제공
 	* 골격 구현 클래스는 나머지 메서드들 구현
 	* 관례상 이름은 Abstract*Interface*
-
+```java
+static List<Integer> intArrayAsList(int[] a) {
+	Objects.requireNonNull(a);
+	return new AbstractList<>() {
+		@Override
+		public Integer get(int i) {
+			return a[i]
+		}
+	}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNzM4MTMyMSwxMDQ4Njg3MzY3XX0=
+eyJoaXN0b3J5IjpbLTcwNzcxNDY0MSwxMDQ4Njg3MzY3XX0=
 -->
