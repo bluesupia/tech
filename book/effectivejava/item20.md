@@ -29,7 +29,8 @@
 	* 인터페이스로는 타입을 정의하고 필요에 따라 디폴트 메서드 제공
 	* 골격 구현 클래스는 나머지 메서드들 구현
 	* 관례상 이름은 Abstract*Interface*
-* 골격 구현을 사용해 완성한 구체
+* 골격 구현을 사용해 완성한 구체 클래스
+	* 추상클래스처럼 구현을 도와주는 동시에 추상 클래스로 타입을 정의할 때 따라오는 심각한 제약에서 자유롭다
 ```java
 static List<Integer> intArrayAsList(int[] a) {
 	Objects.requireNonNull(a);
@@ -53,6 +54,8 @@ static List<Integer> intArrayAsList(int[] a) {
 	}
 }
 ```
+* 골격 구현 작성 방법
+	* 인터페이스에서 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MzM3NTc2MiwxMDQ4Njg3MzY3XX0=
+eyJoaXN0b3J5IjpbMTQ3MjQ1MzA0MywxMDQ4Njg3MzY3XX0=
 -->
