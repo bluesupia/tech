@@ -63,7 +63,10 @@ static List<Integer> intArrayAsList(int[] a) {
 * Map.Entry 인터페이스
 	* 기반 메서드 : getKey, getValue
 	* 선택적으로 setValue도 포함할 수 있다
-	* equals, hashCode
+	* equals, hashCode의 동작 방식 정의
+* **단순 구현(Simple implementation)은 골격 구현의 작은 변종 
+	* AbstractMap.SimpleEntry
+	*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NDMzMjc3LDEwNDg2ODczNjddfQ==
+eyJoaXN0b3J5IjpbOTQ1Njg4LDEwNDg2ODczNjddfQ==
 -->
