@@ -10,6 +10,9 @@
 * 인터페이스의 장점
 	* 기존 클래스에도 손쉽게 새로운 인터페이스를 구현해 넣을 수 있음
 		* ex. Comparable, Iterable, AutoClosable
+		* 반면 기존 클래스 위에 새로운 추상 클래스를 끼워넣기는 어려운게 일반적
+	* 믹스인(mixin) 정의에 안성맞춤
+		* 믹스인이란, 클래스가 구현할 수 있는 타입으로, 믹스인 클래스에 원래의 '주된 타입' 외에도 특정 선택적 행위를 제공한다고 선언하
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU1Nzk1MzE3XX0=
+eyJoaXN0b3J5IjpbMTYyNjgwMTcxXX0=
 -->
