@@ -25,7 +25,7 @@
 		* 인스턴스 필드를 가질 수 없고 public이 아닌 정적 멤버도 가질 수 없다
 		* 만들지 않은 인터페이스에는 디폴트 메서드를 추가할 수 없다
 * 템플릿 메서드 패턴
-* 
+	* 인터페이스와 추상 고
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQwODUzNDcsMTA0ODY4NzM2N119
+eyJoaXN0b3J5IjpbNzg2NjEwMTYyLDEwNDg2ODczNjddfQ==
 -->
