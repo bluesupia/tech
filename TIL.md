@@ -1,4 +1,10 @@
+### 20190312
+#gradle
+shadowJar
+
+https://blog.leocat.kr/notes/2017/10/11/gradle-shadowjar-make-fat-jar
 ### 20190305
+#java
 필드 주입을 피하자
 * 필드 주입의 장점은 코드량 뿐 ?
 	* **코드량이 줄어드는 장점( boilerplate 제거)**
@@ -12,6 +18,7 @@
 * https://ohjongsung.io/2017/06/02/%ED%95%84%EB%93%9C-%EC%A3%BC%EC%9E%85-field-injection-%EC%9D%84-%ED%94%BC%ED%95%98%EC%9E%90
 
 ### 20190304
+#java
 **java.lang.InstantiationError**
 * 어플리케이션이 Java `new` 구문을 사용해 abstract 클래스나 인터페이스의 인스턴스를 생성하려고 했을 때 발생하는 Error
 http://cris.joongbu.ac.kr/course/java/api/java/lang/InstantiationError.html
@@ -32,6 +39,6 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njk5OTA2NjAsLTE0OTE1ODExNjEsLT
-g1ODA5NTYxNV19
+eyJoaXN0b3J5IjpbNjQzMjY2NzUzLC0xNzY5OTkwNjYwLC0xND
+kxNTgxMTYxLC04NTgwOTU2MTVdfQ==
 -->
