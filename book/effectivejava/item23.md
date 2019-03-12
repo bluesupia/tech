@@ -39,9 +39,11 @@ class Rectangle extends Figure {
 	}
 
 	@Override
-	double 
+	double area() {
+		return length * width;
+	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2MTgyODEsLTExODQyNTAzNjJdfQ==
+eyJoaXN0b3J5IjpbMjE0MzE0MzYzNCwtMTE4NDI1MDM2Ml19
 -->
