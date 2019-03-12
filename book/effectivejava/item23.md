@@ -10,10 +10,20 @@
 	* 계층 구조의 루트가 될 추상 클래스를 정의하고 태그 값에 따라 동작이 달라지는 메서드드들을 추상 메서드로 선언
 	* 태그 값에 관계없이 동작이 일정한 메서드들을 일반 메서드로 추가
 	* 모든 하위 클래스에서 공통으로 사용하는 데이터 필드들도 전부 루트 클래스로 올림
-	* 루트 클래스를 확장한 구체 클래스를 의미별로 정의
+	* 루트 클래스를 *확장*한 구체 클래스를 의미별로 정의
 	* 각 하위 클래스에는 각자의 의미에 해당하는 데이터 필드 추가
 	* 루트 클래스가 정의한 추상 메서드를 각자의 의미에 맞게 구현
+```java
+abstract class Figure {
+	abstract double area();
+}
 
+class Circle extends Figure {
+	final double radius;
+
+	Circle(double radius) { this.radius
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzE5NTU5NSwtMTE4NDI1MDM2Ml19
+eyJoaXN0b3J5IjpbNzA3NDg2NTU5LC0xMTg0MjUwMzYyXX0=
 -->
