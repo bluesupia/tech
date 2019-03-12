@@ -50,7 +50,8 @@ class Rectangle extends Figure {
 	* 관련없는 데이터 필드 제거
 	* 데이터 필드가 모두 final
 	* 각 클래스의 생성자가 모든 필드를 초기화하고 추상 메서드를 모두 구현했는지 컴파일러가 확인
-	* 타입 사이의 계층 관계반영으로 유연성은 
+	* 타입 사이의 계층 관계반영으로 유연성은 물론 컴파일타임 타입 검사 능력을 높여준다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MTQ5MDAwMywtMTE4NDI1MDM2Ml19
+eyJoaXN0b3J5IjpbLTE4NDIxNjU5MjAsLTExODQyNTAzNjJdfQ
+==
 -->
