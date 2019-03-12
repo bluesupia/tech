@@ -51,7 +51,8 @@
 
 ## 아이템22. 인터페이스는 타입을 정의하는 용도로만 사용하라
 
+## 아이템23. 태그 달린 클래스보다는 클래스 계층구조를 활용하라
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwOTM3ODg1MCwtMTM2NDUxMzA2LC0zNT
-YyMjY5MTBdfQ==
+eyJoaXN0b3J5IjpbMjYzOTQ2NzA5LC0xMzY0NTEzMDYsLTM1Nj
+IyNjkxMF19
 -->
