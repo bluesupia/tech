@@ -44,6 +44,13 @@ class Rectangle extends Figure {
 	}
 }
 ```
+* 계층구조 활용의 이점
+	* 간결하고 명확
+	* 쓸데없는 코드가 사라짐
+	* 관련없는 데이터 필드 제거
+	* 데이터 필드가 모두 final
+	* 각 클래스의 생성자가 모든 필드를 초기화하고 추상 메서드를 모두 구현했는지 컴파일러가 확인
+	* 타입 사이의 계층 관계반영으로 유연성은 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MzE0MzYzNCwtMTE4NDI1MDM2Ml19
+eyJoaXN0b3J5IjpbLTY0MTQ5MDAwMywtMTE4NDI1MDM2Ml19
 -->
