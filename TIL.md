@@ -1,8 +1,10 @@
 ### 20190312
 #gradle
 shadowJar
-
+* jar 파일에 모든 라이브러리를 넣어주는 플러그인
+* fat jar
 https://blog.leocat.kr/notes/2017/10/11/gradle-shadowjar-make-fat-jar
+
 ### 20190305
 #java
 필드 주입을 피하자
@@ -39,6 +41,6 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzMjY2NzUzLC0xNzY5OTkwNjYwLC0xND
-kxNTgxMTYxLC04NTgwOTU2MTVdfQ==
+eyJoaXN0b3J5IjpbMTM1MDA3ODgzMSwtMTc2OTk5MDY2MCwtMT
+Q5MTU4MTE2MSwtODU4MDk1NjE1XX0=
 -->
