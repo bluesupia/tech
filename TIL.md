@@ -1,6 +1,7 @@
 ### 20190313
 #java #code
-<?xml version="1.0" encoding="UTF-8"?> TL;DR; `return null`을 지양하자
+* `return null`을 지양하자
+		j / 코드리뷰를 하다보면 `null`을 특정 케이스로 사용하는 경우가 있는데요, 이런건 지양해 주시면 좋습니다. null이란건 NPE의 원인이 되기도 하고 알아보기 힘들기 때문에 특정 값을 정의하시거나 `Optional`을 쓰시는게 좋습니다.
 
 ### 20190312
 #gradle
@@ -45,7 +46,7 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MzkxMTU5MSw2NzYzMTEwNjcsMTM1MD
+eyJoaXN0b3J5IjpbLTY3NzYwMTkwMCw2NzYzMTEwNjcsMTM1MD
 A3ODgzMSwtMTc2OTk5MDY2MCwtMTQ5MTU4MTE2MSwtODU4MDk1
 NjE1XX0=
 -->
