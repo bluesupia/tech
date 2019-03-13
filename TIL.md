@@ -1,4 +1,6 @@
 ### 20190313
+#java #code
+<?xml version="1.0" encoding="UTF-8"?> TL;DR; `return null`을 지양하자
 
 ### 20190312
 #gradle
@@ -43,6 +45,7 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc2MzExMDY3LDEzNTAwNzg4MzEsLTE3Nj
-k5OTA2NjAsLTE0OTE1ODExNjEsLTg1ODA5NTYxNV19
+eyJoaXN0b3J5IjpbLTY0MzkxMTU5MSw2NzYzMTEwNjcsMTM1MD
+A3ODgzMSwtMTc2OTk5MDY2MCwtMTQ5MTU4MTE2MSwtODU4MDk1
+NjE1XX0=
 -->
