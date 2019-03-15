@@ -12,7 +12,11 @@
 	* ex. List<String>
 		* 원소의 타입이 String인 리스트를 뜻하는 매개변수화 타입
 		* 정규타입 매개변수 E에 해당하는 실제 타입 매개변수
-		* 
+	* 제너릭 타입을 정의하면 **로 타입(raw type)**도 함께 정의
+		* 로 타입 : 제러닉 타입에서 타입 매개변수를 전혀 사용하지 않을 때
+			* ex. List<E>의 로 타입은 List
+		* 타입 선언에서 제너릭 타입 정보가 전부 지워진 것처럼 동작
+		* 제너릭 도래 전 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzYyOTExMzhdfQ==
+eyJoaXN0b3J5IjpbMTk4MjMxOTYzMF19
 -->
