@@ -7,7 +7,12 @@
 		* 짧게 List
 
 * 매개변수화 타입 (parameterized type)
-	* 먼저 
+	* 먼저 클래스 (or 인터페이스) 이름
+	* 이어서 꺾쇠괄호 안에 실제 타입 매개변수 나열
+	* ex. List<String>
+		* 원소의 타입이 String인 리스트를 뜻하는 매개변수화 타입
+		* 정규타입 매개변수 E에 해당하는 실제 타입 매개변수
+		* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjc1MjMzOF19
+eyJoaXN0b3J5IjpbLTE3NzYyOTExMzhdfQ==
 -->
