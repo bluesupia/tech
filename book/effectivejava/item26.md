@@ -23,9 +23,9 @@
 	* *오류는 가능한 한 발생 즉시, 이상적으로는 컴파일 할 때 발견하는 것이 좋다!*
 	* 제너릭 사용시 타입 정보가 선언 자체에 녹아듬
 	* **로 타입을 쓰면 제너릭이 안겨주는 안전성과 표현력을 모두 잃게 됨**
-	* 임의 객체를 허용하는 매개변수화 타입은 사용가능 
-		* ex. List<Object>
-		* runtime에서 실패! (unsafe 메서드가 로 타입을 사용)
+* 임의 객체를 허용하는 매개변수화 타입은 사용가능 
+	* ex. List<Object>
+	* runtime에서 실패! (unsafe 메서드가 로 타입을 사용)
 ```java
 public static void main(String[] args) {
 	List<String> strings = new ArrayList<>();
@@ -39,7 +39,16 @@ private static void unsafeAdd(List list, Object o) {
 ```
 	* unsafe 메서드가 매개변수화 타입 List<Object>사용시
 		* 컴파일에서 실패
-	* 원ㅅ
+* 원소의 타입을 몰라도 되는 로 타입을 사용하고자 할때
+```java
+static int numElementsInCommon(Set s1, Set s2) {
+	int result = 0;
+	for (Object o1 : s1) {
+		if (s2.contains(o1))
+			result++;
+	}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NjQ1OTI5N119
+eyJoaXN0b3J5IjpbMTkyODEyMDk4M119
 -->
