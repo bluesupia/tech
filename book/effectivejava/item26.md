@@ -40,15 +40,19 @@ private static void unsafeAdd(List list, Object o) {
 	* unsafe 메서드가 매개변수화 타입 List<Object>사용시
 		* 컴파일에서 실패
 * 원소의 타입을 몰라도 되는 로 타입을 사용하고자 할때
+	* 동작은 하지만 로 타입을 사용해 안전하지 않다
+	* 비한정적 와일드카드 타입을 대신 사용
+		* 제너릭 타입을 쓰고 싶지만 실제 타입 매개변수가 무엇인지 신경 쓰고 싶지 않을 때 물음표(?)
+		* ex. 
 ```java
 static int numElementsInCommon(Set s1, Set s2) {
 	int result = 0;
-	for (Object o1 : s1) {
+	for (Object o1 : s1) 
 		if (s2.contains(o1))
 			result++;
-	}
+	return result;
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyODEyMDk4M119
+eyJoaXN0b3J5IjpbLTE5MjEwMzE5MDddfQ==
 -->
