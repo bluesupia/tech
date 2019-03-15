@@ -56,7 +56,10 @@
 ## 아이템24. 멤버 클래스는 되도록 static으로 만들어라
 
 ## 아이템25. 톱레벨 클래스는 한 파일에 하나만 담으라
+
+# 제너릭
+## 아이템26. 로 타입은 사용하지 말라
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTgyMjAyNCwtMTM2NDUxMzA2LC0zNT
-YyMjY5MTBdfQ==
+eyJoaXN0b3J5IjpbMTU3MjgyNzgyLC0xMzY0NTEzMDYsLTM1Nj
+IyNjkxMF19
 -->
