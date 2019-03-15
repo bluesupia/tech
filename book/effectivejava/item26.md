@@ -25,6 +25,7 @@
 	* **로 타입을 쓰면 제너릭이 안겨주는 안전성과 표현력을 모두 잃게 됨**
 	* 임의 객체를 허용하는 매개변수화 타입은 사용가능 
 		* ex. List<Object>
+		* runtime에서 실패! (unsafe 메서드가 로 타입을 사용)
 ```java
 public static void main(String[] args) {
 	List<String> strings = new ArrayList<>();
@@ -36,6 +37,7 @@ private static void unsafeAdd(List list, Object o) {
 	list.add(o);
 }
 ```
+	* unsafe 메서드가 매개변수화 타입 List<Object>상ㅇ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNzYyMDUwOV19
+eyJoaXN0b3J5IjpbLTEyMzgyMDg1OTNdfQ==
 -->
