@@ -22,7 +22,12 @@
 	* 로 타입시 아무 오류 없이 컴파일이 되고 실행된다 (경고 메시지는 보여줄 수 있다)
 	* *오류는 가능한 한 발생 즉시, 이상적으로는 컴파일 할 때 발견하는 것이 좋다!*
 	* 제너릭 사용시 타입 정보가 선언 자체에 녹아듬
-	* **로 타입을 쓰면 제너릭이 안겨주는 안
+	* **로 타입을 쓰면 제너릭이 안겨주는 안전성과 표현력을 모두 잃게 됨**
+	* 임의 객체를 허용하는 매개변수화 타입은 사용가능 
+		* ex. List<Object>
+```java
+public static
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTEwODMxMDVdfQ==
+eyJoaXN0b3J5IjpbMTgyNjA2MDMzOF19
 -->
