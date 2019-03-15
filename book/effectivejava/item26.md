@@ -37,7 +37,9 @@ private static void unsafeAdd(List list, Object o) {
 	list.add(o);
 }
 ```
-	* unsafe 메서드가 매개변수화 타입 List<Object>상ㅇ
+	* unsafe 메서드가 매개변수화 타입 List<Object>사용시
+		* 컴파일에서 실패
+	* 원ㅅ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzgyMDg1OTNdfQ==
+eyJoaXN0b3J5IjpbLTQ0NjQ1OTI5N119
 -->
