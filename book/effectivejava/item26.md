@@ -26,8 +26,16 @@
 	* 임의 객체를 허용하는 매개변수화 타입은 사용가능 
 		* ex. List<Object>
 ```java
-public static
+public static void main(String[] args) {
+	List<String> strings = new ArrayList<>();
+	unsafeAdd(strings, Integer.valueOf(42));
+	String s = strings.get(0);
+}
+
+private static void unsafeAdd(List list, Object o) {
+	list.add(o);
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNjA2MDMzOF19
+eyJoaXN0b3J5IjpbMTUxNzYyMDUwOV19
 -->
