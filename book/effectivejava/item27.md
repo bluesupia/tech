@@ -2,8 +2,12 @@
 * **할 수 있는 한 모든 비검사 경고를 제거하라**
 	* 모두 제거 한다면 그 코드는 타입 안전성이 보장
 	* 런타임에 ClassCastException이 발생할 일이 없고 의도대로 잘 동작하리라 확신
-* **@SuppressWar**
+* **@SuppressWarnings("unchecked") 애너테이션을 달아 경고를 숨기자**
 	* **경고를 제거할 수는 없지만 타입 안전하다고 확인할 수 있다면**
+	* **가능한 한 좁은 범위에 적용**
+		* 변수 선언, 아주 짧은 메서드, 혹은 생성자
+		* 절대 클래스 전체에 적용해서는 안됨
+		* 한 주
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4Njg4MTMzMF19
+eyJoaXN0b3J5IjpbLTczNDE5MzExOV19
 -->
