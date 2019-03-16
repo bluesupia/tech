@@ -48,7 +48,10 @@ private static void unsafeAdd(List list, Object o) {
 		* 비한정적 와일드카드 타입인 Set<?> 과 로 타입인 Set의 차이
 			* 와일드카드 타입은 안전하고 로 타입은 안전하지 않다
 			* 로 타입 컬렉션에는 아무 원소나 넣을 수 있으니 타입 불변식이 훼손되기 쉬움
-			* **Collection<?>에는 (null외에는) 어
+			* **Collection<?>에는 (null외에는) 어떤 원소도 넣을 수 없다**
+* 로 타입을 쓰는 예외
+	* **class 리터럴에는 로타입을 써야함
+		* 
 ```java
 static int numElementsInCommon(Set s1, Set s2) {
 	int result = 0;
@@ -59,5 +62,5 @@ static int numElementsInCommon(Set s1, Set s2) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU4NjQ3MzIsODgxMjQ4Mzk3XX0=
+eyJoaXN0b3J5IjpbLTQ1MjQ2MTI2OSw4ODEyNDgzOTddfQ==
 -->
