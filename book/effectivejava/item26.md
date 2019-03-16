@@ -64,8 +64,15 @@ static int numElementsInCommon(Set s1, Set s2) {
 		* List<String>.class, List<?>.class 허용 안함
 	* instanceof 연산자
 ```java
-if 
+if (o instanceof Set) { // 로 타입
+	Set<?> s = (Set<?>) o; // 와일드카드 타입
+}
 ```
+
+|  |  ||  |  |
+|--|--|--|--|
+|  |  |  |  |
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMTI5NzE3NCw4ODEyNDgzOTddfQ==
+eyJoaXN0b3J5IjpbLTMxMzg0MDY0Myw4ODEyNDgzOTddfQ==
 -->
