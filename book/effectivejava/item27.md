@@ -7,7 +7,8 @@
 	* **가능한 한 좁은 범위에 적용**
 		* 변수 선언, 아주 짧은 메서드, 혹은 생성자
 		* 절대 클래스 전체에 적용해서는 안됨
-		* 한 주
+		* 한 줄이 넘는 메서드나 생성자에 달린 애너테이션을 발견하면 지역변수 선언쪽으로 옮기자
+* **@SuppressWarnings("unchecked") 사용시 그 경고를 무시해도 안전한 이유를 항상 주석으로 남겨야 한다**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDE5MzExOV19
+eyJoaXN0b3J5IjpbMTUyMzA2ODQwN119
 -->
