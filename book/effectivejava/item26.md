@@ -77,12 +77,12 @@ if (o instanceof Set) { // 로 타입
 |정규 타입 매개변수|formal type parameter|E|  |
 |비한정적 와일드카드 타입|unbounded wildcard type|List`<?>`|  |
 |로 타입|raw type|List |  |
-|한정적 타입 매개변수 |bounded type parameter|<E extends Number>|  |
-|재귀적 타입 한정|recursive type bounded|  |  |
-|한정적 와일드카드 타입|bounded wildcard type|  |  |
-|제너릭 메서드|generic method|  |  |
+|한정적 타입 매개변수 |bounded type parameter|`<E extends Number>`|  |
+|재귀적 타입 한정|recursive type bounded|`<T extends Comparable<T>>`|  |
+|한정적 와일드카드 타입|bounded wildcard type|List`<? extends Number>`|  |
+|제너릭 메서드|generic method|static `<E>` List`<E>` asList(E[] a)|  |
 |타입 토큰|type token|  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTg5ODc2NDksODgxMjQ4Mzk3XX0=
+eyJoaXN0b3J5IjpbLTkwNjAyOTIxNCw4ODEyNDgzOTddfQ==
 -->
