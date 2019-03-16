@@ -59,7 +59,9 @@
 
 # 제너릭
 ## 아이템26. 로 타입은 사용하지 말라
+
+## 아이템27. 비검사 경고를 제거하라
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjgyNzgyLC0xMzY0NTEzMDYsLTM1Nj
+eyJoaXN0b3J5IjpbNDE2MDMwNjAwLC0xMzY0NTEzMDYsLTM1Nj
 IyNjkxMF19
 -->
