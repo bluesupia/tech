@@ -45,7 +45,8 @@ private static void unsafeAdd(List list, Object o) {
 		* 제너릭 타입을 쓰고 싶지만 실제 타입 매개변수가 무엇인지 신경 쓰고 싶지 않을 때 물음표(?)
 		* ex. 제너릭 타입 Set<E>	의 비한정적 와일드 카드 타입은 Set<?>
 		* 어떤 타입이라도 담을 수 있는 가장 범용적인 매개변수화 Set 타입
-		* 
+		* 비한정적 와일드카드 타입인 Set<?> 과 로 타입인 Set의 차이
+			* 와일드카드 타입은 안전하고 로 타입은 안전하지 않다
 ```java
 static int numElementsInCommon(Set s1, Set s2) {
 	int result = 0;
@@ -56,5 +57,5 @@ static int numElementsInCommon(Set s1, Set s2) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MzczMjkzNSw4ODEyNDgzOTddfQ==
+eyJoaXN0b3J5IjpbMTU2NzM5Njg4Miw4ODEyNDgzOTddfQ==
 -->
