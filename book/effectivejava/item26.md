@@ -69,10 +69,19 @@ if (o instanceof Set) { // 로 타입
 }
 ```
 
-|  |  ||  |  |
+|한글용어  |영문영어  |예  |아이템  |
 |--|--|--|--|
-|  |  |  |  |
+|매개변수화 타입  |  |  |  |
+|실제 타입 매개변수|  |  |  |
+|재너릭 타입  |  |  |  |
+|정규 타입 매개변수|  |  |  |
+|비한정적 와일드카드 타입|  |  |  |
+|로 타입|  |  |  |
+|한정적 타입  |  |  |  |
+|매개변수화 타입  |  |  |  |
+|매개변수화 타입  |  |  |  |
+|매개변수화 타입  |  |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMzg0MDY0Myw4ODEyNDgzOTddfQ==
+eyJoaXN0b3J5IjpbLTk4NzkyNjY3Miw4ODEyNDgzOTddfQ==
 -->
