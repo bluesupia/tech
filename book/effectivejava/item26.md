@@ -68,21 +68,22 @@ if (o instanceof Set) { // 로 타입
 	Set<?> s = (Set<?>) o; // 와일드카드 타입
 }
 ```
+* 용어
 
 |한글용어  |영문영어  |예  |아이템  |
 |--|--|--|--|
-|매개변수화 타입  |parameterized type|List`<String>`|  |
-|실제 타입 매개변수|actual type parameter| String |  |
-|재너릭 타입  |generic type |List`<E>`|  |
-|정규 타입 매개변수|formal type parameter|E|  |
-|비한정적 와일드카드 타입|unbounded wildcard type|List`<?>`|  |
-|로 타입|raw type|List |  |
-|한정적 타입 매개변수 |bounded type parameter|`<E extends Number>`|  |
-|재귀적 타입 한정|recursive type bounded|`<T extends Comparable<T>>`|  |
-|한정적 와일드카드 타입|bounded wildcard type|List`<? extends Number>`|  |
-|제너릭 메서드|generic method|static `<E>` List`<E>` asList(E[] a)|  |
-|타입 토큰|type token|  |  |
+|매개변수화 타입  |parameterized type|List`<String>`|26|
+|실제 타입 매개변수|actual type parameter| String |26|
+|재너릭 타입  |generic type |List`<E>`|26,29|
+|정규 타입 매개변수|formal type parameter|E|26|
+|비한정적 와일드카드 타입|unbounded wildcard type|List`<?>`|26|
+|로 타입|raw type|List |26|
+|한정적 타입 매개변수 |bounded type parameter|`<E extends Number>`|29|
+|재귀적 타입 한정|recursive type bounded|`<T extends Comparable<T>>`|30|
+|한정적 와일드카드 타입|bounded wildcard type|List`<? extends Number>`|31|
+|제너릭 메서드|generic method|static `<E>` List`<E>` asList(E[] a)|30|
+|타입 토큰|type token|String.class|33|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNjAyOTIxNCw4ODEyNDgzOTddfQ==
+eyJoaXN0b3J5IjpbLTY1OTI0OTE0Miw4ODEyNDgzOTddfQ==
 -->
