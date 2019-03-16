@@ -49,9 +49,6 @@ private static void unsafeAdd(List list, Object o) {
 			* 와일드카드 타입은 안전하고 로 타입은 안전하지 않다
 			* 로 타입 컬렉션에는 아무 원소나 넣을 수 있으니 타입 불변식이 훼손되기 쉬움
 			* **Collection<?>에는 (null외에는) 어떤 원소도 넣을 수 없다**
-* 로 타입을 쓰는 예외
-	* **class 리터럴에는 로타입을 써야함**
-		* 
 ```java
 static int numElementsInCommon(Set s1, Set s2) {
 	int result = 0;
@@ -61,6 +58,14 @@ static int numElementsInCommon(Set s1, Set s2) {
 	return result;
 }
 ```
+* 로 타입을 쓰는 예외
+	* **class 리터럴에는 로타입을 써야함**
+		* List.class, String[].class, int.class 허용
+		* List<String>.class, List<?>.class 허용 안함
+	* instanceof 연산자
+```java
+if 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTIwMjQ3NSw4ODEyNDgzOTddfQ==
+eyJoaXN0b3J5IjpbMTgxMTI5NzE3NCw4ODEyNDgzOTddfQ==
 -->
