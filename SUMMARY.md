@@ -24,6 +24,8 @@
 		* [item21/22](book/effectivejava/item2122.md)
 		* [item23](book/effectivejava/item23.md)
 		* [item24/25](book/effectivejava/item2425.md)
+		* [item26](book/effectivejava/item26.md)
+		* [item27](book/effectivejava/item27.md)
 
 
 	* 자바 프로그래밍 언어 (거꾸로보기)
@@ -34,6 +36,6 @@
 * [기술 블로그](techblog.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjcxNjgzMSwxNDc3NzY1NzQ2LDQyMT
-ExNzMyNiwyMTM0NDgzNjI0XX0=
+eyJoaXN0b3J5IjpbOTk1NTk3NDQzLDE0Nzc3NjU3NDYsNDIxMT
+E3MzI2LDIxMzQ0ODM2MjRdfQ==
 -->
