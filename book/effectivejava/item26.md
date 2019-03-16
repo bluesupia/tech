@@ -71,18 +71,18 @@ if (o instanceof Set) { // 로 타입
 
 |한글용어  |영문영어  |예  |아이템  |
 |--|--|--|--|
-|매개변수화 타입  |parameterized type|List<String>|  |
-|실제 타입 매개변수|actual type parameter|  |  |
-|재너릭 타입  |generic type |  |  |
-|정규 타입 매개변수|formal type parameter|  |  |
-|비한정적 와일드카드 타입|unbounded wildcard type|  |  |
-|로 타입|raw type|  |  |
-|한정적 타입 매개변수 |bounded type parameter|  |  |
+|매개변수화 타입  |parameterized type|List`<String>`|  |
+|실제 타입 매개변수|actual type parameter| String |  |
+|재너릭 타입  |generic type |List`<E>`|  |
+|정규 타입 매개변수|formal type parameter|E|  |
+|비한정적 와일드카드 타입|unbounded wildcard type|List`<?>`|  |
+|로 타입|raw type|List |  |
+|한정적 타입 매개변수 |bounded type parameter|<E extends Number>|  |
 |재귀적 타입 한정|recursive type bounded|  |  |
 |한정적 와일드카드 타입|bounded wildcard type|  |  |
 |제너릭 메서드|generic method|  |  |
 |타입 토큰|type token|  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTAwMjMyMzgsODgxMjQ4Mzk3XX0=
+eyJoaXN0b3J5IjpbLTIwOTg5ODc2NDksODgxMjQ4Mzk3XX0=
 -->
