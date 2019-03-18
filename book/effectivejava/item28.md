@@ -30,6 +30,7 @@
 	* 대부분은 배열 E[] 대신 List< E >를 사용하면 해결
 	* 코드가 조금 복잡해지고 성능이 살짝 나빠지나,
 	* 타입 안정성과 상호운용성은 좋아진다
+* 제너릭을 도입해야하는 예
 ```java
 public class Chooser {
 	private final Object[] choiceArray;
@@ -39,11 +40,26 @@ public class Chooser {
 	}
 
 	public Object choose() {
-		Random rnd = ThreadLocalRandom.current();
+		Random rnd = ThreadL젠ocalRandom.current();
+		return choiceArray[rnd.nextInt(choiceArray.length)];
+	}
+}
+```
+* 제너릭 도입
+```java
+public class Chooser<T> {
+	private final List<T> choiceArray;
+	
+	public Chooser(Collection<T> choices) {
+		choiceArray = new ArrayList<>(choices);
+	}
+
+	public Object choose() {
+		Random rnd = ThreadL젠ocalRandom.current();
 		return choiceArray[rnd.nextInt(choiceArray.length)];
 	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAyNjkzMDYzXX0=
+eyJoaXN0b3J5IjpbOTk3OTYwOTY1XX0=
 -->
