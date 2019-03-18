@@ -68,7 +68,7 @@ public class Chooser<T> {
 * 그 결과 배열은 런타임에는 타입이 안전하나 컴파일 타임에는 안전하지 않다
 * 제너릭은 그 반대
 * 따라서 둘은 함께 쓰기 쉽지 않다
-* 둘이 함께 할 때 컴파일 오류
+* 둘이 함께 할 때 컴파일 오류나 경고를 만나면 가장 먼저 배열을 리스트로 대체!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTI5MTk5MzFdfQ==
+eyJoaXN0b3J5IjpbLTE3MzQwOTU4MF19
 -->
