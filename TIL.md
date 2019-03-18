@@ -1,7 +1,10 @@
 ### 20190318
 #API
 * REST API
-	* 어느날 클라에서 요청이 온다. 기존 PATCH /content/1로 사용하던 수정 API를 명시적으로 /content/1/dup
+	* 어느날 클라에서 요청이 온다. 기존 PATCH /content/1로 사용하던 수정 API를 명시적으로 /content/1/update 로 바꿀 수 없을까요 ? REST API 규칙을 따르고 있어서 어렵다고 말하고 싶은데 ... 제대로 알고 있나 확인해보자
+	* 가장 중요한 규칙
+		* **첫 번째,**  URI는 정보의 자원을 표현해야 한다.  
+		* **두 번째,**  자원에 대한 행위는 HTTP Method(GET, POST, PUT, DELETE)로 표현한다.
 https://meetup.toast.com/posts/92
 
 ### 20190313
@@ -53,7 +56,7 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1Njc2Nzg4LC0yMDY4MjY3NzM0LDY3Nj
-MxMTA2NywxMzUwMDc4ODMxLC0xNzY5OTkwNjYwLC0xNDkxNTgx
-MTYxLC04NTgwOTU2MTVdfQ==
+eyJoaXN0b3J5IjpbMTQzODYwMTA4NiwtMjA2ODI2NzczNCw2Nz
+YzMTEwNjcsMTM1MDA3ODgzMSwtMTc2OTk5MDY2MCwtMTQ5MTU4
+MTE2MSwtODU4MDk1NjE1XX0=
 -->
