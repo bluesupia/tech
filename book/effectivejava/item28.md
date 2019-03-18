@@ -12,7 +12,12 @@
 			* 원소타입을 컴파일타임에만 검사하며 런타임에는 알수 없다
 			* 소거
 				* 제러닉이 지원되기 전의 레거시 코드와 제너릭 타입을 함께 사용할 수 있게 해주는 매커니즘
-* 제너릭
+* 제너릭 배열 ? 
+	* 타입이 안전하지 않기 떄문에 만들지 못함
+	* 자동 생성한 형변환 코드에서 런타임에  ClassCastException이 발생할 수 있음
+	* 제너릭 타입 시스템의 취지에 어긋남
+* 실체화 불가 타입 (non-reifiable type)
+	* E, Lis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDAzMzUyMDVdfQ==
+eyJoaXN0b3J5IjpbLTg4MzE1NTAyNl19
 -->
