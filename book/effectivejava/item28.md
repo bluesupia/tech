@@ -1,9 +1,16 @@
 ## 아이템28. 배열보다는 리스트를 사용하라
 * 배열과 제너릭 타입의 차이
-	* 배열은 공변 (함께 변한다)
-		* Sub가 Super의 하위 타입이라면 배열 Sub[]는 배열 Super[]의 하위 타입
-	* 제너릭은 불공변
-		* 서로 다른 타입 Type1, Type2가 있을 때 `List<Type1>`과 `List<Type2>`는 상 하위 타입이 아님
+	* 공변과 불공변
+		* 배열은 공변 (함께 변한다)
+			* Sub가 Super의 하위 타입이라면 배열 Sub[]는 배열 Super[]의 하위 타입
+		* 제너릭은 불공변
+			* 서로 다른 타입 Type1, Type2가 있을 때 `List<Type1>`과 `List<Type2>`는 상 하위 타입이 아님
+	* 실체화와 비실체화
+		* 배열은 실체화(reify)
+			* 런타임에도 자신이 담기로 한 원소의 타입을 인지하고 확인
+		* 제너릭은 타입 정보가 런타임에는 소거(erasure)
+			* 원소타입을 컴파일타임에만 검사하며 런타임에는 알수 없다
+			* 소
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjUxMjg1OF19
+eyJoaXN0b3J5IjpbMTMxNTIzNjMyMF19
 -->
