@@ -17,7 +17,11 @@
 	* 자동 생성한 형변환 코드에서 런타임에  ClassCastException이 발생할 수 있음
 	* 제너릭 타입 시스템의 취지에 어긋남
 * 실체화 불가 타입 (non-reifiable type)
-	* E, Lis
+	* E, List< E >. List< String > 
+	* 실체화되지 않아서 런타임에는 컴파일타임보다 타입 정보를 적게 가지는 타입
+* 실체화 가능 타입
+	* List < ? > ,  Map < ? > 과 같은 비한정적 와일드 카드 타입
+	* 소거 매커니즘 때문에 매개변수화 타입 가운데 실체화될 수 있는 타임은 위 예
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MzE1NTAyNl19
+eyJoaXN0b3J5IjpbMTgyMjQ2MTI2NV19
 -->
