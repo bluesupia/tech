@@ -29,7 +29,21 @@
 * 배열로 형변환 시 제너릭 배열 생성 오류나 비검사 형변환 경고가 뜰 경우
 	* 대부분은 배열 E[] 대신 List< E >를 사용하면 해결
 	* 코드가 조금 복잡해지고 성능이 살짝 나빠지나,
-	* 타입 안정
+	* 타입 안정성과 상호운용성은 좋아진다
+```java
+public class Chooser {
+	private final Object[] choiceArray;
+	
+	public Chooser(Collection choices) {
+		choiceArray = choices.toArray();
+	}
+
+	public Object choose() {
+		Random rnd = ThreadLocalRandom.current();
+		return choiceArray[nrd.
+	}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcwMDY2MzAyXX0=
+eyJoaXN0b3J5IjpbOTU3NjA1OTYwXX0=
 -->
