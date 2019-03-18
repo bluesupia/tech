@@ -48,18 +48,18 @@ public class Chooser {
 * 제너릭 도입
 ```java
 public class Chooser<T> {
-	private final List<T> choiceArray;
+	private final List<T> choiceList;
 	
 	public Chooser(Collection<T> choices) {
-		choiceArray = new ArrayList<>(choices);
+		choiceList = new ArrayList<>(choices);
 	}
 
 	public Object choose() {
 		Random rnd = ThreadL젠ocalRandom.current();
-		return choiceArray[rnd.nextInt(choiceArray.length)];
+		return choiceList.get(rnd.nextInt(choiceList.size()));
 	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk3OTYwOTY1XX0=
+eyJoaXN0b3J5IjpbOTExMDI1NDBdfQ==
 -->
