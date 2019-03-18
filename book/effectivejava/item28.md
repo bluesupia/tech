@@ -54,12 +54,21 @@ public class Chooser<T> {
 		choiceList = new ArrayList<>(choices);
 	}
 
-	public Object choose() {
+	public T choose() {
 		Random rnd = ThreadL젠ocalRandom.current();
 		return choiceList.get(rnd.nextInt(choiceList.size()));
 	}
 }
 ```
+
+### 핵심정리
+* 배열과 제너릭은 매우 다른 타입 규칙이 적용됨
+	* 배열은 공변이고 실체화 됨
+	* 제너릭은 불공변, 타입 정보가 소거
+* 그 결과 배열은 런타임에는 타입이 안전하나 컴파일 타임에는 안전하지 않다
+* 제너릭은 그 반대
+* 따라서 둘은 함께 쓰기 쉽지 않다
+* 둘이 함께 할 때 컴파일 오류
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTExMDI1NDBdfQ==
+eyJoaXN0b3J5IjpbLTEwMTI5MTk5MzFdfQ==
 -->
