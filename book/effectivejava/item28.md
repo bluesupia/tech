@@ -40,10 +40,10 @@ public class Chooser {
 
 	public Object choose() {
 		Random rnd = ThreadLocalRandom.current();
-		return choiceArray[nrd.
+		return choiceArray[rnd.nextInt(choiceArray.length)];
 	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU3NjA1OTYwXX0=
+eyJoaXN0b3J5IjpbMzAyNjkzMDYzXX0=
 -->
