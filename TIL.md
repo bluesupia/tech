@@ -1,3 +1,9 @@
+### 20190318
+#API
+* REST API
+	* 어느날 클라에서 요청이 온다. 기존 PATCH /content/1로 사용하던 수정 API를 명시적으로 /content/1/dup
+https://meetup.toast.com/posts/92
+
 ### 20190313
 #java #code
 * `return null`을 지양하자
@@ -47,7 +53,7 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjgyNjc3MzQsNjc2MzExMDY3LDEzNT
-AwNzg4MzEsLTE3Njk5OTA2NjAsLTE0OTE1ODExNjEsLTg1ODA5
-NTYxNV19
+eyJoaXN0b3J5IjpbNzk1Njc2Nzg4LC0yMDY4MjY3NzM0LDY3Nj
+MxMTA2NywxMzUwMDc4ODMxLC0xNzY5OTkwNjYwLC0xNDkxNTgx
+MTYxLC04NTgwOTU2MTVdfQ==
 -->
