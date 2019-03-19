@@ -25,7 +25,13 @@
 ```java
 class DelayQueue<E extends Delayed> implements BlockingQueue<E>
 ```
+
+### 핵심정리
+* 클라에서 직접 형변환해야하는 타입보다는 제너릭 타입이 더 안전하고 쓰기 편함
+* 새로운 타입을 설계할 때는 형변환 없이도 사용할 수 있어야함
+* 그럴 땐 대개 제너릭으로 !!
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzM0MzA0NTksLTExMTY0MzY3MzUsLT
+eyJoaXN0b3J5IjpbLTEzMzU0MTY0NDYsLTExMTY0MzY3MzUsLT
 E0OTgzNDEyMzddfQ==
 -->
