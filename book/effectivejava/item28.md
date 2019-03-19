@@ -20,7 +20,7 @@
 	* E, List< E >. List< String > 
 	* 실체화되지 않아서 런타임에는 컴파일타임보다 타입 정보를 적게 가지는 타입
 *  매개변수화 타입 중 실체화 가능 타입
-	* List < ? > ,  Map < ? > 과 같은 비한정적 와일드 카드 타입
+	* List &lt;?&gt; ,  Map&lt;?&gt; 과 같은 비한정적 와일드 카드 타입
 	* 소거 매커니즘 때문에 
 * 제너릭 배열 불가로 발생하는 단점
 	* 제너릭 컬렉션에는 자신의 원소 타입을 담은 배열을 반환하는 게 보통은 불가능
@@ -68,5 +68,5 @@ public class Chooser<T> {
 * 그 결과 배열은 런타임에는 타입이 안전하나 컴파일 타임에는 안전하지 않고, 제너릭은 그 반대라서 둘을 함께 쓰기 쉽지 않다
 * 배열과 제너릭을 함께 쓰다가 컴파일 오류나 경고를 만나면 가장 먼저 배열을 리스트로 대체!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTAxODI3MjNdfQ==
+eyJoaXN0b3J5IjpbMTE2MTA5NjY4MSwtMTU5MDE4MjcyM119
 -->
