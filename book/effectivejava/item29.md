@@ -21,10 +21,11 @@
 				* 아이템27의 조언에 따라 비검사 형변환을 수행하는 할당문에서만 숨김
 				* 힙 오염의 우려로 위 방법을 선호하기도 함
 * 타입 매개변수에 제약을 두는 제너릭 타입
+	* 한정적 타입 매개변수
 ```java
 class DelayQueue<E extends Delayed> implements BlockingQueue<E>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTk5ODQ0ODQsLTExMTY0MzY3MzUsLT
+eyJoaXN0b3J5IjpbLTE3MzM0MzA0NTksLTExMTY0MzY3MzUsLT
 E0OTgzNDEyMzddfQ==
 -->
