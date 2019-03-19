@@ -10,7 +10,10 @@
 		* E와 같은 실체화 불가 타입으로는 배열을 만들 수 없다
 		* 배열을 사용하는 코드를 제너릭으로 바꿀 때 해결방법
 			* 제너릭 배열 생성을 금지하는 제약을 대놓고 우회
+				* Object 배열로 생성 후 제너릭 배열로 형변환
+				* 비검사 형변환이 확실하다면 @SuppressWarnings 로 해당 경고 숨김
+				* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTY0MzY3MzUsLTE0OTgzNDEyMzddfQ
-==
+eyJoaXN0b3J5IjpbLTIxMDg3MzAwODIsLTExMTY0MzY3MzUsLT
+E0OTgzNDEyMzddfQ==
 -->
