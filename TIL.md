@@ -1,4 +1,7 @@
-### 
+### 20190319-2
+* ::
+	* method reference
+	* double colon operator
 
 ### 20190319
 #java #annotation
@@ -99,7 +102,7 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTg5OTM1NCwxNDUzMDIyMDQzLDE4NT
+eyJoaXN0b3J5IjpbMTU5Mzk4Mjg1NCwxNDUzMDIyMDQzLDE4NT
 g5MjMxMiwxNDM4NjAxMDg2LC0yMDY4MjY3NzM0LDY3NjMxMTA2
 NywxMzUwMDc4ODMxLC0xNzY5OTkwNjYwLC0xNDkxNTgxMTYxLC
 04NTgwOTU2MTVdfQ==
