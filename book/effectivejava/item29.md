@@ -8,6 +8,9 @@
 	* 코드에 쓰인 Object를 적절한 타입 매개변수로 바꾸고 컴파일
 		* 컴파일 되지 않음!
 		* E와 같은 실체화 불가 타입으로는 배열을 만들 수 없다
+		* 배열을 사용하는 코드를 제너릭으로 바꿀 때 해결방법
+			* 제너릭 배열 생성을 금지하는 제약을 대놓고 우회
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNTU4OTMyNiwtMTQ5ODM0MTIzN119
+eyJoaXN0b3J5IjpbLTExMTY0MzY3MzUsLTE0OTgzNDEyMzddfQ
+==
 -->
