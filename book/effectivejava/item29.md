@@ -3,7 +3,8 @@
 	* 제너릭이 절실한 강력 후보!
 	* 현 상태에서의 클라이언트는 스택에서 꺼낸 객체를 형변환해야하는데, 이때 런타임 오류가 날 위험이 있따
 * 일반클래스 -> 제너릭 클래스로 만드는 단계
-	1. 클래스 선언에 타입 매개
+	* 클래스 선언에 타입 매개변수를 추가
+		* 타입 이름으로는 보통 E를 사용
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2Mjg5NzkzMl19
+eyJoaXN0b3J5IjpbLTE0OTgzNDEyMzddfQ==
 -->
