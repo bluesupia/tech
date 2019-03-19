@@ -72,7 +72,7 @@ if (o instanceof Set) { // 로 타입
 
 |한글용어  |영문영어  |예  |아이템  |
 |--|--|--|--|
-|매개변수화 타입  |parameterized type|List`<String>`|26|
+|매개변수화 타입  |parameterized type|List&lt;String>&gt;|26|
 |실제 타입 매개변수|actual type parameter| String |26|
 |재너릭 타입  |generic type |List`<E>`|26,29|
 |정규 타입 매개변수|formal type parameter|E|26|
@@ -85,5 +85,5 @@ if (o instanceof Set) { // 로 타입
 |타입 토큰|type token|String.class|33|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTI0OTE0Miw4ODEyNDgzOTddfQ==
+eyJoaXN0b3J5IjpbLTU3Mjc4MzA3OSw4ODEyNDgzOTddfQ==
 -->
