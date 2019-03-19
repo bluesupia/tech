@@ -4,8 +4,6 @@
 	* **컴파일러가** 일반적으로 **경고하는 내용** 중  
 "이건 하지마"하고 **제외**시킬 때  
 
-### in my proj.
-UnstableApiUsage
 -   all  모든 경고를 억제합니다.
 -   boxing  boxing/unboxing 오퍼레이션과 관련된 경고를 억제합니다.
 -   cast  캐스트 오퍼레이션과 관련된 경고를 억제합니다.
@@ -31,6 +29,13 @@ UnstableApiUsage
 -   unqualified-field-access  규정되지 않은 필드 액세스와 관련된 경고를 억제합니다.
 -   unused  사용하지 않은 코드 및 불필요한 코드와 관련된 경고를 억제합니다.
   
+### in my proj.
+* Duplictes
+* rawtypes
+* unchecked
+* unused
+* UnstableApiUsage
+
 https://www.ibm.com/support/knowledgecenter/ko/SSRTLW_9.6.1/org.eclipse.jdt.doc.user/tasks/task-suppress_warnings.htm
 출처: [https://jinwoonote.tistory.com/entry/SuppressWarnings-이건-뭐지](https://jinwoonote.tistory.com/entry/SuppressWarnings-%EC%9D%B4%EA%B1%B4-%EB%AD%90%EC%A7%80) [노트]
 
@@ -92,7 +97,7 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTkzMzc1OCwxNDM4NjAxMDg2LC0yMD
-Y4MjY3NzM0LDY3NjMxMTA2NywxMzUwMDc4ODMxLC0xNzY5OTkw
-NjYwLC0xNDkxNTgxMTYxLC04NTgwOTU2MTVdfQ==
+eyJoaXN0b3J5IjpbMTg1ODkyMzEyLDE0Mzg2MDEwODYsLTIwNj
+gyNjc3MzQsNjc2MzExMDY3LDEzNTAwNzg4MzEsLTE3Njk5OTA2
+NjAsLTE0OTE1ODExNjEsLTg1ODA5NTYxNV19
 -->
