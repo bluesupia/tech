@@ -1,3 +1,5 @@
+### 
+
 ### 20190319
 #java #annotation
 * @SuppressWarnings
@@ -97,8 +99,8 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MzAyMjA0MywxODU4OTIzMTIsMTQzOD
-YwMTA4NiwtMjA2ODI2NzczNCw2NzYzMTEwNjcsMTM1MDA3ODgz
-MSwtMTc2OTk5MDY2MCwtMTQ5MTU4MTE2MSwtODU4MDk1NjE1XX
-0=
+eyJoaXN0b3J5IjpbMTA2NTg5OTM1NCwxNDUzMDIyMDQzLDE4NT
+g5MjMxMiwxNDM4NjAxMDg2LC0yMDY4MjY3NzM0LDY3NjMxMTA2
+NywxMzUwMDc4ODMxLC0xNzY5OTkwNjYwLC0xNDkxNTgxMTYxLC
+04NTgwOTU2MTVdfQ==
 -->
