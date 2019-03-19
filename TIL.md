@@ -1,3 +1,36 @@
+### 20190319
+#java #annotation
+* @SuppressWarnings
+	* **컴파일러가** 일반적으로 **경고하는 내용** 중  
+"이건 하지마"하고 **제외**시킬 때  
+-   all  모든 경고를 억제합니다.
+-   boxing  boxing/unboxing 오퍼레이션과 관련된 경고를 억제합니다.
+-   cast  캐스트 오퍼레이션과 관련된 경고를 억제합니다.
+-   dep-ann  권장되지 않는 어노테이션과 관련된 경고를 억제합니다.
+-   deprecation  권장되지 않는 기능과 관련된 경고를 억제합니다.
+-   fallthrough  switch 문에서 누락된 break 문과 관련된 경고를 억제합니다.
+-   finally  리턴되지 않는 마지막 블록과 관련된 경고를 억제합니다.
+-   hiding  변수를 숨기는 로컬과 관련된 경고를 억제합니다.
+-   incomplete-switch  switch 문에서 누락된 항목과 관련된 경고를 억제합니다(enum case).
+-   javadoc  javadoc 경고와 관련된 경고를 억제합니다.
+-   nls  비nls 문자열 리터럴과 관련된 경고를 억제합니다.
+-   null  널(null) 분석과 관련된 경고를 억제합니다.
+-   rawtypes  원시 유형 사용법과 관련된 경고를 억제합니다.
+-   resource  닫기 가능 유형의 자원 사용에 관련된 경고 억제
+-   restriction  올바르지 않거나 금지된 참조 사용법과 관련된 경고를 억제합니다.
+-   serial  직렬화 가능 클래스에 대한 누락된 serialVersionUID 필드와 관련된 경고를 억제합니다.
+-   static-access  잘못된 정적 액세스와 관련된 경고를 억제합니다.
+-   static-method  static으로 선언될 수 있는 메소드와 관련된 경고를 억제합니다.
+-   super  수퍼 호출을 사용하지 않는 메소드 겹쳐쓰기와 관련된 경고를 억제합니다.
+-   synthetic-access  내부 클래스로부터의 최적화되지 않은 액세스와 관련된 경고를 억제합니다.
+-   sync-override  동기화된 메소드를 오버라이드하는 경우 누락된 동기화로 인한 경고 억제
+-   unchecked  미확인 오퍼레이션과 관련된 경고를 억제합니다.
+-   unqualified-field-access  규정되지 않은 필드 액세스와 관련된 경고를 억제합니다.
+-   unused  사용하지 않은 코드 및 불필요한 코드와 관련된 경고를 억제합니다.
+  
+https://www.ibm.com/support/knowledgecenter/ko/SSRTLW_9.6.1/org.eclipse.jdt.doc.user/tasks/task-suppress_warnings.htm
+출처: [https://jinwoonote.tistory.com/entry/SuppressWarnings-이건-뭐지](https://jinwoonote.tistory.com/entry/SuppressWarnings-%EC%9D%B4%EA%B1%B4-%EB%AD%90%EC%A7%80) [노트]
+
 ### 20190318
 #API
 * REST API
@@ -56,7 +89,7 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzODYwMTA4NiwtMjA2ODI2NzczNCw2Nz
-YzMTEwNjcsMTM1MDA3ODgzMSwtMTc2OTk5MDY2MCwtMTQ5MTU4
-MTE2MSwtODU4MDk1NjE1XX0=
+eyJoaXN0b3J5IjpbLTQ1MDEwNDQ5NiwxNDM4NjAxMDg2LC0yMD
+Y4MjY3NzM0LDY3NjMxMTA2NywxMzUwMDc4ODMxLC0xNzY5OTkw
+NjYwLC0xNDkxNTgxMTYxLC04NTgwOTU2MTVdfQ==
 -->
