@@ -5,6 +5,9 @@
 * 일반클래스 -> 제너릭 클래스로 만드는 단계
 	* 클래스 선언에 타입 매개변수를 추가
 		* 타입 이름으로는 보통 E를 사용
+	* 코드에 쓰인 Object를 적절한 타입 매개변수로 바꾸고 컴파일
+		* 컴파일 되지 않음!
+		* E와 같은 실체화 불가 타입으로는 배열을 만들 수 없다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTgzNDEyMzddfQ==
+eyJoaXN0b3J5IjpbLTIzNTU4OTMyNiwtMTQ5ODM0MTIzN119
 -->
