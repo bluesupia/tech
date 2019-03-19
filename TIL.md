@@ -3,6 +3,9 @@
 * @SuppressWarnings
 	* **컴파일러가** 일반적으로 **경고하는 내용** 중  
 "이건 하지마"하고 **제외**시킬 때  
+
+### in my proj.
+UnstableApiUsage
 -   all  모든 경고를 억제합니다.
 -   boxing  boxing/unboxing 오퍼레이션과 관련된 경고를 억제합니다.
 -   cast  캐스트 오퍼레이션과 관련된 경고를 억제합니다.
@@ -89,7 +92,7 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDEwNDQ5NiwxNDM4NjAxMDg2LC0yMD
+eyJoaXN0b3J5IjpbMTQ2MTkzMzc1OCwxNDM4NjAxMDg2LC0yMD
 Y4MjY3NzM0LDY3NjMxMTA2NywxMzUwMDc4ODMxLC0xNzY5OTkw
 NjYwLC0xNDkxNTgxMTYxLC04NTgwOTU2MTVdfQ==
 -->
