@@ -30,8 +30,9 @@ class DelayQueue<E extends Delayed> implements BlockingQueue<E>
 * 클라에서 직접 형변환해야하는 타입보다는 제너릭 타입이 더 안전하고 쓰기 편함
 * 새로운 타입을 설계할 때는 형변환 없이도 사용할 수 있어야함
 * 그럴 땐 대개 제너릭으로 !!
-* 
+* 기존 타입 중 제너릭이었어야 하는 부분이 있다면 제너릭 타입으로 변경
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzU0MTY0NDYsLTExMTY0MzY3MzUsLT
-E0OTgzNDEyMzddfQ==
+eyJoaXN0b3J5IjpbMTU5NTYzNzg1OCwtMTExNjQzNjczNSwtMT
+Q5ODM0MTIzN119
 -->
