@@ -14,13 +14,17 @@
 				* 비검사 형변환이 확실하다면 @SuppressWarnings 로 해당 경고 숨김
 				* 가독성이 좋고 코드도 짧다
 				* 현업에서는 더 선호
-				* 배열의 런타임 타입이 컴파일타임 
+				* 배열의 런타임 타입이 컴파일타임 타입과 달라 힙오염을 일으킴
 			* elements 필드 타입을 E[]에서 Object[]로 바꿈
 				* E는 실체화 불가 타입이므로 컴파일러는 런타임에 이뤄지는 형변환이 안전한지 증명할 방법이 없다
 				* 직접 증명하고 경고를 숨김
 				* 아이템27의 조언에 따라 비검사 형변환을 수행하는 할당문에서만 숨김
-				* 
+				* 힙 오염의 우려로 위 방법을 선호하기도 함
+* 타입 매개변수에 제약을 두는 제너릭 타입
+```java
+class DelayQueue<E extends Delayed> implements BlockingQueue<E>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg5Mzc0NjgsLTExMTY0MzY3MzUsLT
+eyJoaXN0b3J5IjpbLTE3NTk5ODQ0ODQsLTExMTY0MzY3MzUsLT
 E0OTgzNDEyMzddfQ==
 -->
