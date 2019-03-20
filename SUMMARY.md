@@ -11,24 +11,24 @@
 	* [terminal](terminal.md)
 * BOOK
 	* [effective java](book/effectivejava/summary.md)
-	* -   [item1-11](/book/effectivejava/item1~11.md)
--   [item12](/book/effectivejava/item12.md)
--   [item13](https://github.com/bluesupia/tech/blob/ff989e750f2a784869f7a4c0dd0d79e1216a5aca/book/effectivejava/item13.md)
--   [item14](https://github.com/bluesupia/tech/blob/ff989e750f2a784869f7a4c0dd0d79e1216a5aca/book/effectivejava/item14.md)
--   [item15](https://github.com/bluesupia/tech/blob/ff989e750f2a784869f7a4c0dd0d79e1216a5aca/book/effectivejava/item15.md)
--   [item16](https://github.com/bluesupia/tech/blob/ff989e750f2a784869f7a4c0dd0d79e1216a5aca/book/effectivejava/item16.md)
--   [item17](https://github.com/bluesupia/tech/blob/ff989e750f2a784869f7a4c0dd0d79e1216a5aca/book/effectivejava/item17.md)
--   [item18](https://github.com/bluesupia/tech/blob/ff989e750f2a784869f7a4c0dd0d79e1216a5aca/book/effectivejava/item18.md)
--   [item19](https://github.com/bluesupia/tech/blob/ff989e750f2a784869f7a4c0dd0d79e1216a5aca/book/effectivejava/item19.md)
--   [item20](https://github.com/bluesupia/tech/blob/ff989e750f2a784869f7a4c0dd0d79e1216a5aca/book/effectivejava/item20.md)
--   [item21/22](https://github.com/bluesupia/tech/blob/ff989e750f2a784869f7a4c0dd0d79e1216a5aca/book/effectivejava/item2122.md)
--   [item23](https://github.com/bluesupia/tech/blob/ff989e750f2a784869f7a4c0dd0d79e1216a5aca/book/effectivejava/item23.md)
--   [item24/25](https://github.com/bluesupia/tech/blob/ff989e750f2a784869f7a4c0dd0d79e1216a5aca/book/effectivejava/item2425.md)
--   [item26](https://github.com/bluesupia/tech/blob/ff989e750f2a784869f7a4c0dd0d79e1216a5aca/book/effectivejava/item26.md)
--   [item27](https://github.com/bluesupia/tech/blob/ff989e750f2a784869f7a4c0dd0d79e1216a5aca/book/effectivejava/item27.md)
--   [item28](https://github.com/bluesupia/tech/blob/ff989e750f2a784869f7a4c0dd0d79e1216a5aca/book/effectivejava/item28.md)
--   [item29](https://github.com/bluesupia/tech/blob/ff989e750f2a784869f7a4c0dd0d79e1216a5aca/book/effectivejava/item29.md)
--   [item30](https://github.com/bluesupia/tech/blob/ff989e750f2a784869f7a4c0dd0d79e1216a5aca/book/effectivejava/item29.md)
+		* [item1-11](book/effectivejava/item1~11.md)
+		* [item12](book/effectivejava/item12.md)
+		* [item13](book/effectivejava/item13.md)
+		* [item14](book/effectivejava/item14.md)
+		* [item15](book/effectivejava/item15.md)
+		* [item16](book/effectivejava/item16.md)
+		* [item17](book/effectivejava/item17.md)
+		* [item18](book/effectivejava/item18.md)
+		* [item19](book/effectivejava/item19.md)
+		* [item20](book/effectivejava/item20.md)
+		* [item21/22](book/effectivejava/item2122.md)
+		* [item23](book/effectivejava/item23.md)
+		* [item24/25](book/effectivejava/item2425.md)
+		* [item26](book/effectivejava/item26.md)
+		* [item27](book/effectivejava/item27.md)
+		* [item28](book/effectivejava/item28.md)
+		* [item29](book/effectivejava/item29.md)
+		* [item30](book/effectivejava/item29.md)
 	* 자바 프로그래밍 언어 (거꾸로보기)
 		* [chapter25. 표준패키지](book/jpl/chapter25.md)
 		* [chapter24. 국제화와 지역화](book/jpl/chapter24.md)
@@ -37,6 +37,6 @@
 * [기술 블로그](techblog.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQyMTE5OTczLDE0Nzc3NjU3NDYsNDIxMT
-E3MzI2LDIxMzQ0ODM2MjRdfQ==
+eyJoaXN0b3J5IjpbLTEzMzIzNjU3MjUsMTQ3Nzc2NTc0Niw0Mj
+ExMTczMjYsMjEzNDQ4MzYyNF19
 -->
