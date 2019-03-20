@@ -18,8 +18,8 @@ public static <E> Set<E> union(Set<E> s1, Set<E> s2) {
 	* ex,  Collections.reverseOrder 와 같은 함구 객체(아이템42)나 Collections.emptySet 같은 컬렉션용으로 사용
 	* 항등함수(identity function)
 ```java
-xt
+private static UnaryOperator<Object> IDENTITY_FN = (t) -> t;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjMyOTUxMCwyNDU4NjM2NjZdfQ==
+eyJoaXN0b3J5IjpbODI2OTgzMDEyLDI0NTg2MzY2Nl19
 -->
