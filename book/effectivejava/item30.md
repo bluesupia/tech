@@ -30,6 +30,10 @@ public static <T> UnaryOperator<T> identityFunction() {
 }
 ```
 * 재귀적 타입 한정
+	* 드문경우이나, 자기 자신이 들어간 표현식을 사용하여 타입 매개변수의 허용 범위를 한정
+	* 주로 타입의 자연적 순서를 정하는 Comparable 인터페이스와 함께 쓰임
+```
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTY3NzUyNSwyNDU4NjM2NjZdfQ==
+eyJoaXN0b3J5IjpbNzI5NjAxNDk0LDI0NTg2MzY2Nl19
 -->
