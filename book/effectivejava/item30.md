@@ -14,7 +14,9 @@ public static <E> Set<E> union(Set<E> s1, Set<E> s2) {
 ```
 * 제너릭 싱글턴 팩터리
 	* 불변 객체를 여러 타입으로 활용할 수 있게 만들어야 할 때
-	* 제너릭은 런타임에 타입 정보가 소거되므로 하나의 객체를 어떤 타입으로든 매개변수화 가능하나 이 때 요청한 타입 매개
+	* 제너릭은 런타임에 타입 정보가 소거되므로 하나의 객체를 어떤 타입으로든 매개변수화 가능하나 이 때 요청한 타입 매개 변수에 맞게 매번 그 객체의 타입을 바꿔주는 정적 팩터리를 만들어야 함
+	* ex,  Collections.reverseOrder 와 같은 함구 객체(아이템42)나 Collections.emptySet 같은 컬렉션용으로 사용
+	* 항등함수
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NzkyNjEzOSwyNDU4NjM2NjZdfQ==
+eyJoaXN0b3J5IjpbMTg1MDcxMDAyMywyNDU4NjM2NjZdfQ==
 -->
