@@ -62,14 +62,14 @@
 
 ## 아이템27. 비검사 경고를 제거하라[#27](book/effectivejava/item27.md)
 
-## 아이템28. 배열보다는 리스트를 사용하라[#28](book/effectivejava/item28.md)
+## 아이템28. 배열보다는 리스트를 사용하라[#28](/book/effectivejava/item28.md)
 
-## 아이템29. 이왕이면 제너릭 타입으로 만들라[#29](book/effectivejava/item29.md)
+## 아이템29. 이왕이면 제너릭 타입으로 만들라[#29](/book/effectivejava/item29.md)
 
-## 아이템30. 이왕이면 제너릭 메서드로 만들라 [#30](book/effectivejava/item30.md)
+## 아이템30. 이왕이면 제너릭 메서드로 만들라 [#30](/book/effectivejava/item30.md)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MjIxMzIwNiwtMTM2NDUxMzA2LC0zNT
+eyJoaXN0b3J5IjpbMTg0OTYyODU5NSwtMTM2NDUxMzA2LC0zNT
 YyMjY5MTBdfQ==
 -->
