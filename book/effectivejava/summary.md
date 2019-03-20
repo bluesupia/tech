@@ -66,10 +66,10 @@
 
 ## 아이템29. 이왕이면 제너릭 타입으로 만들라[#29](/book/effectivejava/item29.html)
 
-## 아이템30. 이왕이면 제너릭 메서드로 만들라 [#30](/book/effectivejava/item30.html)
+## 아이템30. 이왕이면 제너릭 메서드로 만들라 [#30](./book/effectivejava/item30.md)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5MDk4MDUxLDE4NDk2Mjg1OTUsLTEzNj
-Q1MTMwNiwtMzU2MjI2OTEwXX0=
+eyJoaXN0b3J5IjpbLTM4MzYzMDg5OSwxODQ5NjI4NTk1LC0xMz
+Y0NTEzMDYsLTM1NjIyNjkxMF19
 -->
