@@ -3,8 +3,8 @@
 | Symbol |  HTML Number|  HTML Name|  HTML Description|
 |--|--|--|--|
 | `#` | `&#35;` ||number sign|
-| `<` | `&#35;` ||number sign|
-| `#` | `&#35;` ||number sign|
+| `<` | `&#lt;` ||number sign|
+| `>` | `&#gt;` ||number sign|
 
 https://www.ascii.cl/htmlcodes.htm
 ### 20190319-2
@@ -111,7 +111,7 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMDYwMjI1MiwtMTI1Njg0MDE0OCwxND
+eyJoaXN0b3J5IjpbMTk4MDQ1Nzk4NiwtMTI1Njg0MDE0OCwxND
 UzMDIyMDQzLDE4NTg5MjMxMiwxNDM4NjAxMDg2LC0yMDY4MjY3
 NzM0LDY3NjMxMTA2NywxMzUwMDc4ODMxLC0xNzY5OTkwNjYwLC
 0xNDkxNTgxMTYxLC04NTgwOTU2MTVdfQ==
