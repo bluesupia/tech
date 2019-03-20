@@ -58,11 +58,11 @@
 ## 아이템25. 톱레벨 클래스는 한 파일에 하나만 담으라[#25](book/effectivejava/item25.md)
 
 # 제너릭
-## 아이템26. 로 타입은 사용하지 말라[#26](book/effectivejava/item26.md)
+## 아이템26. 로 타입은 사용하지 말라[#26](/book/effectivejava/item26.html)
 
-## 아이템27. 비검사 경고를 제거하라[#27](book/effectivejava/item27.md)
+## 아이템27. 비검사 경고를 제거하라[#27](/book/effectivejava/item27.html)
 
-## 아이템28. 배열보다는 리스트를 사용하라[#28](/book/effectivejava/item28.md)
+## 아이템28. 배열보다는 리스트를 사용하라[#28](/book/effectivejava/item28.html)
 
 ## 아이템29. 이왕이면 제너릭 타입으로 만들라[#29](/book/effectivejava/item29.html)
 
@@ -70,6 +70,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MDQ1OSwxODQ5NjI4NTk1LC0xMzY0NT
-EzMDYsLTM1NjIyNjkxMF19
+eyJoaXN0b3J5IjpbOTE5MDk4MDUxLDE4NDk2Mjg1OTUsLTEzNj
+Q1MTMwNiwtMzU2MjI2OTEwXX0=
 -->
