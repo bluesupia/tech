@@ -4,7 +4,7 @@
 	* double colon operator
 
 ### 20190319
-#java #annotation
+`#java #annotation
 * @SuppressWarnings
 	* **컴파일러가** 일반적으로 **경고하는 내용** 중  
 "이건 하지마"하고 **제외**시킬 때  
@@ -102,8 +102,8 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5Mzk4Mjg1NCwxNDUzMDIyMDQzLDE4NT
-g5MjMxMiwxNDM4NjAxMDg2LC0yMDY4MjY3NzM0LDY3NjMxMTA2
-NywxMzUwMDc4ODMxLC0xNzY5OTkwNjYwLC0xNDkxNTgxMTYxLC
-04NTgwOTU2MTVdfQ==
+eyJoaXN0b3J5IjpbLTEyNTY4NDAxNDgsMTQ1MzAyMjA0MywxOD
+U4OTIzMTIsMTQzODYwMTA4NiwtMjA2ODI2NzczNCw2NzYzMTEw
+NjcsMTM1MDA3ODgzMSwtMTc2OTk5MDY2MCwtMTQ5MTU4MTE2MS
+wtODU4MDk1NjE1XX0=
 -->
