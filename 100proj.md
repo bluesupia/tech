@@ -5,7 +5,14 @@
 	* https://github.com/bluesupia/sparrow
 
 * 개발환경
-	* Spring5 	vs 
+	* Spring5
+		* vs Spring boot
+	* mysql
+		* vs mongo
+	* gradle
+		* vs maven
+
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjc3NzI4MzEsNjIxMzY2NTUwXX0=
+eyJoaXN0b3J5IjpbMjA0NjEwNjI5NCw2MjEzNjY1NTBdfQ==
 -->
