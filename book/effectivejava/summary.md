@@ -65,7 +65,10 @@
 ## 아이템28. 배열보다는 리스트를 사용하라
 
 ## 아이템29. 이왕이면 제너릭 타입으로 만들라
+
+## 아이템30. 이왕이면 제너릭 메서드로 만들라
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDg1MTk3MDUsLTEzNjQ1MTMwNiwtMz
-U2MjI2OTEwXX0=
+eyJoaXN0b3J5IjpbNjI1MjIyNzY4LC0xMzY0NTEzMDYsLTM1Nj
+IyNjkxMF19
 -->
