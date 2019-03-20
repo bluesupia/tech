@@ -40,9 +40,11 @@ public static <E extends Comparable<E>> E max(Collection<E> c) {
 		throw new IllegalArgumentException("컬렉션이 비어 있습니다.");
 	E result = null;
 	for (E e : c) 
-		if (result == null ||
+		if (result == null || e.compareTo(result) > 0) 
+			result = Objects.requireNonNull(e);
+	return result;
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MDg3NjkyMywyNDU4NjM2NjZdfQ==
+eyJoaXN0b3J5IjpbLTIwNjAxNjAxNDcsMjQ1ODYzNjY2XX0=
 -->
