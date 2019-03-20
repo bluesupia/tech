@@ -1,6 +1,7 @@
 ## 아이템30. 이왕이면 제너릭 메서드로 만들라
 * 제너릭 메서드
-	* **(타입 매개변수드
+	* **(타입 매개변수들을 선언하는) 타입 매개변수 목록은 메서드의 제한자와 반환 타입 사이에 온다**
+	* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTI3MzYxOV19
+eyJoaXN0b3J5IjpbMjQ1ODYzNjY2XX0=
 -->
