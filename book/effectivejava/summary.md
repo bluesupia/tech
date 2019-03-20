@@ -1,6 +1,6 @@
 # 객체 생성과 파괴
 
- ## 아이템1. 생성자 대신 정적 팩터리 메서드를 고려하라
+ ## [아이템1. 생성자 대신 정적 팩터리 메서드를 고려하라](book/effectivejava/item1~11.md)
 
 ## 아이템2. 생성자에 매개변수가 많다면 빌더를 고려하라
 
@@ -65,10 +65,12 @@
 ## 아이템28. 배열보다는 리스트를 사용하라
 
 ## 아이템29. 이왕이면 제너릭 타입으로 만들라
+[#29](book/effectivejava/item30.md)
 
-## 아이템30. 이왕이면 제너릭 메서드로 만들라
+## 아이템30. 이왕이면 제너릭 메서드로 만들라 [#30](book/effectivejava/item30.md)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI1MjIyNzY4LC0xMzY0NTEzMDYsLTM1Nj
-IyNjkxMF19
+eyJoaXN0b3J5IjpbLTI2OTczMzQ2NCwtMTM2NDUxMzA2LC0zNT
+YyMjY5MTBdfQ==
 -->
