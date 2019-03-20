@@ -1,10 +1,11 @@
+### 201903
 ### 20190319-2
 * ::
 	* method reference
 	* double colon operator
 
 ### 20190319
-`#java #annotation
+&#35;java &#35;annotation
 * @SuppressWarnings
 	* **컴파일러가** 일반적으로 **경고하는 내용** 중  
 "이건 하지마"하고 **제외**시킬 때  
@@ -45,7 +46,7 @@ https://www.ibm.com/support/knowledgecenter/ko/SSRTLW_9.6.1/org.eclipse.jdt.doc.
 출처: [https://jinwoonote.tistory.com/entry/SuppressWarnings-이건-뭐지](https://jinwoonote.tistory.com/entry/SuppressWarnings-%EC%9D%B4%EA%B1%B4-%EB%AD%90%EC%A7%80) [노트]
 
 ### 20190318
-#API
+&#35;API
 * REST API
 	* 어느날 클라에서 요청이 온다. 기존 PATCH /content/1로 사용하던 수정 API를 명시적으로 /content/1/update 로 바꿀 수 없을까요 ? REST API 규칙을 따르고 있어서 어렵다고 말하고 싶은데 ... 제대로 알고 있나 확인해보자
 	* 가장 중요한 규칙
@@ -54,20 +55,20 @@ https://www.ibm.com/support/knowledgecenter/ko/SSRTLW_9.6.1/org.eclipse.jdt.doc.
 https://meetup.toast.com/posts/92
 
 ### 20190313
-#java #code
+&#35;ava &#35;code
 * `return null`을 지양하자
 	* from / 코드리뷰를 하다보면 `null`을 특정 케이스로 사용하는 경우가 있는데요, 이런건 지양해 주시면 좋습니다. null이란건 NPE의 원인이 되기도 하고 알아보기 힘들기 때문에 특정 값을 정의하시거나 `Optional`을 쓰시는게 좋습니다.
 	
 
 ### 20190312
-#gradle
+&#35;gradle
 shadowJar
 * jar 파일에 모든 라이브러리를 넣어주는 플러그인
 * fat jar
 https://blog.leocat.kr/notes/2017/10/11/gradle-shadowjar-make-fat-jar
 
 ### 20190305
-#java #code
+&#35;java &#35;code
 필드 주입을 피하자
 * 필드 주입의 장점은 코드량 뿐 ?
 	* **코드량이 줄어드는 장점( boilerplate 제거)**
@@ -81,7 +82,7 @@ https://blog.leocat.kr/notes/2017/10/11/gradle-shadowjar-make-fat-jar
 * https://ohjongsung.io/2017/06/02/%ED%95%84%EB%93%9C-%EC%A3%BC%EC%9E%85-field-injection-%EC%9D%84-%ED%94%BC%ED%95%98%EC%9E%90
 
 ### 20190304
-#java #error
+&#35;java &#35;error
 **java.lang.InstantiationError**
 * 어플리케이션이 Java `new` 구문을 사용해 abstract 클래스나 인터페이스의 인스턴스를 생성하려고 했을 때 발생하는 Error
 http://cris.joongbu.ac.kr/course/java/api/java/lang/InstantiationError.html
@@ -102,8 +103,8 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTY4NDAxNDgsMTQ1MzAyMjA0MywxOD
-U4OTIzMTIsMTQzODYwMTA4NiwtMjA2ODI2NzczNCw2NzYzMTEw
-NjcsMTM1MDA3ODgzMSwtMTc2OTk5MDY2MCwtMTQ5MTU4MTE2MS
-wtODU4MDk1NjE1XX0=
+eyJoaXN0b3J5IjpbMjU1MDIxNTY0LC0xMjU2ODQwMTQ4LDE0NT
+MwMjIwNDMsMTg1ODkyMzEyLDE0Mzg2MDEwODYsLTIwNjgyNjc3
+MzQsNjc2MzExMDY3LDEzNTAwNzg4MzEsLTE3Njk5OTA2NjAsLT
+E0OTE1ODExNjEsLTg1ODA5NTYxNV19
 -->
