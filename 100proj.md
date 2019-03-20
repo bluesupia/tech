@@ -12,7 +12,9 @@
 	* gradle
 		* vs maven
 
+* 현재 업무와 연관성 있게 구성하자
+* 사내 자원을 활용버전과 추후 투트랙!
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NjEwNjI5NCw2MjEzNjY1NTBdfQ==
+eyJoaXN0b3J5IjpbMTcxMTkzMDU0OCw2MjEzNjY1NTBdfQ==
 -->
