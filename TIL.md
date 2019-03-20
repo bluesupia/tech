@@ -1,9 +1,11 @@
 ### 20190320
 &#35; markdown 특수문자
-|  |  |
-|--|--|
-| `#` | `&#35;` |
-| `#` | `&#35;` |
+| Symbol |  HTML Number|  HTML Name|  HTML Description|
+|--|--|--|--|
+| `#` | `&#35;` ||number sign|
+| `<` | `&#35;` ||number sign|
+| `#` | `&#35;` ||number sign|
+
 https://www.ascii.cl/htmlcodes.htm
 ### 20190319-2
 * ::
@@ -109,8 +111,8 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDE3MDYzNDksLTEyNTY4NDAxNDgsMT
-Q1MzAyMjA0MywxODU4OTIzMTIsMTQzODYwMTA4NiwtMjA2ODI2
-NzczNCw2NzYzMTEwNjcsMTM1MDA3ODgzMSwtMTc2OTk5MDY2MC
-wtMTQ5MTU4MTE2MSwtODU4MDk1NjE1XX0=
+eyJoaXN0b3J5IjpbMTYzMDYwMjI1MiwtMTI1Njg0MDE0OCwxND
+UzMDIyMDQzLDE4NTg5MjMxMiwxNDM4NjAxMDg2LC0yMDY4MjY3
+NzM0LDY3NjMxMTA2NywxMzUwMDc4ODMxLC0xNzY5OTkwNjYwLC
+0xNDkxNTgxMTYxLC04NTgwOTU2MTVdfQ==
 -->
