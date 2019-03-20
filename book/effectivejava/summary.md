@@ -28,18 +28,18 @@
 
 ## 아이템11. equals를 재정의하려거든 hashCode도 재정의하라
 
-## 아이템12.  toString을 항상 재정의하라
+## 아이템12.  toString을 항상 재정의하라[#12](book/effectivejava/item12.md)
 
-## 아이템13. clone 재정의는 주의해서 작성하라
+## 아이템13. clone 재정의는 주의해서 작성하라[#13](book/effectivejava/item13.md)
 
-## 아이템14. Comparable을 구현할 지 고려하라
+## 아이템14. Comparable을 구현할 지 고려하라[#14](book/effectivejava/item14.md)
 
 # 클래스와 인터페이스
-## 아이템15. 클래스와 멤버의 접근 권한을 최소화하라
+## 아이템15. 클래스와 멤버의 접근 권한을 최소화하라[#15](book/effectivejava/item15.md)
 
-## 아이템16. public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라
+## 아이템16. public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라[#16](book/effectivejava/item16.md)
 
-## 아이템17. 변경 가능성을 최소화하라[#30](book/effectivejava/item30.md)
+## 아이템17. 변경 가능성을 최소화하라[#17](book/effectivejava/item17.md)
 
 ## 아이템18. 상속보다는 컴포지션을 사용하라[#18](book/effectivejava/item18.md)
 
@@ -70,6 +70,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc1NjQ2NDYsLTEzNjQ1MTMwNiwtMzU2Mj
-I2OTEwXX0=
+eyJoaXN0b3J5IjpbLTY4MjIxMzIwNiwtMTM2NDUxMzA2LC0zNT
+YyMjY5MTBdfQ==
 -->
