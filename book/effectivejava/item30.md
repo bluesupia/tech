@@ -16,10 +16,16 @@ public static <E> Set<E> union(Set<E> s1, Set<E> s2) {
 	* 불변 객체를 여러 타입으로 활용할 수 있게 만들어야 할 때
 	* 제너릭은 런타임에 타입 정보가 소거되므로 하나의 객체를 어떤 타입으로든 매개변수화 가능하나 이 때 요청한 타입 매개 변수에 맞게 매번 그 객체의 타입을 바꿔주는 정적 팩터리를 만들어야 함
 	* ex,  Collections.reverseOrder 와 같은 함구 객체(아이템42)나 Collections.emptySet 같은 컬렉션용으로 사용
-	* 항등함수(identity function)
+* 항등함수(identity function) 구현예
+	* 
 ```java
 private static UnaryOperator<Object> IDENTITY_FN = (t) -> t;
+
+@SuppressWarnings("unchecked")
+public static <T> UnaryOperator<T> identityFunction() {
+	return (UnaryOperator<T>) IDENTITY_FN;
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2OTgzMDEyLDI0NTg2MzY2Nl19
+eyJoaXN0b3J5IjpbLTIwNTc3NTg0MjAsMjQ1ODYzNjY2XX0=
 -->
