@@ -10,7 +10,7 @@
 	* [TIL](TIL.md)
 	* [terminal](terminal.md)
 * BOOK
-	* effective java
+	* effective java(book/effectivejava
 		* [item1-11](book/effectivejava/item1~11.md)
 		* [item12](book/effectivejava/item12.md)
 		* [item13](book/effectivejava/item13.md)
@@ -28,6 +28,8 @@
 		* [item27](book/effectivejava/item27.md)
 		* [item28](book/effectivejava/item28.md)
 		* [item29](book/effectivejava/item29.md)
+		* [item30](book/effectivejava/item29.md)
+
 
 
 	* 자바 프로그래밍 언어 (거꾸로보기)
@@ -38,6 +40,6 @@
 * [기술 블로그](techblog.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzQwNzg0NywxNDc3NzY1NzQ2LDQyMT
+eyJoaXN0b3J5IjpbLTg5Nzc1ODIyNiwxNDc3NzY1NzQ2LDQyMT
 ExNzMyNiwyMTM0NDgzNjI0XX0=
 -->
