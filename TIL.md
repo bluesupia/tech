@@ -1,4 +1,10 @@
-### 201903
+### 20190320
+&#35; markdown 특수문자
+|  |  |
+|--|--|
+| `#` | `&#35;` |
+| `#` | `&#35;` |
+https://www.ascii.cl/htmlcodes.htm
 ### 20190319-2
 * ::
 	* method reference
@@ -103,8 +109,8 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU1MDIxNTY0LC0xMjU2ODQwMTQ4LDE0NT
-MwMjIwNDMsMTg1ODkyMzEyLDE0Mzg2MDEwODYsLTIwNjgyNjc3
-MzQsNjc2MzExMDY3LDEzNTAwNzg4MzEsLTE3Njk5OTA2NjAsLT
-E0OTE1ODExNjEsLTg1ODA5NTYxNV19
+eyJoaXN0b3J5IjpbLTE1NDE3MDYzNDksLTEyNTY4NDAxNDgsMT
+Q1MzAyMjA0MywxODU4OTIzMTIsMTQzODYwMTA4NiwtMjA2ODI2
+NzczNCw2NzYzMTEwNjcsMTM1MDA3ODgzMSwtMTc2OTk5MDY2MC
+wtMTQ5MTU4MTE2MSwtODU4MDk1NjE1XX0=
 -->
