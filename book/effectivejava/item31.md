@@ -13,6 +13,7 @@
 				* 매개변수화 타입이 불공변이기 때문!!
 		*  해결책
 			* 한정적 와일드카드 타입 사용
+			* **유연성을 극대화하려면 원소의 생산자나 소비자용 입력 매개변수에 와일드카드 타입을 사용**
 ```java
 public void pushAll(Iterable<E> src) {
 	for (E e: src) 
@@ -25,7 +26,9 @@ public void pushAll(Iterable<? extends E> src) {
 		push(e);
 }
 ```
-
+* **펙스(PECS)**
+	* producer-extends, consumer-super
+	* 매개변수T가 생산자라면 <? 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzYxMzc0Ml19
+eyJoaXN0b3J5IjpbLTY1OTg1MzM1OSwtMTQ3NjEzNzQyXX0=
 -->
