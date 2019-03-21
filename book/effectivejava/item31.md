@@ -41,12 +41,16 @@ Set<Number> numbers = Union.<Number>union(integers, doubles);
 ```
 * 와일드카드 필요 예
 	* max(item30-7)
+		* 매개변수 목록
+			* E 인스턴스를 생성하므로 extends!
+		* 타입 매개변수
+			* 
 ```java
 public static <E extends Comparable<E>> E max(List<E> list)
 
-public static <E extends Comparab
+public static <E extends Comparable<? super E>> E max(List<? extends E> list)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMjYxMDAxOSwtMTQ3NjEzNzQyXX0=
+eyJoaXN0b3J5IjpbLTE1MjMwODQ5ODYsLTE0NzYxMzc0Ml19
 -->
