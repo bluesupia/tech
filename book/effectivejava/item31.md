@@ -9,13 +9,15 @@
 		* 와일드카드 타입을 사용하지 않는 메서드 - 결함이 있다!
 			* 깨끗하게 컴파일되지만 완벽하지않다!
 			* Iterable src의 원소타입이 스택의 원소타입과 일치하면 잘 동작
-			* Stack&lg
+			* Stack&lt;Number&gt;로 선언 후 pushAll(intVal) 호출시 오류발생!
+				* 매개변수화 타입이 불공변이기 때문!!
 ```java
 public void pushAll(Iterable<E> src) {
 	for (E e: src) 
 		push(e);
 }
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjQ0ODgzNV19
+eyJoaXN0b3J5IjpbLTE4NjYyODM4Nl19
 -->
