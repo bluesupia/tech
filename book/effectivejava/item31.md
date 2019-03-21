@@ -68,9 +68,16 @@ public static <E> void swap(List<E> list, int i, int j);
 public static void swap(List<?> list, int i, int j);
 ```
 ```java
+public static void swap(List<?> list, int i, int j) {
+	swapHelper(list, i, j);
+}
 // 와일드카드 타입을 실제 타입으로 바꿔주는 private 도우미 메서드
-private s
+private static <E> void swapHelper(List<E> list, int i, int j) {
+	list.set(i, list.set(j, list.get(i)));
+}
 ```
+
+### 핵심정ㄹ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTM0Mzk0MDIsLTE0NzYxMzc0Ml19
+eyJoaXN0b3J5IjpbMTk5NDU0Njc2NywtMTQ3NjEzNzQyXX0=
 -->
