@@ -48,6 +48,8 @@ Set<Number> numbers = Union.<Number>union(integers, doubles);
 			* 이때 Comparable&lt;E&gt;는 E인스턴스를 소비
 			* 그러므로 super!
 		* Comparable은 언제나 소비자이므로, 일반적으로 **`Comparable<E>`보다는 `Comparable<? super E>`**
+		* Comparator도 동일
+		* 복잡한 선언이나 오직 수정된 max에서만 처리할 수 있는 예가 발생!
 ```java
 public static <E extends Comparable<E>> E max(List<E> list)
 
@@ -55,5 +57,5 @@ public static <E extends Comparable<? super E>> E max(List<? extends E> list)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ2NzUyNzU4LC0xNDc2MTM3NDJdfQ==
+eyJoaXN0b3J5IjpbLTgwMTM4NDA3NSwtMTQ3NjEzNzQyXX0=
 -->
