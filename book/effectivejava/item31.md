@@ -33,6 +33,10 @@ public void pushAll(Iterable<? extends E> src) {
 	* 와일드카드 타입을 사용하는 기본 원칙
 	* 겟풋원칙(Get and Put Principle)
 * **클래스 사용자가 와일드카드 타입을 신경써야 한다면 그 API엔 결함 가능성이 크다**
+* 명시적 타입인수
+	* 자바 7까지는 타입추론 능력이 충분하지 못해 문맥에 맞는 반환 타입(혹 목표 타입)을 명시
+	* 목표 타이핑은 자바 8부터 지원시작
+	* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjA0MjgxMDAsLTE0NzYxMzc0Ml19
+eyJoaXN0b3J5IjpbNTE3Nzg5ODUsLTE0NzYxMzc0Ml19
 -->
