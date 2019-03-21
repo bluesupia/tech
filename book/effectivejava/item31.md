@@ -77,7 +77,10 @@ private static <E> void swapHelper(List<E> list, int i, int j) {
 }
 ```
 
-### 핵심정ㄹ
+### 핵심정리
+* 조금 복잡하더라도 와일드카드 타입을 적용하면 API는 훨씬 유연
+* 널리 쓰일 라이브러리 작성시엔 반드시 와일드카드 타입을 적절히 사용해줘야 함
+	* PECS 공식을 기억!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDU0Njc2NywtMTQ3NjEzNzQyXX0=
+eyJoaXN0b3J5IjpbLTU2MDMwMjIwNSwtMTQ3NjEzNzQyXX0=
 -->
