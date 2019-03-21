@@ -28,7 +28,10 @@ public void pushAll(Iterable<? extends E> src) {
 ```
 * **펙스(PECS)**
 	* producer-extends, consumer-super
-	* 매개변수T가 생산자라면 <? 
+	* 매개변수T가 생산자라면 &lt;? extends T&gt;
+	* 매개변수T가 소비자라면 &lt;? super T&gt;
+	* 와일드카드 타입을 사용하는 기본 원칙
+	* 겟풋원칙(Get and Put Principle)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTg1MzM1OSwtMTQ3NjEzNzQyXX0=
+eyJoaXN0b3J5IjpbLTE0MzMzNjkwMDcsLTE0NzYxMzc0Ml19
 -->
