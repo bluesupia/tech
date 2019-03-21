@@ -3,7 +3,7 @@
 * intelliJ로 gradle 프로젝트를 재 생성후 깃연결
 	* git init
 
-* 
+* 참고
 https://jojoldu.tistory.com/138
 
 #Day1 - 20190320
@@ -24,6 +24,6 @@ https://jojoldu.tistory.com/138
 * 사내 자원을 활용버전과 추후 투트랙!
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MDYzNzYxNywxNzExOTMwNTQ4LDYyMT
-M2NjU1MF19
+eyJoaXN0b3J5IjpbLTEzMjc1NzczNjksMTcxMTkzMDU0OCw2Mj
+EzNjY1NTBdfQ==
 -->
