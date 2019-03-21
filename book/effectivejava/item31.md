@@ -44,7 +44,8 @@ Set<Number> numbers = Union.<Number>union(integers, doubles);
 		* 매개변수 목록
 			* E 인스턴스를 생성하므로 extends!
 		* 타입 매개변수
-			* 
+			* 원래 선언은 E가 Comparable&lt;E&gt; 확장한다고 정의
+				* 이때 Comparable&lt;E&gt;는 E인스턴스를 소비
 ```java
 public static <E extends Comparable<E>> E max(List<E> list)
 
@@ -52,5 +53,5 @@ public static <E extends Comparable<? super E>> E max(List<? extends E> list)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjMwODQ5ODYsLTE0NzYxMzc0Ml19
+eyJoaXN0b3J5IjpbLTEyNzU2ODE3NDcsLTE0NzYxMzc0Ml19
 -->
