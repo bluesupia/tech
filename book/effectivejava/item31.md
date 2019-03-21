@@ -61,12 +61,16 @@ public static <E extends Comparable<? super E>> E max(List<? extends E> list)
 	* **메서드 선언에 타입 매개변수가 한 번만 나오면 와일드카드로 대체**
 	* 두번째 선언의 문제
 		* 구현 코드의 컴파일 오류
-		* 
+		* List&lt;?&gt;에는 null외에는 어떤 값도 넣을 수 없다
+		* 와일드카드 타입의 실제 타입을 알려주는 메서드를 private 도움 메서드로 따로 작성
 ```java
 public static <E> void swap(List<E> list, int i, int j);
 public static void swap(List<?> list, int i, int j);
 ```
-
+```java
+// 와일드카드 타입을 실제 타입으로 바꿔주는 private 도우미 메서드
+private s
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTE4ODM0MjQsLTE0NzYxMzc0Ml19
+eyJoaXN0b3J5IjpbLTEwMTM0Mzk0MDIsLTE0NzYxMzc0Ml19
 -->
