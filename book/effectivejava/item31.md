@@ -39,6 +39,8 @@ public void pushAll(Iterable<? extends E> src) {
 ```java
 Set<Number> numbers = Union.<Number>union(integers, doubles);
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzMzNTExMywtMTQ3NjEzNzQyXX0=
+eyJoaXN0b3J5IjpbLTExOTk1MjMzMDksLTE0NzYxMzc0Ml19
 -->
