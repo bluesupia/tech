@@ -32,6 +32,7 @@ public void pushAll(Iterable<? extends E> src) {
 	* 매개변수T가 소비자라면 &lt;? super T&gt;
 	* 와일드카드 타입을 사용하는 기본 원칙
 	* 겟풋원칙(Get and Put Principle)
+* **클래스 사용자가 와일드카드 타입을 신경써야 한다면 그 API엔 결함 가능성이 크다**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzMzNjkwMDcsLTE0NzYxMzc0Ml19
+eyJoaXN0b3J5IjpbLTEwNjA0MjgxMDAsLTE0NzYxMzc0Ml19
 -->
