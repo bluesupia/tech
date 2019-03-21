@@ -39,8 +39,14 @@ public void pushAll(Iterable<? extends E> src) {
 ```java
 Set<Number> numbers = Union.<Number>union(integers, doubles);
 ```
-*
+* 와일드카드 필요 예
+	* max(item30-7)
+```java
+public static <E extends Comparable<E>> E max(List<E> list)
+
+public static <E extends Comparab
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2ODI3MTU3MSwtMTQ3NjEzNzQyXX0=
+eyJoaXN0b3J5IjpbMTAxMjYxMDAxOSwtMTQ3NjEzNzQyXX0=
 -->
