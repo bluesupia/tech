@@ -68,8 +68,10 @@
 
 ## 아이템30. 이왕이면 제너릭 메서드로 만들라 [#30](./item30.md)
 
+## 아이템31. 한정적 와일드카드를 사용해 API 유연성을 높이라[#31](./item31.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ5NjkwNjM1LC0zODM2MzA4OTksMTg0OT
-YyODU5NSwtMTM2NDUxMzA2LC0zNTYyMjY5MTBdfQ==
+eyJoaXN0b3J5IjpbMjAxMDkzOTUzMiwzNDk2OTA2MzUsLTM4Mz
+YzMDg5OSwxODQ5NjI4NTk1LC0xMzY0NTEzMDYsLTM1NjIyNjkx
+MF19
 -->
