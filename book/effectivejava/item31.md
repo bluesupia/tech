@@ -36,7 +36,9 @@ public void pushAll(Iterable<? extends E> src) {
 * 명시적 타입인수
 	* 자바 7까지는 타입추론 능력이 충분하지 못해 문맥에 맞는 반환 타입(혹 목표 타입)을 명시
 	* 목표 타이핑은 자바 8부터 지원시작
-	* 
+```java
+Set<Number> numbers = Union.<Number>union(integers, doubles);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3Nzg5ODUsLTE0NzYxMzc0Ml19
+eyJoaXN0b3J5IjpbLTExMzMzNTExMywtMTQ3NjEzNzQyXX0=
 -->
