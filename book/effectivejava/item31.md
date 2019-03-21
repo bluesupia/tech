@@ -39,23 +39,24 @@ public void pushAll(Iterable<? extends E> src) {
 ```java
 Set<Number> numbers = Union.<Number>union(integers, doubles);
 ```
-* 와일드카드 필요 예
-	* max(item30-7)
-		* 매개변수 목록
-			* E 인스턴스를 생성하므로 extends!
-		* 타입 매개변수
-			* 원래 선언은 E가 Comparable&lt;E&gt; 확장한다고 정의
-			* 이때 Comparable&lt;E&gt;는 E인스턴스를 소비
-			* 그러므로 super!
-		* Comparable은 언제나 소비자이므로, 일반적으로 **`Comparable<E>`보다는 `Comparable<? super E>`**
-		* Comparator도 동일
-		* 복잡한 선언이나 오직 수정된 max에서만 처리할 수 있는 예가 발생!
+* 와일드카드 필요 예- max(item30-7)
+	* 매개변수 목록
+		* E 인스턴스를 생성하므로 extends!
+	* 타입 매개변수
+		* 원래 선언은 E가 Comparable&lt;E&gt; 확장한다고 정의
+		* 이때 Comparable&lt;E&gt;는 E인스턴스를 소비
+		* 그러므로 super!
+	* Comparable은 언제나 소비자이므로, 일반적으로 **`Comparable<E>`보다는 `Comparable<? super E>`**
+	* Comparator도 동일
+	* 복잡한 선언이나 오직 수정된 max에서만 처리할 수 있는 예가 발생!
+		* Comparable(혹은 Comparator)을 직접 구현하지 않고, 직접 구현한 다른 타입을 확장한 타입을 지원하기 위해 와일드카드 필요!
 ```java
 public static <E extends Comparable<E>> E max(List<E> list)
 
 public static <E extends Comparable<? super E>> E max(List<? extends E> list)
 ```
+* 와일드카드 필요 예- swap
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMTM4NDA3NSwtMTQ3NjEzNzQyXX0=
+eyJoaXN0b3J5IjpbNDYwNjc5OTQ5LC0xNDc2MTM3NDJdfQ==
 -->
