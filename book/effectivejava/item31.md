@@ -56,7 +56,11 @@ public static <E extends Comparable<E>> E max(List<E> list)
 public static <E extends Comparable<? super E>> E max(List<? extends E> list)
 ```
 * 와일드카드 필요 예- swap
+	* 타입 매개변수와 와일드카드에는 공통부분이 있어 메서드를 정의할 때 둘 중 어느것을 사용해도 괜찮을 때 어느 방법으로 ?
+```java
+public static <E> void swap(List<E> list, int
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYwNjc5OTQ5LC0xNDc2MTM3NDJdfQ==
+eyJoaXN0b3J5IjpbODQ4NTE0MTk2LC0xNDc2MTM3NDJdfQ==
 -->
