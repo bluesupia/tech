@@ -11,13 +11,21 @@
 			* Iterable src의 원소타입이 스택의 원소타입과 일치하면 잘 동작
 			* Stack&lt;Number&gt;로 선언 후 pushAll(intVal) 호출시 오류발생!
 				* 매개변수화 타입이 불공변이기 때문!!
+		*  해결책
+			* 한정적 와일드카드 타입 사용
 ```java
 public void pushAll(Iterable<E> src) {
 	for (E e: src) 
 		push(e);
 }
 ```
+```java
+public void pushAll(Iterable<? extends E> src) {
+	for (E e: src) 
+		push(e);
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjYyODM4Nl19
+eyJoaXN0b3J5IjpbLTE0NzYxMzc0Ml19
 -->
