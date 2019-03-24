@@ -19,8 +19,12 @@ static void dangerous(List<String> ...stringLists) {
 ```
 
 * @SafeVarargs 애너테이션
-	* **매서드
+	* **매서드 작성자가 그 메서드가 타입 안전함을 보장하는 장치**
+
+
+
+* Effective java 매거진
 https://brunch.co.kr/@oemilk/202
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDQxNjQyNSw4MTMwNTYxMzNdfQ==
+eyJoaXN0b3J5IjpbMjgzMTUzOTI5LDgxMzA1NjEzM119
 -->
