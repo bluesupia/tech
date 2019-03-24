@@ -1,3 +1,10 @@
+#Day3 - 20190324
+* Bolierplating
+	* 나도나도
+	* .gitignore
+	* build.gradle
+		* multi module위한 준비
+		* junit 수정
 #Day2 - 20190321
 * gradle 로 만들고 싶은데 github 으로 텅빈 프로젝트로 만든 터라 어떻게 추가할지도 모른다..
 * intelliJ로 gradle 프로젝트를 재 생성후 깃연결
@@ -24,6 +31,6 @@ https://jojoldu.tistory.com/138
 * 사내 자원을 활용버전과 추후 투트랙!
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjc1NzczNjksMTcxMTkzMDU0OCw2Mj
-EzNjY1NTBdfQ==
+eyJoaXN0b3J5IjpbMzcyOTU3MTE2LC0xMzI3NTc3MzY5LDE3MT
+E5MzA1NDgsNjIxMzY2NTUwXX0=
 -->
