@@ -25,7 +25,9 @@ static void dangerous(List<String> ...stringLists) {
 	* 메서드가 반환하는 배열의 타입은 이 메서드에 인수를 넘기는 컴파일타임에 결정되나, 그 시점에는 컴파일러에게 충분한 정보가 주어지지 않아 타입을 잘못 판단 할 수 있다
 	* 따라서 자신의 varargs 매개변수 배열을 그대로 반환하면 힙 오염을 호출하는 쪽의 콜 스택으로까지 전이하는 결과
 	* 컴파일은 되나 실행시 ClassCastException 
-	* pickTwo의 반환값을 attributes에 저장
+	* pickTwo의 반환값을 attributes에 저장하기 위해 String[]로 형변환하는 코드를 컴파일러가 자동을 생성!
+	* Object[]가 String[]의 하위타입이 아니므로 이 형변환은 실패!
+	* **제너릭 varargs	매개변수 배열에 다른 메서드가 접근하도록 허용하면 안전하지 않다**
 ```java
 static <T> T[] toArray(T... args) {
 	return args;
@@ -51,5 +53,5 @@ public static void main(String[] args) {
 * Effective java 매거진
 https://brunch.co.kr/@oemilk/202
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDI5MjMyOSw4MTMwNTYxMzNdfQ==
+eyJoaXN0b3J5IjpbMTA1NDc3MjgyMiw4MTMwNTYxMzNdfQ==
 -->
