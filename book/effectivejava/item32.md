@@ -18,8 +18,9 @@ static void dangerous(List<String> ...stringLists) {
 }
 ```
 
-
+* @SafeVarargs 애너테이션
+	* **매서드
 https://brunch.co.kr/@oemilk/202
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MDYwNDExNiw4MTMwNTYxMzNdfQ==
+eyJoaXN0b3J5IjpbLTIyNDQxNjQyNSw4MTMwNTYxMzNdfQ==
 -->
