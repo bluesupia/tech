@@ -24,6 +24,8 @@ static void dangerous(List<String> ...stringLists) {
 * 자신의 제너릭 매개변수 배열의 참조를 노출하는 예
 	* 메서드가 반환하는 배열의 타입은 이 메서드에 인수를 넘기는 컴파일타임에 결정되나, 그 시점에는 컴파일러에게 충분한 정보가 주어지지 않아 타입을 잘못 판단 할 수 있다
 	* 따라서 자신의 varargs 매개변수 배열을 그대로 반환하면 힙 오염을 호출하는 쪽의 콜 스택으로까지 전이하는 결과
+	* 컴파일은 되나 실행시 ClassCastException 
+	* pickTwo의 반환값을 attributes에 저장
 ```java
 static <T> T[] toArray(T... args) {
 	return args;
@@ -39,12 +41,15 @@ static <T> T[] pickTwo(T a, T b, T c) {
 	throw new AssertionError();
 }
 
-// pickTwo 사용
+// pickTwo 사용하는 main
+public static void main(String[] args) {
+	String[] attributes = pickTwo("좋은", "빠른", "저렴한");
+}
 ```
 
 
 * Effective java 매거진
 https://brunch.co.kr/@oemilk/202
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4NDY0MTc2LDgxMzA1NjEzM119
+eyJoaXN0b3J5IjpbLTk2NDI5MjMyOSw4MTMwNTYxMzNdfQ==
 -->
