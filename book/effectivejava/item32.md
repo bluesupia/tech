@@ -76,7 +76,7 @@ static <T> List<T> flatten(List<? extend T>... lists) {
 		* 실수도 안전하다고 판단할 걱정없음
 	* 단점
 		* 클라이언트 코드가 살짝 지저분해짐
-		* 속도가 조금 느려질 수 ㅣㅇㅆ다
+		* 속도가 조금 느려질 수 있다
 ```java
 static <T> List<T> flatten(List<List<? extends T>> lists) {
 	List<T> result = new ArrayList<>();
@@ -89,5 +89,5 @@ static <T> List<T> flatten(List<List<? extends T>> lists) {
 * Effective java 매거진
 https://brunch.co.kr/@oemilk/202
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg4NTI4NzY4LDgxMzA1NjEzM119
+eyJoaXN0b3J5IjpbMTY0NzA4NTU2Miw4MTMwNTYxMzNdfQ==
 -->
