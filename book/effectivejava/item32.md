@@ -21,11 +21,17 @@ static void dangerous(List<String> ...stringLists) {
 * @SafeVarargs 애너테이션
 	* **매서드 작성자가 그 메서드가 타입 안전함을 보장하는 장치**
 
-* 자
+* 자신의 제너릭 매개변수 배열의 참조를 노출하는 예
+	* 메서드가 반환하는 배열의 타입은 이 메서드에 인수를 넘기는 컴파일타임에 결정되나, 그 지섬
+```java
+static <T> T[] toArray(T... args) {
+	return args;
+}
+```
 
 
 * Effective java 매거진
 https://brunch.co.kr/@oemilk/202
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNjk0OTg4NSw4MTMwNTYxMzNdfQ==
+eyJoaXN0b3J5IjpbMTI2MDA5MjQ5MCw4MTMwNTYxMzNdfQ==
 -->
