@@ -70,8 +70,11 @@
 
 ## 아이템31. 한정적 와일드카드를 사용해 API 유연성을 높이라[#31](./item31.md)
 
+## 아이템32. 제너릭과 가변인수를 함께 쓸 때는 신중하라
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDkzOTUzMiwzNDk2OTA2MzUsLTM4Mz
-YzMDg5OSwxODQ5NjI4NTk1LC0xMzY0NTEzMDYsLTM1NjIyNjkx
-MF19
+eyJoaXN0b3J5IjpbNTIwNjMyMjQ1LDM0OTY5MDYzNSwtMzgzNj
+MwODk5LDE4NDk2Mjg1OTUsLTEzNjQ1MTMwNiwtMzU2MjI2OTEw
+XX0=
 -->
