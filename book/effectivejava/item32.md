@@ -64,9 +64,15 @@ static <T> List<T> flattern(List<? extend T>... lists) {
 * @SafeVarargs 에너테이션을 사용해야할 때를 정하는 규칙
 	* **제너릭이나 매개변수화 타입의 vargars 매개변수를 받는 모든 메서드에 @SafeVarargs를 달라**
 	* 안전하지 않은 varargs 메서드는 절대 작성해서는 안된다
+	* 안전한 조건!
+		* varargs 매개변수 배열에 아무것도 저장하지 않는다
+		* 그 배열(혹은 복제본)을 신뢰할 수 없는 코드에 노출하지 않는다
+* 제너릭 varargs 매개변수를 List로 대체한 예
+	* 타입 안전
+
 
 * Effective java 매거진
 https://brunch.co.kr/@oemilk/202
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIwNTc3MTY1LDgxMzA1NjEzM119
+eyJoaXN0b3J5IjpbMTA3OTI0MzkxOSw4MTMwNTYxMzNdfQ==
 -->
