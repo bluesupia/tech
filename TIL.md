@@ -1,3 +1,6 @@
+### 20190323
+* 힙 오염(Heap pollution) : 매개변수화 타입의 변수가 타입이 다른 객체를 참조하는 경우 발생.
+
 ### 20190320
 &#35; markdown 특수문자
 | Symbol |  HTML Number|  HTML Name|  HTML Description|
@@ -111,8 +114,8 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDE1MjcxLC0xMjU2ODQwMTQ4LDE0NT
-MwMjIwNDMsMTg1ODkyMzEyLDE0Mzg2MDEwODYsLTIwNjgyNjc3
-MzQsNjc2MzExMDY3LDEzNTAwNzg4MzEsLTE3Njk5OTA2NjAsLT
-E0OTE1ODExNjEsLTg1ODA5NTYxNV19
+eyJoaXN0b3J5IjpbMTAwNDM4MTQyMSwtMTM0MTUyNzEsLTEyNT
+Y4NDAxNDgsMTQ1MzAyMjA0MywxODU4OTIzMTIsMTQzODYwMTA4
+NiwtMjA2ODI2NzczNCw2NzYzMTEwNjcsMTM1MDA3ODgzMSwtMT
+c2OTk5MDY2MCwtMTQ5MTU4MTE2MSwtODU4MDk1NjE1XX0=
 -->
