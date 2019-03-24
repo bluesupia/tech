@@ -10,9 +10,10 @@
 static void dangerous(List<String> ...stringLists) {
 	List<Integer> intList = List.of(42);
 	Object[] objects = stringLists;
-	obj
+	objects[0] = intList; // 힙 오염 발생!
+	String s = stringLists[0].get(0); // ClassCastException
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNzM0NDc0NCw4MTMwNTYxMzNdfQ==
+eyJoaXN0b3J5IjpbLTE5OTg4MjkzMDQsODEzMDU2MTMzXX0=
 -->
