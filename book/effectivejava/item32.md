@@ -70,11 +70,16 @@ static <T> List<T> flatten(List<? extend T>... lists) {
 * 제너릭 varargs 매개변수를 List로 대체한 예
 	* 타입 안전
 ```java
-static <T> List<T> flatten
+static <T> List<T> flatten(List<List<? extends T>> lists) {
+	List<T> result = new ArrayList<>();
+	for (List<? extends T> list : lists)
+		result.addAll(list);
+	return result;
+}
 ```
 
 * Effective java 매거진
 https://brunch.co.kr/@oemilk/202
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTU5NzMxOSw4MTMwNTYxMzNdfQ==
+eyJoaXN0b3J5IjpbLTUyNTE0OTk3MCw4MTMwNTYxMzNdfQ==
 -->
