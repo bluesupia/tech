@@ -54,7 +54,7 @@ public static void main(String[] args) {
 * 제너릭 varargs 매개변수를 안전하게 사용하는 전형적인 예
 ```java
 @SafeVarargs
-static <T> List<T> flattern(List<? extend T>... lists) {
+static <T> List<T> flatten(List<? extend T>... lists) {
 	List<T> result = new ArrayList<>();
 	for (List<? extends T> list : lists)
 		result.addAll(list);
@@ -69,10 +69,12 @@ static <T> List<T> flattern(List<? extend T>... lists) {
 		* 그 배열(혹은 복제본)을 신뢰할 수 없는 코드에 노출하지 않는다
 * 제너릭 varargs 매개변수를 List로 대체한 예
 	* 타입 안전
-
+```java
+static <T> List<T> flatten
+```
 
 * Effective java 매거진
 https://brunch.co.kr/@oemilk/202
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3OTI0MzkxOSw4MTMwNTYxMzNdfQ==
+eyJoaXN0b3J5IjpbLTkxNTU5NzMxOSw4MTMwNTYxMzNdfQ==
 -->
