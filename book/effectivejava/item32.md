@@ -31,13 +31,20 @@ static <T> T[] toArray(T... args) {
 
 // 구체적예
 static <T> T[] pickTwo(T a, T b, T c) {
-	switch(ThreadLocalRandom.curr
+	switch(ThreadLocalRandom.current().nextInt(3)) {
+		case 0: return toArray(a, b);
+		case 1: return toArray(a, c);
+		case 2: return toArray(b, c);
+	}
+	throw new AssertionError();
 }
+
+// pickTwo 사용
 ```
 
 
 * Effective java 매거진
 https://brunch.co.kr/@oemilk/202
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTUxODEyMTQsODEzMDU2MTMzXX0=
+eyJoaXN0b3J5IjpbNjY4NDY0MTc2LDgxMzA1NjEzM119
 -->
