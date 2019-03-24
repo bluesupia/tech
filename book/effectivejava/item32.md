@@ -28,6 +28,9 @@ static void dangerous(List<String> ...stringLists) {
 	* pickTwo의 반환값을 attributes에 저장하기 위해 String[]로 형변환하는 코드를 컴파일러가 자동을 생성!
 	* Object[]가 String[]의 하위타입이 아니므로 이 형변환은 실패!
 	* **제너릭 varargs	매개변수 배열에 다른 메서드가 접근하도록 허용하면 안전하지 않다**
+	* 예외
+		* @SafeVarargs로 제대로 애노테이트된 또 다른 varargs 메서드에 넘기는 것은 안전
+		* 배열 내용의 일부 함수를 호출만 하는 (varargs를 받지 않는) 일반 메서드로 넘기는 것은 안전
 ```java
 static <T> T[] toArray(T... args) {
 	return args;
@@ -48,10 +51,10 @@ public static void main(String[] args) {
 	String[] attributes = pickTwo("좋은", "빠른", "저렴한");
 }
 ```
-
+* 제너릭 varargs
 
 * Effective java 매거진
 https://brunch.co.kr/@oemilk/202
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NDc3MjgyMiw4MTMwNTYxMzNdfQ==
+eyJoaXN0b3J5IjpbLTk4NzEwMjUwNyw4MTMwNTYxMzNdfQ==
 -->
