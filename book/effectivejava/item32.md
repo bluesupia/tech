@@ -69,6 +69,14 @@ static <T> List<T> flatten(List<? extend T>... lists) {
 		* 그 배열(혹은 복제본)을 신뢰할 수 없는 코드에 노출하지 않는다
 * 제너릭 varargs 매개변수를 List로 대체한 예
 	* 타입 안전
+	* 정적팩터리메서드 List.of를 활용하여 임의개수의 인수를 넘길 수 있다
+	* 가능한 이유는 List.of에도 @SafeVarargs가 달려있기 떄문
+	* 장점
+		* @SafeVarargs을 직접 달지 않아도 됨
+		* 실수도 안전하다고 판단할 걱정없음
+	* 단점
+		* 클라이언트 코드가 살짝 지저분해짐
+		* 속도가 조금 느려질 수 ㅣㅇㅆ다
 ```java
 static <T> List<T> flatten(List<List<? extends T>> lists) {
 	List<T> result = new ArrayList<>();
@@ -81,5 +89,5 @@ static <T> List<T> flatten(List<List<? extends T>> lists) {
 * Effective java 매거진
 https://brunch.co.kr/@oemilk/202
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTE0OTk3MCw4MTMwNTYxMzNdfQ==
+eyJoaXN0b3J5IjpbNjg4NTI4NzY4LDgxMzA1NjEzM119
 -->
