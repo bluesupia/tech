@@ -22,10 +22,16 @@ static void dangerous(List<String> ...stringLists) {
 	* **매서드 작성자가 그 메서드가 타입 안전함을 보장하는 장치**
 
 * 자신의 제너릭 매개변수 배열의 참조를 노출하는 예
-	* 메서드가 반환하는 배열의 타입은 이 메서드에 인수를 넘기는 컴파일타임에 결정되나, 그 지섬
+	* 메서드가 반환하는 배열의 타입은 이 메서드에 인수를 넘기는 컴파일타임에 결정되나, 그 시점에는 컴파일러에게 충분한 정보가 주어지지 않아 타입을 잘못 판단 할 수 있다
+	* 따라서 자신의 varargs 매개변수 배열을 그대로 반환하면 힙 오염을 호출하는 쪽의 콜 스택으로까지 전이하는 결과
 ```java
 static <T> T[] toArray(T... args) {
 	return args;
+}
+
+// 구체적예
+static <T> T[] pickTwo(T a, T b, T c) {
+	switch(ThreadLocalRandom.curr
 }
 ```
 
@@ -33,5 +39,5 @@ static <T> T[] toArray(T... args) {
 * Effective java 매거진
 https://brunch.co.kr/@oemilk/202
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDA5MjQ5MCw4MTMwNTYxMzNdfQ==
+eyJoaXN0b3J5IjpbLTEyOTUxODEyMTQsODEzMDU2MTMzXX0=
 -->
