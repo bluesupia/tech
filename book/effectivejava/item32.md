@@ -58,12 +58,15 @@ static <T> List<T> flattern(List<? extend T>... lists) {
 	List<T> result = new ArrayList<>();
 	for (List<? extends T> list : lists)
 		result.addAll(list);
-	return 
+	return result;
 }
 ```
+* @SafeVarargs 에너테이션을 사용해야할 때를 정하는 규칙
+	* **제너릭이나 매개변수화 타입의 vargars 매개변수를 받는 모든 메서드에 @SafeVarargs를 달라**
+	* 안전하지 않은 varargs 메서드는 절대 작성해서는 안된다
 
 * Effective java 매거진
 https://brunch.co.kr/@oemilk/202
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0OTU2MTU2Nyw4MTMwNTYxMzNdfQ==
+eyJoaXN0b3J5IjpbMjIwNTc3MTY1LDgxMzA1NjEzM119
 -->
