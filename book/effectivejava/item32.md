@@ -14,6 +14,9 @@ static void dangerous(List<String> ...stringLists) {
 	String s = stringLists[0].get(0); // ClassCastException
 }
 ```
+
+
+https://brunch.co.kr/@oemilk/202
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTg4MjkzMDQsODEzMDU2MTMzXX0=
+eyJoaXN0b3J5IjpbMjA0MjQ5MDAwMyw4MTMwNTYxMzNdfQ==
 -->
