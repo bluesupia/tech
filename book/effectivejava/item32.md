@@ -51,10 +51,19 @@ public static void main(String[] args) {
 	String[] attributes = pickTwo("좋은", "빠른", "저렴한");
 }
 ```
-* 제너릭 varargs
+* 제너릭 varargs 매개변수를 안전하게 사용하는 전형적인 예
+```java
+@SafeVarargs
+static <T> List<T> flattern(List<? extend T>... lists) {
+	List<T> result = new ArrayList<>();
+	for (List<? extends T> list : lists)
+		result.addAll(list);
+	return 
+}
+```
 
 * Effective java 매거진
 https://brunch.co.kr/@oemilk/202
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NzEwMjUwNyw4MTMwNTYxMzNdfQ==
+eyJoaXN0b3J5IjpbMTQ0OTU2MTU2Nyw4MTMwNTYxMzNdfQ==
 -->
