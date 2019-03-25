@@ -52,7 +52,11 @@ public class Class<T> {
 }
 ```
 * Favorites클래스의 제약
-	* 악의적인 클라이언트가 Class객체를 (제너릭이 아닌) 로타입으로 넘기면
+	* 악의적인 클라이언트가 Class객체를 (제너릭이 아닌) 로타입으로 넘기면 Favorites 인스턴스의 타입 안정성이 깨진다
+		* 이때 컴파일 시 비검사 경고가 뜰 것!
+		* HashSet, HashMap등의 일반 컬렉션에도 동일 문제 존재
+		* 안정성 확보를 위해서 동적 형변환 사용!
+		* checkedSet, checkedList, checkedMap
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0NTMzNTE2XX0=
+eyJoaXN0b3J5IjpbNTA3NzEwODIxXX0=
 -->
