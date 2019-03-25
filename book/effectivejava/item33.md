@@ -16,10 +16,14 @@ public static void main(String[] args) {
 
 	f.putFavorite(String.class, "Java");
 	f.putFavorite(Integer.class, 0xcafebabe);
-	f.putFavorite(Class.class, "
+	f.putFavorite(Class.class, Favorites.class);
+
+	String favoriteString = f.getFavorites(String.class);
+	int favoriteInteger = f.getFavorites(Integer.class);
+	Class<?> favoriteClass = f.getClass(Class.class);
 	
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTE1MjYzMF19
+eyJoaXN0b3J5IjpbNjIxNzYzNzcxXX0=
 -->
