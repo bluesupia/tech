@@ -9,6 +9,17 @@ public class Favorites {
 	public <T> T getFavofite(Class<T> type);
 }
 ```
+```java
+// 타입 안전 이종 컨테이너 패턴 - Client
+public static void main(String[] args) {
+	Favorites f = new Favorites();
+
+	f.putFavorite(String.class, "Java");
+	f.putFavorite(Integer.class, 0xcafebabe);
+	f.putFavorite(Class.class, "
+	
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY4OTgzNTMxXX0=
+eyJoaXN0b3J5IjpbMTE4MTE1MjYzMF19
 -->
