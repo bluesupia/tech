@@ -56,7 +56,11 @@ public class Class<T> {
 		* 이때 컴파일 시 비검사 경고가 뜰 것!
 		* HashSet, HashMap등의 일반 컬렉션에도 동일 문제 존재
 		* 안정성 확보를 위해서 동적 형변환 사용!
-		* checkedSet, checkedList, checkedMap
+		* checkedSet, checkedList, checkedMap 등
+	* 실체화 불가 타입에는 사용할 수 없다
+		* List&lt;String&gt;은 불가
+		* 완벽한 우회로는 없다
+			* 스프링프레임워크에서는 ParameterizedTypeReferec
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA3NzEwODIxXX0=
+eyJoaXN0b3J5IjpbLTE1MDQ4MTE4NDVdfQ==
 -->
