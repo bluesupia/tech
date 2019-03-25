@@ -72,9 +72,9 @@
 
 ## 아이템32. 제너릭과 가변인수를 함께 쓸 때는 신중하라
 
-
+## 아이템33. 타입 안전 이종 컨테이너를 고려하라
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIwNjMyMjQ1LDM0OTY5MDYzNSwtMzgzNj
+eyJoaXN0b3J5IjpbNjM5NTIyOTMxLDM0OTY5MDYzNSwtMzgzNj
 MwODk5LDE4NDk2Mjg1OTUsLTEzNjQ1MTMwNiwtMzU2MjI2OTEw
 XX0=
 -->
