@@ -33,9 +33,11 @@ public class Favorites {
 		favorites.put(Objects.requireNonNull(type), instance);
 	}
 	
-	public <T> 
+	public <T> T getFavorite(Class<T> type) {
+		return type.cast(favorites.get(type));
+	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDIzMTU0Ml19
+eyJoaXN0b3J5IjpbLTY3MjI2MTgzNl19
 -->
