@@ -44,7 +44,15 @@ public class Favorites {
 	* 맞으면 그 인수 그대로 반환
 	* 아니면 ClassCastException
 	* 그대로 반환하는데 왜 사용?
-		* cast 메서드의 시그니처가 Class 클래스가 제너릭이라는 
+		* cast 메서드의 시그니처가 Class 클래스가 제너릭이라는 점을 활용
+		* cast의 반환 타입은 Class 객체의 타입 매개변수와 같다
+```java
+public class Class<T> {
+	T cast(Object obj);
+}
+```
+* Favorites클래스의 제약
+	* 악의적인 클라이언트가 Class객체를 (제너릭이 아닌) 로타입으로 넘기면
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY1NTEyMjE2XX0=
+eyJoaXN0b3J5IjpbNTg0NTMzNTE2XX0=
 -->
