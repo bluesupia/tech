@@ -21,9 +21,14 @@ public static void main(String[] args) {
 	String favoriteString = f.getFavorites(String.class);
 	int favoriteInteger = f.getFavorites(Integer.class);
 	Class<?> favoriteClass = f.getClass(Class.class);
-	
+
+	System.out.printf("%s %x %s%n", favoriteString, favoriteInteger, favoriteClass.getName());
 }
 ```
+* 타입 안전 이종 컨테이너 패턴 - 구현
+```java
+public class Fa
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIxNzYzNzcxXX0=
+eyJoaXN0b3J5IjpbNjM4NTU0NjgxXX0=
 -->
