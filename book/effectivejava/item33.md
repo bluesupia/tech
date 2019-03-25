@@ -60,7 +60,9 @@ public class Class<T> {
 	* 실체화 불가 타입에는 사용할 수 없다
 		* List&lt;String&gt;은 불가
 		* 완벽한 우회로는 없다
-			* 스프링프레임워크에서는 ParameterizedTypeReferec
+			* 슈퍼 타입 토큰
+			* 스프링프레임워크에서는 ParameterizedTypeReference로 구현됨
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQ4MTE4NDVdfQ==
+eyJoaXN0b3J5IjpbMjA2NDAyMjQ1NV19
 -->
