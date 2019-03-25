@@ -1,4 +1,9 @@
+### 20190324
+&#35; effectivejava
+* 슈퍼타입토큰
+* 
 ### 20190323
+&#35; effectivejava
 * 힙 오염(Heap pollution)
 	* 매개변수화 타입의 변수가 타입이 다른 객체를 참조하는 경우 발생.
 
@@ -115,8 +120,8 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE1Mjg4NTgxLC0xMzQxNTI3MSwtMTI1Nj
-g0MDE0OCwxNDUzMDIyMDQzLDE4NTg5MjMxMiwxNDM4NjAxMDg2
-LC0yMDY4MjY3NzM0LDY3NjMxMTA2NywxMzUwMDc4ODMxLC0xNz
-Y5OTkwNjYwLC0xNDkxNTgxMTYxLC04NTgwOTU2MTVdfQ==
+eyJoaXN0b3J5IjpbLTQ3OTg4OTI1OCwtMTM0MTUyNzEsLTEyNT
+Y4NDAxNDgsMTQ1MzAyMjA0MywxODU4OTIzMTIsMTQzODYwMTA4
+NiwtMjA2ODI2NzczNCw2NzYzMTEwNjcsMTM1MDA3ODgzMSwtMT
+c2OTk5MDY2MCwtMTQ5MTU4MTE2MSwtODU4MDk1NjE1XX0=
 -->
