@@ -1,7 +1,10 @@
 ### 20190324
 &#35; effectivejava
 * 슈퍼타입토큰
-* 
+	* List&lt;String&gt;.class
+* 참고!
+https://homoefficio.github.io/2016/11/30/%ED%81%B4%EB%9E%98%EC%8A%A4-%EB%A6%AC%ED%84%B0%EB%9F%B4-%ED%83%80%EC%9E%85-%ED%86%A0%ED%81%B0-%EC%88%98%ED%8D%BC-%ED%83%80%EC%9E%85-%ED%86%A0%ED%81%B0/
+
 ### 20190323
 &#35; effectivejava
 * 힙 오염(Heap pollution)
@@ -120,8 +123,9 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3OTg4OTI1OCwtMTM0MTUyNzEsLTEyNT
-Y4NDAxNDgsMTQ1MzAyMjA0MywxODU4OTIzMTIsMTQzODYwMTA4
-NiwtMjA2ODI2NzczNCw2NzYzMTEwNjcsMTM1MDA3ODgzMSwtMT
-c2OTk5MDY2MCwtMTQ5MTU4MTE2MSwtODU4MDk1NjE1XX0=
+eyJoaXN0b3J5IjpbLTIwMTMyMjk3MzIsLTQ3OTg4OTI1OCwtMT
+M0MTUyNzEsLTEyNTY4NDAxNDgsMTQ1MzAyMjA0MywxODU4OTIz
+MTIsMTQzODYwMTA4NiwtMjA2ODI2NzczNCw2NzYzMTEwNjcsMT
+M1MDA3ODgzMSwtMTc2OTk5MDY2MCwtMTQ5MTU4MTE2MSwtODU4
+MDk1NjE1XX0=
 -->
