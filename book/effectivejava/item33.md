@@ -27,8 +27,15 @@ public static void main(String[] args) {
 ```
 * 타입 안전 이종 컨테이너 패턴 - 구현
 ```java
-public class Fa
+public class Favorites {
+	private Map<Class<?>, Object> favorites = new HashMap<>();
+	public <T> void putFavorite(Class<T> type, T instance) {
+		favorites.put(Objects.requireNonNull(type), instance);
+	}
+	
+	public <T> 
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4NTU0NjgxXX0=
+eyJoaXN0b3J5IjpbMjAyNDIzMTU0Ml19
 -->
