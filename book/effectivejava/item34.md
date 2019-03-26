@@ -23,7 +23,7 @@
 * 데이터와 메서드를 갖는 열거 타입
 	* **열거 타입 상수 각각을 특정 데이터와 연결지으려면 생서자에서 데이터를 받아 인스턴스 필드에 저장**
 * 상수별 메서드 구현
-	* 
+	* 열거타입에 추상 메서드를 선언하고 각 상수별 클래스 몸체, 즉 각 상수에서 자신에 맞게 재정의 하는 방법
 ```java
 public enum Operation {
 	PLUS {public double apply(double x, double y) { return x + y; }};
@@ -33,6 +33,8 @@ public enum Operation {
 	public abstract double apply(double x, double y);
 }
 ```
+* 전략 열거 타입 패턴
+	* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1ODQyMjMyLDE4ODM4NTUwOF19
+eyJoaXN0b3J5IjpbLTEyNjQ1ODcwNjIsMTg4Mzg1NTA4XX0=
 -->
