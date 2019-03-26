@@ -20,7 +20,12 @@
 			* 클라이언트가 인스턴스를 직접 생성하거나 확장할 수 없으므로 열거 타입 선언으로 만들어진 인스턴스들은 딱 하나씩만 존재함이 보장
 		* 열거 타입은 싱글턴을 일반화한 형태
 	* 컴파일타임 타입 안정성을 제공
-	* 
+* 데이터와 메서드를 갖는 열거 타입
+	* **열거 타입 상수 각각을 특정 데이터와 연결지으려면 생서자에서 데이터를 받아 인스턴스 필드에 저장**
+* 상수별 메서드 구현을 활용한 열거 타입
+```java
+public e
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1OTY1NzYzNywxODgzODU1MDhdfQ==
+eyJoaXN0b3J5IjpbLTEwOTY1NTU1MzgsMTg4Mzg1NTA4XX0=
 -->
