@@ -52,10 +52,16 @@ enum PayrollDay {
 				return minsWorked <= MINS_PER_SHIFT ? 0 : (minsWorked - MINS_PER_SHIFT) * payRate / 2;
 			}
 		},
-		
+		WEEKEND {
+			int overtimePay(int minsWorked, int payRate) {
+				return minsWorked * payRate / 2;
+			}
+		};
+		abstract int overtimePay(int minsWorked, int payRate);
+		private static final int MINS_PER_SHIFT = 8 * 60;
 	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDg4ODgxNiwxODgzODU1MDhdfQ==
+eyJoaXN0b3J5IjpbNTgwNjYzMjQyLDE4ODM4NTUwOF19
 -->
