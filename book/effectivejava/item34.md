@@ -59,9 +59,13 @@ enum PayrollDay {
 		};
 		abstract int overtimePay(int minsWorked, int payRate);
 		private static final int MINS_PER_SHIFT = 8 * 60;
+		int pay(int minutesWorked, int payRate) {
+			int basePay = minsWorked * payRate;
+			return basePay + overtimePay(minsWorked, payRate);
+		}
 	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgwNjYzMjQyLDE4ODM4NTUwOF19
+eyJoaXN0b3J5IjpbMTU1NzM1NzkyNCwxODgzODU1MDhdfQ==
 -->
