@@ -16,7 +16,10 @@
 		* 열거 타입 자체는 클래스
 		* 상수 하나당 자신의 인스턴스를 하나씩 만들어 public static final 필드로 공개 
 		* 열거 타입은 밖에서 접근할 수 있는 생성자를 제공하지 않으므로 사실상 final
-		* 
+		* 열거 타입은 인스턴스 통제
+			* 클라이언트가 인스턴스를 직접 생성하거나 확장할 수 없으므로 열거 타입 선언으로 만들어진 인스턴스들은 딱 하나씩만 존재함이 보장
+		* 열거 타입은 싱글턴을 일반화한 형태
+	* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4Mzg1NTA4XX0=
+eyJoaXN0b3J5IjpbLTExMDQxODgyNzEsMTg4Mzg1NTA4XX0=
 -->
