@@ -44,8 +44,18 @@ enum PayrollDay {
 	int pay(int minutesWorked, int payRate) {
 		return payType.pay(minutesWorked, payRate);
 	}
+	
+	// 전략 열거 타입
+	enum PayType {
+		WEEKDAY {
+			int overtimePay(int minsWorked, int payRate) {
+				return minsWorked <= MINS_PER_SHIFT ? 0 : (minsWorked - MINS_PER_SHIFT) * payRate / 2;
+			}
+		},
+		
+	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzM2NjA3NTEsMTg4Mzg1NTA4XX0=
+eyJoaXN0b3J5IjpbMTMwMDg4ODgxNiwxODgzODU1MDhdfQ==
 -->
