@@ -19,7 +19,8 @@
 		* 열거 타입은 인스턴스 통제
 			* 클라이언트가 인스턴스를 직접 생성하거나 확장할 수 없으므로 열거 타입 선언으로 만들어진 인스턴스들은 딱 하나씩만 존재함이 보장
 		* 열거 타입은 싱글턴을 일반화한 형태
+	* 컴파일타임 타입 안정성을 제공
 	* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDQxODgyNzEsMTg4Mzg1NTA4XX0=
+eyJoaXN0b3J5IjpbLTM1OTY1NzYzNywxODgzODU1MDhdfQ==
 -->
