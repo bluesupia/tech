@@ -34,7 +34,14 @@ public enum Operation {
 }
 ```
 * 전략 열거 타입 패턴
-	* 
+	* 열거 타입 상수 일부가 같은 동작을 공유할 때 사용
+```java
+enum PayrollDay {
+	MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY,
+	SATURDAY(PayType.WEEKEND), SUNDAY(PayType.WEEKEND);
+	private final PayType payType
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQ1ODcwNjIsMTg4Mzg1NTA4XX0=
+eyJoaXN0b3J5IjpbLTE3MjE5NDcxOTAsMTg4Mzg1NTA4XX0=
 -->
