@@ -66,6 +66,9 @@ enum PayrollDay {
 	}
 }
 ```
+* 언제 열거타입을 쓸까 ?
+	* **필요한 원소를 컴파일타임에 다 알 수 있는 상수 집합이라면...***
+	* ex, 태양계 행성, 한 주의 요일, 체스 말
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NzM1NzkyNCwxODgzODU1MDhdfQ==
+eyJoaXN0b3J5IjpbLTkxOTg1ODcyMSwxODgzODU1MDhdfQ==
 -->
