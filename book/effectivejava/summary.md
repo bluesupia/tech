@@ -73,8 +73,10 @@
 ## 아이템32. 제너릭과 가변인수를 함께 쓸 때는 신중하라
 
 ## 아이템33. 타입 안전 이종 컨테이너를 고려하라
+
+## 아이템34. int 상수 대신 열거 타입을 사용하라
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM5NTIyOTMxLDM0OTY5MDYzNSwtMzgzNj
-MwODk5LDE4NDk2Mjg1OTUsLTEzNjQ1MTMwNiwtMzU2MjI2OTEw
-XX0=
+eyJoaXN0b3J5IjpbLTE2OTE3NTA0MjYsMzQ5NjkwNjM1LC0zOD
+M2MzA4OTksMTg0OTYyODU5NSwtMTM2NDUxMzA2LC0zNTYyMjY5
+MTBdfQ==
 -->
