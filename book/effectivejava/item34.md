@@ -39,9 +39,13 @@ public enum Operation {
 enum PayrollDay {
 	MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY,
 	SATURDAY(PayType.WEEKEND), SUNDAY(PayType.WEEKEND);
-	private final PayType payType
+	private final PayType payType;
+	PayrollDay(PayType payType) { this.payType = payType; }
+	int pay(int minutesWorked, int payRate) {
+		return payType.pay(minutesWorked, payRate);
+	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjE5NDcxOTAsMTg4Mzg1NTA4XX0=
+eyJoaXN0b3J5IjpbLTIwMzM2NjA3NTEsMTg4Mzg1NTA4XX0=
 -->
