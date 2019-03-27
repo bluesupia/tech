@@ -75,8 +75,12 @@
 ## 아이템33. 타입 안전 이종 컨테이너를 고려하라
 
 ## 아이템34. int 상수 대신 열거 타입을 사용하라
+
+## 아이템35. ordinal 메서드 대신 인스턴스 필드를 사용하라
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTE3NTA0MjYsMzQ5NjkwNjM1LC0zOD
-M2MzA4OTksMTg0OTYyODU5NSwtMTM2NDUxMzA2LC0zNTYyMjY5
-MTBdfQ==
+eyJoaXN0b3J5IjpbMTQxNDI1NjIsLTE2OTE3NTA0MjYsMzQ5Nj
+kwNjM1LC0zODM2MzA4OTksMTg0OTYyODU5NSwtMTM2NDUxMzA2
+LC0zNTYyMjY5MTBdfQ==
 -->
