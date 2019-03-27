@@ -1,3 +1,8 @@
+#Day6 - 20190327
+* 모듈 추가는 그만
+	* 기본 세팅 (?) 만 몇일째 꾸역꾸역 구색맞추다가 오늘 어떤 서비스를 구현할지 확정!
+	* 에버노트 잘했쪄 !!
+
 #Day3 - 20190324
 * Bolierplating
 	* 나도나도
@@ -31,6 +36,6 @@ https://jojoldu.tistory.com/138
 * 사내 자원을 활용버전과 추후 투트랙!
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcyOTU3MTE2LC0xMzI3NTc3MzY5LDE3MT
-E5MzA1NDgsNjIxMzY2NTUwXX0=
+eyJoaXN0b3J5IjpbLTE3NDA4ODA5NjQsMzcyOTU3MTE2LC0xMz
+I3NTc3MzY5LDE3MTE5MzA1NDgsNjIxMzY2NTUwXX0=
 -->
