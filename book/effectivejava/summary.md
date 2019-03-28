@@ -78,9 +78,11 @@
 
 ## 아이템35. ordinal 메서드 대신 인스턴스 필드를 사용하라
 
+## 아이템36. 비트 필드 대신 EnumSet을 사용하라
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNDI1NjIsLTE2OTE3NTA0MjYsMzQ5Nj
-kwNjM1LC0zODM2MzA4OTksMTg0OTYyODU5NSwtMTM2NDUxMzA2
-LC0zNTYyMjY5MTBdfQ==
+eyJoaXN0b3J5IjpbMTIyMDIyNDAwMywtMTY5MTc1MDQyNiwzND
+k2OTA2MzUsLTM4MzYzMDg5OSwxODQ5NjI4NTk1LC0xMzY0NTEz
+MDYsLTM1NjIyNjkxMF19
 -->
