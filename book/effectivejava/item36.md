@@ -8,14 +8,15 @@
 		* 그대로 출력시 정수 열거 상수때 보다 해석이 더 어렵다
 		* 비트 필드 하나에 녹아 있는 모든 원소 순회가 까다로움
 * **EnumSet으로 대체!**
+	* text.applyStyles(**EnumSet.of(Style.BOLD, Style.ITALIC)**);
 ```java
 public class Text {
 	public enum Style { BOLD, ITALIC, UNDERLINE, STRIKETHROUGH }
 
-	public void applyStyles(Set<SZtyle> styles) { ... }
+	public void applyStyles(Set<Style> styles) { ... }
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODc4MTQ4MzBdfQ==
+eyJoaXN0b3J5IjpbLTE3MzA0NDAwNjldfQ==
 -->
