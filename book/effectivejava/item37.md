@@ -4,8 +4,11 @@
 	* 배열보단 EnumMap!
 ```java
 Map<Plant.LifeCyle, Set<Plant>> plantsByLifeCycle = new EnumMap<>(Plant.LifeCycle.class);
-for (Plant.LifeCycle lc 
+for (Plant.LifeCycle lc : Plant.LifeCycle.values())
+	plantsByLifeCycle.put(lc, new HashSet<>());
+for (Plant p : garden)
+	plantsByLifeCycle.get(p.lifeCycle).add(p);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDM1MTA2OTJdfQ==
+eyJoaXN0b3J5IjpbMTEzMzIzNDk1OF19
 -->
