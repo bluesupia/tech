@@ -26,8 +26,10 @@ Arrays.stream(garden)
 System.out.println(
 Arrays.stream(garden)
 	  .collect(groupingBy(p -> p.lifeCycle, 
-	  () -> new E
+	  () -> new EnumMap<>(LifeCycle.class), toSet())));
 ```
+
+*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTQ5MTQ5NjksLTExNTI5OTExNF19
+eyJoaXN0b3J5IjpbLTE0MDM5NTk4OTgsLTExNTI5OTExNF19
 -->
