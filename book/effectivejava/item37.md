@@ -29,7 +29,9 @@ Arrays.stream(garden)
 	  () -> new EnumMap<>(LifeCycle.class), toSet())));
 ```
 
-*
+* 중첩 EnumMap
+	* 두 열거 타입 값의 매핑 등의 다차원 관계는 EnumMap&lt;..., EnumMap&lt;...&gt;&gt; 으로 표현
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDM5NTk4OTgsLTExNTI5OTExNF19
+eyJoaXN0b3J5IjpbMTY2NzE5NzY4MiwtMTE1Mjk5MTE0XX0=
 -->
