@@ -1,3 +1,8 @@
+### 20190401
+&#35;java &#35;spring &#35;annotation
+* @Configuration
+[http://tech.javacafe.io/spring/2018/11/04/%EC%8A%A4%ED%94%84%EB%A7%81-Configuration-%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98-%EC%98%88%EC%A0%9C/](http://tech.javacafe.io/spring/2018/11/04/%EC%8A%A4%ED%94%84%EB%A7%81-Configuration-%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98-%EC%98%88%EC%A0%9C/)
+
 ### 20190324
 &#35; effectivejava
 * 슈퍼타입토큰
@@ -123,9 +128,9 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTMyMjk3MzIsLTQ3OTg4OTI1OCwtMT
-M0MTUyNzEsLTEyNTY4NDAxNDgsMTQ1MzAyMjA0MywxODU4OTIz
-MTIsMTQzODYwMTA4NiwtMjA2ODI2NzczNCw2NzYzMTEwNjcsMT
-M1MDA3ODgzMSwtMTc2OTk5MDY2MCwtMTQ5MTU4MTE2MSwtODU4
-MDk1NjE1XX0=
+eyJoaXN0b3J5IjpbMTcwNzgyODI5MywtMjAxMzIyOTczMiwtND
+c5ODg5MjU4LC0xMzQxNTI3MSwtMTI1Njg0MDE0OCwxNDUzMDIy
+MDQzLDE4NTg5MjMxMiwxNDM4NjAxMDg2LC0yMDY4MjY3NzM0LD
+Y3NjMxMTA2NywxMzUwMDc4ODMxLC0xNzY5OTkwNjYwLC0xNDkx
+NTgxMTYxLC04NTgwOTU2MTVdfQ==
 -->
