@@ -12,6 +12,14 @@ for (Plant.LifeCycle lc : Plant.LifeCycle.values())
 for (Plant p : garden)
 	plantsByLifeCycle.get(p.lifeCycle).add(p);
 ```
+
+* 스트림 사용
+	* 스트림으로 맵을 관리하면 코드를 더 줄임
+	* 코드1은 EnumMap이 아닌 고유맵구현체 사용으로 Enumap을 써서 얻는 공간과 성능 이점이 사라짐
+```java
+//코드1
+System.out
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTI5OTExNF19
+eyJoaXN0b3J5IjpbLTQ0MTYwOTE2NCwtMTE1Mjk5MTE0XX0=
 -->
