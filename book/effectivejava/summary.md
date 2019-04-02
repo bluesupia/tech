@@ -80,9 +80,12 @@
 
 ## 아이템36. 비트 필드 대신 EnumSet을 사용하라
 
+## 아이템37. ordinal 인덱싱 대신 EnumMap을 사용하라
+
+## 아이템38. 확장할 수 있는 열거 타입이 필요하면 인터페이스를 사용하라
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMDIyNDAwMywtMTY5MTc1MDQyNiwzND
-k2OTA2MzUsLTM4MzYzMDg5OSwxODQ5NjI4NTk1LC0xMzY0NTEz
-MDYsLTM1NjIyNjkxMF19
+eyJoaXN0b3J5IjpbLTE3ODkyNzc5MjEsLTE2OTE3NTA0MjYsMz
+Q5NjkwNjM1LC0zODM2MzA4OTksMTg0OTYyODU5NSwtMTM2NDUx
+MzA2LC0zNTYyMjY5MTBdfQ==
 -->
