@@ -47,8 +47,12 @@ public @interface ExceptionTest {
 		* 컨테이너 애너테이션은 내부 애너테이션 타입의 배열을 반환하는 value 매서드를 정의
 		* 컨테이너 애너테이션 타입에는 적절한 보존 정책(@Retention)과 적용 대상(@Target)을 명시해야 함
 ```java
-
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+@Repeatable(ExceptionTestContainer.class)
+public 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NDAzMjE1NywtMTU5OTEzMzAwXX0=
+eyJoaXN0b3J5IjpbLTEzOTgzNTU4NzYsLTQ5NDAzMjE1NywtMT
+U5OTEzMzAwXX0=
 -->
