@@ -7,7 +7,16 @@
 	* 위 명명패턴의 문제를 해결해주는 개념
 	* Junit4에도 전면 도입
 * 마커 애너테이션 타입선언
+	* 메타애너테이션(meta-annatation)
+		* 애너테이션 선언에 다는 ㅇ
+```java
+import java.lang.annotation.*;
 
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface Test{
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDQ0NjU1OCwtMTU5OTEzMzAwXX0=
+eyJoaXN0b3J5IjpbMTkxOTMwNDgzNiwtMTU5OTEzMzAwXX0=
 -->
