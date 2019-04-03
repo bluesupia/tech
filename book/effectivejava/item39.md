@@ -15,6 +15,8 @@
 			* @Target(ElementType.METHOD)
 				* @Test가 반드시 메서드 선언에서만 사용돼야 한다
 				* 클래스 선언, 필드 선언 등 다름 프로그램 요소에는 달 수 없다
+	* 아무 매개변수 없이 단순히 대상에 마킹(marking)
+	* 대상 코드의 의미는 그대로 둔 채 그 애너테이션에 관심 있는 도구에서 특별한 처리를 할 기회를 준다
 ```java
 import java.lang.annotation.*;
 
@@ -24,5 +26,5 @@ public @interface Test{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDUwNzQxOCwtMTU5OTEzMzAwXX0=
+eyJoaXN0b3J5IjpbLTIwODkzOTQxOTgsLTE1OTkxMzMwMF19
 -->
