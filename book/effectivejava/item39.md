@@ -43,7 +43,12 @@ public @interface ExceptionTest {
 	* 반복 가능 애너테이션
 	* 여러개의 값을 받는 애너테이션을 다른 방식 !
 	* 주의!
-		* @Repeatable 을 단 애너테이션을 반환하는 '컨테이너 애너테이션'을 하나더 정의하고, @Repeatable에 이 컨테이너 애너테이션의 class 객체를 매개변수
+		* @Repeatable 을 단 애너테이션을 반환하는 '컨테이너 애너테이션'을 하나더 정의하고, @Repeatable에 이 컨테이너 애너테이션의 class 객체를 매개변수로 전달
+		* 컨테이너 애너테이션은 내부 애너테이션 타입의 배열을 반환하는 value 매서드를 정의
+		* 컨테이너 애너테이션 타입에는 적절한 보존 정책(@Retention)과 적용 대상(@Target)을 명시해야 함
+```java
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzk2OTc2ODcsLTE1OTkxMzMwMF19
+eyJoaXN0b3J5IjpbLTQ5NDAzMjE1NywtMTU5OTEzMzAwXX0=
 -->
