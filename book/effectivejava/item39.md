@@ -18,8 +18,6 @@
 	* 아무 매개변수 없이 단순히 대상에 마킹(marking)
 	* 대상 코드의 의미는 그대로 둔 채 그 애너테이션에 관심 있는 도구에서 특별한 처리를 할 기회를 준다
 ```java
-import java.lang.annotation.*;
-
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 public @interface Test{
@@ -27,8 +25,6 @@ public @interface Test{
 ```
 * 매개변수 하나를 받는 애너테이션 타입
 ```java
-import java.lang.annotation.*;
-
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 public @interface ExceptionTest {
@@ -37,15 +33,16 @@ public @interface ExceptionTest {
 ```
 * 배열 매개변수를 받는 애너테이션 타입
 ```java
-import java.lang.annotation.*;
-
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 public @interface ExceptionTest {
-	Class<? extends Throwable> value();
+	Class<? extends Throwable>[] value();
 }
 ```
-
+* @Repeatable
+	* 반복 가능 애너테이션
+	* 여러개의 값을 받는 애너테이션을 다른 방식 !
+	* w
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NzE1MTU4MCwtMTU5OTEzMzAwXX0=
+eyJoaXN0b3J5IjpbLTU2MjE5MzE3LC0xNTk5MTMzMDBdfQ==
 -->
