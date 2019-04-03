@@ -1,5 +1,6 @@
 # 20190402
-
+# 20190402
+* bootstrap 
 #Day6 - 20190327
 * 모듈 추가는 그만
 	* 기본 세팅 (?) 만 몇일째 꾸역꾸역 구색맞추다가 오늘 어떤 서비스를 구현할지 확정!
@@ -38,7 +39,7 @@ https://jojoldu.tistory.com/138
 * 사내 자원을 활용버전과 추후 투트랙!
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1OTkyNzksLTE3NDA4ODA5NjQsMzcyOT
-U3MTE2LC0xMzI3NTc3MzY5LDE3MTE5MzA1NDgsNjIxMzY2NTUw
-XX0=
+eyJoaXN0b3J5IjpbNzUyMDE4NjgsNzM1OTkyNzksLTE3NDA4OD
+A5NjQsMzcyOTU3MTE2LC0xMzI3NTc3MzY5LDE3MTE5MzA1NDgs
+NjIxMzY2NTUwXX0=
 -->
