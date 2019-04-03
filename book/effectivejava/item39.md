@@ -25,6 +25,27 @@ import java.lang.annotation.*;
 public @interface Test{
 }
 ```
+* 매개변수 하나를 받는 애너테이션 타입
+```java
+import java.lang.annotation.*;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface ExceptionTest {
+	Class<? extends Throwable> value();
+}
+```
+* 배열 매개변수를 받는 애너테이션 타입
+```java
+import java.lang.annotation.*;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface ExceptionTest {
+	Class<? extends Throwable> value();
+}
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODkzOTQxOTgsLTE1OTkxMzMwMF19
+eyJoaXN0b3J5IjpbMTI0NzE1MTU4MCwtMTU5OTEzMzAwXX0=
 -->
