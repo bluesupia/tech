@@ -50,9 +50,17 @@ public @interface ExceptionTest {
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 @Repeatable(ExceptionTestContainer.class)
-public 
+public @interface ExceptionTest {
+	Class<? extends Throwable> value();
+}
+
+@Retention(RetentionPolicy.RUNTIME) 
+@Target(ElementType.METHOD)
+public @interface ExceptionTestContainer {
+	ExceptionTest[] value();
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTgzNTU4NzYsLTQ5NDAzMjE1NywtMT
-U5OTEzMzAwXX0=
+eyJoaXN0b3J5IjpbLTI0OTk1NDIzMSwtNDk0MDMyMTU3LC0xNT
+k5MTMzMDBdfQ==
 -->
