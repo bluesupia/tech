@@ -42,7 +42,8 @@ public @interface ExceptionTest {
 * @Repeatable
 	* 반복 가능 애너테이션
 	* 여러개의 값을 받는 애너테이션을 다른 방식 !
-	* w
+	* 주의!
+		* @Repeatable 을 단 애너테이션을 반환하는 '컨테이너 애너테이션'을 하나더 정의하고, @Repeatable에 이 컨테이너 애너테이션의 class 객체를 매개변수
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MjE5MzE3LC0xNTk5MTMzMDBdfQ==
+eyJoaXN0b3J5IjpbLTIxMzk2OTc2ODcsLTE1OTkxMzMwMF19
 -->
