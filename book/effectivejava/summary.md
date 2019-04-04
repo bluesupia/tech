@@ -84,8 +84,12 @@
 
 ## 아이템38. 확장할 수 있는 열거 타입이 필요하면 인터페이스를 사용하라
 
+## 아이템39.  명명 패턴보다 애너테이션을 사용하라
+
+## 아이템40. @Override 애너테이션을 일관되게 사용하라!
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODkyNzc5MjEsLTE2OTE3NTA0MjYsMz
-Q5NjkwNjM1LC0zODM2MzA4OTksMTg0OTYyODU5NSwtMTM2NDUx
-MzA2LC0zNTYyMjY5MTBdfQ==
+eyJoaXN0b3J5IjpbNTUwODQ0NTkyLC0xNjkxNzUwNDI2LDM0OT
+Y5MDYzNSwtMzgzNjMwODk5LDE4NDk2Mjg1OTUsLTEzNjQ1MTMw
+NiwtMzU2MjI2OTEwXX0=
 -->
