@@ -88,8 +88,10 @@
 
 ## 아이템40. @Override 애너테이션을 일관되게 사용하라!
 
+## 아이템41. 정의하려는 것이 타입이라면 마커 인터페이스를 사용하라
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwODQ0NTkyLC0xNjkxNzUwNDI2LDM0OT
-Y5MDYzNSwtMzgzNjMwODk5LDE4NDk2Mjg1OTUsLTEzNjQ1MTMw
-NiwtMzU2MjI2OTEwXX0=
+eyJoaXN0b3J5IjpbLTEyOTAwNjA5NTksNTUwODQ0NTkyLC0xNj
+kxNzUwNDI2LDM0OTY5MDYzNSwtMzgzNjMwODk5LDE4NDk2Mjg1
+OTUsLTEzNjQ1MTMwNiwtMzU2MjI2OTEwXX0=
 -->
