@@ -9,7 +9,11 @@
 		* 적용 대상을 더 정밀하게 지정할 수 있다
 	* 마커 애너테이션
 		* 거대한 애너테이션 시스템의 지원을 받는다
-		* 
+
+
+### 핵심정리
+* **적용 대상이 ElementType.TYPE 인 마커 애너테이션을 작성하고 있다면, 혹시 마커 인터페이스가 낫지않을지 곰곰이 생각해보자!**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODI2NTU2MTksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEyNDA4MjE0MDYsNzMwOTk4MTE2XX0=
 -->
