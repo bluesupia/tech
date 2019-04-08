@@ -90,8 +90,10 @@
 
 ## 아이템41. 정의하려는 것이 타입이라면 마커 인터페이스를 사용하라
 
+# 람다와 스트림
+## 아이템42. 익명 클래스보다는 람다를 사용하라
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTAwNjA5NTksNTUwODQ0NTkyLC0xNj
+eyJoaXN0b3J5IjpbLTIwOTg1OTQyNzcsNTUwODQ0NTkyLC0xNj
 kxNzUwNDI2LDM0OTY5MDYzNSwtMzgzNjMwODk5LDE4NDk2Mjg1
 OTUsLTEzNjQ1MTMwNiwtMzU2MjI2OTEwXX0=
 -->
