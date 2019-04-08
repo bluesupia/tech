@@ -9,7 +9,10 @@
 * 람다로 대체할 수 없는 곳
 	* 람다는 함수형 인터페이스에서만!
 	* 추상 클래스의 인스턴스를 만들 때 람다를 쓸 수 없으므로 익명 클래스 사용
-	* 추
+	* 추상 메서드가 여러 개인 인터페이스의 인스턴스를 만들 때 익명 클래스
+	* 람다는 자기 자신을 참조 할 수 없으므로, 자기자신을 참조해야 한다면 익명 클래스
+	* **람다를 직렬화 하는 일은 극히 삼가야함**
+	* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNTIzNjQzNSwxMTE0NjQzMjM5XX0=
+eyJoaXN0b3J5IjpbMjI1ODgzNjg4LDExMTQ2NDMyMzldfQ==
 -->
