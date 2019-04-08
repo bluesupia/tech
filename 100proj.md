@@ -1,4 +1,11 @@
-# 20190402
+# 20190408
+* mysql 설치
+```shell
+$ brew install mysql
+$ brew install mysql-client
+$ brew cask install mysqlworkbench
+$ brew services start mysql
+```
 # 20190402
 * bootstrap 
 #Day6 - 20190327
@@ -39,7 +46,7 @@ https://jojoldu.tistory.com/138
 * 사내 자원을 활용버전과 추후 투트랙!
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUyMDE4NjgsNzM1OTkyNzksLTE3NDA4OD
-A5NjQsMzcyOTU3MTE2LC0xMzI3NTc3MzY5LDE3MTE5MzA1NDgs
-NjIxMzY2NTUwXX0=
+eyJoaXN0b3J5IjpbLTE5ODM4MzM1OTQsNzM1OTkyNzksLTE3ND
+A4ODA5NjQsMzcyOTU3MTE2LC0xMzI3NTc3MzY5LDE3MTE5MzA1
+NDgsNjIxMzY2NTUwXX0=
 -->
