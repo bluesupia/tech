@@ -6,6 +6,8 @@ $ brew install mysql-client
 $ brew cask install mysqlworkbench
 $ brew services start mysql
 ```
+[https://devyurim.github.io/data%20base/mysql/2018/08/13/mysql-1.html](https://devyurim.github.io/data%20base/mysql/2018/08/13/mysql-1.html)
+
 # 20190402
 * bootstrap 
 #Day6 - 20190327
@@ -46,7 +48,7 @@ https://jojoldu.tistory.com/138
 * 사내 자원을 활용버전과 추후 투트랙!
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODM4MzM1OTQsNzM1OTkyNzksLTE3ND
-A4ODA5NjQsMzcyOTU3MTE2LC0xMzI3NTc3MzY5LDE3MTE5MzA1
-NDgsNjIxMzY2NTUwXX0=
+eyJoaXN0b3J5IjpbLTQ2OTYwOTgzOSw3MzU5OTI3OSwtMTc0MD
+g4MDk2NCwzNzI5NTcxMTYsLTEzMjc1NzczNjksMTcxMTkzMDU0
+OCw2MjEzNjY1NTBdfQ==
 -->
