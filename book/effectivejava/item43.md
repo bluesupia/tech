@@ -15,7 +15,7 @@
 |배열 생성자  |int[]::new|len -> new int[len]|
 
 #### 핵심정리
-* **메서드 참조 쪽이 짧고 명확하다면 메서드 참조를! 그렇지 않을 때만 람다!
+* **메서드 참조 쪽이 짧고 명확하다면 메서드 참조를! 그렇지 않을 때만 람다!**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTMxNDU2NDksLTU3MzEyOTE3Nl19
+eyJoaXN0b3J5IjpbMTAwMTUxNzY0NywtNTczMTI5MTc2XX0=
 -->
