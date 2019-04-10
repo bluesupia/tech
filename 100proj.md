@@ -1,3 +1,4 @@
+
 # 20190408
 * mysql 설치
 ```shell
@@ -48,7 +49,7 @@ https://jojoldu.tistory.com/138
 * 사내 자원을 활용버전과 추후 투트랙!
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2OTYwOTgzOSw3MzU5OTI3OSwtMTc0MD
-g4MDk2NCwzNzI5NTcxMTYsLTEzMjc1NzczNjksMTcxMTkzMDU0
-OCw2MjEzNjY1NTBdfQ==
+eyJoaXN0b3J5IjpbNzM1NTQ2Mjc1LDczNTk5Mjc5LC0xNzQwOD
+gwOTY0LDM3Mjk1NzExNiwtMTMyNzU3NzM2OSwxNzExOTMwNTQ4
+LDYyMTM2NjU1MF19
 -->
