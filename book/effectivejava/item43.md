@@ -10,11 +10,12 @@
 |--|--|--|
 |정적 |Integer::parseInt |str -> Integer.parseInt(str)|
 |한정적(인스턴스)  |Instant.now()::isAfter  |Instant then = Instant.now();<br/>t -> then.isAter()|
-|비한정적(인스턴스)  |String::toLowerCase  ||
-|클래스 생성자  |TreeMap<K,V>::new||
-|배열 생성자  |int[]::new||
+|비한정적(인스턴스)  |String::toLowerCase  |str -> str.toLowerCase()|
+|클래스 생성자  |TreeMap<K,V>::new|() -> new TreeMap<K,V>()|
+|배열 생성자  |int[]::new|len -> new int[len]|
 
-
+#### 핵심정리
+* **메서드 참조 쪽이 짧고 명확하다면 메서드 참조를! 그렇지 않을 때만 람다!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTEyNTQxMjIsLTU3MzEyOTE3Nl19
+eyJoaXN0b3J5IjpbLTE5NTMxNDU2NDksLTU3MzEyOTE3Nl19
 -->
