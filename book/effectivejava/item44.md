@@ -15,16 +15,17 @@ interface EldestEntryRemoveFunction<K,V> {
 ```
 * 자바 표준 라이브러리에 이미 같은 모양의 인터페이스가 존재
 * ** 필요한 용도에 맞는게 있다면, 직접 구현하지 말고 표준 함수형 인터페이스를 활용**
+* 기본 함수형 인터페이스
 
 | 인터페이스 | 함수 시그니처 | 예|
 |--|--|--|
 |UnaryOperator&lt;T&gt;  |T apply(T t)  |String::toLowerCase |
-|BinaryOperator&lt;T&gt;  |T apply(T t)  |String::toLowerCase |
-|Predicate&lt;T&gt;  |T apply(T t)  |String::toLowerCase |
-|Func&lt;T&gt;  |T apply(T t)  |String::toLowerCase |
-|Supplier&lt;T&gt;  |T apply(T t)  |String::toLowerCase |
-|Consumer&lt;T&gt;  |T apply(T t)  |String::toLowerCase |
+|BinaryOperator&lt;T&gt;  |T apply(T t1, T t2)  |BigInteger::add |
+|Predicate&lt;T&gt;  |boolean apply(T t)  |Collection::isEmpty |
+|Func&lt;T&gt;  |R apply(T t)  |Arrays::asList |
+|Supplier&lt;T&gt;  |T get(T t)  |Instant::now |
+|Consumer&lt;T&gt;  |void accept(T t)  |System.out::println |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NzQxNTk0NF19
+eyJoaXN0b3J5IjpbLTE2MDcwNDk0OThdfQ==
 -->
