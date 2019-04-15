@@ -17,6 +17,7 @@ interface EldestEntryRemoveFunction<K,V> {
 * ** 필요한 용도에 맞는게 있다면, 직접 구현하지 말고 표준 함수형 인터페이스를 활용**
 * 기본 함수형 인터페이스
 
+
 | 인터페이스 | 함수 시그니처 | 예|
 |--|--|--|
 |UnaryOperator&lt;T&gt;  |T apply(T t)  |String::toLowerCase |
@@ -26,6 +27,11 @@ interface EldestEntryRemoveFunction<K,V> {
 |Supplier&lt;T&gt;  |T get(T t)  |Instant::now |
 |Consumer&lt;T&gt;  |void accept(T t)  |System.out::println |
 
+* 기본 함수형 인터페이스의 변형
+	* 기본 타입인 int, long, double용으로 3개씩 변형
+		* I
+	* Function 인터페이스에는 기본 타입을 반환하는 변형이 총 9개 더 존재
+	* 기본  함수형 인터페이스 중 3개에는 인수를 2개씩 받는 변형
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDcwNDk0OThdfQ==
+eyJoaXN0b3J5IjpbLTIxMTA0MDUwNjhdfQ==
 -->
