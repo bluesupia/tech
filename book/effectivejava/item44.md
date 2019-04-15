@@ -33,7 +33,8 @@ interface EldestEntryRemoveFunction<K,V> {
 	* Function 인터페이스에는 기본 타입을 반환하는 변형이 총 9개 더 존재
 	* 기본  함수형 인터페이스 중 3개에는 인수를 2개씩 받는 변형
 * 기본 타입만 지원하나 **기본 함수형 인터페이스에 박싱된 기본 타입을 넣어 사용하지는 말자**
-* ** 직접 만든 함수형 인터페이스에는
+* ** 직접 만든 함수형 인터페이스에는 항상 @FunctionalInterface 애너테이션을 사용하라**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyNjMyMjYzXX0=
+eyJoaXN0b3J5IjpbMTA2MzE2NDExMF19
 -->
