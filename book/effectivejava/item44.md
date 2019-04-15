@@ -15,7 +15,10 @@ interface EldestEntryRemoveFunction<K,V> {
 ```
 * 자바 표준 라이브러리에 이미 같은 모양의 인터페이스가 존재
 * ** 필요한 용도에 맞는게 있다면, 직접 구현하지 말고 표준 함수형 인터페이스를 활용**
-* 
+|인터페이스 |함수 시그니처 |예|
+|--|--|--|
+|UnaryOperator&lt;T&gt;  |T apply(T t) |String::toLowerCase|
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzc2NDM1MV19
+eyJoaXN0b3J5IjpbMzU2MTIzNjI5XX0=
 -->
