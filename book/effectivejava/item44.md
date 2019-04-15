@@ -6,8 +6,12 @@
 protected boolean removeEldestEntry(Map.Entry<K,V> eldest) { 
 	return size() > 100;
 }
+
+// 불필요한 함수형 인터페이스 : 대신 표준 함수형 인터페이스를 사용하라!
+@FuntionalInterface
+interface EldestEntryRemoveFunction<
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYxNTAyNDE3XX0=
+eyJoaXN0b3J5IjpbLTQ5MTEwOTA0OF19
 -->
