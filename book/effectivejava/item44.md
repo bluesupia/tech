@@ -9,9 +9,13 @@ protected boolean removeEldestEntry(Map.Entry<K,V> eldest) {
 
 // 불필요한 함수형 인터페이스 : 대신 표준 함수형 인터페이스를 사용하라!
 @FuntionalInterface
-interface EldestEntryRemoveFunction<
+interface EldestEntryRemoveFunction<K,V> {
+	boolean remove(Map<K,V> map, Map.Entry<K,V> eldest);
+}
 ```
-
+* 자바 표준 라이브러리에 이미 같은 모양의 인터페이스가 존재
+* ** 필요한 용도에 맞는게 있다면, 직접 구현하지 말고 표준 함수형 인터페이스를 활용**
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MTEwOTA0OF19
+eyJoaXN0b3J5IjpbLTIyNzc2NDM1MV19
 -->
