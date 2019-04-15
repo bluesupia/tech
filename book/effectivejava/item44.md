@@ -29,9 +29,11 @@ interface EldestEntryRemoveFunction<K,V> {
 
 * 기본 함수형 인터페이스의 변형
 	* 기본 타입인 int, long, double용으로 3개씩 변형
-		* I
+		* IntPredicate
 	* Function 인터페이스에는 기본 타입을 반환하는 변형이 총 9개 더 존재
 	* 기본  함수형 인터페이스 중 3개에는 인수를 2개씩 받는 변형
+* 기본 타입만 지원하나 **기본 함수형 인터페이스에 박싱된 기본 타입을 넣어 사용하지는 말자**
+* ** 직접 만든 함수형 인터페이스에는
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTA0MDUwNjhdfQ==
+eyJoaXN0b3J5IjpbOTcyNjMyMjYzXX0=
 -->
