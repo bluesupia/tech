@@ -3,9 +3,11 @@
 	* 같은효과의 함수객체를 받는 정적 팩터리나 생성자 제공
 	* 이때 함수형 매개변수 타입을 올바르게 선택
 ```java
-
+protected boolean removeEldestEntry(Map.Entry<K,V> eldest) { 
+	return size() > 100;
+}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTk5NTI2N119
+eyJoaXN0b3J5IjpbODYxNTAyNDE3XX0=
 -->
