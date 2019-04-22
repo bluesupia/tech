@@ -12,6 +12,11 @@
 	* 자바 10에서 43개 메소드 존재
 	* API 문서 참조
 	* [https://docs.oracle.com/javase/10/docs/api/java/util/stream/Collectors.html](https://docs.oracle.com/javase/10/docs/api/java/util/stream/Collectors.html)
+* 중요 수집기 팩터리
+	* toList
+	* toMap
+	* groupingBy
+	* joini
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwODY5NzE0N119
+eyJoaXN0b3J5IjpbNjQ3MjUxNjgxXX0=
 -->
