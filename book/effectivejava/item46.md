@@ -16,7 +16,7 @@
 	* toList
 	* toMap
 	* groupingBy
-	* joini
+	* joining
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ3MjUxNjgxXX0=
+eyJoaXN0b3J5IjpbLTcxMDM1Nzc1Ml19
 -->
