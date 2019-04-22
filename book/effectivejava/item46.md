@@ -9,7 +9,9 @@
 * 수집기(Collector)
 	* java.util.stream.Collectors 
 	* 스트림 사용시 꼭 배워야 하는 개념
-	* 
+	* 자바 10에서 43개 메소드 존재
+	* API 문서 참조
+	* [https://docs.oracle.com/javase/10/docs/api/java/util/stream/Collectors.html](https://docs.oracle.com/javase/10/docs/api/java/util/stream/Collectors.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTg4NjM0NF19
+eyJoaXN0b3J5IjpbLTQwODY5NzE0N119
 -->
