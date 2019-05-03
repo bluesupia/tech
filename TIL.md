@@ -1,3 +1,18 @@
+### 20190503
+&#35;gradle &#35;complie &#35;codereview
+
+```
+<!--  Add the lines below to get more details about that warning --> 
+allprojects {
+    gradle.projectsEvaluated {
+        tasks.withType(JavaCompile) {
+            options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+        }
+    }
+}
+```
+
+
 ### 20190401
 &#35;java &#35;spring &#35;annotation
 * @Configuration
@@ -128,9 +143,9 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNzgyODI5MywtMjAxMzIyOTczMiwtND
-c5ODg5MjU4LC0xMzQxNTI3MSwtMTI1Njg0MDE0OCwxNDUzMDIy
-MDQzLDE4NTg5MjMxMiwxNDM4NjAxMDg2LC0yMDY4MjY3NzM0LD
-Y3NjMxMTA2NywxMzUwMDc4ODMxLC0xNzY5OTkwNjYwLC0xNDkx
-NTgxMTYxLC04NTgwOTU2MTVdfQ==
+eyJoaXN0b3J5IjpbLTE4MzAyNDExNzksMTcwNzgyODI5MywtMj
+AxMzIyOTczMiwtNDc5ODg5MjU4LC0xMzQxNTI3MSwtMTI1Njg0
+MDE0OCwxNDUzMDIyMDQzLDE4NTg5MjMxMiwxNDM4NjAxMDg2LC
+0yMDY4MjY3NzM0LDY3NjMxMTA2NywxMzUwMDc4ODMxLC0xNzY5
+OTkwNjYwLC0xNDkxNTgxMTYxLC04NTgwOTU2MTVdfQ==
 -->
