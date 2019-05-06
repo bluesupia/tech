@@ -7,7 +7,10 @@
 	* 동시성 프로그램 작성은 점점 쉬워지나, 올바르고 빠르게 작성하는 일은 어려운 작업
 * 스트림 병렬화 주의
 	* **데이터 소스가 Stream.iterate 거나 중간 연산으로 limit을 쓰면 파이프라인 병렬화로는 성능 개선을 기대할 수 없음**
-	* **ArrayList, HashMap, HashSet, ConcurrentHashMap의 인스턴스거나 배열, int 범위, long 범위 일 때 병렬화의 효과가 가
+	* **ArrayList, HashMap, HashSet, ConcurrentHashMap의 인스턴스거나 배열, int 범위, long 범위 일 때 병렬화의 효과가 가장 좋다**
+	* **스트림을 잘못 병렬화하면 (응담 불가는 포함) 성능이 나빠질 뿐만 아니라 결과 자체가 잘못되거나 예상 못한 동작이 발생**
+	* **조건만 잘 갖춰지면 parallel메서드 호출 하나로 거의 프로세서 코어 수에 비례하는 성능 향상을 만끽**
+	* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTc5ODM0NV19
+eyJoaXN0b3J5IjpbLTk0OTEzODM3MV19
 -->
