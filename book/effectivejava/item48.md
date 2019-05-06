@@ -1,7 +1,10 @@
 ## 아이템48. 스트림 병렬화는 주의해서 사용하라
 * 동시성 프로그래밍 in Java
 	* 처음 릴리스된 1996년부터 스레드, 동기화, wait/notify 지원
-	* 자
+	* 자바5, 동시성 컬렉션 java.util.concurrent 라이브러리와 실행자 프레임워크 지원
+	* 자바7, 고성능 병렬 분해 프레임워크인 포크-조인 패키지 추가
+	* 자바8, parallel 메서드만 한 번 호출하면 파이프라인을 병렬 실행할 수 있는 스트림 지원
+	* 동시성 프로그램 작성은 점점 쉬워지나, 올바르고 빠르
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTE1NDMwOTVdfQ==
+eyJoaXN0b3J5IjpbMjAxMDUyNzE0M119
 -->
