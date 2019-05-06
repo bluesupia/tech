@@ -4,7 +4,10 @@
 	* 자바5, 동시성 컬렉션 java.util.concurrent 라이브러리와 실행자 프레임워크 지원
 	* 자바7, 고성능 병렬 분해 프레임워크인 포크-조인 패키지 추가
 	* 자바8, parallel 메서드만 한 번 호출하면 파이프라인을 병렬 실행할 수 있는 스트림 지원
-	* 동시성 프로그램 작성은 점점 쉬워지나, 올바르고 빠르
+	* 동시성 프로그램 작성은 점점 쉬워지나, 올바르고 빠르게 작성하는 일은 어려운 작업
+* 스트림 병렬화 주의
+	* **데이터 소스가 Stream.iterate 거나 중간 연산으로 limit을 쓰면 파이프라인 병렬화로는 성능 개선을 기대할 수 없음**
+	* **ArrayList, HashMap, HashSet, ConcurrentHashMap의 인스턴스거나 배열, int 범위, long 범위 일 때 병렬화의 효과가 가
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDUyNzE0M119
+eyJoaXN0b3J5IjpbMTM3NTc5ODM0NV19
 -->
