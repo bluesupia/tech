@@ -4,7 +4,10 @@
 		* 항상 표준 명명 규칙을 따라야 한다
 		* 애매하면 자바 라이브러리의 API 가이드 참조
 	* **관련 메서드를 너무 많이 만들지 말자**
-	* 
+		* 확신이 서지 않으면 만들지 말자!
+	* **매개변수 목록을 짧게 유지**
+		* 4개 이하가 좋다
+		* 같은 타입의 매개변수 여러개의 경우 특히 핼
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU1Mzg0MjM0XX0=
+eyJoaXN0b3J5IjpbLTExNDY3MDU5MzZdfQ==
 -->
