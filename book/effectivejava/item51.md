@@ -2,7 +2,9 @@
 * API 설계 요령
 	* **메서드 이름을 신중히 짓자!**
 		* 항상 표준 명명 규칙을 따라야 한다
-		* 애매하면 자바 라이브러
+		* 애매하면 자바 라이브러리의 API 가이드 참조
+	* **관련 메서드를 너무 많이 만들지 말자**
+	* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMTIyMzk4XX0=
+eyJoaXN0b3J5IjpbNDU1Mzg0MjM0XX0=
 -->
