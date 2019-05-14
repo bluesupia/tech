@@ -1,3 +1,5 @@
+
+
 # 20190513
 * reboot
 	* 한것도 없이 reboot
@@ -54,7 +56,7 @@ https://jojoldu.tistory.com/138
 * 사내 자원을 활용버전과 추후 투트랙!
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NjYzMDQyMCw3MzU5OTI3OSwtMTc0MD
-g4MDk2NCwzNzI5NTcxMTYsLTEzMjc1NzczNjksMTcxMTkzMDU0
-OCw2MjEzNjY1NTBdfQ==
+eyJoaXN0b3J5IjpbNDMzOTE1MDY0LDE5ODY2MzA0MjAsNzM1OT
+kyNzksLTE3NDA4ODA5NjQsMzcyOTU3MTE2LC0xMzI3NTc3MzY5
+LDE3MTE5MzA1NDgsNjIxMzY2NTUwXX0=
 -->
