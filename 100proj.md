@@ -1,3 +1,5 @@
+# 20190515
+* spring-admin
 # 20190514
 [https://github.com/ihoneymon/boot-spring-boot/wiki/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B6%80%ED%8A%B8-%EA%B8%B0%EB%B0%98-%EB%A9%80%ED%8B%B0%EB%AA%A8%EB%93%88-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B5%AC%EC%84%B1-%EA%B0%80%EC%9D%B4%EB%93%9C](https://github.com/ihoneymon/boot-spring-boot/wiki/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B6%80%ED%8A%B8-%EA%B8%B0%EB%B0%98-%EB%A9%80%ED%8B%B0%EB%AA%A8%EB%93%88-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B5%AC%EC%84%B1-%EA%B0%80%EC%9D%B4%EB%93%9C)
 
@@ -58,7 +60,7 @@ https://jojoldu.tistory.com/138
 * 사내 자원을 활용버전과 추후 투트랙!
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNTQwMzMyOCwxOTg2NjMwNDIwLDczNT
-k5Mjc5LC0xNzQwODgwOTY0LDM3Mjk1NzExNiwtMTMyNzU3NzM2
-OSwxNzExOTMwNTQ4LDYyMTM2NjU1MF19
+eyJoaXN0b3J5IjpbLTEwNzEwMDkwMDMsMTIyNTQwMzMyOCwxOT
+g2NjMwNDIwLDczNTk5Mjc5LC0xNzQwODgwOTY0LDM3Mjk1NzEx
+NiwtMTMyNzU3NzM2OSwxNzExOTMwNTQ4LDYyMTM2NjU1MF19
 -->
