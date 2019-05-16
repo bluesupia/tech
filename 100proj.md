@@ -5,7 +5,8 @@
 		* TYpe > gradle config!
 * spring-admin
 ```
-
+compile group: 'de.codecentric', name: 'spring-boot-admin-server', version: '2.1.4'  
+compile group: 'de.codecentric', name: 'spring-boot-admin-starter-client', version: '2.1.4'
 ```
 [https://niiiii99.github.io/Springboot-Admin/](https://niiiii99.github.io/Springboot-Admin/)
 # 20190515
@@ -70,8 +71,8 @@ https://jojoldu.tistory.com/138
 * 사내 자원을 활용버전과 추후 투트랙!
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMDMwNDUzNywtMTA3MTAwOTAwMywxMj
-I1NDAzMzI4LDE5ODY2MzA0MjAsNzM1OTkyNzksLTE3NDA4ODA5
-NjQsMzcyOTU3MTE2LC0xMzI3NTc3MzY5LDE3MTE5MzA1NDgsNj
-IxMzY2NTUwXX0=
+eyJoaXN0b3J5IjpbMTA4MDY2NjczLDE3MDAzMDQ1MzcsLTEwNz
+EwMDkwMDMsMTIyNTQwMzMyOCwxOTg2NjMwNDIwLDczNTk5Mjc5
+LC0xNzQwODgwOTY0LDM3Mjk1NzExNiwtMTMyNzU3NzM2OSwxNz
+ExOTMwNTQ4LDYyMTM2NjU1MF19
 -->
