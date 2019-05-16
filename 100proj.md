@@ -2,7 +2,7 @@
 * spring boot + multi module 
 	* 몇번이고 지우고 만들기를 반복
 	* 아마도 이거 때문인듯 !
-		* 
+		* TYpe > gradle config!
 
 # 20190515
 * spring-admin
@@ -66,8 +66,8 @@ https://jojoldu.tistory.com/138
 * 사내 자원을 활용버전과 추후 투트랙!
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTk2MzA3NywtMTA3MTAwOTAwMywxMj
-I1NDAzMzI4LDE5ODY2MzA0MjAsNzM1OTkyNzksLTE3NDA4ODA5
-NjQsMzcyOTU3MTE2LC0xMzI3NTc3MzY5LDE3MTE5MzA1NDgsNj
-IxMzY2NTUwXX0=
+eyJoaXN0b3J5IjpbMzM1MDk4MzMsLTEwNzEwMDkwMDMsMTIyNT
+QwMzMyOCwxOTg2NjMwNDIwLDczNTk5Mjc5LC0xNzQwODgwOTY0
+LDM3Mjk1NzExNiwtMTMyNzU3NzM2OSwxNzExOTMwNTQ4LDYyMT
+M2NjU1MF19
 -->
