@@ -1,3 +1,13 @@
+### 20190613
+&#35;elasticsearch
+### bool 쿼리
+bool 쿼리는 bool 필터와는 다르게 동작한다.
+-   must: bool 필터와 동일
+-   must_not: bool 필터와 동일
+-   should: minimum_should_match(기본값=1) 값보다 크면 결과에 포함
+-   minimum_should_match: 기본값=1, (**must가 함께 사용되면 기본값=0**). 퍼센트, 실수 사용가능
+[https://bakyeono.net/post/2016-08-20-elasticsearch-querydsl-basic.html](https://bakyeono.net/post/2016-08-20-elasticsearch-querydsl-basic.html)
+- 
 ### 20190503
 &#35;gradle &#35;complie &#35;codereview
 
@@ -143,9 +153,10 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzAyNDExNzksMTcwNzgyODI5MywtMj
-AxMzIyOTczMiwtNDc5ODg5MjU4LC0xMzQxNTI3MSwtMTI1Njg0
-MDE0OCwxNDUzMDIyMDQzLDE4NTg5MjMxMiwxNDM4NjAxMDg2LC
-0yMDY4MjY3NzM0LDY3NjMxMTA2NywxMzUwMDc4ODMxLC0xNzY5
-OTkwNjYwLC0xNDkxNTgxMTYxLC04NTgwOTU2MTVdfQ==
+eyJoaXN0b3J5IjpbLTEzOTE5NDQ0NDgsLTE4MzAyNDExNzksMT
+cwNzgyODI5MywtMjAxMzIyOTczMiwtNDc5ODg5MjU4LC0xMzQx
+NTI3MSwtMTI1Njg0MDE0OCwxNDUzMDIyMDQzLDE4NTg5MjMxMi
+wxNDM4NjAxMDg2LC0yMDY4MjY3NzM0LDY3NjMxMTA2NywxMzUw
+MDc4ODMxLC0xNzY5OTkwNjYwLC0xNDkxNTgxMTYxLC04NTgwOT
+U2MTVdfQ==
 -->
