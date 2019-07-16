@@ -1,3 +1,9 @@
+### 20190717
+&#35;codereview 
+### single character concatenation
+* '+' vs "+"
+[https://stackoverflow.com/questions/24859500/concatenate-char-literal-x-vs-single-char-string-literal-x](https://stackoverflow.com/questions/24859500/concatenate-char-literal-x-vs-single-char-string-literal-x)
+
 ### 20190613
 &#35;elasticsearch
 ### bool 쿼리
@@ -153,10 +159,10 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTE5NDQ0NDgsLTE4MzAyNDExNzksMT
-cwNzgyODI5MywtMjAxMzIyOTczMiwtNDc5ODg5MjU4LC0xMzQx
-NTI3MSwtMTI1Njg0MDE0OCwxNDUzMDIyMDQzLDE4NTg5MjMxMi
-wxNDM4NjAxMDg2LC0yMDY4MjY3NzM0LDY3NjMxMTA2NywxMzUw
-MDc4ODMxLC0xNzY5OTkwNjYwLC0xNDkxNTgxMTYxLC04NTgwOT
-U2MTVdfQ==
+eyJoaXN0b3J5IjpbOTg5MzY5NjQzLC0xMzkxOTQ0NDQ4LC0xOD
+MwMjQxMTc5LDE3MDc4MjgyOTMsLTIwMTMyMjk3MzIsLTQ3OTg4
+OTI1OCwtMTM0MTUyNzEsLTEyNTY4NDAxNDgsMTQ1MzAyMjA0My
+wxODU4OTIzMTIsMTQzODYwMTA4NiwtMjA2ODI2NzczNCw2NzYz
+MTEwNjcsMTM1MDA3ODgzMSwtMTc2OTk5MDY2MCwtMTQ5MTU4MT
+E2MSwtODU4MDk1NjE1XX0=
 -->
