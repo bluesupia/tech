@@ -1,9 +1,15 @@
 ### 20190717
 &#35;codereview 
-### single character concatenation
+**single character concatenation**
 * '+' vs "+"
 [https://stackoverflow.com/questions/24859500/concatenate-char-literal-x-vs-single-char-string-literal-x](https://stackoverflow.com/questions/24859500/concatenate-char-literal-x-vs-single-char-string-literal-x)
 
+&#35;q&a
+
+**curl**
+- 요청 후 응답이 간헐적으로 NOT FOUND가 나고 있다
+- 
+- curl option중에 -I 는 헤더만 가져가기 때문에 CDN에 캐싱되지 않습니다. cdn Test시에 -I 보다는 -o /dev/null -v 옵션을 사용하셔야 정확한 결과를 얻으실수 있습니다
 ### 20190613
 &#35;elasticsearch
 ### bool 쿼리
@@ -159,10 +165,10 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg5MzY5NjQzLC0xMzkxOTQ0NDQ4LC0xOD
-MwMjQxMTc5LDE3MDc4MjgyOTMsLTIwMTMyMjk3MzIsLTQ3OTg4
-OTI1OCwtMTM0MTUyNzEsLTEyNTY4NDAxNDgsMTQ1MzAyMjA0My
-wxODU4OTIzMTIsMTQzODYwMTA4NiwtMjA2ODI2NzczNCw2NzYz
-MTEwNjcsMTM1MDA3ODgzMSwtMTc2OTk5MDY2MCwtMTQ5MTU4MT
-E2MSwtODU4MDk1NjE1XX0=
+eyJoaXN0b3J5IjpbLTc3MzczNjk5MSw5ODkzNjk2NDMsLTEzOT
+E5NDQ0NDgsLTE4MzAyNDExNzksMTcwNzgyODI5MywtMjAxMzIy
+OTczMiwtNDc5ODg5MjU4LC0xMzQxNTI3MSwtMTI1Njg0MDE0OC
+wxNDUzMDIyMDQzLDE4NTg5MjMxMiwxNDM4NjAxMDg2LC0yMDY4
+MjY3NzM0LDY3NjMxMTA2NywxMzUwMDc4ODMxLC0xNzY5OTkwNj
+YwLC0xNDkxNTgxMTYxLC04NTgwOTU2MTVdfQ==
 -->
