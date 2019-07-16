@@ -8,7 +8,11 @@
 
 **curl**
 - 요청 후 응답이 간헐적으로 NOT FOUND가 나고 있다
-- 
+- 시스템쪽 확인을 위해 관리자가 호출테스트 결과를 보냈다
+₩₩₩
+```
+$ curl -I -H 'host: CDN' URL
+```
 - curl option중에 -I 는 헤더만 가져가기 때문에 CDN에 캐싱되지 않습니다. cdn Test시에 -I 보다는 -o /dev/null -v 옵션을 사용하셔야 정확한 결과를 얻으실수 있습니다
 ### 20190613
 &#35;elasticsearch
@@ -165,7 +169,7 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MzczNjk5MSw5ODkzNjk2NDMsLTEzOT
+eyJoaXN0b3J5IjpbMTQ5MDkxNTQyNSw5ODkzNjk2NDMsLTEzOT
 E5NDQ0NDgsLTE4MzAyNDExNzksMTcwNzgyODI5MywtMjAxMzIy
 OTczMiwtNDc5ODg5MjU4LC0xMzQxNTI3MSwtMTI1Njg0MDE0OC
 wxNDUzMDIyMDQzLDE4NTg5MjMxMiwxNDM4NjAxMDg2LC0yMDY4
