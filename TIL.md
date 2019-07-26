@@ -1,3 +1,12 @@
+
+### 20190727
+&#35;java &#35;spring
+**Bean 메서드 생명주기**
+* in my proj.
+* 나는 스태틱 메소드를 만들고 싶었다.
+* 스태틱 메소드에서는 생성자에 있는 롲
+[http://wonwoo.ml/index.php/post/1820](http://wonwoo.ml/index.php/post/1820)
+
 ### 20190717
 &#35;codereview 
 **single character concatenation**
@@ -169,10 +178,11 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNjE3MTM0MCw5ODkzNjk2NDMsLTEzOT
-E5NDQ0NDgsLTE4MzAyNDExNzksMTcwNzgyODI5MywtMjAxMzIy
-OTczMiwtNDc5ODg5MjU4LC0xMzQxNTI3MSwtMTI1Njg0MDE0OC
-wxNDUzMDIyMDQzLDE4NTg5MjMxMiwxNDM4NjAxMDg2LC0yMDY4
-MjY3NzM0LDY3NjMxMTA2NywxMzUwMDc4ODMxLC0xNzY5OTkwNj
-YwLC0xNDkxNTgxMTYxLC04NTgwOTU2MTVdfQ==
+eyJoaXN0b3J5IjpbMTg5ODg1NjEzMywxMjE2MTcxMzQwLDk4OT
+M2OTY0MywtMTM5MTk0NDQ0OCwtMTgzMDI0MTE3OSwxNzA3ODI4
+MjkzLC0yMDEzMjI5NzMyLC00Nzk4ODkyNTgsLTEzNDE1MjcxLC
+0xMjU2ODQwMTQ4LDE0NTMwMjIwNDMsMTg1ODkyMzEyLDE0Mzg2
+MDEwODYsLTIwNjgyNjc3MzQsNjc2MzExMDY3LDEzNTAwNzg4Mz
+EsLTE3Njk5OTA2NjAsLTE0OTE1ODExNjEsLTg1ODA5NTYxNV19
+
 -->
