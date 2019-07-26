@@ -4,7 +4,13 @@
 **Bean 메서드 생명주기**
 * in my proj.
 * 나는 스태틱 메소드를 만들고 싶었다.
-* 스태틱 메소드에서는 생성자에 있는 롲
+* 스태틱 메소드에서는 생성자에 있는 로직이 실행되지 않는다. 생성자는 non-static이니깐
+* bean 생성 후 초기화하는 작업을 한 메소드를 호출하고 싶다
+* 1차. static {}
+* 2차. @PostContruct
+* 3차. InitializingBean
+* 4차. @Bean(method = "init")
+* 
 [http://wonwoo.ml/index.php/post/1820](http://wonwoo.ml/index.php/post/1820)
 
 ### 20190717
@@ -178,7 +184,7 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5ODg1NjEzMywxMjE2MTcxMzQwLDk4OT
+eyJoaXN0b3J5IjpbMjAzNTQ2MTU2MSwxMjE2MTcxMzQwLDk4OT
 M2OTY0MywtMTM5MTk0NDQ0OCwtMTgzMDI0MTE3OSwxNzA3ODI4
 MjkzLC0yMDEzMjI5NzMyLC00Nzk4ODkyNTgsLTEzNDE1MjcxLC
 0xMjU2ODQwMTQ4LDE0NTMwMjIwNDMsMTg1ODkyMzEyLDE0Mzg2
