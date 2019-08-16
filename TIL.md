@@ -1,6 +1,15 @@
 ### 20190816
-
-
+java.lang.UnsupportedOperationException 을만나다
+```
+<!--  Add the lines below to get more details about that warning --> 
+allprojects {
+    gradle.projectsEvaluated {
+        tasks.withType(JavaCompile) {
+            options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+        }
+    }
+}
+```
 
 ### 20190727
 &#35;java &#35;spring
@@ -187,7 +196,7 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODY3OTYxNSwyMDM1NDYxNTYxLDEyMT
+eyJoaXN0b3J5IjpbLTI2NDEzMzMyMCwyMDM1NDYxNTYxLDEyMT
 YxNzEzNDAsOTg5MzY5NjQzLC0xMzkxOTQ0NDQ4LC0xODMwMjQx
 MTc5LDE3MDc4MjgyOTMsLTIwMTMyMjk3MzIsLTQ3OTg4OTI1OC
 wtMTM0MTUyNzEsLTEyNTY4NDAxNDgsMTQ1MzAyMjA0MywxODU4
