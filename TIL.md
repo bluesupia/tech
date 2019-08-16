@@ -1,15 +1,12 @@
 ### 20190816
 java.lang.UnsupportedOperationException 을만나다
 ```
-<!--  Add the lines below to get more details about that warning --> 
-allprojects {
-    gradle.projectsEvaluated {
-        tasks.withType(JavaCompile) {
-            options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
-        }
-    }
-}
+List<String> strings = List.of("first", "second");  
+strings.addAll(CollectionUtils.EMPTY_COLLECTION);
 ```
+* in my proj.
+	* 빈 컬렉션을 넣는게 잘못된줄..
+	* 알고보니 of... 는 immutableCollection 반환
 
 ### 20190727
 &#35;java &#35;spring
@@ -196,7 +193,7 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDEzMzMyMCwyMDM1NDYxNTYxLDEyMT
+eyJoaXN0b3J5IjpbMTcwOTgxNDQyOCwyMDM1NDYxNTYxLDEyMT
 YxNzEzNDAsOTg5MzY5NjQzLC0xMzkxOTQ0NDQ4LC0xODMwMjQx
 MTc5LDE3MDc4MjgyOTMsLTIwMTMyMjk3MzIsLTQ3OTg4OTI1OC
 wtMTM0MTUyNzEsLTEyNTY4NDAxNDgsMTQ1MzAyMjA0MywxODU4
