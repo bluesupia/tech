@@ -1,3 +1,28 @@
+#### 20190923
+&#35;linux &#35;shell
+df : 디스크의 남은 용량을 확인
+- **df -k** : 킬로바이트 단위로 현재 남은 용량을 확인
+
+- **df -m** : 메가바이트 단위로 남은 용량을 왁인
+
+- **df -h** : 보기 좋게 보여줌
+
+- **df .** : 현재 디렉토리가 포함된 파티션의 남은 용량을 확인
+
+  
+du : 현재 디렉토리에서 서브디렉토리까지의 사용량을 확인
+
+- **du -a** : 현재 디렉토리의 사용량을 파일단위 출력
+
+- **du -s** : 총 사용량을 확인
+
+- **du -h** : 보기 좋게 바꿔줌
+
+- **du -sh *** : 한단계 서브디렉토리 기준으로 보여준다.
+
+  
+  
+출처: [https://ra2kstar.tistory.com/135](https://ra2kstar.tistory.com/135) [초보개발자 이야기.
 #### 20190917
 &#35;spring
 @Qualifier
@@ -211,11 +236,11 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTUxMDEyNDcsLTk3NTkxODQ2LC03Nj
-c1OTQyNzAsLTExMjc0NTE1NTMsMTcwOTgxNDQyOCwyMDM1NDYx
-NTYxLDEyMTYxNzEzNDAsOTg5MzY5NjQzLC0xMzkxOTQ0NDQ4LC
-0xODMwMjQxMTc5LDE3MDc4MjgyOTMsLTIwMTMyMjk3MzIsLTQ3
-OTg4OTI1OCwtMTM0MTUyNzEsLTEyNTY4NDAxNDgsMTQ1MzAyMj
-A0MywxODU4OTIzMTIsMTQzODYwMTA4NiwtMjA2ODI2NzczNCw2
-NzYzMTEwNjddfQ==
+eyJoaXN0b3J5IjpbNzkwODE2OTU5LC0xMjE1MTAxMjQ3LC05Nz
+U5MTg0NiwtNzY3NTk0MjcwLC0xMTI3NDUxNTUzLDE3MDk4MTQ0
+MjgsMjAzNTQ2MTU2MSwxMjE2MTcxMzQwLDk4OTM2OTY0MywtMT
+M5MTk0NDQ0OCwtMTgzMDI0MTE3OSwxNzA3ODI4MjkzLC0yMDEz
+MjI5NzMyLC00Nzk4ODkyNTgsLTEzNDE1MjcxLC0xMjU2ODQwMT
+Q4LDE0NTMwMjIwNDMsMTg1ODkyMzEyLDE0Mzg2MDEwODYsLTIw
+NjgyNjc3MzRdfQ==
 -->
