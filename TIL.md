@@ -1,6 +1,7 @@
 #### 20190930
 &#35;mongo
 * 예상사이즈를 예상해보자
+Object.bsonsize({})
 
 * [https://blog.outsider.ne.kr/941](https://blog.outsider.ne.kr/941)
 
@@ -242,7 +243,7 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTQ0OTMwMzAsNzkwODE2OTU5LC0xMj
+eyJoaXN0b3J5IjpbLTEyMDkzNjg3MzEsNzkwODE2OTU5LC0xMj
 E1MTAxMjQ3LC05NzU5MTg0NiwtNzY3NTk0MjcwLC0xMTI3NDUx
 NTUzLDE3MDk4MTQ0MjgsMjAzNTQ2MTU2MSwxMjE2MTcxMzQwLD
 k4OTM2OTY0MywtMTM5MTk0NDQ0OCwtMTgzMDI0MTE3OSwxNzA3
