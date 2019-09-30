@@ -6,6 +6,11 @@ Object.bsonsize({})
 
 * [https://blog.outsider.ne.kr/941](https://blog.outsider.ne.kr/941)
 
+&#35;codereview
+* 구글 코드리뷰 가이드
+* [https://soojin.ro/review/](https://soojin.ro/review/)
+* 
+
 #### 20190923
 &#35;linux &#35;shell
 df : 디스크의 남은 용량을 확인
@@ -244,7 +249,7 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MzEwNDI3NSwtMTIwOTM2ODczMSw3OT
+eyJoaXN0b3J5IjpbMjA4MDI2MDQzMSwtMTIwOTM2ODczMSw3OT
 A4MTY5NTksLTEyMTUxMDEyNDcsLTk3NTkxODQ2LC03Njc1OTQy
 NzAsLTExMjc0NTE1NTMsMTcwOTgxNDQyOCwyMDM1NDYxNTYxLD
 EyMTYxNzEzNDAsOTg5MzY5NjQzLC0xMzkxOTQ0NDQ4LC0xODMw
