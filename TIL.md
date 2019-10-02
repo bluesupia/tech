@@ -1,4 +1,11 @@
+#### 20191001
+&#35;log4j
+* 로그레벨을 알아보자
+* TRACE > DEBUG > INFO > WARN > ERROR > FATAL 순 입니다.
 
+  
+  
+출처: [https://mdj1234.tistory.com/63](https://mdj1234.tistory.com/63) [짬타이거 화이팅!]
 
 #### 20190930
 &#35;mongo
@@ -250,7 +257,7 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NDk3ODk0NywyMDgwMjYwNDMxLC0xMj
+eyJoaXN0b3J5IjpbLTY1NjMxNzI1OSwyMDgwMjYwNDMxLC0xMj
 A5MzY4NzMxLDc5MDgxNjk1OSwtMTIxNTEwMTI0NywtOTc1OTE4
 NDYsLTc2NzU5NDI3MCwtMTEyNzQ1MTU1MywxNzA5ODE0NDI4LD
 IwMzU0NjE1NjEsMTIxNjE3MTM0MCw5ODkzNjk2NDMsLTEzOTE5
