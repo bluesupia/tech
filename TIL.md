@@ -1,3 +1,8 @@
+#### 20191003
+&35;kafka
+* offset 이동!
+kafka-consumer-groups.sh --bootstrap-server AAA -group BBB --topic CCC --reset-offsets --to-offset DDD --execute
+
 #### 20191001
 &#35;log4j
 * 로그레벨을 알아보자
@@ -257,11 +262,11 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NjMxNzI1OSwyMDgwMjYwNDMxLC0xMj
-A5MzY4NzMxLDc5MDgxNjk1OSwtMTIxNTEwMTI0NywtOTc1OTE4
-NDYsLTc2NzU5NDI3MCwtMTEyNzQ1MTU1MywxNzA5ODE0NDI4LD
-IwMzU0NjE1NjEsMTIxNjE3MTM0MCw5ODkzNjk2NDMsLTEzOTE5
-NDQ0NDgsLTE4MzAyNDExNzksMTcwNzgyODI5MywtMjAxMzIyOT
-czMiwtNDc5ODg5MjU4LC0xMzQxNTI3MSwtMTI1Njg0MDE0OCwx
-NDUzMDIyMDQzXX0=
+eyJoaXN0b3J5IjpbLTIwMzk4NjUzNDcsLTY1NjMxNzI1OSwyMD
+gwMjYwNDMxLC0xMjA5MzY4NzMxLDc5MDgxNjk1OSwtMTIxNTEw
+MTI0NywtOTc1OTE4NDYsLTc2NzU5NDI3MCwtMTEyNzQ1MTU1My
+wxNzA5ODE0NDI4LDIwMzU0NjE1NjEsMTIxNjE3MTM0MCw5ODkz
+Njk2NDMsLTEzOTE5NDQ0NDgsLTE4MzAyNDExNzksMTcwNzgyOD
+I5MywtMjAxMzIyOTczMiwtNDc5ODg5MjU4LC0xMzQxNTI3MSwt
+MTI1Njg0MDE0OF19
 -->
