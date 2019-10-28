@@ -2,11 +2,14 @@
 &35;나는멍청이
 
 * No content to map due to end-of-input
-* ```
+ ``
 com.fasterxml.jackson.databind.JsonMappingException: No content to map due to end-of-input
  at [Source: java.io.StringReader@421ea4c0; line: 1, column: 1]
-```
-- 상단에 response.body().string()으로 로깅 해두고, 그다음 response.body().bytes() 로 ㅅ
+``
+- 상단에 response.body().string()으로 로깅 해두고, 그다음 response.body().bytes() 로 시도하려니 .... ;ㅁ;
+
+- 아무거나 로깅하지 말자 ?
+
 #### 20191015
 &35;mongodb
 - query 조건에 shard key 가 포함되어야, 특정 샤드로 target query 가 수행(라우터는 데이터 위치를 shard key 기준으로만 가지고있음)
@@ -276,11 +279,11 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODU2NTY2MDQsLTIwMzk4NjUzNDcsLT
-Y1NjMxNzI1OSwyMDgwMjYwNDMxLC0xMjA5MzY4NzMxLDc5MDgx
-Njk1OSwtMTIxNTEwMTI0NywtOTc1OTE4NDYsLTc2NzU5NDI3MC
-wtMTEyNzQ1MTU1MywxNzA5ODE0NDI4LDIwMzU0NjE1NjEsMTIx
-NjE3MTM0MCw5ODkzNjk2NDMsLTEzOTE5NDQ0NDgsLTE4MzAyND
-ExNzksMTcwNzgyODI5MywtMjAxMzIyOTczMiwtNDc5ODg5MjU4
-LC0xMzQxNTI3MV19
+eyJoaXN0b3J5IjpbNjgzMTI4NDQzLC0yMDM5ODY1MzQ3LC02NT
+YzMTcyNTksMjA4MDI2MDQzMSwtMTIwOTM2ODczMSw3OTA4MTY5
+NTksLTEyMTUxMDEyNDcsLTk3NTkxODQ2LC03Njc1OTQyNzAsLT
+ExMjc0NTE1NTMsMTcwOTgxNDQyOCwyMDM1NDYxNTYxLDEyMTYx
+NzEzNDAsOTg5MzY5NjQzLC0xMzkxOTQ0NDQ4LC0xODMwMjQxMT
+c5LDE3MDc4MjgyOTMsLTIwMTMyMjk3MzIsLTQ3OTg4OTI1OCwt
+MTM0MTUyNzFdfQ==
 -->
