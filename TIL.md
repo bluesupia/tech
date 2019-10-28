@@ -1,3 +1,10 @@
+
+
+#### 20191015
+&35;mongodb
+- query 조건에 shard key 가 포함되어야, 특정 샤드로 target query 가 수행(라우터는 데이터 위치를 shard key 기준으로만 가지고있음)
+- 만약 _id 만 조건에 포함된다면, 모든 샤드들을 대상으로 브로드캐스트로 쿼리가 실행
+
 #### 20191003
 &35;kafka
 * offset 이동!
@@ -262,11 +269,11 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzk4NjUzNDcsLTY1NjMxNzI1OSwyMD
-gwMjYwNDMxLC0xMjA5MzY4NzMxLDc5MDgxNjk1OSwtMTIxNTEw
-MTI0NywtOTc1OTE4NDYsLTc2NzU5NDI3MCwtMTEyNzQ1MTU1My
-wxNzA5ODE0NDI4LDIwMzU0NjE1NjEsMTIxNjE3MTM0MCw5ODkz
-Njk2NDMsLTEzOTE5NDQ0NDgsLTE4MzAyNDExNzksMTcwNzgyOD
-I5MywtMjAxMzIyOTczMiwtNDc5ODg5MjU4LC0xMzQxNTI3MSwt
-MTI1Njg0MDE0OF19
+eyJoaXN0b3J5IjpbMTkxMTc5MjgyNSwtMjAzOTg2NTM0NywtNj
+U2MzE3MjU5LDIwODAyNjA0MzEsLTEyMDkzNjg3MzEsNzkwODE2
+OTU5LC0xMjE1MTAxMjQ3LC05NzU5MTg0NiwtNzY3NTk0MjcwLC
+0xMTI3NDUxNTUzLDE3MDk4MTQ0MjgsMjAzNTQ2MTU2MSwxMjE2
+MTcxMzQwLDk4OTM2OTY0MywtMTM5MTk0NDQ0OCwtMTgzMDI0MT
+E3OSwxNzA3ODI4MjkzLC0yMDEzMjI5NzMyLC00Nzk4ODkyNTgs
+LTEzNDE1MjcxXX0=
 -->
