@@ -8,8 +8,7 @@
    * [Kotlin](kotlin.md)
    * [TDD](tdd.md)
    * [Docker](docker.md)
-* [엉금엉금]
-	* [1000proj](100proj.md)
+* [1000proj](100proj.md)
 * [TIP](tip.md)
 	* [TIL](TIL.md)
 	* [terminal](terminal.md)
@@ -49,6 +48,7 @@
 * [기술 블로그](techblog.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAyNjU5MDIzLC00NzE0NzExMzUsMTQ3Nz
-c2NTc0Niw0MjExMTczMjYsMjEzNDQ4MzYyNF19
+eyJoaXN0b3J5IjpbLTEyMjcwOTgxNTcsMzAyNjU5MDIzLC00Nz
+E0NzExMzUsMTQ3Nzc2NTc0Niw0MjExMTczMjYsMjEzNDQ4MzYy
+NF19
 -->
