@@ -5,7 +5,7 @@
 1. 구글  
    [https://developers-kr.googleblog.com](https://developers-kr.googleblog.com/)
 
-2. Mozilla 웹 기술 블로그  
+2. Mozilla 웹 기술 블로그  
    [http://hacks.mozilla.or.kr/](http://hacks.mozilla.or.kr/)
 
 3. 카카오  
@@ -32,3 +32,8 @@
 1. 기억보단 기록을
 http://jojoldu.tistory.com/
 
+
+c
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMzg4OTEwNDQxXX0=
+-->
