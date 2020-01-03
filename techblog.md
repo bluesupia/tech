@@ -29,11 +29,16 @@
 
 
 개인 / 
-1. 기억보단 기록을
+9. 기억보단 기록을
 http://jojoldu.tistory.com/
 
 
-c
+추천 /
+10. dev.to
+https://dev.to/
+
+11.  reddit
+https://www.reddit.com/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4OTEwNDQxXX0=
+eyJoaXN0b3J5IjpbLTcxNTM2NzQ2Ml19
 -->
