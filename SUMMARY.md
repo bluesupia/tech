@@ -5,6 +5,7 @@
    * [java11](java11.md)
    * [Spring](spring.md)
    * [Linux](linux.md)
+   * [Kotlin](kotlin.md)
    * [TDD](tdd.md)
    * [Docker](docker.md)
 * [엉금엉금]
@@ -48,6 +49,6 @@
 * [기술 블로그](techblog.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY0ODY4MzQzLC00NzE0NzExMzUsMTQ3Nz
+eyJoaXN0b3J5IjpbMzAyNjU5MDIzLC00NzE0NzExMzUsMTQ3Nz
 c2NTc0Niw0MjExMTczMjYsMjEzNDQ4MzYyNF19
 -->
