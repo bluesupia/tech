@@ -10,6 +10,11 @@ Introduction.
 ```Kotlin
 fun MethodName : String = TODO()
 ```
+
+2. Named arguments
+```
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMzQyNjk2Nyw1ODU3NTU3NThdfQ==
+eyJoaXN0b3J5IjpbNzExMzMwODU2LDE2MjM0MjY5NjcsNTg1Nz
+U1NzU4XX0=
 -->
