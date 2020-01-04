@@ -23,7 +23,12 @@ fun reformat(str: String,
 
 reformat(str, wordSeparator = '_')
 ```
+
+3. Default Arguments
+4. 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjM4NDY2MjQsMTYyMzQyNjk2Nyw1OD
-U3NTU3NThdfQ==
+eyJoaXN0b3J5IjpbMTY0MDI5MDMyMiwxNjIzNDI2OTY3LDU4NT
+c1NTc1OF19
 -->
