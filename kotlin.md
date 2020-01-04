@@ -30,8 +30,10 @@ fun read(b: Array<Byte>, off: Int = 0, len: Int = b.size) { /*...*/ }
 ```
 
 4. Lamdas
-5
+```
+{ a, b -> a + b }
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ5ODk0NzIsMTYyMzQyNjk2Nyw1ODU3NT
-U3NThdfQ==
+eyJoaXN0b3J5IjpbMTIzNzU4NTQ3MSwxNjIzNDI2OTY3LDU4NT
+c1NTc1OF19
 -->
