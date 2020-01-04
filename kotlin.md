@@ -28,7 +28,10 @@ reformat(str, wordSeparator = '_')
 ```Kotlin
 fun read(b: Array<Byte>, off: Int = 0, len: Int = b.size) { /*...*/ }
 ```
+
+4. Lamdas
+5
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzU2OTcyNSwxNjIzNDI2OTY3LDU4NT
-c1NTc1OF19
+eyJoaXN0b3J5IjpbMzQ5ODk0NzIsMTYyMzQyNjk2Nyw1ODU3NT
+U3NThdfQ==
 -->
