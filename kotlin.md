@@ -25,10 +25,10 @@ reformat(str, wordSeparator = '_')
 ```
 
 3. Default Arguments
-4. 
-
-
+```Kotlin
+fun read(b: Array<Byte>, off: Int = 0, len: Int = b.size) { /*...*/ }
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MDI5MDMyMiwxNjIzNDI2OTY3LDU4NT
+eyJoaXN0b3J5IjpbLTQ5MzU2OTcyNSwxNjIzNDI2OTY3LDU4NT
 c1NTc1OF19
 -->
