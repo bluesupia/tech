@@ -327,7 +327,7 @@ char cc = StringUtilKt.getLastChar2("Java");
 * 구조 분해 선언을 하면, 복합적인 값을 분해해서 여러 변수를 나눠 담을 수 있다
 
 ### 3.4.1 자바 컬렉션 API 확장
-
+* 코틀린에서 사용하는 컬렉션의 확장 함수
 ```kotlin
 val strings = listOf("first", "second", "fourteenth")  
 println(strings.last())  
@@ -335,6 +335,7 @@ println(strings.last())
 val numbers = setOf(1, 14, 2)  
 println(numbers.max())
 ```
+
 ### 3.4.2 가변 인자 함수: 인자의 개수가 달라질 수 있는 함수 정의
 ### 3.4.3  값의 쌍 다루기: 중위 호출과 구조 분해 선언
 
@@ -346,9 +347,9 @@ println(numbers.max())
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MzI1OTc2MSwxMzc2MTU4NTI4LC0xMj
-Y0NDE2NzMyLC0xMDgzNzY2NzIwLDQyMzA2MzIxNSwtMTQ4MzE3
-MTY0MSwtOTEwODA4ODk4LC05MTA3NjE3ODMsLTgxNDg2MDY2My
-wtMTIzNjQyMTcxMywxNTI2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0x
-ODYxNjE3NjA5LDEyOTUzNDUyNDAsMjEzNjM0MjQ4Ml19
+eyJoaXN0b3J5IjpbLTE5NDkxNDg5NDcsMTM3NjE1ODUyOCwtMT
+I2NDQxNjczMiwtMTA4Mzc2NjcyMCw0MjMwNjMyMTUsLTE0ODMx
+NzE2NDEsLTkxMDgwODg5OCwtOTEwNzYxNzgzLC04MTQ4NjA2Nj
+MsLTEyMzY0MjE3MTMsMTUyNjcyNzc5NywtMTIxMjI0NDAwNCwt
+MTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
 -->
