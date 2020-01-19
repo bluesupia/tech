@@ -249,7 +249,17 @@ fun Collection<String>.join(
 ```	
 	
 ### 3.3.4 확장 함수는 오버라이드할 수 없다
-
+* 코틀린의 메소드 오버라이드도 일반적인 객체지향의 메소드 오버라이드와 마찬가지
+	* 확장함수는 오버라이드 할 수 없다
+```kotlin
+open class View {  
+    open fun click() = println("View clicked")  
+}  
+  
+class Button : View() {  
+    override fun click() = println("Button clicked")  
+}
+```
 ### 3.3.5 	확장 프로퍼티
 
 ## 3.4 컬렉션 처리: 가변 길이 인자, 중위 함수 호출, 라이브러리 지원
@@ -265,8 +275,8 @@ fun Collection<String>.join(
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNzY2NDc1NywtMTQ4MzE3MTY0MSwtOT
-EwODA4ODk4LC05MTA3NjE3ODMsLTgxNDg2MDY2MywtMTIzNjQy
-MTcxMywxNTI2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYxNjE3Nj
-A5LDEyOTUzNDUyNDAsMjEzNjM0MjQ4Ml19
+eyJoaXN0b3J5IjpbODYyODExNzY5LC0xNDgzMTcxNjQxLC05MT
+A4MDg4OTgsLTkxMDc2MTc4MywtODE0ODYwNjYzLC0xMjM2NDIx
+NzEzLDE1MjY3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2MTc2MD
+ksMTI5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
 -->
