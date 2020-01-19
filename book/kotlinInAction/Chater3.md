@@ -92,17 +92,14 @@ fun <T> joinToString(
     return result.toString()  
 }  
   
-fun main() {  
-    val list = listOf(1, 2, 3)  
-  
-    println(joinToString(list, ", ", "", ""))  
-    println(joinToString(list))  
-    println(joinToString(list, "; "))  
-    println(joinToString(list, postfix = ";", prefix = "# "))  
-}
+println(joinToString(list, ", ", "", ""))  
+println(joinToString(list))  
+println(joinToString(list, "; "))  
+println(joinToString(list, postfix = ";", prefix = "# ")) 
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY2MDY1MTk4LDE1MjY3Mjc3OTcsLTEyMT
-IyNDQwMDQsLTE4NjE2MTc2MDksMTI5NTM0NTI0MCwyMTM2MzQy
-NDgyXX0=
+eyJoaXN0b3J5IjpbLTEyMTYyOTMxMTksMTUyNjcyNzc5NywtMT
+IxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIxMzYz
+NDI0ODJdfQ==
 -->
