@@ -212,6 +212,9 @@ val c = "Kotlin".last()
 	* 호출시 다른 어댑터 객체나 실행 시점 부가 비용이 들지 않는다
 * 이런 설계로 인해 자바에서 확장함수를 사용하기 편함
 	* 정적 메소드를 호출하면서 첫 번째 인자로 수신 객체를 넘기기만 하면 된다
+```java
+char c = StringUtilKt.lastChar("java");
+```
 ### 3.3.3 확장 함수로 유틸리티 함수 정의
 ### 3.3.4 확장 함수는 오버라이드할 수 없다
 ### 3.3.5 	확장 프로퍼티
@@ -229,7 +232,7 @@ val c = "Kotlin".last()
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAwNDU2NDg2LC04MTQ4NjA2NjMsLTEyMz
-Y0MjE3MTMsMTUyNjcyNzc5NywtMTIxMjI0NDAwNCwtMTg2MTYx
-NzYwOSwxMjk1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
+eyJoaXN0b3J5IjpbLTQxNDk3MTk2MCwtODE0ODYwNjYzLC0xMj
+M2NDIxNzEzLDE1MjY3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2
+MTc2MDksMTI5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
 -->
