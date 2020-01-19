@@ -407,16 +407,24 @@ fun parsePath(path : String) {
 ```
 * 정규식을 사용해 파싱
 ```kotlin
+fun parsePath2(path : String) {  
+    val regex = """(.+)/(.+)\.(.+)""".toRegex()  
+    val matchResult = regex.matchEntire(path)  
+    if (matchResult != null) {  
+        val (directory, filename, extention) = matchResult.destructured  
+  println("Dir : $directory, name : $filename, ext : $extention")  
+    }  
+}
 ```
 ### 3.5.3  여러 줄 3중 따옴표 문자열
 
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1MzUzMjk2LC0xMTg3MDMxNDk1LC0xOT
-Q5MTQ4OTQ3LDEzNzYxNTg1MjgsLTEyNjQ0MTY3MzIsLTEwODM3
-NjY3MjAsNDIzMDYzMjE1LC0xNDgzMTcxNjQxLC05MTA4MDg4OT
-gsLTkxMDc2MTc4MywtODE0ODYwNjYzLC0xMjM2NDIxNzEzLDE1
-MjY3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2MTc2MDksMTI5NT
-M0NTI0MCwyMTM2MzQyNDgyXX0=
+eyJoaXN0b3J5IjpbLTEzNTIxNjk5MjEsMzA1MzUzMjk2LC0xMT
+g3MDMxNDk1LC0xOTQ5MTQ4OTQ3LDEzNzYxNTg1MjgsLTEyNjQ0
+MTY3MzIsLTEwODM3NjY3MjAsNDIzMDYzMjE1LC0xNDgzMTcxNj
+QxLC05MTA4MDg4OTgsLTkxMDc2MTc4MywtODE0ODYwNjYzLC0x
+MjM2NDIxNzEzLDE1MjY3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4Nj
+E2MTc2MDksMTI5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
 -->
