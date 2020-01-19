@@ -158,8 +158,9 @@ JoinKt.joinToString(list)
 	- 어떤 클래스의 멤버 메소드인 것처럼 호출할 수 있지만 그 클래스 밖에 선언된 함수
 - 문자열의 마지막 문자를 돌려주는 메소드 추가
 ```kotlin
-package strings
-
+package strings  
+  
+fun String.lastChar() : Char = this.get(this.length - 1)
 ```
 ### 3.3.2 자바에서 확장 함수 호출
 ### 3.3.3 확장 함수로 유틸리티 함수 정의
@@ -179,7 +180,7 @@ package strings
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTY3MTIwNywtODE0ODYwNjYzLC0xMj
+eyJoaXN0b3J5IjpbLTc2MDM5MzY2NCwtODE0ODYwNjYzLC0xMj
 M2NDIxNzEzLDE1MjY3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2
 MTc2MDksMTI5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
 -->
