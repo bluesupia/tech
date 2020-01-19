@@ -346,7 +346,10 @@ println(numbers.max())
 	* 코틀린 : 배열을 명시적으로 풀어서 배열의 각 원소가 인자로 전달되게 해야한다
 		* 기술적으로는 스프레드* 연산자가 그런 작업을 해준다
 ```kotlin
-fun main(args
+fun main(args:Array<String>) {
+	val list = listOf("args:", *args)
+	println(list)
+}
 ```
 ### 3.4.3  값의 쌍 다루기: 중위 호출과 구조 분해 선언
 
@@ -358,10 +361,10 @@ fun main(args
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjU1OTg1NTQsLTE5NDkxNDg5NDcsMT
-M3NjE1ODUyOCwtMTI2NDQxNjczMiwtMTA4Mzc2NjcyMCw0MjMw
-NjMyMTUsLTE0ODMxNzE2NDEsLTkxMDgwODg5OCwtOTEwNzYxNz
-gzLC04MTQ4NjA2NjMsLTEyMzY0MjE3MTMsMTUyNjcyNzc5Nywt
-MTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIxMz
-YzNDI0ODJdfQ==
+eyJoaXN0b3J5IjpbLTcyMTkxMDI0NSwtMTk0OTE0ODk0NywxMz
+c2MTU4NTI4LC0xMjY0NDE2NzMyLC0xMDgzNzY2NzIwLDQyMzA2
+MzIxNSwtMTQ4MzE3MTY0MSwtOTEwODA4ODk4LC05MTA3NjE3OD
+MsLTgxNDg2MDY2MywtMTIzNjQyMTcxMywxNTI2NzI3Nzk3LC0x
+MjEyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUzNDUyNDAsMjEzNj
+M0MjQ4Ml19
 -->
