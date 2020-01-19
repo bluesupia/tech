@@ -358,7 +358,7 @@ fun main(args:Array<String>) {
 ```kotlin
 val map = hashMapOf(1 to "one", 7 to "seven", 53 to "fifty-three")
 ```
-* 중위 호출 (infix call)
+* **중위 호출 (infix call)**
 	* 수신 객체와 유일한 메소드 인자 사이에 메소드 이름을 넣는다
 		* 객체, 메소드 이름, 유일한 인자 사이에는 공백이 들어가야 한다)
 ```kotlin
@@ -380,10 +380,10 @@ infix fun Any.to(other: Any) = Pair(this, other)
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njg2ODMwMDgsLTE5NDkxNDg5NDcsMT
-M3NjE1ODUyOCwtMTI2NDQxNjczMiwtMTA4Mzc2NjcyMCw0MjMw
-NjMyMTUsLTE0ODMxNzE2NDEsLTkxMDgwODg5OCwtOTEwNzYxNz
-gzLC04MTQ4NjA2NjMsLTEyMzY0MjE3MTMsMTUyNjcyNzc5Nywt
-MTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIxMz
-YzNDI0ODJdfQ==
+eyJoaXN0b3J5IjpbLTUzMTU4NjA0OCwtMTk0OTE0ODk0NywxMz
+c2MTU4NTI4LC0xMjY0NDE2NzMyLC0xMDgzNzY2NzIwLDQyMzA2
+MzIxNSwtMTQ4MzE3MTY0MSwtOTEwODA4ODk4LC05MTA3NjE3OD
+MsLTgxNDg2MDY2MywtMTIzNjQyMTcxMywxNTI2NzI3Nzk3LC0x
+MjEyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUzNDUyNDAsMjEzNj
+M0MjQ4Ml19
 -->
