@@ -382,16 +382,18 @@ val (number, name) = 1 to "one"
 * 코틀린은 다양한 확장 함수를 제공
 
 ### 3.5.1 문자열 나누기
+* split의 구분 문자열은 실제로 정규식
+* 
 ### 3.5.2 정규식과 3중 따옴표로 묶은 문자열
 ### 3.5.3  여러 줄 3중 따옴표 문자열
 
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNDY0NDM4OSwtMTk0OTE0ODk0NywxMz
-c2MTU4NTI4LC0xMjY0NDE2NzMyLC0xMDgzNzY2NzIwLDQyMzA2
-MzIxNSwtMTQ4MzE3MTY0MSwtOTEwODA4ODk4LC05MTA3NjE3OD
-MsLTgxNDg2MDY2MywtMTIzNjQyMTcxMywxNTI2NzI3Nzk3LC0x
-MjEyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUzNDUyNDAsMjEzNj
-M0MjQ4Ml19
+eyJoaXN0b3J5IjpbLTExODcwMzE0OTUsLTE5NDkxNDg5NDcsMT
+M3NjE1ODUyOCwtMTI2NDQxNjczMiwtMTA4Mzc2NjcyMCw0MjMw
+NjMyMTUsLTE0ODMxNzE2NDEsLTkxMDgwODg5OCwtOTEwNzYxNz
+gzLC04MTQ4NjA2NjMsLTEyMzY0MjE3MTMsMTUyNjcyNzc5Nywt
+MTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIxMz
+YzNDI0ODJdfQ==
 -->
