@@ -208,7 +208,7 @@ val c = "Kotlin".last()
 ```
 
 ### 3.3.2 자바에서 확장 함수 호출
-* 내부적으로 확장 함수는 수신 객체를 첫 번째 인자로 받는 정적 메소드
+* 내부적으로 확장 함수는 ***수신 객체를 첫 번째 인자로 받는 정적 메소드***
 	* 호출시 다른 어댑터 객체나 실행 시점 부가 비용이 들지 않는다
 * 이런 설계로 인해 자바에서 확장함수를 사용하기 편함
 	* 정적 메소드를 호출하면서 첫 번째 인자로 수신 객체를 넘기기만 하면 된다
@@ -269,7 +269,7 @@ view.click()
 >>> Button clicked
 ```
 * 확장함수는 클래스의 일부가 아닌, 클래스 밖에서 선언
-* 이름과 파라미터가 완전히 같은 확장 함수를 기반 클래스와 하위 클래스에 대해 정의해도 실제로는 확장 함수를 호출 할때 수신객체로 지정한 변수의 **정적 ** 타입에 의해 어떤 확장 함수가 호출될지 결정된다
+* 이름과 파라미터가 완전히 같은 확장 함수를 기반 클래스와 하위 클래스에 대해 정의해도 실제로는 확장 함수를 호출 할때 수신객체로 지정한 변수의 **정적 * 타입에 의해 어떤 확장 함수가 호출될지 결정된다
 ```
 fun View.showOff() = println("I'm a view!")  
 fun Button.showOff() = println("I'm a button!")
@@ -294,7 +294,7 @@ view.showOff()
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NDk3OTgwMCw0MjMwNjMyMTUsLTE0OD
+eyJoaXN0b3J5IjpbMTU3MTM4MjE2Niw0MjMwNjMyMTUsLTE0OD
 MxNzE2NDEsLTkxMDgwODg5OCwtOTEwNzYxNzgzLC04MTQ4NjA2
 NjMsLTEyMzY0MjE3MTMsMTUyNjcyNzc5NywtMTIxMjI0NDAwNC
 wtMTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
