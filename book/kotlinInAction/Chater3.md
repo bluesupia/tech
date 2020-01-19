@@ -75,8 +75,8 @@ println(joinToString(list, prefix = "(", postfix = ")", seperator = "; "))
 - 자바에서는 일부 클래스에서 오버로딩한 메소드가 너무 많아지는 문제가 존재
 	- java.lang.Thread의 8가지 생성자 ([https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html#constructor.summary](https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html#constructor.summary))
 	- 함수선언에서 파라미터의 디폴트 값을 지정해 오버로드 중 상당수를 피할 수 있다
-	```kotlin
-	fun <T> joinToString(  
+```kotlin
+fun <T> joinToString(  
     collection: Collection<T>,  
   seperator: String = ", ",  
   prefix: String = "",  
@@ -102,7 +102,7 @@ fun main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyOTA4NTYyLDE1MjY3Mjc3OTcsLTEyMT
+eyJoaXN0b3J5IjpbODY2MDY1MTk4LDE1MjY3Mjc3OTcsLTEyMT
 IyNDQwMDQsLTE4NjE2MTc2MDksMTI5NTM0NTI0MCwyMTM2MzQy
 NDgyXX0=
 -->
