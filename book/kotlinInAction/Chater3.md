@@ -162,6 +162,10 @@ package strings
   
 fun String.lastChar() : Char = this.get(this.length - 1)
 ```
+* 확장함수를 만드는 방법
+	* 추가하려는 함수 이름 앞에 그 함수가 확장할 클래스의 이름을 덧붙인다
+	* 클래스의 이름 : **수신 객체 타입**
+	* 확장함수가 호출되는 대상이 되는 값 : 
 ### 3.3.2 자바에서 확장 함수 호출
 ### 3.3.3 확장 함수로 유틸리티 함수 정의
 ### 3.3.4 확장 함수는 오버라이드할 수 없다
@@ -180,7 +184,7 @@ fun String.lastChar() : Char = this.get(this.length - 1)
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDM5MzY2NCwtODE0ODYwNjYzLC0xMj
+eyJoaXN0b3J5IjpbLTg5NTcwMTAyNywtODE0ODYwNjYzLC0xMj
 M2NDIxNzEzLDE1MjY3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2
 MTc2MDksMTI5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
 -->
