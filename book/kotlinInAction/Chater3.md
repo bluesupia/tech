@@ -322,7 +322,11 @@ char cc = StringUtilKt.getLastChar2("Java");
 ```
 
 ## 3.4 컬렉션 처리: 가변 길이 인자, 중위 함수 호출, 라이브러리 지원
-
+* vararg  키워드를 사용하면,
+  호출 시 인자 개수가 달라질 수 있는 함수를 정의할 수 있다
+* 중위 함수 호출 구문을 사용하면, 
+  인자가 하나뿐인 메소드를 간편하게 호출 할 수 있다
+* 구조 분해 선언을 하면, 복합적인 값을 분해해서 여러 변수를 나눠 담을 수 있다
 ### 3.4.1 자바 컬렉션 API 확장
 ### 3.4.2 가변 인자 함수: 인자의 개수가 달라질 수 있는 함수 정의
 ### 3.4.3  값의 쌍 다루기: 중위 호출과 구조 분해 선언
@@ -335,9 +339,9 @@ char cc = StringUtilKt.getLastChar2("Java");
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NjE1ODUyOCwtMTI2NDQxNjczMiwtMT
-A4Mzc2NjcyMCw0MjMwNjMyMTUsLTE0ODMxNzE2NDEsLTkxMDgw
-ODg5OCwtOTEwNzYxNzgzLC04MTQ4NjA2NjMsLTEyMzY0MjE3MT
-MsMTUyNjcyNzc5NywtMTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwx
-Mjk1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
+eyJoaXN0b3J5IjpbMTY1MTc5NzQwMCwxMzc2MTU4NTI4LC0xMj
+Y0NDE2NzMyLC0xMDgzNzY2NzIwLDQyMzA2MzIxNSwtMTQ4MzE3
+MTY0MSwtOTEwODA4ODk4LC05MTA3NjE3ODMsLTgxNDg2MDY2My
+wtMTIzNjQyMTcxMywxNTI2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0x
+ODYxNjE3NjA5LDEyOTUzNDUyNDAsMjEzNjM0MjQ4Ml19
 -->
