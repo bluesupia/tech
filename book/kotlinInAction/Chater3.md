@@ -439,6 +439,9 @@ fun savedUser(user: User) {
 }
 ```
 * 로컬함수를 사용해 코드 중복 제거
+	* 중복이 사라지고, 다른 필드의 검증도 쉽게 추가 가능
+	* User 객체를 로컬 함수에게 하나하나 전달해야하는 문제
+		* 로컬함수는 자신이 속한 바깥함수의 모든 파라미터 변수를 사용할 수 있다
 ```kotlin
 class User(val id:Int, val name: String, val address:String)  
   
@@ -454,13 +457,14 @@ fun savedUser(user: User) {
     // user를 DB에 저장  
 }
 ```
+* 로컬 함수에서 바깥 함수의 파라미터 접근하기
 * 한단계만 함수를 중첩하기를 권장
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTgzNTYxNjYsLTQyNDQzNDUyNiw3Mj
-k5NjIwNTcsMzA1MzUzMjk2LC0xMTg3MDMxNDk1LC0xOTQ5MTQ4
-OTQ3LDEzNzYxNTg1MjgsLTEyNjQ0MTY3MzIsLTEwODM3NjY3Mj
-AsNDIzMDYzMjE1LC0xNDgzMTcxNjQxLC05MTA4MDg4OTgsLTkx
-MDc2MTc4MywtODE0ODYwNjYzLC0xMjM2NDIxNzEzLDE1MjY3Mj
-c3OTcsLTEyMTIyNDQwMDQsLTE4NjE2MTc2MDksMTI5NTM0NTI0
-MCwyMTM2MzQyNDgyXX0=
+eyJoaXN0b3J5IjpbMjAwNDM2MTEzMiwtNDI0NDM0NTI2LDcyOT
+k2MjA1NywzMDUzNTMyOTYsLTExODcwMzE0OTUsLTE5NDkxNDg5
+NDcsMTM3NjE1ODUyOCwtMTI2NDQxNjczMiwtMTA4Mzc2NjcyMC
+w0MjMwNjMyMTUsLTE0ODMxNzE2NDEsLTkxMDgwODg5OCwtOTEw
+NzYxNzgzLC04MTQ4NjA2NjMsLTEyMzY0MjE3MTMsMTUyNjcyNz
+c5NywtMTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1MzQ1MjQw
+LDIxMzYzNDI0ODJdfQ==
 -->
