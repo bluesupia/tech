@@ -276,8 +276,8 @@ fun Button.showOff() = println("I'm a button!")
 ```
 ```kotlin
 val view:View = Button()  
-view.click()
->>> Button clicked
+view.showOff()
+>>> I'm a view!
 ```
 ### 3.3.5 	확장 프로퍼티
 
@@ -294,7 +294,7 @@ view.click()
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwOTMwNzM5OSw0MjMwNjMyMTUsLTE0OD
+eyJoaXN0b3J5IjpbMTg0NDk3OTgwMCw0MjMwNjMyMTUsLTE0OD
 MxNzE2NDEsLTkxMDgwODg5OCwtOTEwNzYxNzgzLC04MTQ4NjA2
 NjMsLTEyMzY0MjE3MTMsMTUyNjcyNzc5NywtMTIxMjI0NDAwNC
 wtMTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
