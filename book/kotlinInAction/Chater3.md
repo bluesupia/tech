@@ -156,7 +156,11 @@ JoinKt.joinToString(list)
 - 기존 코드와 코틀린 코드를 자연스럽게 통합하는 핵심목표를 위해 그 역할을 해주는 것이 **확장함수**
 - 확장 함수의 개념
 	- 어떤 클래스의 멤버 메소드인 것처럼 호출할 수 있지만 그 클래스 밖에 선언된 함수
-	- 
+- 문자열의 마지막 문자를 돌려주는 메소드 추가
+```kotlin
+package strings
+
+```
 ### 3.3.2 자바에서 확장 함수 호출
 ### 3.3.3 확장 함수로 유틸리티 함수 정의
 ### 3.3.4 확장 함수는 오버라이드할 수 없다
@@ -175,7 +179,7 @@ JoinKt.joinToString(list)
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNDg2MDY2MywtMTIzNjQyMTcxMywxNT
-I2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUz
-NDUyNDAsMjEzNjM0MjQ4Ml19
+eyJoaXN0b3J5IjpbMTk5MTY3MTIwNywtODE0ODYwNjYzLC0xMj
+M2NDIxNzEzLDE1MjY3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2
+MTc2MDksMTI5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
 -->
