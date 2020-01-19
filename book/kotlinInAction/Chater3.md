@@ -185,7 +185,9 @@ fun String.lastChar() : Char = get(length - 1)
 	* 호출하는 쪽에서 확장 함수와 멤버 메소드를 구분할 수 없다
 	
 ### 3.3.1 임포트와 확장 함수
-
+* 확장 함수를 사용하기 위해서는 **임포트** 해야만 한다
+* 코틀린에서는 개별 함수도 동일한 구문으로 임포트 할 수 있다
+*
 ### 3.3.2 자바에서 확장 함수 호출
 ### 3.3.3 확장 함수로 유틸리티 함수 정의
 ### 3.3.4 확장 함수는 오버라이드할 수 없다
@@ -204,7 +206,7 @@ fun String.lastChar() : Char = get(length - 1)
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjk3ODkwNTcsLTgxNDg2MDY2MywtMT
-IzNjQyMTcxMywxNTI2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYx
-NjE3NjA5LDEyOTUzNDUyNDAsMjEzNjM0MjQ4Ml19
+eyJoaXN0b3J5IjpbMjA5NDQzMTQ1NSwtODE0ODYwNjYzLC0xMj
+M2NDIxNzEzLDE1MjY3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2
+MTc2MDksMTI5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
 -->
