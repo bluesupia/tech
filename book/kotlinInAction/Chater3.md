@@ -105,10 +105,12 @@ println(joinToString(list, postfix = ";", prefix = "# "))
 	- 어떤 클래스 안에 정의된 함수의 디폴트 값 변경 후 재컴파일 시, 해당 코드 중 값을 지정하지 않는 모든 인자는 자동으로 바뀐 디폴트값을 적용
 
 ### 3.2.3 정적인 유틸리티 클래스 없애기 : 최상위 함수와 프로퍼티
-
+- 객체지향 언어인 자바는, 모든 코드를 클래스의 메소드로 작성해야한다!
+	- 다양한 정적 메소드를 모아두는 역할만 담당하며, 특별한 상태나 인스턴스 메소드가 없는 클래스가 존재
+			- ex. ***Util
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4ODIyNjU1LDE1MjY3Mjc3OTcsLTEyMT
-IyNDQwMDQsLTE4NjE2MTc2MDksMTI5NTM0NTI0MCwyMTM2MzQy
-NDgyXX0=
+eyJoaXN0b3J5IjpbMTg1ODQyNDEzNSwxNTI2NzI3Nzk3LC0xMj
+EyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUzNDUyNDAsMjEzNjM0
+MjQ4Ml19
 -->
