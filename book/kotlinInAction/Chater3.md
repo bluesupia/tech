@@ -174,6 +174,12 @@ fun String.lastChar() : Char = this.get(this.length - 1)
 println("Kotlin".lastChar())
 ```
 * 자바 클래스로 컴파일한 클래스 파일이 있는 한  그 클래스에 원하는대로 확을 추가할 수 있다
+* 확장함수 본문에도 this는 생략 가능
+```kotlin
+fun String.lastChar() : Char = get(length - 1)
+```
+* 확장함수가 캡슐화를 깨지는 않는다
+	* 클래스 안에서 정의한 메소드와 달리 확장 함수 안에서는 클래스 내부에서만 
 ### 3.3.2 자바에서 확장 함수 호출
 ### 3.3.3 확장 함수로 유틸리티 함수 정의
 ### 3.3.4 확장 함수는 오버라이드할 수 없다
@@ -192,7 +198,7 @@ println("Kotlin".lastChar())
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDI0OTMyLC04MTQ4NjA2NjMsLTEyMz
-Y0MjE3MTMsMTUyNjcyNzc5NywtMTIxMjI0NDAwNCwtMTg2MTYx
-NzYwOSwxMjk1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
+eyJoaXN0b3J5IjpbLTEzNTYxMDMwODMsLTgxNDg2MDY2MywtMT
+IzNjQyMTcxMywxNTI2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYx
+NjE3NjA5LDEyOTUzNDUyNDAsMjEzNjM0MjQ4Ml19
 -->
