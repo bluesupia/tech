@@ -28,7 +28,12 @@ println(strings.last())
 val numbers = setOf(1, 14, 2)  
 println(numbers.max())
 ```
+- 어떻게 만드는지! 어떻게 가능하게 하는가
+
+## 3.2 함수를 호출하기 쉽게 만들기
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MTY4NzY0OCwxMjk1MzQ1MjQwLDIxMz
-YzNDI0ODJdfQ==
+eyJoaXN0b3J5IjpbLTE4NjE2MTc2MDksMTI5NTM0NTI0MCwyMT
+M2MzQyNDgyXX0=
 -->
