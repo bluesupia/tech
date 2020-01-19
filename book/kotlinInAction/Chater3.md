@@ -71,7 +71,10 @@ println(joinToString(list, seperator = "; ", prefix = "(", postfix = ")"))
 println(joinToString(list, prefix = "(", postfix = ")", seperator = "; "))
 ```
 
+### 3.2.2 디폴트 파라미터 값
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTIyNDQwMDQsLTE4NjE2MTc2MDksMT
-I5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
+eyJoaXN0b3J5IjpbNDk4MTQyNDAyLC0xMjEyMjQ0MDA0LC0xOD
+YxNjE3NjA5LDEyOTUzNDUyNDAsMjEzNjM0MjQ4Ml19
 -->
