@@ -355,7 +355,9 @@ fun main(args:Array<String>) {
 }
 ```
 ### 3.4.3  값의 쌍 다루기: 중위 호출과 구조 분해 선언
-
+```kotlin
+val map = hashMapOf(1 to "one", 7 to "seven", 53 to "fifty-three")
+```
 ## 3.5 문자열과 정규식 다루기
 ### 3.5.1 문자열 나누기
 ### 3.5.2 정규식과 3중 따옴표로 묶은 문자열
@@ -364,7 +366,7 @@ fun main(args:Array<String>) {
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3ODk4ODk2NiwtMTk0OTE0ODk0NywxMz
+eyJoaXN0b3J5IjpbMTM4NjQxMDg0NCwtMTk0OTE0ODk0NywxMz
 c2MTU4NTI4LC0xMjY0NDE2NzMyLC0xMDgzNzY2NzIwLDQyMzA2
 MzIxNSwtMTQ4MzE3MTY0MSwtOTEwODA4ODk4LC05MTA3NjE3OD
 MsLTgxNDg2MDY2MywtMTIzNjQyMTcxMywxNTI2NzI3Nzk3LC0x
