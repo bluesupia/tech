@@ -218,6 +218,27 @@ char c = StringUtilKt.lastChar("java");
 
 ### 3.3.3 확장 함수로 유틸리티 함수 정의
 * joinToString의 최종 버전
+```kotlin
+fun <T> Collection<T>.joinToString(  
+    seperator: String = ", ",  
+  prefix: String = "",  
+  postfix: String = ""  
+): String {  
+    val result = StringBuilder(prefix)  
+    for ((index, element) in this.withIndex()) {  
+        if (index > 0) result.append(seperator)  
+        result.append(element)  
+    }  
+  
+    result.append(postfix)  
+    return result.toString()  
+}  
+  
+fun main() {  
+    val list = listOf(1, 2, 3)  
+    list.joinToString("; ", "(", ")")  
+}
+```
 
 ### 3.3.4 확장 함수는 오버라이드할 수 없다
 ### 3.3.5 	확장 프로퍼티
@@ -235,7 +256,7 @@ char c = StringUtilKt.lastChar("java");
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MzY0NTEyOSwtOTEwNzYxNzgzLC04MT
+eyJoaXN0b3J5IjpbLTIwMDc5NTMxOCwtOTEwNzYxNzgzLC04MT
 Q4NjA2NjMsLTEyMzY0MjE3MTMsMTUyNjcyNzc5NywtMTIxMjI0
 NDAwNCwtMTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIxMzYzNDI0OD
 JdfQ==
