@@ -386,6 +386,8 @@ val (number, name) = 1 to "one"
 * 코틀린에서는 정규식을 명시적으로 만듦
 ```kotlin
 println("12.345-6.A".split("\\.|-".toRegex()))  
+```
+```kotlin
 println("12.345-6.A".split(".", "-"))
 ```
 ### 3.5.2 정규식과 3중 따옴표로 묶은 문자열
@@ -394,10 +396,10 @@ println("12.345-6.A".split(".", "-"))
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg4NDA2NDYxLC0xMTg3MDMxNDk1LC0xOT
-Q5MTQ4OTQ3LDEzNzYxNTg1MjgsLTEyNjQ0MTY3MzIsLTEwODM3
-NjY3MjAsNDIzMDYzMjE1LC0xNDgzMTcxNjQxLC05MTA4MDg4OT
-gsLTkxMDc2MTc4MywtODE0ODYwNjYzLC0xMjM2NDIxNzEzLDE1
-MjY3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2MTc2MDksMTI5NT
-M0NTI0MCwyMTM2MzQyNDgyXX0=
+eyJoaXN0b3J5IjpbMTcyMDU0NTY2MiwtMTE4NzAzMTQ5NSwtMT
+k0OTE0ODk0NywxMzc2MTU4NTI4LC0xMjY0NDE2NzMyLC0xMDgz
+NzY2NzIwLDQyMzA2MzIxNSwtMTQ4MzE3MTY0MSwtOTEwODA4OD
+k4LC05MTA3NjE3ODMsLTgxNDg2MDY2MywtMTIzNjQyMTcxMywx
+NTI2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOT
+UzNDUyNDAsMjEzNjM0MjQ4Ml19
 -->
