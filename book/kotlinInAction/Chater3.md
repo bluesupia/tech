@@ -11,9 +11,15 @@
 val set = hashSetOf(1, 7, 53)  
 val list = arrayListOf(1, 7, 53)  
 val map = hashMapOf(1 to "one", 7 to "seven", 53 to "fifty-three")
-```
 
+println(set.javaClass)  
+println(list.javaClass)  
+println(map.javaClass)
+```
+- 코틀린은 자체 컬렉션을 제공하지 않음
+- 더많은 기능을 쓸 수 있음 
+	- 확장함수!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MTYyMTMyNCwxMjk1MzQ1MjQwLDIxMz
+eyJoaXN0b3J5IjpbLTM2ODk0NzAzNiwxMjk1MzQ1MjQwLDIxMz
 YzNDI0ODJdfQ==
 -->
