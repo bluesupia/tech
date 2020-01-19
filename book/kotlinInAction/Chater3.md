@@ -237,7 +237,10 @@ fun <T> Collection<T>.joinToString(
 val list = listOf(1, 2, 3)  
     list.joinToString("; ", "(", ")") 
 ```
-
+* 확장함수는 단지 정적 메소드 호출에 대한 문법적인 편의
+	* 클래스가 아닌 더 구체적인 타입을 수신객체 타입으로 지정할 수 있다
+	
+	
 ### 3.3.4 확장 함수는 오버라이드할 수 없다
 ### 3.3.5 	확장 프로퍼티
 
@@ -254,7 +257,7 @@ val list = listOf(1, 2, 3)
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NjYzNDgzOSwtOTEwNzYxNzgzLC04MT
+eyJoaXN0b3J5IjpbLTkxMDgwODg5OCwtOTEwNzYxNzgzLC04MT
 Q4NjA2NjMsLTEyMzY0MjE3MTMsMTUyNjcyNzc5NywtMTIxMjI0
 NDAwNCwtMTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIxMzYzNDI0OD
 JdfQ==
