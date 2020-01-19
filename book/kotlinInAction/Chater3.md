@@ -391,13 +391,15 @@ println("12.345-6.A".split("\\.|-".toRegex()))
 ```kotlin
 println("12.345-6.A".split(".", "-"))
 ```
+
 ### 3.5.2 정규식과 3중 따옴표로 묶은 문자열
+
 ### 3.5.3  여러 줄 3중 따옴표 문자열
 
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjM3MTE1NzgsLTExODcwMzE0OTUsLT
+eyJoaXN0b3J5IjpbLTE2MDA3MTQwNzQsLTExODcwMzE0OTUsLT
 E5NDkxNDg5NDcsMTM3NjE1ODUyOCwtMTI2NDQxNjczMiwtMTA4
 Mzc2NjcyMCw0MjMwNjMyMTUsLTE0ODMxNzE2NDEsLTkxMDgwOD
 g5OCwtOTEwNzYxNzgzLC04MTQ4NjA2NjMsLTEyMzY0MjE3MTMs
