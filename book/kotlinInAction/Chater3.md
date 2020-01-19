@@ -102,8 +102,9 @@ println(joinToString(list, postfix = ";", prefix = "# "))
 	- 저장하고 싶은 인자를 이름을 붙여서 
 	- 순서와 관계없이 지정가능
 - 디폴트 파라미터 값은 선언쪽에서 지정
+	- 어떤 클래스 안에 정의된 함수의 디폴트 값 변경 후 재컴파일 시, 해당 코드 중 값을 지정하지 않는 모든 인자는 자동으로 바뀐 디폴트값을 적용
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNzg1ODYwNCwxNTI2NzI3Nzk3LC0xMj
-EyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUzNDUyNDAsMjEzNjM0
-MjQ4Ml19
+eyJoaXN0b3J5IjpbMjAwNjE5MTI5LDE1MjY3Mjc3OTcsLTEyMT
+IyNDQwMDQsLTE4NjE2MTc2MDksMTI5NTM0NTI0MCwyMTM2MzQy
+NDgyXX0=
 -->
