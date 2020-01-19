@@ -65,7 +65,9 @@ println(joinToString(list, "; ", "(", ")"))
 
 ### 3.2.1 이름 붙인 인자
 - 함수 호출 부분의 가독성
+	- 인자로 전달한 각 문자열이 어떤 역할을 하지는지의 구분? 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2Njc2NTM5MywtMTg2MTYxNzYwOSwxMj
+eyJoaXN0b3J5IjpbMjA1Mzg4ODcxMSwtMTg2MTYxNzYwOSwxMj
 k1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
 -->
