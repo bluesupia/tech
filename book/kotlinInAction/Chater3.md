@@ -67,7 +67,9 @@ println(joinToString(list, "; ", "(", ")"))
 - 함수 호출 부분의 가독성
 	- 인자로 전달한 각 문자열이 어떤 역할을 하지는지의 구분? 
 ```
+join
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1Mzg4ODcxMSwtMTg2MTYxNzYwOSwxMj
-k1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
+eyJoaXN0b3J5IjpbLTE2MjIzMzk5NDEsLTE4NjE2MTc2MDksMT
+I5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
 -->
