@@ -217,7 +217,7 @@ char c = StringUtilKt.lastChar("java");
 ```
 
 ### 3.3.3 확장 함수로 유틸리티 함수 정의
-
+* joinToString의 최종 버전
 ### 3.3.4 확장 함수는 오버라이드할 수 없다
 ### 3.3.5 	확장 프로퍼티
 
@@ -234,7 +234,7 @@ char c = StringUtilKt.lastChar("java");
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzEzNDU3MjAsLTgxNDg2MDY2MywtMT
-IzNjQyMTcxMywxNTI2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYx
-NjE3NjA5LDEyOTUzNDUyNDAsMjEzNjM0MjQ4Ml19
+eyJoaXN0b3J5IjpbLTkxMDc2MTc4MywtODE0ODYwNjYzLC0xMj
+M2NDIxNzEzLDE1MjY3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2
+MTc2MDksMTI5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
 -->
