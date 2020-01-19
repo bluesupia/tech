@@ -109,7 +109,8 @@ println(joinToString(list, postfix = ";", prefix = "# "))
 	- 다양한 정적 메소드를 모아두는 역할만 담당하며, 특별한 상태나 인스턴스 메소드가 없는 클래스가 존재
 			- ex. JDK의 Collections([https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html](https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html)), ***Util
 - 코틀린에서는, 무의미한 클래스 대신 함수를 직접 소스파일의 최상위 수준, 모든 다른 클래스의 밖에 위치시키면 된다
-```kotlin
+```kotlin 
+// StringUtil.kt
 package strings  
   
 //fun String.lastChar() : Char = this.get(this.length - 1)  
@@ -136,7 +137,7 @@ fun <T> joinToString(
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDczMzczNzAyLC0xMjM2NDIxNzEzLDE1Mj
-Y3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2MTc2MDksMTI5NTM0
-NTI0MCwyMTM2MzQyNDgyXX0=
+eyJoaXN0b3J5IjpbLTE1OTIwMzA1MDQsLTEyMzY0MjE3MTMsMT
+UyNjcyNzc5NywtMTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1
+MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
 -->
