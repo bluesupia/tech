@@ -148,10 +148,13 @@ JoinKt.joinToString(list)
 	- val는 게터, var는 게터와 세터
 - 겉으로 보기엔 상수이나 게터를 사용해야한다면 자연스럽지 못하다
 - 그러러면 상수를 public static final 필드로 컴파일
-- const
+- ```const``` 변경자를 추가하면 public static final 필드로 컴파일
+	- 원시타입과 String 만!
+
+## 3.3 메소드를 다른 클래스에 추가: 확장 함수와 확장 프로퍼티
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQ4MTI3MjMsLTEyMzY0MjE3MTMsMT
-UyNjcyNzc5NywtMTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1
-MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
+eyJoaXN0b3J5IjpbLTMxNDk0MDQ4OSwtMTIzNjQyMTcxMywxNT
+I2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUz
+NDUyNDAsMjEzNjM0MjQ4Ml19
 -->
