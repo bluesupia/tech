@@ -417,12 +417,13 @@ fun parsePath2(path : String) {
 }
 ```
 * 3중 따옴표 문자열에서는 역슬래시(\)를 포함한 어떤 문자도 이스케이프 할 필요가 없다
+
 ### 3.5.3  여러 줄 3중 따옴표 문자열
 
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MjAzMjM3LDMwNTM1MzI5NiwtMTE4Nz
+eyJoaXN0b3J5IjpbNzI5OTYyMDU3LDMwNTM1MzI5NiwtMTE4Nz
 AzMTQ5NSwtMTk0OTE0ODk0NywxMzc2MTU4NTI4LC0xMjY0NDE2
 NzMyLC0xMDgzNzY2NzIwLDQyMzA2MzIxNSwtMTQ4MzE3MTY0MS
 wtOTEwODA4ODk4LC05MTA3NjE3ODMsLTgxNDg2MDY2MywtMTIz
