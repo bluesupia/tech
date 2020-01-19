@@ -121,9 +121,9 @@ get() = get(length - 1)
 @JvmOverloads  
 fun <T> joinToString(  
     collection: Collection<T>,  
-  seperator: String = ", ",  
-  prefix: String = "",  
-  postfix: String = ""  
+    seperator: String = ", ",  
+    prefix: String = "",  
+    postfix: String = ""  
 ): String {  
     val result = StringBuilder(prefix)  
     for ((index, element) in collection.withIndex()) {  
@@ -136,7 +136,7 @@ fun <T> joinToString(
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MTQ5MTE0MiwtMTIzNjQyMTcxMywxNT
-I2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUz
-NDUyNDAsMjEzNjM0MjQ4Ml19
+eyJoaXN0b3J5IjpbNDczMzczNzAyLC0xMjM2NDIxNzEzLDE1Mj
+Y3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2MTc2MDksMTI5NTM0
+NTI0MCwyMTM2MzQyNDgyXX0=
 -->
