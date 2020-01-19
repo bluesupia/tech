@@ -340,7 +340,14 @@ println(numbers.max())
 * 가변 길이 인자
 	* 메소드를 호출할 때 원하는 개수만큼 값을 인자로 넘기면 자바 컴파일러가 배열에 그 값들을 넣어주는 기능
 	* 자바 : 타입뒤에 ...을 붙인다
-	* 코틀린 : 파라미터 앞에 ```var
+	* 코틀린 : 파라미터 앞에 ```vararg``` 변경자를 붙인다
+* 이미 배열에 들어있는 원소를 가변 길이 인자로 넘길 때
+	* 자바 : 배열을 그대로 넘긴다
+	* 코틀린 : 배열을 명시적으로 풀어서 배열의 각 원소가 인자로 전달되게 해야한다
+		* 기술적으로는 스프레드* 연산자가 그런 작업을 해준다
+```kotlin
+fun main(args
+```
 ### 3.4.3  값의 쌍 다루기: 중위 호출과 구조 분해 선언
 
 ## 3.5 문자열과 정규식 다루기
@@ -351,10 +358,10 @@ println(numbers.max())
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM5Mjg1MjE2LC0xOTQ5MTQ4OTQ3LDEzNz
-YxNTg1MjgsLTEyNjQ0MTY3MzIsLTEwODM3NjY3MjAsNDIzMDYz
-MjE1LC0xNDgzMTcxNjQxLC05MTA4MDg4OTgsLTkxMDc2MTc4My
-wtODE0ODYwNjYzLC0xMjM2NDIxNzEzLDE1MjY3Mjc3OTcsLTEy
-MTIyNDQwMDQsLTE4NjE2MTc2MDksMTI5NTM0NTI0MCwyMTM2Mz
-QyNDgyXX0=
+eyJoaXN0b3J5IjpbLTEzMjU1OTg1NTQsLTE5NDkxNDg5NDcsMT
+M3NjE1ODUyOCwtMTI2NDQxNjczMiwtMTA4Mzc2NjcyMCw0MjMw
+NjMyMTUsLTE0ODMxNzE2NDEsLTkxMDgwODg5OCwtOTEwNzYxNz
+gzLC04MTQ4NjA2NjMsLTEyMzY0MjE3MTMsMTUyNjcyNzc5Nywt
+MTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIxMz
+YzNDI0ODJdfQ==
 -->
