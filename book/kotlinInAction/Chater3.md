@@ -153,7 +153,7 @@ JoinKt.joinToString(list)
 
 ## 3.3 메소드를 다른 클래스에 추가: 확장 함수와 확장 프로퍼티
 ### 3.3.1 임포트와 확장 함수
-- 기존 코드와 코
+- 기존 코드와 코틀린 코드를 자연스럽게 통합하는 핵심목표를 위해 그 역할을 해주는 것이 ***확장함수***
 - 확장 함수의 개념
 	- 어떤 클래스의 멤버 메소드인 것처럼 호출할 수 있지만 그 클래스 밖에 선언된 함수
 	- 
@@ -175,7 +175,7 @@ JoinKt.joinToString(list)
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1ODgwMjM1MCwtMTIzNjQyMTcxMywxNT
-I2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUz
-NDUyNDAsMjEzNjM0MjQ4Ml19
+eyJoaXN0b3J5IjpbMjAyOTMyMjk3LC0xMjM2NDIxNzEzLDE1Mj
+Y3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2MTc2MDksMTI5NTM0
+NTI0MCwyMTM2MzQyNDgyXX0=
 -->
