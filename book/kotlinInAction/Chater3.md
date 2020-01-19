@@ -68,8 +68,10 @@ println(joinToString(list, "; ", "(", ")"))
 	- 인자로 전달한 각 문자열이 어떤 역할을 하지는지의 구분? 
 ```kotlin
 println(joinToString(list, seperator = "; ", prefix = "(", postfix = ")"))  
-println(joinToString(list, prefix = "(", postfix = ")", seperator = "; "))```
+println(joinToString(list, prefix = "(", postfix = ")", seperator = "; "))
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgyNjY4ODI4LC0xODYxNjE3NjA5LDEyOT
-UzNDUyNDAsMjEzNjM0MjQ4Ml19
+eyJoaXN0b3J5IjpbLTEyMTIyNDQwMDQsLTE4NjE2MTc2MDksMT
+I5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
 -->
