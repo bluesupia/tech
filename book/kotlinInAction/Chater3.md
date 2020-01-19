@@ -412,7 +412,7 @@ fun parsePath2(path : String) {
     val matchResult = regex.matchEntire(path)  
     if (matchResult != null) {  
         val (directory, filename, extention) = matchResult.destructured  
-  println("Dir : $directory, name : $filename, ext : $extention")  
+		println("Dir : $directory, name : $filename, ext : $extention")  
     }  
 }
 ```
@@ -421,10 +421,10 @@ fun parsePath2(path : String) {
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTIxNjk5MjEsMzA1MzUzMjk2LC0xMT
-g3MDMxNDk1LC0xOTQ5MTQ4OTQ3LDEzNzYxNTg1MjgsLTEyNjQ0
-MTY3MzIsLTEwODM3NjY3MjAsNDIzMDYzMjE1LC0xNDgzMTcxNj
-QxLC05MTA4MDg4OTgsLTkxMDc2MTc4MywtODE0ODYwNjYzLC0x
-MjM2NDIxNzEzLDE1MjY3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4Nj
-E2MTc2MDksMTI5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
+eyJoaXN0b3J5IjpbNDMxMDM5NTEsMzA1MzUzMjk2LC0xMTg3MD
+MxNDk1LC0xOTQ5MTQ4OTQ3LDEzNzYxNTg1MjgsLTEyNjQ0MTY3
+MzIsLTEwODM3NjY3MjAsNDIzMDYzMjE1LC0xNDgzMTcxNjQxLC
+05MTA4MDg4OTgsLTkxMDc2MTc4MywtODE0ODYwNjYzLC0xMjM2
+NDIxNzEzLDE1MjY3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2MT
+c2MDksMTI5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
 -->
