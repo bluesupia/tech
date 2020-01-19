@@ -387,6 +387,7 @@ val (number, name) = 1 to "one"
 ```kotlin
 println("12.345-6.A".split("\\.|-".toRegex()))  
 ```
+* 구분 문자열을 하나 이상 인자로 받는 확장함수 존재
 ```kotlin
 println("12.345-6.A".split(".", "-"))
 ```
@@ -396,10 +397,10 @@ println("12.345-6.A".split(".", "-"))
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMDU0NTY2MiwtMTE4NzAzMTQ5NSwtMT
-k0OTE0ODk0NywxMzc2MTU4NTI4LC0xMjY0NDE2NzMyLC0xMDgz
-NzY2NzIwLDQyMzA2MzIxNSwtMTQ4MzE3MTY0MSwtOTEwODA4OD
-k4LC05MTA3NjE3ODMsLTgxNDg2MDY2MywtMTIzNjQyMTcxMywx
-NTI2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOT
-UzNDUyNDAsMjEzNjM0MjQ4Ml19
+eyJoaXN0b3J5IjpbLTExMjM3MTE1NzgsLTExODcwMzE0OTUsLT
+E5NDkxNDg5NDcsMTM3NjE1ODUyOCwtMTI2NDQxNjczMiwtMTA4
+Mzc2NjcyMCw0MjMwNjMyMTUsLTE0ODMxNzE2NDEsLTkxMDgwOD
+g5OCwtOTEwNzYxNzgzLC04MTQ4NjA2NjMsLTEyMzY0MjE3MTMs
+MTUyNjcyNzc5NywtMTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMj
+k1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
 -->
