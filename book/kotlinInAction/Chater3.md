@@ -439,14 +439,28 @@ fun savedUser(user: User) {
 }
 ```
 * 로컬함수를 사용해 코드 중복 제거
-* 
+```kotlin
+class User(val id:Int, val name: String, val address:String)  
+  
+fun savedUser(user: User) {  
+    fun validate(user: User, value: String, fieldName: String) {  
+        if (value.isEmpty()) {  
+            throw IllegalArgumentException("Can't save user ${user.id} : empty $fieldName")  
+        }  
+    }  
+    validate(user, user.name, "Name")  
+    validate(user, user.address, "Address")  
+      
+    // user를 DB에 저장  
+}
+```
 * 한단계만 함수를 중첩하기를 권장
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgzMTc1NzM0LC00MjQ0MzQ1MjYsNzI5OT
-YyMDU3LDMwNTM1MzI5NiwtMTE4NzAzMTQ5NSwtMTk0OTE0ODk0
-NywxMzc2MTU4NTI4LC0xMjY0NDE2NzMyLC0xMDgzNzY2NzIwLD
-QyMzA2MzIxNSwtMTQ4MzE3MTY0MSwtOTEwODA4ODk4LC05MTA3
-NjE3ODMsLTgxNDg2MDY2MywtMTIzNjQyMTcxMywxNTI2NzI3Nz
-k3LC0xMjEyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUzNDUyNDAs
-MjEzNjM0MjQ4Ml19
+eyJoaXN0b3J5IjpbLTE1OTgzNTYxNjYsLTQyNDQzNDUyNiw3Mj
+k5NjIwNTcsMzA1MzUzMjk2LC0xMTg3MDMxNDk1LC0xOTQ5MTQ4
+OTQ3LDEzNzYxNTg1MjgsLTEyNjQ0MTY3MzIsLTEwODM3NjY3Mj
+AsNDIzMDYzMjE1LC0xNDgzMTcxNjQxLC05MTA4MDg4OTgsLTkx
+MDc2MTc4MywtODE0ODYwNjYzLC0xMjM2NDIxNzEzLDE1MjY3Mj
+c3OTcsLTEyMTIyNDQwMDQsLTE4NjE2MTc2MDksMTI5NTM0NTI0
+MCwyMTM2MzQyNDgyXX0=
 -->
