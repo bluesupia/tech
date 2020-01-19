@@ -280,7 +280,8 @@ view.showOff()
 >>> I'm a view!
 ```
 * 확장 함수를 첫번째 인자가 수신 객체인 정적 자바 메소드로 컴파일 !
-* 자보다
+* 자바도 호출할 정적 함수를 같은 방식으로 정적으로 결정
+
 ### 3.3.5 	확장 프로퍼티
 
 ## 3.4 컬렉션 처리: 가변 길이 인자, 중위 함수 호출, 라이브러리 지원
@@ -296,7 +297,7 @@ view.showOff()
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODQyODIyNyw0MjMwNjMyMTUsLTE0OD
+eyJoaXN0b3J5IjpbLTgwNDY2NDIyMyw0MjMwNjMyMTUsLTE0OD
 MxNzE2NDEsLTkxMDgwODg5OCwtOTEwNzYxNzgzLC04MTQ4NjA2
 NjMsLTEyMzY0MjE3MTMsMTUyNjcyNzc5NywtMTIxMjI0NDAwNC
 wtMTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
