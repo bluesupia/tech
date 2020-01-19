@@ -422,14 +422,29 @@ fun parsePath2(path : String) {
 
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 * DRY 원칙
-* 
+* 코드 중복 예제
+```
+class User(val id:Int, val name: String, val address:String)  
+  
+fun savedUser(user: User) {  
+    if(user.name.isEmpty()) {  
+        throw IllegalArgumentException("Can't save user ${user.id} : empty Name")  
+    }  
+  
+    if(user.address.isEmpty()) {  
+        throw IllegalArgumentException("Can't save user ${user.id} : empty Address")  
+    }  
+  
+    // user를 DB에 저장  
+}
+```
 * 한단계만 함수를 중첩하기를 권장
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNDQzNDUyNiw3Mjk5NjIwNTcsMzA1Mz
-UzMjk2LC0xMTg3MDMxNDk1LC0xOTQ5MTQ4OTQ3LDEzNzYxNTg1
-MjgsLTEyNjQ0MTY3MzIsLTEwODM3NjY3MjAsNDIzMDYzMjE1LC
-0xNDgzMTcxNjQxLC05MTA4MDg4OTgsLTkxMDc2MTc4MywtODE0
-ODYwNjYzLC0xMjM2NDIxNzEzLDE1MjY3Mjc3OTcsLTEyMTIyND
-QwMDQsLTE4NjE2MTc2MDksMTI5NTM0NTI0MCwyMTM2MzQyNDgy
-XX0=
+eyJoaXN0b3J5IjpbOTQzNzg0NzA0LC00MjQ0MzQ1MjYsNzI5OT
+YyMDU3LDMwNTM1MzI5NiwtMTE4NzAzMTQ5NSwtMTk0OTE0ODk0
+NywxMzc2MTU4NTI4LC0xMjY0NDE2NzMyLC0xMDgzNzY2NzIwLD
+QyMzA2MzIxNSwtMTQ4MzE3MTY0MSwtOTEwODA4ODk4LC05MTA3
+NjE3ODMsLTgxNDg2MDY2MywtMTIzNjQyMTcxMywxNTI2NzI3Nz
+k3LC0xMjEyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUzNDUyNDAs
+MjEzNjM0MjQ4Ml19
 -->
