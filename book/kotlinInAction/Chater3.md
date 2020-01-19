@@ -292,6 +292,9 @@ view.showOff()
 	* 프로퍼티라는 이름으로 불리나 상태를 저장할 적절한 방법이 없기 때문
 	* 기존 클래스의 인스턴스 객체에 필드를 추가할 방법은 없다
 * 프로퍼티 문법으로 더 짧게 코드를 작성할 수 있어 편리
+* 확장 프로퍼티 선언
+	* 일반적인 프로퍼티와 같으나, 단지 수신 객체 클래스가 추가됐을 뿐
+	* 뒷받침하는 필드가 없어서 기본 게터구현을 제공할 수 없으므로 최소한 게터는 꼭 정의
 ```kotlin
 val String.lashChar : Char  
     get() = get(length - 1)
@@ -309,9 +312,9 @@ val String.lashChar : Char
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MjEwNzQwOCwtMTA4Mzc2NjcyMCw0Mj
-MwNjMyMTUsLTE0ODMxNzE2NDEsLTkxMDgwODg5OCwtOTEwNzYx
-NzgzLC04MTQ4NjA2NjMsLTEyMzY0MjE3MTMsMTUyNjcyNzc5Ny
-wtMTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIx
-MzYzNDI0ODJdfQ==
+eyJoaXN0b3J5IjpbLTEyNjQ0MTY3MzIsLTEwODM3NjY3MjAsND
+IzMDYzMjE1LC0xNDgzMTcxNjQxLC05MTA4MDg4OTgsLTkxMDc2
+MTc4MywtODE0ODYwNjYzLC0xMjM2NDIxNzEzLDE1MjY3Mjc3OT
+csLTEyMTIyNDQwMDQsLTE4NjE2MTc2MDksMTI5NTM0NTI0MCwy
+MTM2MzQyNDgyXX0=
 -->
