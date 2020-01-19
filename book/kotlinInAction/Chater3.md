@@ -270,7 +270,15 @@ view.click()
 ```
 * 확장함수는 클래스의 일부가 아닌, 클래스 밖에서 선언
 * 이름과 파라미터가 완전히 같은 확장 함수를 기반 클래스와 하위 클래스에 대해 정의해도 실제로는 확장 함수를 호출 할때 수신객체로 지정한 변수의 **정적 ** 타입에 의해 어떤 확장 함수가 호출될지 결정된다
-
+```
+fun View.showOff() = println("I'm a view!")  
+fun Button.showOff() = println("I'm a button!")
+```
+```kotlin
+val view:View = Button()  
+view.click()
+>>> Button clicked
+```
 ### 3.3.5 	확장 프로퍼티
 
 ## 3.4 컬렉션 처리: 가변 길이 인자, 중위 함수 호출, 라이브러리 지원
@@ -286,7 +294,7 @@ view.click()
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjI0NzczOCw0MjMwNjMyMTUsLTE0OD
+eyJoaXN0b3J5IjpbLTMwOTMwNzM5OSw0MjMwNjMyMTUsLTE0OD
 MxNzE2NDEsLTkxMDgwODg5OCwtOTEwNzYxNzgzLC04MTQ4NjA2
 NjMsLTEyMzY0MjE3MTMsMTUyNjcyNzc5NywtMTIxMjI0NDAwNC
 wtMTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
