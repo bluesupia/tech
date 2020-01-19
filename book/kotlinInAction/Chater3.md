@@ -393,7 +393,7 @@ println("12.345-6.A".split(".", "-"))
 ```
 
 ### 3.5.2 정규식과 3중 따옴표로 묶은 문자열
-* 파일의 전체 경로명을 디렉터리, 파일이름, 확장자로 구분하는 예제
+#### 파일의 전체 경로명을 디렉터리, 파일이름, 확장자로 구분하는 예제
 * String 확장 함수를 사용해 경로 파싱
 ```kotlin
 fun parsePath(path : String) {  
@@ -413,10 +413,10 @@ fun parsePath(path : String) {
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyNjY0NjgsLTExODcwMzE0OTUsLTE5ND
-kxNDg5NDcsMTM3NjE1ODUyOCwtMTI2NDQxNjczMiwtMTA4Mzc2
-NjcyMCw0MjMwNjMyMTUsLTE0ODMxNzE2NDEsLTkxMDgwODg5OC
-wtOTEwNzYxNzgzLC04MTQ4NjA2NjMsLTEyMzY0MjE3MTMsMTUy
-NjcyNzc5NywtMTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1Mz
-Q1MjQwLDIxMzYzNDI0ODJdfQ==
+eyJoaXN0b3J5IjpbMzA1MzUzMjk2LC0xMTg3MDMxNDk1LC0xOT
+Q5MTQ4OTQ3LDEzNzYxNTg1MjgsLTEyNjQ0MTY3MzIsLTEwODM3
+NjY3MjAsNDIzMDYzMjE1LC0xNDgzMTcxNjQxLC05MTA4MDg4OT
+gsLTkxMDc2MTc4MywtODE0ODYwNjYzLC0xMjM2NDIxNzEzLDE1
+MjY3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2MTc2MDksMTI5NT
+M0NTI0MCwyMTM2MzQyNDgyXX0=
 -->
