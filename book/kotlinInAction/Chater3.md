@@ -291,7 +291,8 @@ view.showOff()
 * 실제로 확장 프로퍼티는 아무 상태도 가질 수 없다
 	* 프로퍼티라는 이름으로 불리나 상태를 저장할 적절한 방법이 없기 때문
 	* 기존 클래스의 인스턴스 객체에 필드를 추가할 방법은 없다
-* 
+* 프로퍼티 문법으로 더 짧게 코드를 작성할 수 있어 편리
+
 ## 3.4 컬렉션 처리: 가변 길이 인자, 중위 함수 호출, 라이브러리 지원
 ### 3.4.1 자바 컬렉션 API 확장
 ### 3.4.2 가변 인자 함수: 인자의 개수가 달라질 수 있는 함수 정의
@@ -305,8 +306,9 @@ view.showOff()
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUyNjU2Nzk0LDQyMzA2MzIxNSwtMTQ4Mz
-E3MTY0MSwtOTEwODA4ODk4LC05MTA3NjE3ODMsLTgxNDg2MDY2
-MywtMTIzNjQyMTcxMywxNTI2NzI3Nzk3LC0xMjEyMjQ0MDA0LC
-0xODYxNjE3NjA5LDEyOTUzNDUyNDAsMjEzNjM0MjQ4Ml19
+eyJoaXN0b3J5IjpbLTEwODM3NjY3MjAsNDIzMDYzMjE1LC0xND
+gzMTcxNjQxLC05MTA4MDg4OTgsLTkxMDc2MTc4MywtODE0ODYw
+NjYzLC0xMjM2NDIxNzEzLDE1MjY3Mjc3OTcsLTEyMTIyNDQwMD
+QsLTE4NjE2MTc2MDksMTI5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
+
 -->
