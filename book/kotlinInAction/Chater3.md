@@ -153,8 +153,13 @@ JoinKt.joinToString(list)
 
 ## 3.3 메소드를 다른 클래스에 추가: 확장 함수와 확장 프로퍼티
 
+## 3.4 컬렉션 처리: 가변 길이 인자, 중위 함수 호출, 라이브러리 지원
+
+## 3.5 문자열과 정규식 다루기
+## 3.6 코드 다듬기: 로컬 함수와 확장
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNDk0MDQ4OSwtMTIzNjQyMTcxMywxNT
-I2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUz
-NDUyNDAsMjEzNjM0MjQ4Ml19
+eyJoaXN0b3J5IjpbNjc2MDcxODkzLC0xMjM2NDIxNzEzLDE1Mj
+Y3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2MTc2MDksMTI5NTM0
+NTI0MCwyMTM2MzQyNDgyXX0=
 -->
