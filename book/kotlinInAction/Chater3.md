@@ -192,7 +192,16 @@ import strings.lastChar
 val c = "Kotlin".lastChar()  
 }
 ```
-
+```kotlin
+import strings.*  
+val c = "Kotlin".lastChar()  
+}
+```
+```kotlin
+import strings.lastChar as last
+val c = "Kotlin".lastChar()  
+}
+```
 ### 3.3.2 자바에서 확장 함수 호출
 ### 3.3.3 확장 함수로 유틸리티 함수 정의
 ### 3.3.4 확장 함수는 오버라이드할 수 없다
@@ -211,7 +220,7 @@ val c = "Kotlin".lastChar()
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTcxOTUwMTcsLTgxNDg2MDY2MywtMT
-IzNjQyMTcxMywxNTI2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYx
-NjE3NjA5LDEyOTUzNDUyNDAsMjEzNjM0MjQ4Ml19
+eyJoaXN0b3J5IjpbMTQ3NzM1NzU2NSwtODE0ODYwNjYzLC0xMj
+M2NDIxNzEzLDE1MjY3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2
+MTc2MDksMTI5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
 -->
