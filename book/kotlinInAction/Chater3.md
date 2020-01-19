@@ -136,8 +136,14 @@ fun <T> joinToString(
     return result.toString()  
 }
 ```
+```java
+import strings.JoinKt;
+...
+// @JvmOverloads 으로 가능!
+JoinKt.joinToString(list) 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTM3ODc3ODAsLTEyMzY0MjE3MTMsMT
+eyJoaXN0b3J5IjpbLTEyMzMyMzc4ODMsLTEyMzY0MjE3MTMsMT
 UyNjcyNzc5NywtMTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1
 MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
 -->
