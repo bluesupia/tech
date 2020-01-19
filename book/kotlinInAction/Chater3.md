@@ -144,8 +144,10 @@ JoinKt.joinToString(list)
 ```
 
 #### 최상위 프로퍼티
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDc4OTk1NzgsLTEyMzY0MjE3MTMsMT
-UyNjcyNzc5NywtMTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1
-MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
+eyJoaXN0b3J5IjpbLTIyNjg3NjYzOCwtMTIzNjQyMTcxMywxNT
+I2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUz
+NDUyNDAsMjEzNjM0MjQ4Ml19
 -->
