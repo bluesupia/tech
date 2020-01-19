@@ -97,9 +97,13 @@ println(joinToString(list))
 println(joinToString(list, "; "))  
 println(joinToString(list, postfix = ";", prefix = "# ")) 
 ```
-
+- 이름붙은 인자를 사용하는 경우
+	- 인자 목록의 중간인자를 생략하고, 
+	- 저장하고 싶은 인자를 이름을 붙여서 
+	- 순서와 관계없이 지정가능
+- 디폴트 파라미터 값은 선언쪽에서 지정
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTYyOTMxMTksMTUyNjcyNzc5NywtMT
-IxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIxMzYz
-NDI0ODJdfQ==
+eyJoaXN0b3J5IjpbMTMyNzg1ODYwNCwxNTI2NzI3Nzk3LC0xMj
+EyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUzNDUyNDAsMjEzNjM0
+MjQ4Ml19
 -->
