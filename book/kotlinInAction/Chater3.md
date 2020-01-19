@@ -66,10 +66,10 @@ println(joinToString(list, "; ", "(", ")"))
 ### 3.2.1 이름 붙인 인자
 - 함수 호출 부분의 가독성
 	- 인자로 전달한 각 문자열이 어떤 역할을 하지는지의 구분? 
-```kolint
+```kotlin
 println(joinToString(list, seperator = "; ", prefix = "(", postfix = ")"))  
 println(joinToString(list, prefix = "(", postfix = ")", seperator = "; "))```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkzNTcxODYsLTE4NjE2MTc2MDksMTI5NT
-M0NTI0MCwyMTM2MzQyNDgyXX0=
+eyJoaXN0b3J5IjpbNzgyNjY4ODI4LC0xODYxNjE3NjA5LDEyOT
+UzNDUyNDAsMjEzNjM0MjQ4Ml19
 -->
