@@ -63,8 +63,9 @@ println(joinToString(list, "; ", "(", ")"))
 	- 함수를 호출하는 문장을 덜 번잡 스럽게 만들까!
 	- 호출할 때마다 네개의 인자를 모두 전달 하지 않으려면 ?
 
-3
+### 3.2.1 이름 붙인 인자
+- 함수 호출 부분의 가독성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjgwNjEwNTcsLTE4NjE2MTc2MDksMT
-I5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
+eyJoaXN0b3J5IjpbLTU2Njc2NTM5MywtMTg2MTYxNzYwOSwxMj
+k1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
 -->
