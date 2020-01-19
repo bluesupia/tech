@@ -9,12 +9,11 @@
 ## 3.1 코틀린에서 컬렉션 만들기
 ```kotlin
 val set = hashSetOf(1, 7, 53)  
-  
 val list = arrayListOf(1, 7, 53)  
-  
 val map = hashMapOf(1 to "one", 7 to "seven", 53 to "fifty-three")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
+eyJoaXN0b3J5IjpbLTc2MTYyMTMyNCwxMjk1MzQ1MjQwLDIxMz
+YzNDI0ODJdfQ==
 -->
