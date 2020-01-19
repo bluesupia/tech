@@ -108,9 +108,9 @@ println(joinToString(list, postfix = ";", prefix = "# "))
 - 객체지향 언어인 자바는, 모든 코드를 클래스의 메소드로 작성해야한다!
 	- 다양한 정적 메소드를 모아두는 역할만 담당하며, 특별한 상태나 인스턴스 메소드가 없는 클래스가 존재
 			- ex. JDK의 Collections([https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html](https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html)), ***Util
-
+- 코틀린에서는, 무의미한 클래스 대신 함수를 직접 소스파일의 최상위 수준, 모든 다른 클래스의 밖에 위치시키면 된다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM5MTQ1ODksMTUyNjcyNzc5NywtMTIxMj
-I0NDAwNCwtMTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIxMzYzNDI0
-ODJdfQ==
+eyJoaXN0b3J5IjpbLTEyMzY0MjE3MTMsMTUyNjcyNzc5NywtMT
+IxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIxMzYz
+NDI0ODJdfQ==
 -->
