@@ -327,7 +327,8 @@ char cc = StringUtilKt.getLastChar2("Java");
 * 구조 분해 선언을 하면, 복합적인 값을 분해해서 여러 변수를 나눠 담을 수 있다
 
 ### 3.4.1 자바 컬렉션 API 확장
-```ㅏㅐ
+
+```kotlin
 val strings = listOf("first", "second", "fourteenth")  
 println(strings.last())  
   
@@ -345,7 +346,7 @@ println(numbers.max())
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NzQ1MTc0MSwxMzc2MTU4NTI4LC0xMj
+eyJoaXN0b3J5IjpbMTU0MzI1OTc2MSwxMzc2MTU4NTI4LC0xMj
 Y0NDE2NzMyLC0xMDgzNzY2NzIwLDQyMzA2MzIxNSwtMTQ4MzE3
 MTY0MSwtOTEwODA4ODk4LC05MTA3NjE3ODMsLTgxNDg2MDY2My
 wtMTIzNjQyMTcxMywxNTI2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0x
