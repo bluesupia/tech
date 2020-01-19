@@ -152,7 +152,6 @@ JoinKt.joinToString(list)
 	- 원시타입과 String 만!
 
 ## 3.3 메소드를 다른 클래스에 추가: 확장 함수와 확장 프로퍼티
-### 3.3.1 임포트와 확장 함수
 - 기존 코드와 코틀린 코드를 자연스럽게 통합하는 핵심목표를 위해 그 역할을 해주는 것이 **확장함수**
 - 확장 함수의 개념
 	- 어떤 클래스의 멤버 메소드인 것처럼 호출할 수 있지만 그 클래스 밖에 선언된 함수
@@ -181,7 +180,12 @@ fun String.lastChar() : Char = get(length - 1)
 * 확장함수가 캡슐화를 깨지는 않는다
 	* 클래스 안에서 정의한 메소드와 달리 확장 함수 안에서는 클래스 내부에서만 사용할 수 있는 private / protected 멤버를 사용할 수 없다
 * 클래스의 멤버 메소드나 확장함수 모두 **메소드**
-	* 확장함수 내부에서는 수신 객체의 모든 메소드를 호출 할 
+	* 확장함수 내부에서는 수신 객체의 모든 메소드를 호출 할 수 있다
+	* = 확장함수 내부에서 수신 객체의 멤버 메소드와 확장 함수를 모두 호출할 수있다
+	* 호출하는 쪽에서 확장 함수와 멤버 메소드를 구분할 수 없다
+	
+### 3.3.1 임포트와 확장 함수
+
 ### 3.3.2 자바에서 확장 함수 호출
 ### 3.3.3 확장 함수로 유틸리티 함수 정의
 ### 3.3.4 확장 함수는 오버라이드할 수 없다
@@ -200,7 +204,7 @@ fun String.lastChar() : Char = get(length - 1)
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzAwOTE1NTAsLTgxNDg2MDY2MywtMT
+eyJoaXN0b3J5IjpbLTExNjk3ODkwNTcsLTgxNDg2MDY2MywtMT
 IzNjQyMTcxMywxNTI2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYx
 NjE3NjA5LDEyOTUzNDUyNDAsMjEzNjM0MjQ4Ml19
 -->
