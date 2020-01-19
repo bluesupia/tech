@@ -142,8 +142,10 @@ import strings.JoinKt;
 // @JvmOverloads 으로 가능!
 JoinKt.joinToString(list) 
 ```
+
+###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzMyMzc4ODMsLTEyMzY0MjE3MTMsMT
-UyNjcyNzc5NywtMTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1
-MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
+eyJoaXN0b3J5IjpbMTc3NDAzODM4NCwtMTIzNjQyMTcxMywxNT
+I2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUz
+NDUyNDAsMjEzNjM0MjQ4Ml19
 -->
