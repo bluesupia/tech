@@ -107,10 +107,10 @@ println(joinToString(list, postfix = ";", prefix = "# "))
 ### 3.2.3 정적인 유틸리티 클래스 없애기 : 최상위 함수와 프로퍼티
 - 객체지향 언어인 자바는, 모든 코드를 클래스의 메소드로 작성해야한다!
 	- 다양한 정적 메소드를 모아두는 역할만 담당하며, 특별한 상태나 인스턴스 메소드가 없는 클래스가 존재
-			- ex. ***Util
+			- ex. JDK의 Collections([https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html](https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html)), ***Util
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1ODQyNDEzNSwxNTI2NzI3Nzk3LC0xMj
-EyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUzNDUyNDAsMjEzNjM0
-MjQ4Ml19
+eyJoaXN0b3J5IjpbNDM5MTQ1ODksMTUyNjcyNzc5NywtMTIxMj
+I0NDAwNCwtMTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIxMzYzNDI0
+ODJdfQ==
 -->
