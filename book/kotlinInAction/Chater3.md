@@ -470,14 +470,28 @@ fun savedUser(user: User) {
 }
 ```
 * 검증로직을 확장함수로 추출
-* 
+```kotlin
+fun User.validateBeforeUser() {  
+    fun validate(value: String, fieldName: String) {  
+        if (value.isEmpty()) {  
+            throw IllegalArgumentException("Can't save user $id : empty $fieldName")  
+        }  
+    }  
+    validate(name, "Name")  
+    validate(address, "Address")  
+}  
+  
+fun savedUser(user: User) {  
+    user.validateBeforeUser()  
+}
+````
 * 한단계만 함수를 중첩하기를 권장
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA2OTcxOTkwLC00MjQ0MzQ1MjYsNzI5OT
-YyMDU3LDMwNTM1MzI5NiwtMTE4NzAzMTQ5NSwtMTk0OTE0ODk0
-NywxMzc2MTU4NTI4LC0xMjY0NDE2NzMyLC0xMDgzNzY2NzIwLD
-QyMzA2MzIxNSwtMTQ4MzE3MTY0MSwtOTEwODA4ODk4LC05MTA3
-NjE3ODMsLTgxNDg2MDY2MywtMTIzNjQyMTcxMywxNTI2NzI3Nz
-k3LC0xMjEyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUzNDUyNDAs
-MjEzNjM0MjQ4Ml19
+eyJoaXN0b3J5IjpbMTcxNTUxMDQ3OCwzMDY5NzE5OTAsLTQyND
+QzNDUyNiw3Mjk5NjIwNTcsMzA1MzUzMjk2LC0xMTg3MDMxNDk1
+LC0xOTQ5MTQ4OTQ3LDEzNzYxNTg1MjgsLTEyNjQ0MTY3MzIsLT
+EwODM3NjY3MjAsNDIzMDYzMjE1LC0xNDgzMTcxNjQxLC05MTA4
+MDg4OTgsLTkxMDc2MTc4MywtODE0ODYwNjYzLC0xMjM2NDIxNz
+EzLDE1MjY3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2MTc2MDks
+MTI5NTM0NTI0MF19
 -->
