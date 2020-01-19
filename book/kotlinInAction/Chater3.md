@@ -164,11 +164,14 @@ JoinKt.joinToString(list)
 ### 3.4.3  값의 쌍 다루기: 중위 호출과 구조 분해 선언
 
 ## 3.5 문자열과 정규식 다루기
+### 3.5.1 문자열 나누기
+### 3.5.2 정규식과 3중 따옴표로 묶은 문자열
+### 3.5.3  여러 줄 3중 따옴표 문자열
 
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTU4OTE1MCwtMTIzNjQyMTcxMywxNT
-I2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUz
-NDUyNDAsMjEzNjM0MjQ4Ml19
+eyJoaXN0b3J5IjpbLTEzMzQyMDg0NzUsLTEyMzY0MjE3MTMsMT
+UyNjcyNzc5NywtMTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1
+MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
 -->
