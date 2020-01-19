@@ -179,7 +179,9 @@ println("Kotlin".lastChar())
 fun String.lastChar() : Char = get(length - 1)
 ```
 * 확장함수가 캡슐화를 깨지는 않는다
-	* 클래스 안에서 정의한 메소드와 달리 확장 함수 안에서는 클래스 내부에서만 
+	* 클래스 안에서 정의한 메소드와 달리 확장 함수 안에서는 클래스 내부에서만 사용할 수 있는 private / protected 멤버를 사용할 수 없다
+* 클래스의 멤버 메소드나 확장함수 모두 **메소드**
+	* 확장함수 내부에서는 수신 객체의 모든 메소드를 호출 할 
 ### 3.3.2 자바에서 확장 함수 호출
 ### 3.3.3 확장 함수로 유틸리티 함수 정의
 ### 3.3.4 확장 함수는 오버라이드할 수 없다
@@ -198,7 +200,7 @@ fun String.lastChar() : Char = get(length - 1)
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTYxMDMwODMsLTgxNDg2MDY2MywtMT
+eyJoaXN0b3J5IjpbLTIwMzAwOTE1NTAsLTgxNDg2MDY2MywtMT
 IzNjQyMTcxMywxNTI2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYx
 NjE3NjA5LDEyOTUzNDUyNDAsMjEzNjM0MjQ4Ml19
 -->
