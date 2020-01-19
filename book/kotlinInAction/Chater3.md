@@ -337,6 +337,10 @@ println(numbers.max())
 ```
 
 ### 3.4.2 가변 인자 함수: 인자의 개수가 달라질 수 있는 함수 정의
+* 가변 길이 인자
+	* 메소드를 호출할 때 원하는 개수만큼 값을 인자로 넘기면 자바 컴파일러가 배열에 그 값들을 넣어주는 기능
+	* 자바 : 타입뒤에 ...을 붙인다
+	* 코틀린 : 파라미터 앞에 ```var
 ### 3.4.3  값의 쌍 다루기: 중위 호출과 구조 분해 선언
 
 ## 3.5 문자열과 정규식 다루기
@@ -347,9 +351,10 @@ println(numbers.max())
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDkxNDg5NDcsMTM3NjE1ODUyOCwtMT
-I2NDQxNjczMiwtMTA4Mzc2NjcyMCw0MjMwNjMyMTUsLTE0ODMx
-NzE2NDEsLTkxMDgwODg5OCwtOTEwNzYxNzgzLC04MTQ4NjA2Nj
-MsLTEyMzY0MjE3MTMsMTUyNjcyNzc5NywtMTIxMjI0NDAwNCwt
-MTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
+eyJoaXN0b3J5IjpbNjM5Mjg1MjE2LC0xOTQ5MTQ4OTQ3LDEzNz
+YxNTg1MjgsLTEyNjQ0MTY3MzIsLTEwODM3NjY3MjAsNDIzMDYz
+MjE1LC0xNDgzMTcxNjQxLC05MTA4MDg4OTgsLTkxMDc2MTc4My
+wtODE0ODYwNjYzLC0xMjM2NDIxNzEzLDE1MjY3Mjc3OTcsLTEy
+MTIyNDQwMDQsLTE4NjE2MTc2MDksMTI5NTM0NTI0MCwyMTM2Mz
+QyNDgyXX0=
 -->
