@@ -383,17 +383,21 @@ val (number, name) = 1 to "one"
 
 ### 3.5.1 문자열 나누기
 * split의 구분 문자열은 실제로 정규식
-* 
+* 코틀린에서는 정규식을 명시적으로 만듦
+```kotlin
+println("12.345-6.A".split("\\.|-".toRegex()))  
+println("12.345-6.A".split(".", "-"))
+```
 ### 3.5.2 정규식과 3중 따옴표로 묶은 문자열
 ### 3.5.3  여러 줄 3중 따옴표 문자열
 
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODcwMzE0OTUsLTE5NDkxNDg5NDcsMT
-M3NjE1ODUyOCwtMTI2NDQxNjczMiwtMTA4Mzc2NjcyMCw0MjMw
-NjMyMTUsLTE0ODMxNzE2NDEsLTkxMDgwODg5OCwtOTEwNzYxNz
-gzLC04MTQ4NjA2NjMsLTEyMzY0MjE3MTMsMTUyNjcyNzc5Nywt
-MTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIxMz
-YzNDI0ODJdfQ==
+eyJoaXN0b3J5IjpbMjg4NDA2NDYxLC0xMTg3MDMxNDk1LC0xOT
+Q5MTQ4OTQ3LDEzNzYxNTg1MjgsLTEyNjQ0MTY3MzIsLTEwODM3
+NjY3MjAsNDIzMDYzMjE1LC0xNDgzMTcxNjQxLC05MTA4MDg4OT
+gsLTkxMDc2MTc4MywtODE0ODYwNjYzLC0xMjM2NDIxNzEzLDE1
+MjY3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2MTc2MDksMTI5NT
+M0NTI0MCwyMTM2MzQyNDgyXX0=
 -->
