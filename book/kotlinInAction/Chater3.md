@@ -443,8 +443,6 @@ fun savedUser(user: User) {
 	* User 객체를 로컬 함수에게 하나하나 전달해야하는 문제
 		* 로컬함수는 자신이 속한 바깥함수의 모든 파라미터 변수를 사용할 수 있다
 ```kotlin
-class User(val id:Int, val name: String, val address:String)  
-  
 fun savedUser(user: User) {  
     fun validate(user: User, value: String, fieldName: String) {  
         if (value.isEmpty()) {  
@@ -458,13 +456,26 @@ fun savedUser(user: User) {
 }
 ```
 * 로컬 함수에서 바깥 함수의 파라미터 접근하기
+```
+fun savedUser(user: User) {  
+    fun validate(value: String, fieldName: String) {  
+        if (value.isEmpty()) {  
+            throw IllegalArgumentException("Can't save user ${user.id} : empty $fieldName")  
+        }  
+    }  
+    validate(user.name, "Name")  
+    validate(user.address, "Address")  
+  
+    // user를 DB에 저장  
+}
+```
 * 한단계만 함수를 중첩하기를 권장
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDM2MTEzMiwtNDI0NDM0NTI2LDcyOT
-k2MjA1NywzMDUzNTMyOTYsLTExODcwMzE0OTUsLTE5NDkxNDg5
-NDcsMTM3NjE1ODUyOCwtMTI2NDQxNjczMiwtMTA4Mzc2NjcyMC
-w0MjMwNjMyMTUsLTE0ODMxNzE2NDEsLTkxMDgwODg5OCwtOTEw
-NzYxNzgzLC04MTQ4NjA2NjMsLTEyMzY0MjE3MTMsMTUyNjcyNz
-c5NywtMTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1MzQ1MjQw
-LDIxMzYzNDI0ODJdfQ==
+eyJoaXN0b3J5IjpbLTIxNjA5MTg3LC00MjQ0MzQ1MjYsNzI5OT
+YyMDU3LDMwNTM1MzI5NiwtMTE4NzAzMTQ5NSwtMTk0OTE0ODk0
+NywxMzc2MTU4NTI4LC0xMjY0NDE2NzMyLC0xMDgzNzY2NzIwLD
+QyMzA2MzIxNSwtMTQ4MzE3MTY0MSwtOTEwODA4ODk4LC05MTA3
+NjE3ODMsLTgxNDg2MDY2MywtMTIzNjQyMTcxMywxNTI2NzI3Nz
+k3LC0xMjEyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUzNDUyNDAs
+MjEzNjM0MjQ4Ml19
 -->
