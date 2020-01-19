@@ -169,6 +169,7 @@ fun String.lastChar() : Char = this.get(this.length - 1)
 	* 확장함수가 호출되는 대상이 되는 값 : **수신 객체**(receiver object)
 		* 그 클래스가 속한 인스턴스 객체
 * 호출하는 구문
+	* 수신 객체 타입 : String, 수신객체: "Kotlin"
 ```kotlin
 println("Kotlin".lastChar())
 ```
@@ -190,7 +191,7 @@ println("Kotlin".lastChar())
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MjEzOTE3NiwtODE0ODYwNjYzLC0xMj
+eyJoaXN0b3J5IjpbMTM0OTQzOTU3MSwtODE0ODYwNjYzLC0xMj
 M2NDIxNzEzLDE1MjY3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2
 MTc2MDksMTI5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
 -->
