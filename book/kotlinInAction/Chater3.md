@@ -168,7 +168,10 @@ fun String.lastChar() : Char = this.get(this.length - 1)
 		* 확장이 정의될 클래스의 타입
 	* 확장함수가 호출되는 대상이 되는 값 : **수신 객체**(receiver object)
 		* 그 클래스가 속한 인스턴스 객체
-
+* 호출하는 구문
+```kotlin
+println("Kotlin".lastChar())
+```
 ### 3.3.2 자바에서 확장 함수 호출
 ### 3.3.3 확장 함수로 유틸리티 함수 정의
 ### 3.3.4 확장 함수는 오버라이드할 수 없다
@@ -187,7 +190,7 @@ fun String.lastChar() : Char = this.get(this.length - 1)
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDU4Njc4NywtODE0ODYwNjYzLC0xMj
+eyJoaXN0b3J5IjpbMTI3MjEzOTE3NiwtODE0ODYwNjYzLC0xMj
 M2NDIxNzEzLDE1MjY3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2
 MTc2MDksMTI5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
 -->
