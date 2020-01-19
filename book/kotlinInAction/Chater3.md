@@ -263,6 +263,7 @@ class Button : View() {
 
 val view:View = Button()  
 view.click()
+>>> Button clicked
 ```
 ### 3.3.5 	확장 프로퍼티
 
@@ -279,8 +280,8 @@ view.click()
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3OTE4NTksLTE0ODMxNzE2NDEsLTkxMD
-gwODg5OCwtOTEwNzYxNzgzLC04MTQ4NjA2NjMsLTEyMzY0MjE3
-MTMsMTUyNjcyNzc5NywtMTIxMjI0NDAwNCwtMTg2MTYxNzYwOS
-wxMjk1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
+eyJoaXN0b3J5IjpbNTcyNTA1NiwtMTQ4MzE3MTY0MSwtOTEwOD
+A4ODk4LC05MTA3NjE3ODMsLTgxNDg2MDY2MywtMTIzNjQyMTcx
+MywxNTI2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYxNjE3NjA5LD
+EyOTUzNDUyNDAsMjEzNjM0MjQ4Ml19
 -->
