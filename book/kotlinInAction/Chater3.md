@@ -72,9 +72,11 @@ println(joinToString(list, prefix = "(", postfix = ")", seperator = "; "))
 ```
 
 ### 3.2.2 디폴트 파라미터 값
-
+- 자바에서는 일부 클래스에서 오버로딩한 메소드가 너무 많아지는 문제가 존재
+	- java.lang.Thread의 8가지 생성자 ([https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html#constructor.summary](https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html#constructor.summary))
+	- 함수선언에서 파라미터의 디폴트 값을 지정해 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4MTQyNDAyLC0xMjEyMjQ0MDA0LC0xOD
-YxNjE3NjA5LDEyOTUzNDUyNDAsMjEzNjM0MjQ4Ml19
+eyJoaXN0b3J5IjpbLTEzMDQ0NTEyMTMsLTEyMTIyNDQwMDQsLT
+E4NjE2MTc2MDksMTI5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
 -->
