@@ -249,6 +249,7 @@ fun Collection<String>.join(
 ```	
 	
 ### 3.3.4 확장 함수는 오버라이드할 수 없다
+
 ### 3.3.5 	확장 프로퍼티
 
 ## 3.4 컬렉션 처리: 가변 길이 인자, 중위 함수 호출, 라이브러리 지원
@@ -264,8 +265,8 @@ fun Collection<String>.join(
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODMxNzE2NDEsLTkxMDgwODg5OCwtOT
-EwNzYxNzgzLC04MTQ4NjA2NjMsLTEyMzY0MjE3MTMsMTUyNjcy
-Nzc5NywtMTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1MzQ1Mj
-QwLDIxMzYzNDI0ODJdfQ==
+eyJoaXN0b3J5IjpbMTMwNzY2NDc1NywtMTQ4MzE3MTY0MSwtOT
+EwODA4ODk4LC05MTA3NjE3ODMsLTgxNDg2MDY2MywtMTIzNjQy
+MTcxMywxNTI2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYxNjE3Nj
+A5LDEyOTUzNDUyNDAsMjEzNjM0MjQ4Ml19
 -->
