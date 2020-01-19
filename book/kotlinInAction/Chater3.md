@@ -199,11 +199,14 @@ val c = "Kotlin".lastChar()
 }
 ```
 * ``as`` 키워드를 사용해 임포트한 클래스나 함수를 다른 이름으로 부를 수 있다
+	* 일반적인 클래스나 함수라면 그 전체이름 (FQN, Fully Qualified Name)을 써도 되나, 코틀린 문법상 확장 함수는 반드시 짧은 이름으로 써야한다
+	* 임포트시 이름을 바꾸는 것이 확장함 수 이름 충돌을 해결할 유일한 방법
 ```kotlin
 import strings.lastChar as last
 val c = "Kotlin".last()  
 }
 ```
+
 ### 3.3.2 자바에서 확장 함수 호출
 ### 3.3.3 확장 함수로 유틸리티 함수 정의
 ### 3.3.4 확장 함수는 오버라이드할 수 없다
@@ -222,7 +225,7 @@ val c = "Kotlin".last()
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1ODA5MDI4OCwtODE0ODYwNjYzLC0xMj
-M2NDIxNzEzLDE1MjY3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2
-MTc2MDksMTI5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
+eyJoaXN0b3J5IjpbMTIzOTk0MjE1LC04MTQ4NjA2NjMsLTEyMz
+Y0MjE3MTMsMTUyNjcyNzc5NywtMTIxMjI0NDAwNCwtMTg2MTYx
+NzYwOSwxMjk1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
 -->
