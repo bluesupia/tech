@@ -153,6 +153,10 @@ JoinKt.joinToString(list)
 
 ## 3.3 메소드를 다른 클래스에 추가: 확장 함수와 확장 프로퍼티
 ### 3.3.1 임포트와 확장 함수
+- 기존 코드와 코
+- 확장 함수의 개념
+	- 어떤 클래스의 멤버 메소드인 것처럼 호출할 수 있지만 그 클래스 밖에 선언된 함수
+	- 
 ### 3.3.2 자바에서 확장 함수 호출
 ### 3.3.3 확장 함수로 유틸리티 함수 정의
 ### 3.3.4 확장 함수는 오버라이드할 수 없다
@@ -171,7 +175,7 @@ JoinKt.joinToString(list)
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzQyMDg0NzUsLTEyMzY0MjE3MTMsMT
-UyNjcyNzc5NywtMTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1
-MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
+eyJoaXN0b3J5IjpbLTQ1ODgwMjM1MCwtMTIzNjQyMTcxMywxNT
+I2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUz
+NDUyNDAsMjEzNjM0MjQ4Ml19
 -->
