@@ -55,11 +55,16 @@ fun <T> joinToString(
 }
 
 // 초기 호출
-val list 
+val list = listOf(1, 2, 3)  
+println(joinToString(list, "; ", "(", ")"))
 ```
 - 위 함수는 제너릭
-- 
+- 선언부분의 고민
+	- 함수를 호출하는 문장을 덜 번잡 스럽게 만들까!
+	- 호출할 때마다 네개의 인자를 모두 전달 하지 않으려면 ?
+
+3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MjIyOTc3OSwtMTg2MTYxNzYwOSwxMj
-k1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
+eyJoaXN0b3J5IjpbLTExMjgwNjEwNTcsLTE4NjE2MTc2MDksMT
+I5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
 -->
