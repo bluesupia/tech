@@ -31,9 +31,11 @@ println(numbers.max())
 - 어떻게 만드는지! 어떻게 가능하게 하는가
 
 ## 3.2 함수를 호출하기 쉽게 만들기
+```
+val list = listOf(1, 2, 3)
 
-
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjE2MTc2MDksMTI5NTM0NTI0MCwyMT
-M2MzQyNDgyXX0=
+eyJoaXN0b3J5IjpbMTYzOTk3Nzc2MywtMTg2MTYxNzYwOSwxMj
+k1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
 -->
