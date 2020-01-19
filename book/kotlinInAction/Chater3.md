@@ -292,7 +292,10 @@ view.showOff()
 	* 프로퍼티라는 이름으로 불리나 상태를 저장할 적절한 방법이 없기 때문
 	* 기존 클래스의 인스턴스 객체에 필드를 추가할 방법은 없다
 * 프로퍼티 문법으로 더 짧게 코드를 작성할 수 있어 편리
-
+```kotlin
+val String.lashChar : Char  
+    get() = get(length - 1)
+```
 ## 3.4 컬렉션 처리: 가변 길이 인자, 중위 함수 호출, 라이브러리 지원
 ### 3.4.1 자바 컬렉션 API 확장
 ### 3.4.2 가변 인자 함수: 인자의 개수가 달라질 수 있는 함수 정의
@@ -306,9 +309,9 @@ view.showOff()
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODM3NjY3MjAsNDIzMDYzMjE1LC0xND
-gzMTcxNjQxLC05MTA4MDg4OTgsLTkxMDc2MTc4MywtODE0ODYw
-NjYzLC0xMjM2NDIxNzEzLDE1MjY3Mjc3OTcsLTEyMTIyNDQwMD
-QsLTE4NjE2MTc2MDksMTI5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
-
+eyJoaXN0b3J5IjpbLTY5MjEwNzQwOCwtMTA4Mzc2NjcyMCw0Mj
+MwNjMyMTUsLTE0ODMxNzE2NDEsLTkxMDgwODg5OCwtOTEwNzYx
+NzgzLC04MTQ4NjA2NjMsLTEyMzY0MjE3MTMsMTUyNjcyNzc5Ny
+wtMTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIx
+MzYzNDI0ODJdfQ==
 -->
