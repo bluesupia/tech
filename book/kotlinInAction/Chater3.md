@@ -260,7 +260,8 @@ open class View {
 class Button : View() {  
     override fun click() = println("Button clicked")  
 }
-
+```
+```kotlin
 val view:View = Button()  
 view.click()
 >>> Button clicked
@@ -280,8 +281,8 @@ view.click()
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcyNTA1NiwtMTQ4MzE3MTY0MSwtOTEwOD
-A4ODk4LC05MTA3NjE3ODMsLTgxNDg2MDY2MywtMTIzNjQyMTcx
-MywxNTI2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYxNjE3NjA5LD
-EyOTUzNDUyNDAsMjEzNjM0MjQ4Ml19
+eyJoaXN0b3J5IjpbNDIzMDYzMjE1LC0xNDgzMTcxNjQxLC05MT
+A4MDg4OTgsLTkxMDc2MTc4MywtODE0ODYwNjYzLC0xMjM2NDIx
+NzEzLDE1MjY3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2MTc2MD
+ksMTI5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
 -->
