@@ -299,6 +299,18 @@ view.showOff()
 val String.lashChar : Char  
     get() = get(length - 1)
 ```
+* 변경가능한 확장 프로퍼티 선언
+```kotlin
+val String.lastChar : Char  
+    get() = get(length - 1)  
+  
+var StringBuilder.lastChar : Char  
+    get() = get(length - 1)  
+    set(value: Char) {  
+    this.setCharAt(length - 1, value)  
+}
+```
+
 ## 3.4 컬렉션 처리: 가변 길이 인자, 중위 함수 호출, 라이브러리 지원
 ### 3.4.1 자바 컬렉션 API 확장
 ### 3.4.2 가변 인자 함수: 인자의 개수가 달라질 수 있는 함수 정의
@@ -312,9 +324,9 @@ val String.lashChar : Char
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQ0MTY3MzIsLTEwODM3NjY3MjAsND
-IzMDYzMjE1LC0xNDgzMTcxNjQxLC05MTA4MDg4OTgsLTkxMDc2
-MTc4MywtODE0ODYwNjYzLC0xMjM2NDIxNzEzLDE1MjY3Mjc3OT
-csLTEyMTIyNDQwMDQsLTE4NjE2MTc2MDksMTI5NTM0NTI0MCwy
-MTM2MzQyNDgyXX0=
+eyJoaXN0b3J5IjpbLTgwODI4MzUxLC0xMjY0NDE2NzMyLC0xMD
+gzNzY2NzIwLDQyMzA2MzIxNSwtMTQ4MzE3MTY0MSwtOTEwODA4
+ODk4LC05MTA3NjE3ODMsLTgxNDg2MDY2MywtMTIzNjQyMTcxMy
+wxNTI2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYxNjE3NjA5LDEy
+OTUzNDUyNDAsMjEzNjM0MjQ4Ml19
 -->
