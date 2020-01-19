@@ -266,6 +266,7 @@ val view:View = Button()
 view.click()
 >>> Button clicked
 ```
+
 ### 3.3.5 	확장 프로퍼티
 
 ## 3.4 컬렉션 처리: 가변 길이 인자, 중위 함수 호출, 라이브러리 지원
@@ -281,8 +282,9 @@ view.click()
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIzMDYzMjE1LC0xNDgzMTcxNjQxLC05MT
-A4MDg4OTgsLTkxMDc2MTc4MywtODE0ODYwNjYzLC0xMjM2NDIx
-NzEzLDE1MjY3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2MTc2MD
-ksMTI5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
+eyJoaXN0b3J5IjpbLTc1MTY3NDAxOSw0MjMwNjMyMTUsLTE0OD
+MxNzE2NDEsLTkxMDgwODg5OCwtOTEwNzYxNzgzLC04MTQ4NjA2
+NjMsLTEyMzY0MjE3MTMsMTUyNjcyNzc5NywtMTIxMjI0NDAwNC
+wtMTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
+
 -->
