@@ -37,9 +37,10 @@ println(list)
 ```
 - 디폴트 구현과 달리 원소사이를 세미콜록으로 구분하고 괄호로 기스트를 둘러싸도록 해보자
 ``` kotlin
-//
+// 초기구현
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMzgwNzAwMiwtMTg2MTYxNzYwOSwxMj
-k1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
+eyJoaXN0b3J5IjpbLTEyMjkwMzQ5OTIsLTE4NjE2MTc2MDksMT
+I5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
 -->
