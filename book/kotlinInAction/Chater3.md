@@ -192,14 +192,16 @@ import strings.lastChar
 val c = "Kotlin".lastChar()  
 }
 ```
+* *를 사용한 임포트도 가능
 ```kotlin
 import strings.*  
 val c = "Kotlin".lastChar()  
 }
 ```
+* ``as`` 키워드를 사용해 임포트한 클래스나 함수를 다른 이름으로 부를 수 있다
 ```kotlin
 import strings.lastChar as last
-val c = "Kotlin".lastChar()  
+val c = "Kotlin".last()  
 }
 ```
 ### 3.3.2 자바에서 확장 함수 호출
@@ -220,7 +222,7 @@ val c = "Kotlin".lastChar()
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NzM1NzU2NSwtODE0ODYwNjYzLC0xMj
+eyJoaXN0b3J5IjpbLTM1ODA5MDI4OCwtODE0ODYwNjYzLC0xMj
 M2NDIxNzEzLDE1MjY3Mjc3OTcsLTEyMTIyNDQwMDQsLTE4NjE2
 MTc2MDksMTI5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
 -->
