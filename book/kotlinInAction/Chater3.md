@@ -341,6 +341,9 @@ println(numbers.max())
 	* 메소드를 호출할 때 원하는 개수만큼 값을 인자로 넘기면 자바 컴파일러가 배열에 그 값들을 넣어주는 기능
 	* 자바 : 타입뒤에 ...을 붙인다
 	* 코틀린 : 파라미터 앞에 ```vararg``` 변경자를 붙인다
+```kotlin
+fun listOf<T>(vararg values: T) : List<T> { ... }
+```
 * 이미 배열에 들어있는 원소를 가변 길이 인자로 넘길 때
 	* 자바 : 배열을 그대로 넘긴다
 	* 코틀린 : 배열을 명시적으로 풀어서 배열의 각 원소가 인자로 전달되게 해야한다
@@ -361,7 +364,7 @@ fun main(args:Array<String>) {
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMTkxMDI0NSwtMTk0OTE0ODk0NywxMz
+eyJoaXN0b3J5IjpbMTQ3ODk4ODk2NiwtMTk0OTE0ODk0NywxMz
 c2MTU4NTI4LC0xMjY0NDE2NzMyLC0xMDgzNzY2NzIwLDQyMzA2
 MzIxNSwtMTQ4MzE3MTY0MSwtOTEwODA4ODk4LC05MTA3NjE3OD
 MsLTgxNDg2MDY2MywtMTIzNjQyMTcxMywxNTI2NzI3Nzk3LC0x
