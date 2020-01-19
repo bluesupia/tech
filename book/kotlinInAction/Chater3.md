@@ -36,11 +36,26 @@ val list = listOf(1, 2, 3)
 println(list)
 ```
 - 디폴트 구현과 달리 원소사이를 세미콜록으로 구분하고 괄호로 기스트를 둘러싸도록 해보자
-``` kotlin
+```kotlin
 // 초기구현
-
+fun <T> joinToString(  
+    collection: Collection<T>,  
+    serator: String,  
+    prefix: String,  
+    postfix: String  
+) : String {  
+    val result = StringBuilder(prefix)  
+    for ((index, element) in collection.withIndex()) {  
+        if (index > 0) result.append(serator)  
+        result.append(element)  
+    }  
+  
+    result.append(postfix)  
+    return result.toString()  
+}
 ```
+- 위 함수는 제너릭 (어떤 타입의 값을 원소로 하든 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjkwMzQ5OTIsLTE4NjE2MTc2MDksMT
-I5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
+eyJoaXN0b3J5IjpbMTc1MzI3NDU4MiwtMTg2MTYxNzYwOSwxMj
+k1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
 -->
