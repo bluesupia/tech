@@ -53,10 +53,13 @@ fun <T> joinToString(
     result.append(postfix)  
     return result.toString()  
 }
+
+// 초기 호출
+
 ```
 - 위 함수는 제너릭
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQ4ODM1OCwtMTg2MTYxNzYwOSwxMj
+eyJoaXN0b3J5IjpbMTg0MzYyNDg0MCwtMTg2MTYxNzYwOSwxMj
 k1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
 -->
