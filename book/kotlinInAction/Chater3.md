@@ -317,7 +317,10 @@ sb.lastChar = '!'
 println(sb)
 ```
 * 자바에서 사용하고 싶다면 항상 게터나 세터를 명시적으로 호출해야한다!
-* 
+```java
+char cc = StringUtilKt.getLastChar2("Java");
+```
+
 ## 3.4 컬렉션 처리: 가변 길이 인자, 중위 함수 호출, 라이브러리 지원
 ### 3.4.1 자바 컬렉션 API 확장
 ### 3.4.2 가변 인자 함수: 인자의 개수가 달라질 수 있는 함수 정의
@@ -331,7 +334,7 @@ println(sb)
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NTQ5NzQ2NywtMTI2NDQxNjczMiwtMT
+eyJoaXN0b3J5IjpbLTY1NDg5Mjc4MiwtMTI2NDQxNjczMiwtMT
 A4Mzc2NjcyMCw0MjMwNjMyMTUsLTE0ODMxNzE2NDEsLTkxMDgw
 ODg5OCwtOTEwNzYxNzgzLC04MTQ4NjA2NjMsLTEyMzY0MjE3MT
 MsMTUyNjcyNzc5NywtMTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwx
