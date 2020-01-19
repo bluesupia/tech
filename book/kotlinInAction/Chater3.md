@@ -54,8 +54,9 @@ fun <T> joinToString(
     return result.toString()  
 }
 ```
-- 위 함수는 제너릭 (어떤 타입의 값을 원소로 하든 
+- 위 함수는 제너릭
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MzI3NDU4MiwtMTg2MTYxNzYwOSwxMj
+eyJoaXN0b3J5IjpbLTEwODQ4ODM1OCwtMTg2MTYxNzYwOSwxMj
 k1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
 -->
