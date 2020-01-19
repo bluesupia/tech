@@ -240,7 +240,7 @@ val list = listOf(1, 2, 3)
 * 확장함수는 단지 정적 메소드 호출에 대한 문법적인 편의
 	* 클래스가 아닌 더 구체적인 타입을 수신객체 타입으로 지정할 수 있다
 * 문자열의 컬렉션에 대한 정의
-```
+```kotlin
 fun Collection<String>.join(  
     seperator: String = ", ",  
   prefix: String = "",  
@@ -264,8 +264,8 @@ fun Collection<String>.join(
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODAwOTI1NiwtOTEwODA4ODk4LC05MT
-A3NjE3ODMsLTgxNDg2MDY2MywtMTIzNjQyMTcxMywxNTI2NzI3
-Nzk3LC0xMjEyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUzNDUyND
-AsMjEzNjM0MjQ4Ml19
+eyJoaXN0b3J5IjpbLTE0ODMxNzE2NDEsLTkxMDgwODg5OCwtOT
+EwNzYxNzgzLC04MTQ4NjA2NjMsLTEyMzY0MjE3MTMsMTUyNjcy
+Nzc5NywtMTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1MzQ1Mj
+QwLDIxMzYzNDI0ODJdfQ==
 -->
