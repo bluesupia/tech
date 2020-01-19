@@ -252,6 +252,8 @@ fun Collection<String>.join(
 * 코틀린의 메소드 오버라이드도 일반적인 객체지향의 메소드 오버라이드와 마찬가지
 	* 확장함수는 오버라이드 할 수 없다
 * view를 확장한 button
+	* "view"에 저장된 값의 실제 타입에 따라 호출할 메소드가 결정!
+		* 동적 디스패치
 ```kotlin
 open class View {  
     open fun click() = println("View clicked")  
@@ -266,6 +268,7 @@ val view:View = Button()
 view.click()
 >>> Button clicked
 ```
+* 화
 
 ### 3.3.5 	확장 프로퍼티
 
@@ -282,7 +285,7 @@ view.click()
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTY3NDAxOSw0MjMwNjMyMTUsLTE0OD
+eyJoaXN0b3J5IjpbLTczODc1NTYxNCw0MjMwNjMyMTUsLTE0OD
 MxNzE2NDEsLTkxMDgwODg5OCwtOTEwNzYxNzgzLC04MTQ4NjA2
 NjMsLTEyMzY0MjE3MTMsMTUyNjcyNzc5NywtMTIxMjI0NDAwNC
 wtMTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
