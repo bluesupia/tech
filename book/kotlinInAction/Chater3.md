@@ -55,11 +55,11 @@ fun <T> joinToString(
 }
 
 // 초기 호출
-
+val list 
 ```
 - 위 함수는 제너릭
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MzYyNDg0MCwtMTg2MTYxNzYwOSwxMj
+eyJoaXN0b3J5IjpbMTk2MjIyOTc3OSwtMTg2MTYxNzYwOSwxMj
 k1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
 -->
