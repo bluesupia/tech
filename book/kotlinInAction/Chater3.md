@@ -144,10 +144,14 @@ JoinKt.joinToString(list)
 ```
 
 #### 최상위 프로퍼티
-- 다른
+- 다른 프로퍼티처럼 접근자 메소드를 통해 자바 코드에 노출
+	- val는 게터, var는 게터와 세터
+- 겉으로 보기엔 상수이나 게터를 사용해야한다면 자연스럽지 못하다
+- 그러러면 상수를 public static final 필드로 컴파일
+- const
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTc3NTk2MywtMTIzNjQyMTcxMywxNT
-I2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUz
-NDUyNDAsMjEzNjM0MjQ4Ml19
+eyJoaXN0b3J5IjpbLTE2MDQ4MTI3MjMsLTEyMzY0MjE3MTMsMT
+UyNjcyNzc5NywtMTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1
+MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
 -->
