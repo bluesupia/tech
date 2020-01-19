@@ -367,7 +367,7 @@ val map = hashMapOf(1 to "one", 7 to "seven", 53 to "fifty-three")
 ```
 * 인자가 하나뿐인 일반 메소드나, 인자가 하나뿐인 확장 함수에 중위호출을 사용할 수 있다
 * 함수를 중위 호출에 사용하게 허용하고 싶으면 ``ìnfix`` 변경자를 함수 선언 앞에 추가해야한다
-```
+```kotlin
 infix fun Any.to(other: Any) = Pair(this, other)
 ```
 
@@ -379,10 +379,10 @@ infix fun Any.to(other: Any) = Pair(this, other)
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzAwNjk5NzEsLTE5NDkxNDg5NDcsMT
-M3NjE1ODUyOCwtMTI2NDQxNjczMiwtMTA4Mzc2NjcyMCw0MjMw
-NjMyMTUsLTE0ODMxNzE2NDEsLTkxMDgwODg5OCwtOTEwNzYxNz
-gzLC04MTQ4NjA2NjMsLTEyMzY0MjE3MTMsMTUyNjcyNzc5Nywt
-MTIxMjI0NDAwNCwtMTg2MTYxNzYwOSwxMjk1MzQ1MjQwLDIxMz
-YzNDI0ODJdfQ==
+eyJoaXN0b3J5IjpbMTUzNTY0NzYyOCwtMTk0OTE0ODk0NywxMz
+c2MTU4NTI4LC0xMjY0NDE2NzMyLC0xMDgzNzY2NzIwLDQyMzA2
+MzIxNSwtMTQ4MzE3MTY0MSwtOTEwODA4ODk4LC05MTA3NjE3OD
+MsLTgxNDg2MDY2MywtMTIzNjQyMTcxMywxNTI2NzI3Nzk3LC0x
+MjEyMjQ0MDA0LC0xODYxNjE3NjA5LDEyOTUzNDUyNDAsMjEzNj
+M0MjQ4Ml19
 -->
