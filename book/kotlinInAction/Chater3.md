@@ -17,9 +17,18 @@ println(list.javaClass)
 println(map.javaClass)
 ```
 - 코틀린은 자체 컬렉션을 제공하지 않음
+	- 표준 자바 컬렉션을 활용
+	- 자바코드와 상호작용하기가 쉬움
 - 더많은 기능을 쓸 수 있음 
 	- 확장함수!!
+```kotlin
+val strings = listOf("first", "second", "fourteenth")  
+println(strings.last())  
+  
+val numbers = setOf(1, 14, 2)  
+println(numbers.max())
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2ODk0NzAzNiwxMjk1MzQ1MjQwLDIxMz
+eyJoaXN0b3J5IjpbLTI4MTY4NzY0OCwxMjk1MzQ1MjQwLDIxMz
 YzNDI0ODJdfQ==
 -->
