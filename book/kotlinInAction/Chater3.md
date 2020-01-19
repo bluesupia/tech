@@ -31,11 +31,13 @@ println(numbers.max())
 - 어떻게 만드는지! 어떻게 가능하게 하는가
 
 ## 3.2 함수를 호출하기 쉽게 만들기
-```
+```kotlin
 val list = listOf(1, 2, 3)
-
+println(list)
 ```
+- 디폴트 구현과 달리 원소사이를 세미콜록으로 구분하고 괄호로 기스트를 둘러싸도록 해보자
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTk3Nzc2MywtMTg2MTYxNzYwOSwxMj
-k1MzQ1MjQwLDIxMzYzNDI0ODJdfQ==
+eyJoaXN0b3J5IjpbLTExMzQzMzMwNDQsLTE4NjE2MTc2MDksMT
+I5NTM0NTI0MCwyMTM2MzQyNDgyXX0=
 -->
