@@ -393,13 +393,15 @@ println("12.345-6.A".split(".", "-"))
 ```
 
 ### 3.5.2 정규식과 3중 따옴표로 묶은 문자열
-
+* 파일의 전체 경로명을 디렉터리, 파일이름, 확장자로 구분하는 예제
+	* String 확장 함수를 사용해 경로 파싱
+* 정규식을 사용해 파싱
 ### 3.5.3  여러 줄 3중 따옴표 문자열
 
 ## 3.6 코드 다듬기: 로컬 함수와 확장
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDA3MTQwNzQsLTExODcwMzE0OTUsLT
+eyJoaXN0b3J5IjpbLTIwNzc2NzEwMzksLTExODcwMzE0OTUsLT
 E5NDkxNDg5NDcsMTM3NjE1ODUyOCwtMTI2NDQxNjczMiwtMTA4
 Mzc2NjcyMCw0MjMwNjMyMTUsLTE0ODMxNzE2NDEsLTkxMDgwOD
 g5OCwtOTEwNzYxNzgzLC04MTQ4NjA2NjMsLTEyMzY0MjE3MTMs
