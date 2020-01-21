@@ -190,13 +190,12 @@ fun String.lastChar() : Char = get(length - 1)
 ```kotlin
 import strings.lastChar  
 val c = "Kotlin".lastChar()  
-}
 ```
 * *를 사용한 임포트도 가능
 ```kotlin
 import strings.*  
 val c = "Kotlin".lastChar()  
-}
+
 ```
 * ``as`` 키워드를 사용해 임포트한 클래스나 함수를 다른 이름으로 부를 수 있다
 	* 일반적인 클래스나 함수라면 그 전체이름 (FQN, Fully Qualified Name)을 써도 되나, 코틀린 문법상 확장 함수는 반드시 짧은 이름으로 써야한다
@@ -487,7 +486,7 @@ fun savedUser(user: User) {
 ```
 * 한단계만 함수를 중첩하기를 권장
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA4NDM5MDMyLC0xMDQ1OTA5MzgwLDMwNj
+eyJoaXN0b3J5IjpbNTI4NzUzMDgyLC0xMDQ1OTA5MzgwLDMwNj
 k3MTk5MCwtNDI0NDM0NTI2LDcyOTk2MjA1NywzMDUzNTMyOTYs
 LTExODcwMzE0OTUsLTE5NDkxNDg5NDcsMTM3NjE1ODUyOCwtMT
 I2NDQxNjczMiwtMTA4Mzc2NjcyMCw0MjMwNjMyMTUsLTE0ODMx
