@@ -35,7 +35,7 @@ println(numbers.max())
 val list = listOf(1, 2, 3)
 println(list)
 ```
-- 디폴트 구현과 달리 원소사이를 세미콜록으로 구분하고 괄호로 기스트를 둘러싸도록 해보자
+- 디폴트 구현과 달리 원소사이를 세미콜록으로 구분하고 괄호로 리스트를 둘러싸도록 해보자
 ```kotlin
 // 초기구현
 fun <T> joinToString(  
@@ -487,11 +487,11 @@ fun savedUser(user: User) {
 ```
 * 한단계만 함수를 중첩하기를 권장
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDU5MDkzODAsMzA2OTcxOTkwLC00Mj
-Q0MzQ1MjYsNzI5OTYyMDU3LDMwNTM1MzI5NiwtMTE4NzAzMTQ5
-NSwtMTk0OTE0ODk0NywxMzc2MTU4NTI4LC0xMjY0NDE2NzMyLC
-0xMDgzNzY2NzIwLDQyMzA2MzIxNSwtMTQ4MzE3MTY0MSwtOTEw
-ODA4ODk4LC05MTA3NjE3ODMsLTgxNDg2MDY2MywtMTIzNjQyMT
-cxMywxNTI2NzI3Nzk3LC0xMjEyMjQ0MDA0LC0xODYxNjE3NjA5
-LDEyOTUzNDUyNDBdfQ==
+eyJoaXN0b3J5IjpbNzA4NDM5MDMyLC0xMDQ1OTA5MzgwLDMwNj
+k3MTk5MCwtNDI0NDM0NTI2LDcyOTk2MjA1NywzMDUzNTMyOTYs
+LTExODcwMzE0OTUsLTE5NDkxNDg5NDcsMTM3NjE1ODUyOCwtMT
+I2NDQxNjczMiwtMTA4Mzc2NjcyMCw0MjMwNjMyMTUsLTE0ODMx
+NzE2NDEsLTkxMDgwODg5OCwtOTEwNzYxNzgzLC04MTQ4NjA2Nj
+MsLTEyMzY0MjE3MTMsMTUyNjcyNzc5NywtMTIxMjI0NDAwNCwt
+MTg2MTYxNzYwOV19
 -->
