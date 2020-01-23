@@ -27,18 +27,22 @@
    [http://engineering.vcnc.co.kr](http://engineering.vcnc.co.kr/)
 
 
+스터디 / 
+9. 위키독스 
+ [https://wikidocs.net/](https://wikidocs.net/)
+
 
 개인 / 
-1. 기억보단 기록을
+11. 기억보단 기록을
 http://jojoldu.tistory.com/
 
 
 추천 /
-1. dev.to
+12. dev.to
 https://dev.to/
 
-2.  reddit
+13.  reddit
 https://www.reddit.com/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1NzAyNDgwLC03MTUzNjc0NjJdfQ==
+eyJoaXN0b3J5IjpbLTEzNDg5NjQzODEsLTcxNTM2NzQ2Ml19
 -->
