@@ -1,7 +1,7 @@
-* 파일크기
+* 특정 파일들의 용량합계 
 ```bash
-du *.log  -ch**
+du *.log  -ch
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTU3NDQzOTldfQ==
+eyJoaXN0b3J5IjpbNzEzNjkyMDk4XX0=
 -->
