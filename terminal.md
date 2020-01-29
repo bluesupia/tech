@@ -1,7 +1,7 @@
 * 파일크기
 ```bash
-**du *.log  -ch**
+du *.log  -ch**
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTU4MTEyNzldfQ==
+eyJoaXN0b3J5IjpbLTE5NTU3NDQzOTldfQ==
 -->
