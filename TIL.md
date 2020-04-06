@@ -1,11 +1,14 @@
+#### 20200406
+&#35;pattern &#pr
+
 #### 20200129
-&35; dic
+&#35; dic
 * cut
 [http://wiki.c2.com/?ClassUnderTest](http://wiki.c2.com/?ClassUnderTest)
 테스트 대상 클래스는 `cut`라고 명명해 주시면 코드 읽는데 도움이 됩니다
 
 #### 20191028
-&35;나는멍청이
+&#35;나는멍청이
 
 * No content to map due to end-of-input
  ``
@@ -17,12 +20,12 @@ com.fasterxml.jackson.databind.JsonMappingException: No content to map due to en
 - 아무거나 로깅하지 말자 ?
 
 #### 20191015
-&35;mongodb
+&#35;mongodb
 - query 조건에 shard key 가 포함되어야, 특정 샤드로 target query 가 수행(라우터는 데이터 위치를 shard key 기준으로만 가지고있음)
 - 만약 _id 만 조건에 포함된다면, 모든 샤드들을 대상으로 브로드캐스트로 쿼리가 실행
 
 #### 20191003
-&35;kafka
+&#35;kafka
 * offset 이동!
 kafka-consumer-groups.sh --bootstrap-server AAA -group BBB --topic CCC --reset-offsets --to-offset DDD --execute
 
@@ -282,11 +285,11 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzEyMjI3MSw2ODMxMjg0NDMsLTIwMz
-k4NjUzNDcsLTY1NjMxNzI1OSwyMDgwMjYwNDMxLC0xMjA5MzY4
-NzMxLDc5MDgxNjk1OSwtMTIxNTEwMTI0NywtOTc1OTE4NDYsLT
-c2NzU5NDI3MCwtMTEyNzQ1MTU1MywxNzA5ODE0NDI4LDIwMzU0
-NjE1NjEsMTIxNjE3MTM0MCw5ODkzNjk2NDMsLTEzOTE5NDQ0ND
-gsLTE4MzAyNDExNzksMTcwNzgyODI5MywtMjAxMzIyOTczMiwt
-NDc5ODg5MjU4XX0=
+eyJoaXN0b3J5IjpbNDU1ODkzMiwxNDM3MTIyMjcxLDY4MzEyOD
+Q0MywtMjAzOTg2NTM0NywtNjU2MzE3MjU5LDIwODAyNjA0MzEs
+LTEyMDkzNjg3MzEsNzkwODE2OTU5LC0xMjE1MTAxMjQ3LC05Nz
+U5MTg0NiwtNzY3NTk0MjcwLC0xMTI3NDUxNTUzLDE3MDk4MTQ0
+MjgsMjAzNTQ2MTU2MSwxMjE2MTcxMzQwLDk4OTM2OTY0MywtMT
+M5MTk0NDQ0OCwtMTgzMDI0MTE3OSwxNzA3ODI4MjkzLC0yMDEz
+MjI5NzMyXX0=
 -->
