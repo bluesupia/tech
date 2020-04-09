@@ -1,10 +1,15 @@
+#### 20200409
+&#35;naming convention &#35;pr
+* static factory method convention
+[https://docs.oracle.com/javase/tutorial/datetime/overview/naming.html](https://docs.oracle.com/javase/tutorial/datetime/overview/naming.html)
+
 #### 20200406
 &#35;pattern &#35;pr
 * Observer pattern
 [https://ko.wikipedia.org/wiki/%EC%98%B5%EC%84%9C%EB%B2%84_%ED%8C%A8%ED%84%B4](https://ko.wikipedia.org/wiki/%EC%98%B5%EC%84%9C%EB%B2%84_%ED%8C%A8%ED%84%B4)
 
 #### 20200129
-&#35; dic
+&#35; dic &#35;pr
 * cut
 [http://wiki.c2.com/?ClassUnderTest](http://wiki.c2.com/?ClassUnderTest)
 테스트 대상 클래스는 `cut`라고 명명해 주시면 코드 읽는데 도움이 됩니다
@@ -287,11 +292,11 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzIyODQ0NDQsMTQzNzEyMjI3MSw2OD
-MxMjg0NDMsLTIwMzk4NjUzNDcsLTY1NjMxNzI1OSwyMDgwMjYw
-NDMxLC0xMjA5MzY4NzMxLDc5MDgxNjk1OSwtMTIxNTEwMTI0Ny
-wtOTc1OTE4NDYsLTc2NzU5NDI3MCwtMTEyNzQ1MTU1MywxNzA5
-ODE0NDI4LDIwMzU0NjE1NjEsMTIxNjE3MTM0MCw5ODkzNjk2ND
-MsLTEzOTE5NDQ0NDgsLTE4MzAyNDExNzksMTcwNzgyODI5Mywt
-MjAxMzIyOTczMl19
+eyJoaXN0b3J5IjpbLTE3Mzc0NDQ0ODcsLTE2MzIyODQ0NDQsMT
+QzNzEyMjI3MSw2ODMxMjg0NDMsLTIwMzk4NjUzNDcsLTY1NjMx
+NzI1OSwyMDgwMjYwNDMxLC0xMjA5MzY4NzMxLDc5MDgxNjk1OS
+wtMTIxNTEwMTI0NywtOTc1OTE4NDYsLTc2NzU5NDI3MCwtMTEy
+NzQ1MTU1MywxNzA5ODE0NDI4LDIwMzU0NjE1NjEsMTIxNjE3MT
+M0MCw5ODkzNjk2NDMsLTEzOTE5NDQ0NDgsLTE4MzAyNDExNzks
+MTcwNzgyODI5M119
 -->
