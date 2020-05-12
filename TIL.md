@@ -1,5 +1,5 @@
 #### 20200514
-&#35;sockettimeout
+&#35;SocketException
 - java.net.SocketException: Connection reset by peer: socket write error  
 원인: write 시 상대방 socket close 된 경우  
   
@@ -308,7 +308,7 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNzQ0MjYxNSwtMTczNzQ0NDQ4NywtMT
+eyJoaXN0b3J5IjpbMTQ2MzA3MTc3MSwtMTczNzQ0NDQ4NywtMT
 YzMjI4NDQ0NCwxNDM3MTIyMjcxLDY4MzEyODQ0MywtMjAzOTg2
 NTM0NywtNjU2MzE3MjU5LDIwODAyNjA0MzEsLTEyMDkzNjg3Mz
 EsNzkwODE2OTU5LC0xMjE1MTAxMjQ3LC05NzU5MTg0NiwtNzY3
