@@ -1,3 +1,19 @@
+#### 20200514
+&#35;sockettimeout
+- java.net.SocketException: Connection reset by peer: socket write error  
+원인: write 시 상대방 socket close 된 경우  
+  
+- java.net.SocketException: Connection reset  
+원인: read 시 상대방 socket close 된 경우  
+  
+- java.io.IOException: Broken pipe  
+원인: receiver에서 송신받은 데이터를 제때 처리하지 못하는 상황(네트워크가 느리거나 서버의 CPU가 max인 경우 등)에서 sender가 계속 보내는 경우  
+  
+결 론적으로 위의 두 종류의 Exception은 데이터를 요청한 측(브라우저 등)에서 서버에서 데이터를 다 보내기 전에 강제로 닫아 버리거나 종료해버릴때 발생하는 것이기 때문에 큰 문제는 되지 않는다. 하지만 Broken Pipe의 경우 정상적으로 데이터를 보내지만 받지 못하는 상황이 발생하기 때문에 문제가 된다.  
+  
+  
+출처: [https://multifrontgarden.tistory.com/46](https://multifrontgarden.tistory.com/46) [우리집앞마당]  
+ 
 #### 20200409
 &#35;naming convention &#35;pr
 * static factory method convention
@@ -292,11 +308,11 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzc0NDQ0ODcsLTE2MzIyODQ0NDQsMT
-QzNzEyMjI3MSw2ODMxMjg0NDMsLTIwMzk4NjUzNDcsLTY1NjMx
-NzI1OSwyMDgwMjYwNDMxLC0xMjA5MzY4NzMxLDc5MDgxNjk1OS
-wtMTIxNTEwMTI0NywtOTc1OTE4NDYsLTc2NzU5NDI3MCwtMTEy
-NzQ1MTU1MywxNzA5ODE0NDI4LDIwMzU0NjE1NjEsMTIxNjE3MT
-M0MCw5ODkzNjk2NDMsLTEzOTE5NDQ0NDgsLTE4MzAyNDExNzks
-MTcwNzgyODI5M119
+eyJoaXN0b3J5IjpbLTMyNzQ0MjYxNSwtMTczNzQ0NDQ4NywtMT
+YzMjI4NDQ0NCwxNDM3MTIyMjcxLDY4MzEyODQ0MywtMjAzOTg2
+NTM0NywtNjU2MzE3MjU5LDIwODAyNjA0MzEsLTEyMDkzNjg3Mz
+EsNzkwODE2OTU5LC0xMjE1MTAxMjQ3LC05NzU5MTg0NiwtNzY3
+NTk0MjcwLC0xMTI3NDUxNTUzLDE3MDk4MTQ0MjgsMjAzNTQ2MT
+U2MSwxMjE2MTcxMzQwLDk4OTM2OTY0MywtMTM5MTk0NDQ0OCwt
+MTgzMDI0MTE3OV19
 -->
