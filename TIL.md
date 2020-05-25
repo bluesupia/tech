@@ -1,3 +1,7 @@
+#### 20200525
+&#35;exception
+[https://cheese10yun.github.io/checked-exception/](https://cheese10yun.github.io/checked-exception/)
+
 #### 20200514
 &#35;SocketException
 - java.net.SocketException: Connection reset by peer: socket write error  
@@ -308,11 +312,11 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzA3MTc3MSwtMTczNzQ0NDQ4NywtMT
-YzMjI4NDQ0NCwxNDM3MTIyMjcxLDY4MzEyODQ0MywtMjAzOTg2
-NTM0NywtNjU2MzE3MjU5LDIwODAyNjA0MzEsLTEyMDkzNjg3Mz
-EsNzkwODE2OTU5LC0xMjE1MTAxMjQ3LC05NzU5MTg0NiwtNzY3
-NTk0MjcwLC0xMTI3NDUxNTUzLDE3MDk4MTQ0MjgsMjAzNTQ2MT
-U2MSwxMjE2MTcxMzQwLDk4OTM2OTY0MywtMTM5MTk0NDQ0OCwt
-MTgzMDI0MTE3OV19
+eyJoaXN0b3J5IjpbLTIxMDM3NzIzNjEsMTQ2MzA3MTc3MSwtMT
+czNzQ0NDQ4NywtMTYzMjI4NDQ0NCwxNDM3MTIyMjcxLDY4MzEy
+ODQ0MywtMjAzOTg2NTM0NywtNjU2MzE3MjU5LDIwODAyNjA0Mz
+EsLTEyMDkzNjg3MzEsNzkwODE2OTU5LC0xMjE1MTAxMjQ3LC05
+NzU5MTg0NiwtNzY3NTk0MjcwLC0xMTI3NDUxNTUzLDE3MDk4MT
+Q0MjgsMjAzNTQ2MTU2MSwxMjE2MTcxMzQwLDk4OTM2OTY0Mywt
+MTM5MTk0NDQ0OF19
 -->
