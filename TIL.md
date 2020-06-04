@@ -1,6 +1,5 @@
 #### 20200604
-
-[https://adunhansa.tistory.com/236](https://adunhansa.tistory.com/236)
+Intellij Test 실패 발생시 No tests found for given includes  [https://adunhansa.tistory.com/236](https://adunhansa.tistory.com/236)
 
 #### 20200530
 [https://www.oracle.com/technetwork/java/javase/tech/index-jsp-140228.html](https://www.oracle.com/technetwork/java/javase/tech/index-jsp-140228.html)
@@ -318,11 +317,11 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDIyMjYyNywxMzM2OTM3ODQ4LC0yMT
-AzNzcyMzYxLDE0NjMwNzE3NzEsLTE3Mzc0NDQ0ODcsLTE2MzIy
-ODQ0NDQsMTQzNzEyMjI3MSw2ODMxMjg0NDMsLTIwMzk4NjUzND
-csLTY1NjMxNzI1OSwyMDgwMjYwNDMxLC0xMjA5MzY4NzMxLDc5
-MDgxNjk1OSwtMTIxNTEwMTI0NywtOTc1OTE4NDYsLTc2NzU5ND
-I3MCwtMTEyNzQ1MTU1MywxNzA5ODE0NDI4LDIwMzU0NjE1NjEs
-MTIxNjE3MTM0MF19
+eyJoaXN0b3J5IjpbLTEzODI1NTcyMjYsMTMzNjkzNzg0OCwtMj
+EwMzc3MjM2MSwxNDYzMDcxNzcxLC0xNzM3NDQ0NDg3LC0xNjMy
+Mjg0NDQ0LDE0MzcxMjIyNzEsNjgzMTI4NDQzLC0yMDM5ODY1Mz
+Q3LC02NTYzMTcyNTksMjA4MDI2MDQzMSwtMTIwOTM2ODczMSw3
+OTA4MTY5NTksLTEyMTUxMDEyNDcsLTk3NTkxODQ2LC03Njc1OT
+QyNzAsLTExMjc0NTE1NTMsMTcwOTgxNDQyOCwyMDM1NDYxNTYx
+LDEyMTYxNzEzNDBdfQ==
 -->
