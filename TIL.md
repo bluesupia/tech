@@ -1,3 +1,7 @@
+#### 20200604
+
+[https://adunhansa.tistory.com/236](https://adunhansa.tistory.com/236)
+
 #### 20200530
 [https://www.oracle.com/technetwork/java/javase/tech/index-jsp-140228.html](https://www.oracle.com/technetwork/java/javase/tech/index-jsp-140228.html)
 #### 20200525
@@ -314,11 +318,11 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjkzNzg0OCwtMjEwMzc3MjM2MSwxND
-YzMDcxNzcxLC0xNzM3NDQ0NDg3LC0xNjMyMjg0NDQ0LDE0Mzcx
-MjIyNzEsNjgzMTI4NDQzLC0yMDM5ODY1MzQ3LC02NTYzMTcyNT
-ksMjA4MDI2MDQzMSwtMTIwOTM2ODczMSw3OTA4MTY5NTksLTEy
-MTUxMDEyNDcsLTk3NTkxODQ2LC03Njc1OTQyNzAsLTExMjc0NT
-E1NTMsMTcwOTgxNDQyOCwyMDM1NDYxNTYxLDEyMTYxNzEzNDAs
-OTg5MzY5NjQzXX0=
+eyJoaXN0b3J5IjpbMTU0NDIyMjYyNywxMzM2OTM3ODQ4LC0yMT
+AzNzcyMzYxLDE0NjMwNzE3NzEsLTE3Mzc0NDQ0ODcsLTE2MzIy
+ODQ0NDQsMTQzNzEyMjI3MSw2ODMxMjg0NDMsLTIwMzk4NjUzND
+csLTY1NjMxNzI1OSwyMDgwMjYwNDMxLC0xMjA5MzY4NzMxLDc5
+MDgxNjk1OSwtMTIxNTEwMTI0NywtOTc1OTE4NDYsLTc2NzU5ND
+I3MCwtMTEyNzQ1MTU1MywxNzA5ODE0NDI4LDIwMzU0NjE1NjEs
+MTIxNjE3MTM0MF19
 -->
