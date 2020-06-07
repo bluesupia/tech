@@ -1,3 +1,8 @@
+#### 20200607
+&#35;term
+일급객체(First-class citizen)
+[https://medium.com/@lazysoul/functional-programming-%EC%97%90%EC%84%9C-1%EA%B8%89-%EA%B0%9D%EC%B2%B4%EB%9E%80-ba1aeb048059](https://medium.com/@lazysoul/functional-programming-%EC%97%90%EC%84%9C-1%EA%B8%89-%EA%B0%9D%EC%B2%B4%EB%9E%80-ba1aeb048059)
+
 #### 20200604
 Intellij Test 실패 발생시 No tests found for given includes  [https://adunhansa.tistory.com/236](https://adunhansa.tistory.com/236)
 
@@ -317,11 +322,11 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODI1NTcyMjYsMTMzNjkzNzg0OCwtMj
-EwMzc3MjM2MSwxNDYzMDcxNzcxLC0xNzM3NDQ0NDg3LC0xNjMy
-Mjg0NDQ0LDE0MzcxMjIyNzEsNjgzMTI4NDQzLC0yMDM5ODY1Mz
-Q3LC02NTYzMTcyNTksMjA4MDI2MDQzMSwtMTIwOTM2ODczMSw3
-OTA4MTY5NTksLTEyMTUxMDEyNDcsLTk3NTkxODQ2LC03Njc1OT
-QyNzAsLTExMjc0NTE1NTMsMTcwOTgxNDQyOCwyMDM1NDYxNTYx
-LDEyMTYxNzEzNDBdfQ==
+eyJoaXN0b3J5IjpbODIxNzUyMjkwLC0xMzgyNTU3MjI2LDEzMz
+Y5Mzc4NDgsLTIxMDM3NzIzNjEsMTQ2MzA3MTc3MSwtMTczNzQ0
+NDQ4NywtMTYzMjI4NDQ0NCwxNDM3MTIyMjcxLDY4MzEyODQ0My
+wtMjAzOTg2NTM0NywtNjU2MzE3MjU5LDIwODAyNjA0MzEsLTEy
+MDkzNjg3MzEsNzkwODE2OTU5LC0xMjE1MTAxMjQ3LC05NzU5MT
+g0NiwtNzY3NTk0MjcwLC0xMTI3NDUxNTUzLDE3MDk4MTQ0Mjgs
+MjAzNTQ2MTU2MV19
 -->
