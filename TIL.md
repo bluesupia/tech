@@ -1,3 +1,9 @@
+#### 20201204
+# [How to remove systemd services](https://superuser.com/questions/513159/how-to-remove-systemd-services)
+
+
+[Ask Question](https://superuser.com/questions/ask)
+
 #### 20200728
 &#35;git &#35;shell
 git branch | grep "pull/*" | xargs git branch -D
@@ -326,11 +332,11 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTgxMTczLDgyMTc1MjI5MCwtMTM4Mj
-U1NzIyNiwxMzM2OTM3ODQ4LC0yMTAzNzcyMzYxLDE0NjMwNzE3
-NzEsLTE3Mzc0NDQ0ODcsLTE2MzIyODQ0NDQsMTQzNzEyMjI3MS
-w2ODMxMjg0NDMsLTIwMzk4NjUzNDcsLTY1NjMxNzI1OSwyMDgw
-MjYwNDMxLC0xMjA5MzY4NzMxLDc5MDgxNjk1OSwtMTIxNTEwMT
-I0NywtOTc1OTE4NDYsLTc2NzU5NDI3MCwtMTEyNzQ1MTU1Mywx
-NzA5ODE0NDI4XX0=
+eyJoaXN0b3J5IjpbMTkyODE5ODEwMiwxNjA5ODExNzMsODIxNz
+UyMjkwLC0xMzgyNTU3MjI2LDEzMzY5Mzc4NDgsLTIxMDM3NzIz
+NjEsMTQ2MzA3MTc3MSwtMTczNzQ0NDQ4NywtMTYzMjI4NDQ0NC
+wxNDM3MTIyMjcxLDY4MzEyODQ0MywtMjAzOTg2NTM0NywtNjU2
+MzE3MjU5LDIwODAyNjA0MzEsLTEyMDkzNjg3MzEsNzkwODE2OT
+U5LC0xMjE1MTAxMjQ3LC05NzU5MTg0NiwtNzY3NTk0MjcwLC0x
+MTI3NDUxNTUzXX0=
 -->
