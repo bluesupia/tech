@@ -1,6 +1,15 @@
 #### 20201204
 # [How to remove systemd services](https://superuser.com/questions/513159/how-to-remove-systemd-services)
-
+```
+systemctl stop [servicename]
+systemctl disable [servicename]
+rm /etc/systemd/system/[servicename]
+rm /etc/systemd/system/[servicename] # and symlinks that might be related
+rm /usr/lib/systemd/system/[servicename] 
+rm /usr/lib/systemd/system/[servicename] # and symlinks that might be related
+systemctl daemon-reload
+systemctl reset-failed
+```
 
 [Ask Question](https://superuser.com/questions/ask)
 
@@ -332,7 +341,7 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyODE5ODEwMiwxNjA5ODExNzMsODIxNz
+eyJoaXN0b3J5IjpbMTM1MTMyNjAwNywxNjA5ODExNzMsODIxNz
 UyMjkwLC0xMzgyNTU3MjI2LDEzMzY5Mzc4NDgsLTIxMDM3NzIz
 NjEsMTQ2MzA3MTc3MSwtMTczNzQ0NDQ4NywtMTYzMjI4NDQ0NC
 wxNDM3MTIyMjcxLDY4MzEyODQ0MywtMjAzOTg2NTM0NywtNjU2
