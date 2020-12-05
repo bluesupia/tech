@@ -1,3 +1,8 @@
+#### 20201205
+```
+df -h
+ du -h --max-depth=1
+```
 #### 20201204
 # [How to remove systemd services](https://superuser.com/questions/513159/how-to-remove-systemd-services)
 ```
@@ -341,11 +346,11 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTMyNjAwNywxNjA5ODExNzMsODIxNz
-UyMjkwLC0xMzgyNTU3MjI2LDEzMzY5Mzc4NDgsLTIxMDM3NzIz
-NjEsMTQ2MzA3MTc3MSwtMTczNzQ0NDQ4NywtMTYzMjI4NDQ0NC
-wxNDM3MTIyMjcxLDY4MzEyODQ0MywtMjAzOTg2NTM0NywtNjU2
-MzE3MjU5LDIwODAyNjA0MzEsLTEyMDkzNjg3MzEsNzkwODE2OT
-U5LC0xMjE1MTAxMjQ3LC05NzU5MTg0NiwtNzY3NTk0MjcwLC0x
-MTI3NDUxNTUzXX0=
+eyJoaXN0b3J5IjpbLTc3MjkyNzc1OCwxMzUxMzI2MDA3LDE2MD
+k4MTE3Myw4MjE3NTIyOTAsLTEzODI1NTcyMjYsMTMzNjkzNzg0
+OCwtMjEwMzc3MjM2MSwxNDYzMDcxNzcxLC0xNzM3NDQ0NDg3LC
+0xNjMyMjg0NDQ0LDE0MzcxMjIyNzEsNjgzMTI4NDQzLC0yMDM5
+ODY1MzQ3LC02NTYzMTcyNTksMjA4MDI2MDQzMSwtMTIwOTM2OD
+czMSw3OTA4MTY5NTksLTEyMTUxMDEyNDcsLTk3NTkxODQ2LC03
+Njc1OTQyNzBdfQ==
 -->
