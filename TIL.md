@@ -1,7 +1,7 @@
 #### 20201205
 ```
 df -h
- du -h --max-depth=1
+du -h --max-depth=1
 ```
 #### 20201204
 # [How to remove systemd services](https://superuser.com/questions/513159/how-to-remove-systemd-services)
@@ -346,7 +346,7 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MjkyNzc1OCwxMzUxMzI2MDA3LDE2MD
+eyJoaXN0b3J5IjpbMTA0NTg2MDE3NiwxMzUxMzI2MDA3LDE2MD
 k4MTE3Myw4MjE3NTIyOTAsLTEzODI1NTcyMjYsMTMzNjkzNzg0
 OCwtMjEwMzc3MjM2MSwxNDYzMDcxNzcxLC0xNzM3NDQ0NDg3LC
 0xNjMyMjg0NDQ0LDE0MzcxMjIyNzEsNjgzMTI4NDQzLC0yMDM5
