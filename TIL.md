@@ -1,10 +1,17 @@
+#### 20210114
+&#35;gradle
+##### buildScan
+https://dlsrb6342.github.io/2019/07/13/Gradle-Guide-1-Build-scan/#build-scan-plugin
+
 #### 20201205
+&#35;shell
 ```
 df -h
 du -h --max-depth=1
 ```
 #### 20201204
-# [How to remove systemd services](https://superuser.com/questions/513159/how-to-remove-systemd-services)
+&#35;shell
+#### [How to remove systemd services](https://superuser.com/questions/513159/how-to-remove-systemd-services)
 ```
 systemctl stop [servicename]
 systemctl disable [servicename]
@@ -15,8 +22,6 @@ rm /usr/lib/systemd/system/[servicename] # and symlinks that might be related
 systemctl daemon-reload
 systemctl reset-failed
 ```
-
-[Ask Question](https://superuser.com/questions/ask)
 
 #### 20200728
 &#35;git &#35;shell
@@ -346,11 +351,11 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTg2MDE3NiwxMzUxMzI2MDA3LDE2MD
-k4MTE3Myw4MjE3NTIyOTAsLTEzODI1NTcyMjYsMTMzNjkzNzg0
-OCwtMjEwMzc3MjM2MSwxNDYzMDcxNzcxLC0xNzM3NDQ0NDg3LC
-0xNjMyMjg0NDQ0LDE0MzcxMjIyNzEsNjgzMTI4NDQzLC0yMDM5
-ODY1MzQ3LC02NTYzMTcyNTksMjA4MDI2MDQzMSwtMTIwOTM2OD
-czMSw3OTA4MTY5NTksLTEyMTUxMDEyNDcsLTk3NTkxODQ2LC03
-Njc1OTQyNzBdfQ==
+eyJoaXN0b3J5IjpbLTE3ODY1NTE0ODEsMTM1MTMyNjAwNywxNj
+A5ODExNzMsODIxNzUyMjkwLC0xMzgyNTU3MjI2LDEzMzY5Mzc4
+NDgsLTIxMDM3NzIzNjEsMTQ2MzA3MTc3MSwtMTczNzQ0NDQ4Ny
+wtMTYzMjI4NDQ0NCwxNDM3MTIyMjcxLDY4MzEyODQ0MywtMjAz
+OTg2NTM0NywtNjU2MzE3MjU5LDIwODAyNjA0MzEsLTEyMDkzNj
+g3MzEsNzkwODE2OTU5LC0xMjE1MTAxMjQ3LC05NzU5MTg0Niwt
+NzY3NTk0MjcwXX0=
 -->
