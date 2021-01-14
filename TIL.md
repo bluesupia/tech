@@ -33,10 +33,12 @@ git branch | grep "pull/*" | xargs git branch -D
 [https://medium.com/@lazysoul/functional-programming-%EC%97%90%EC%84%9C-1%EA%B8%89-%EA%B0%9D%EC%B2%B4%EB%9E%80-ba1aeb048059](https://medium.com/@lazysoul/functional-programming-%EC%97%90%EC%84%9C-1%EA%B8%89-%EA%B0%9D%EC%B2%B4%EB%9E%80-ba1aeb048059)
 
 #### 20200604
+&#35;IntelliJ
 Intellij Test 실패 발생시 No tests found for given includes  [https://adunhansa.tistory.com/236](https://adunhansa.tistory.com/236)
 
 #### 20200530
 [https://www.oracle.com/technetwork/java/javase/tech/index-jsp-140228.html](https://www.oracle.com/technetwork/java/javase/tech/index-jsp-140228.html)
+
 #### 20200525
 &#35;exception
 [https://cheese10yun.github.io/checked-exception/](https://cheese10yun.github.io/checked-exception/)
@@ -351,11 +353,11 @@ private Locale toLocale(String language) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODY1NTE0ODEsMTM1MTMyNjAwNywxNj
-A5ODExNzMsODIxNzUyMjkwLC0xMzgyNTU3MjI2LDEzMzY5Mzc4
-NDgsLTIxMDM3NzIzNjEsMTQ2MzA3MTc3MSwtMTczNzQ0NDQ4Ny
-wtMTYzMjI4NDQ0NCwxNDM3MTIyMjcxLDY4MzEyODQ0MywtMjAz
-OTg2NTM0NywtNjU2MzE3MjU5LDIwODAyNjA0MzEsLTEyMDkzNj
-g3MzEsNzkwODE2OTU5LC0xMjE1MTAxMjQ3LC05NzU5MTg0Niwt
-NzY3NTk0MjcwXX0=
+eyJoaXN0b3J5IjpbMTU2MzIwOTc5NiwxMzUxMzI2MDA3LDE2MD
+k4MTE3Myw4MjE3NTIyOTAsLTEzODI1NTcyMjYsMTMzNjkzNzg0
+OCwtMjEwMzc3MjM2MSwxNDYzMDcxNzcxLC0xNzM3NDQ0NDg3LC
+0xNjMyMjg0NDQ0LDE0MzcxMjIyNzEsNjgzMTI4NDQzLC0yMDM5
+ODY1MzQ3LC02NTYzMTcyNTksMjA4MDI2MDQzMSwtMTIwOTM2OD
+czMSw3OTA4MTY5NTksLTEyMTUxMDEyNDcsLTk3NTkxODQ2LC03
+Njc1OTQyNzBdfQ==
 -->
